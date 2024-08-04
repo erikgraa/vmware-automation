@@ -43,21 +43,21 @@ function Repair-VMHostVirtualFatDisk {
                     if ($PSCmdlet.ShouldProcess($_disk.Disk, ("Repair Virtual FAT disk on VMHost '{0}'" -f $_VMHost.Name))) {
                         if ($_disk.IsVirtualFatDisk -eq $true) {
                             if ($_disk.Consistent -ne $true) {
-                                $repair = Invoke-SSHCommand -Command ('dosfsck -a -w /dev/disks/{0}' -f $_disk.Disk) -SSHSession $session -EnsureConnection -Verbose:$false
+                                $command = Invoke-SSHCommand -Command ('dosfsck -a -w /dev/disks/{0}' -f $_disk.Disk) -SSHSession $session -EnsureConnection -Verbose:$false
 
-                                if ($repair.ExitStatus -eq 0) {
-                                    Write-Verbose ("Repaired disk '{0}' on VMHost '{1}'", $_disk.Disk, $_VMHost.Name)
+                                if ($command.ExitStatus -eq 1) {
+                                    Write-Output ("Repaired disk '{0}' on VMHost '{1}'" -f $_disk.Disk, $_VMHost.Name)
                                 }
                                 else {
-                                    Write-Warning ("Error occurred while repairing disk '{0}' on VMHost '{1}': {2}", $_disk.Disk, $_VMHost.Name, $repair.Output)
+                                    Write-Warning ("Error may have occurred while repairing disk '{0}' on VMHost '{1}', review the output: {2}" -f $_disk.Disk, $_VMHost.Name, $_)
                                 }
                             }
                             else {
-                                Write-Verbose ("Disk '{0}' on VMHost '{1}' is consistent and healthy" -f $_disk.Disk, $_VMHost.Name)
+                                Write-Output ("Disk '{0}' on VMHost '{1}' is consistent and healthy" -f $_disk.Disk, $_VMHost.Name)
                             }
                         }
                         else {
-                            Write-Verbose ("Disk '{0}' on VMHost '{1}' is not partitioned as Virtual Fat (VFAT)" -f $_disk.Disk, $_VMHost.Name)
+                            Write-Output ("Disk '{0}' on VMHost '{1}' is not partitioned as Virtual Fat (VFAT)" -f $_disk.Disk, $_VMHost.Name)
                         }
                     }
                 }

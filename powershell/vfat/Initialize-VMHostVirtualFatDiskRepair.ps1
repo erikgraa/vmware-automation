@@ -38,18 +38,23 @@ function Initialize-VMHostVirtualFatDiskRepair {
                     if ($PSCmdlet.ShouldProcess($_VMHost.Name, 'Prepare for Virtual FAT Disk Repair')) {
                         $disks = $_VMHost | Test-VMHostVirtualFatDisk -Credential $Credential
 
-                        $session = New-SSHSession -ComputerName $_VMHost.Name -Credential $Credential -Port 22 -AcceptKey:$true -ErrorAction Stop
+                        if ($false -in $disks.Consistent) {
+                            $session = New-SSHSession -ComputerName $_VMHost.Name -Credential $Credential -Port 22 -AcceptKey:$true -ErrorAction Stop
 
-                        $null = $_VMHost | Set-VMHost -State Maintenance
+                            $null = $_VMHost | Set-VMHost -State Maintenance -VsanDataMigrationMode EnsureAccessibility -ErrorAction Stop
 
-                        $command = Invoke-SSHCommand -Command 'kill $(cat /var/run/crond.pid)' -SSHSession $session -EnsureConnection
-                        $command = Invoke-SSHCommand -Command '/usr/lib/vmware/vmsyslog/bin/shutdown.sh' -SSHSession $session -EnsureConnection
-                        $command = Invoke-SSHCommand -Command '/etc/init.d/vmfstraced stop' -SSHSession $session -EnsureConnection
-                        $command = Invoke-SSHCommand -Command '/etc/init.d/rhttpproxy stop' -SSHSession $session -EnsureConnection
-                        $command = Invoke-SSHCommand -Command '/etc/init.d/vsandevicemonitord stop' -SSHSession $session -EnsureConnection
+                            $command = Invoke-SSHCommand -Command 'kill $(cat /var/run/crond.pid)' -SSHSession $session -EnsureConnection
+                            $command = Invoke-SSHCommand -Command '/usr/lib/vmware/vmsyslog/bin/shutdown.sh' -SSHSession $session -EnsureConnection
+                            $command = Invoke-SSHCommand -Command '/etc/init.d/vmfstraced stop' -SSHSession $session -EnsureConnection
+                            $command = Invoke-SSHCommand -Command '/etc/init.d/rhttpproxy stop' -SSHSession $session -EnsureConnection
+                            $command = Invoke-SSHCommand -Command '/etc/init.d/vsandevicemonitord stop' -SSHSession $session -EnsureConnection
+
+                            Write-Output ("You can now run the cmdlet 'Repair-VMHostVirtualFatDisk' on VMHost '{0}', then reboot the host" -f $_VMHost.Name)
+                        }
+                        else {
+                            Write-Output 'All vFAT partitioned disk(s) are consistent and not in need of repair'
+                        }
                     }
-
-                    Write-Output ("You can now run the cmdlet 'Repair-VMHostVirtualFatDisk' on VMHost '{0}', then reboot the host" -f $_VMHost.Name)
                 }
                 catch {
                     throw ("Error encountered preparing VMHost '{0}' for Virtual FAT disk(s) repair: {1}. Reboot the host" -f $_VMHost.Name, $_)
