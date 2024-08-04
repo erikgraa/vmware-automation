@@ -1,6 +1,6 @@
 <#
     .DESCRIPTION
-        Tests whether vFAT repair is necessary by checking for corruption on vFAT partitioned disk(s) using dosfsck..
+        Tests whether vFAT repair is necessary by checking for corruption on vFAT partitioned disk(s) using dosfsck.
 
     .PARAMETER VMHost
         Specifies one or more host(s).
@@ -47,12 +47,12 @@ function Test-VMHostVirtualFatDisk {
                         $consistency = $false
                         $isVfat = $true
 
-                        $check = Invoke-SSHCommand -Command ('dosfsck -Vv -n /dev/disks/{0}' -f $_diskIdentifier) -SSHSession $session -EnsureConnection
+                        $command = Invoke-SSHCommand -Command ('dosfsck -Vv -n /dev/disks/{0}' -f $_diskIdentifier) -SSHSession $session -EnsureConnection
 
                         $hash = [Ordered]@{}
 
-                        if ($null -ne $check.Output -and $check.Output -match 'First FAT') {
-                            if ($check.ExitStatus -eq 0 -and $check.Output -notmatch 'corrupt') {
+                        if ($null -ne $command.Output -and $command.Output -match 'First FAT') {
+                            if ($command.ExitStatus -eq 0 -and $command.Output -notmatch 'corrupt') {
                                 $consistency = $true
                             }
                         }
