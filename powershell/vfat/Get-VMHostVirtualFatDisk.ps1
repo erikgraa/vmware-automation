@@ -1,3 +1,23 @@
+<#
+    .DESCRIPTION
+       Retrieves vFAT partitioned disk(s).
+
+    .PARAMETER VMHost
+        Specifies one or more host(s).
+
+    .PARAMETER Credential
+        Specifies the root SSH credential.
+
+    .EXAMPLE
+        PS> $credential = Get-Credential
+        PS> Get-VMHost -Name lab-m01-esx01.graa.dev | Get-VMHostVirtualFatDisk -Credential $credential
+
+    .LINK
+        https://knowledge.broadcom.com/external/article/345227/corrupted-vfat-partitions-from-esxi-6567.html
+#>
+
+#Requires -Modules 'Posh-SSH'
+
 function Get-VMHostVirtualFatDisk {
     [CmdletBinding(SupportsShouldProcess=$true, ConfirmImpact='Medium')]
     param (
@@ -8,7 +28,7 @@ function Get-VMHostVirtualFatDisk {
         [Parameter(Mandatory = $true)]
         [ValidateNotNullOrEmpty()]
         [System.Management.Automation.PSCredential]
-        [System.Management.Automation.Credential()]$credential
+        [System.Management.Automation.Credential()]$Credential
     )
 
     process {
@@ -18,7 +38,7 @@ function Get-VMHostVirtualFatDisk {
                     $vfat = $_VMHost | Get-VMHostFileSystem -Type vfat
                     $PartitionIdentifier = ($vfat | Select-Object -ExpandProperty UUID)
 
-                    $session = New-SSHSession -ComputerName $_VMHost.Name -Credential $credential -Port 22 -AcceptKey:$true -ErrorAction Stop 
+                    $session = New-SSHSession -ComputerName $_VMHost.Name -Credential $Credential -Port 22 -AcceptKey:$true -ErrorAction Stop 
 
                     $object = @()
 
