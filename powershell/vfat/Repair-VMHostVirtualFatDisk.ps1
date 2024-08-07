@@ -44,12 +44,12 @@ function Repair-VMHostVirtualFatDisk {
 
                         if ($_disk.IsVirtualFatDisk -ne $true) {
                             Write-Output ("Disk '{0}' on VMHost '{1}' is not partitioned as Virtual Fat (VFAT)" -f $_disk.Disk, $_VMHost.Name)
-                            return
+                            continue
                         }
                         
                         if ($_disk.Consistent -eq $true) {
                             Write-Output ("Disk '{0}' on VMHost '{1}' is consistent and healthy" -f $_disk.Disk, $_VMHost.Name)
-                            return
+                            continue
                         }
 
                         $command = Invoke-SSHCommand -Command ('dosfsck -a -w /dev/disks/{0}' -f $_disk.Disk) -SSHSession $session -EnsureConnection -Verbose:$false
