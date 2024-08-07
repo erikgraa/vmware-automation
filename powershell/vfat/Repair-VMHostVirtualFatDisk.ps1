@@ -20,9 +20,9 @@
 #Requires -Modules 'Posh-SSH'
 
 function Repair-VMHostVirtualFatDisk {
-    [CmdletBinding(SupportsShouldProcess=$true, ConfirmImpact='High')]
+    [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'High')]
     param (
-        [Parameter(Mandatory=$true, ValueFromPipeline=$true)]
+        [Parameter(Mandatory = $true, ValueFromPipeline = $true)]
         [ValidateNotNullOrEmpty()]
         [VMware.VimAutomation.ViCore.Types.V1.Inventory.VMHost[]]$VMHost,
 
@@ -41,24 +41,24 @@ function Repair-VMHostVirtualFatDisk {
 
                 foreach ($_disk in $disks) {
                     if ($PSCmdlet.ShouldProcess($_disk.Disk, ("Repair Virtual FAT disk on VMHost '{0}'" -f $_VMHost.Name))) {
-                        if ($_disk.IsVirtualFatDisk -eq $true) {
-                            if ($_disk.Consistent -ne $true) {
-                                $command = Invoke-SSHCommand -Command ('dosfsck -a -w /dev/disks/{0}' -f $_disk.Disk) -SSHSession $session -EnsureConnection -Verbose:$false
 
-                                if ($command.ExitStatus -eq 1) {
-                                    Write-Output ("Repaired disk '{0}' on VMHost '{1}'" -f $_disk.Disk, $_VMHost.Name)
-                                }
-                                else {
-                                    Write-Warning ("Error may have occurred while repairing disk '{0}' on VMHost '{1}', review the output: {2}" -f $_disk.Disk, $_VMHost.Name, $_)
-                                }
-                            }
-                            else {
-                                Write-Output ("Disk '{0}' on VMHost '{1}' is consistent and healthy" -f $_disk.Disk, $_VMHost.Name)
-                            }
-                        }
-                        else {
+                        if ($_disk.IsVirtualFatDisk -ne $true) {
                             Write-Output ("Disk '{0}' on VMHost '{1}' is not partitioned as Virtual Fat (VFAT)" -f $_disk.Disk, $_VMHost.Name)
+                            continue
                         }
+                        
+                        if ($_disk.Consistent -eq $true) {
+                            Write-Output ("Disk '{0}' on VMHost '{1}' is consistent and healthy" -f $_disk.Disk, $_VMHost.Name)
+                            continue
+                        }
+
+                        $command = Invoke-SSHCommand -Command ('dosfsck -a -w /dev/disks/{0}' -f $_disk.Disk) -SSHSession $session -EnsureConnection -Verbose:$false
+
+                        if ($command.ExitStatus -ne 1) {
+                            Write-Warning ("Error may have occurred while repairing disk '{0}' on VMHost '{1}', review the output: {2}" -f $_disk.Disk, $_VMHost.Name, $_)
+                        }
+
+                        Write-Output ("Repaired disk '{0}' on VMHost '{1}'" -f $_disk.Disk, $_VMHost.Name)
                     }
                 }
             }
