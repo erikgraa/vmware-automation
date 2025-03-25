@@ -1,0 +1,1528 @@
+[
+  {
+    "id": "640a041930910021b5f7bb79",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "vRealize Log Insight",
+    "serviceDescription": "Collection of vRealize Log Insight product usage data",
+    "purpose": "Sources sending data",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "640a041930910021b5f7bb7a",
+    "port": "9543",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "vRealize Log Insight",
+    "serviceDescription": "Collection of vRealize Log Insight product usage data",
+    "purpose": "Sources sending data",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "640a0a5bad8be32e487d9ffe",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "vRealize Automation",
+    "serviceDescription": "Collection of vRealize Automation product usage data ",
+    "purpose": "Sources sending data",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "640a0a5bad8be32e487d9ffd",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "vRealize Suite Lifecycle Manager",
+    "serviceDescription": "Collection of vRealize Suite Lifecycle Manager product usage data ",
+    "purpose": "Sources sending data",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fff3a579d021200166a4db7",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "User Workstation",
+    "destination": "Skyline Collector Appliance",
+    "serviceDescription": "SSH for Troubleshooting",
+    "purpose": "Troubleshooting",
+    "classification": "Incoming",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fff3a569d021200166a4daa",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "vcsa.vmware.com",
+    "serviceDescription": "Destination for product usage data and support bundles",
+    "purpose": "Sources sending data",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fff3a579d021200166a4db5",
+    "port": "80, 443",
+    "protocol": "TCP",
+    "source": "User Workstation",
+    "destination": "Skyline Advisor (skyline.vmware.com/advisor)",
+    "serviceDescription": "Skyline Advisor",
+    "purpose": "User interface",
+    "classification": "Incoming",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fff3a579d021200166a4db4",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "User Workstation",
+    "destination": "Skyline Collector Appliance",
+    "serviceDescription": "Skyline Collector management interface",
+    "purpose": "User interface",
+    "classification": "Incoming",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fff3a579d021200166a4db2",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "vRealize Operations Manager",
+    "serviceDescription": "Collection of vRealize Operations Manager product usage data",
+    "purpose": "Sources sending data",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fff3a579d021200166a4db3",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "SDDC Manager",
+    "serviceDescription": "Collection of SDDC Manager product usage data",
+    "purpose": "Sources sending data",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fff3a579d021200166a4db1",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "Horizon Connection Server",
+    "serviceDescription": "Collection of Horizon product usage data",
+    "purpose": "Sources sending data",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fff3a569d021200166a4db0",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "NSX-T Manager",
+    "serviceDescription": "Collection of NSX Data Center (for vSphere) product usage data",
+    "purpose": "Sources sending data",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fff3a569d021200166a4daf",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "NSX-V Manager",
+    "serviceDescription": "Collection of NSX for vSphere product usage data",
+    "purpose": "Sources sending data",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fff3a569d021200166a4dad",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "ESXi Hypervisor Hosts",
+    "serviceDescription": "Collection of ESXi Hypervisor Host product usage data",
+    "purpose": "Sources sending data",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fff3a569d021200166a4dac",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "vCenter Server",
+    "serviceDescription": "Collection of vSphere product usage data",
+    "purpose": "Sources sending data",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fff3a569d021200166a4dab",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "vapp-updates.vmware.com",
+    "serviceDescription": "Skyline Collector Appliance updates repository",
+    "purpose": "External services",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fff3a569d021200166a4dae",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Skyline Collector Appliance",
+    "destination": "External Platform Services Controller / Single Sign-On Provider",
+    "serviceDescription": "Authentication to vCenter Server & ESXi Hypervisor Hosts ",
+    "purpose": "External services",
+    "classification": "Outgoing",
+    "submissionId": "jameswalker-1691516156931",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-08-05 00:00",
+    "product": {
+      "id": "5ffbf90b4e8a620011d3a6bd",
+      "productName": "VMware Skyline",
+      "displayName": "VMware Skyline",
+      "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+    },
+    "releases": [
+      {
+        "id": "6409f10c30910021b5f7bb75",
+        "releaseName": "VMware Skyline Collector 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "B71874BF-AAA2-4BC9-B670-2C54B1407B77",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0fd30910021b5f7bb74",
+        "releaseName": "VMware Skyline Collector 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "FA28D42F-8DEE-43F6-B32C-CD87E0C6CB9D",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0eb30910021b5f7bb73",
+        "releaseName": "VMware Skyline Collector 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "9E53313D-3E46-4263-A0B3-900DD134F6E1",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "6409f0cfad8be32e487d9ffb",
+        "releaseName": "VMware Skyline Collector 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "444B9601-B926-4BBC-9DA7-99E9B04DA846",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "643867dfad8be32e487da0e3",
+        "releaseName": "VMware Skyline Collector 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "4926E117-B906-4DA6-8229-FEC034BBB752",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      },
+      {
+        "id": "64d27ce8ad8be32e487da2c7",
+        "releaseName": "VMware Skyline Collector 3.5",
+        "displayName": "3.5",
+        "rmReleaseId": "713A2A80-4C7C-44A2-A82B-046183BA6E81",
+        "product": {
+          "id": "5ffbf90b4e8a620011d3a6bd",
+          "productName": "VMware Skyline",
+          "displayName": "VMware Skyline",
+          "rmProductId": "C9AA4153-2E58-4A8A-9797-5F33F8A21D2F"
+        }
+      }
+    ]
+  }
+]

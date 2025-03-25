@@ -1,0 +1,1158 @@
+[
+  {
+    "id": "65f18cd333e91b3527cbf7b5",
+    "port": "1492",
+    "protocol": "TCP",
+    "source": "ESXi hosts",
+    "destination": "VMware Live Cyber Recovery Connector (on-prem site or SDDC)",
+    "serviceDescription": "For high-frequency snapshots; reading/writing vdisks.",
+    "purpose": "External services",
+    "classification": "Inbound",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1797333e91b3527cbf7a7",
+        "releaseName": "VLCR",
+        "displayName": "VLCR",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef2cc71755dfc6108f5",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "vCenter Server",
+    "destination": "Remote Platform Services Controller",
+    "serviceDescription": "vCenter Server to remote Platform Services Controller communication",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef2cc71755dfc6108f6",
+    "port": "44046",
+    "protocol": "-",
+    "source": "ESXi host",
+    "destination": "vSphere Replication appliance on the recovery site",
+    "serviceDescription": "Ongoing replication traffic. From the ESXi host at the protected site to the vSphere Replication appliance at the recovery site.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef2cc71755dfc6108f7",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware Live Site Recovery server",
+    "destination": "vCenter Server",
+    "serviceDescription": "Default SSL Web port.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef5cc71755dfc610909",
+    "port": "31031",
+    "protocol": "TCP",
+    "source": "ESXi host",
+    "destination": "vSphere Replication appliance on the recovery site",
+    "serviceDescription": "Initial replication traffic. From the ESXi host at the protected site to the vSphere Replication appliance at the target site.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f1b1bacc71755dfc61090c",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware Live Site Recovery",
+    "destination": "VMware Cloud Services Platform (CSP)",
+    "serviceDescription": "VMware Live Site Recovery communication to VMware Cloud Services Platform",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f1b1bacc71755dfc61090d",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware Live Site Recovery",
+    "destination": "VMware Live Recovery Cloud Console",
+    "serviceDescription": "VMware Live Site Recovery communication to VLR cloud service endpoint ",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f1a8b5cc71755dfc61090b",
+    "port": "53",
+    "protocol": "TCP and UDP",
+    "source": "VMware Live Cyber Recovery Connector",
+    "destination": "DNS server",
+    "serviceDescription": "DNS service",
+    "purpose": "External services",
+    "classification": "Outband",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1797333e91b3527cbf7a7",
+        "releaseName": "VLCR",
+        "displayName": "VLCR",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef4cc71755dfc610908",
+    "port": "9086",
+    "protocol": "HTTPS",
+    "source": "VMware Live Site Recovery Server",
+    "destination": "VMware Live Site Recovery Server on target site",
+    "serviceDescription": "Bidirectional communication between Site Recovery Manager servers.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef4cc71755dfc610906",
+    "port": "9086",
+    "protocol": "HTTPS",
+    "source": "vSphere Web Client",
+    "destination": "VMware Live Site Recovery Server",
+    "serviceDescription": "All management traffic to Site Recovery Manager Server goes to this port. This includes traffic by external API clients for task automation and HTTPS interface for downloading the UI plug-in and icons. This port must be accessible from the vCenter Server proxy system. Used by vSphere Web Client to download the Site Recovery Manager client plug-in.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18cd333e91b3527cbf7b4",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware Live Cyber Recovery Connector",
+    "destination": "Scale-out Cloud File System",
+    "serviceDescription": "Encrypted tunnel for data transfers and metadata operations",
+    "purpose": "Sending data",
+    "classification": "Outbound",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1797333e91b3527cbf7a7",
+        "releaseName": "VLCR",
+        "displayName": "VLCR",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18cd233e91b3527cbf7b3",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware Live Cyber Recovery Connector",
+    "destination": "SaaS Orchestrator",
+    "serviceDescription": "Management service",
+    "purpose": "Sending data",
+    "classification": "Outbound",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1797333e91b3527cbf7a7",
+        "releaseName": "VLCR",
+        "displayName": "VLCR",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18cd233e91b3527cbf7b2",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "VMware Live Cyber Recovery Connector(on-premises deployments only)",
+    "destination": "vCenter Server",
+    "serviceDescription": "vCenter web service",
+    "purpose": "Internal services",
+    "classification": "Outbound",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1797333e91b3527cbf7a7",
+        "releaseName": "VLCR",
+        "displayName": "VLCR",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18cd233e91b3527cbf7b1",
+    "port": "902",
+    "protocol": "TCP",
+    "source": "VMware Live Cyber Recovery Connector(needed for on-premises deployments only)",
+    "destination": "ESXi Management IP addresses",
+    "serviceDescription": "Reading/writing vdisks",
+    "purpose": "Internal services",
+    "classification": "Outbound",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1797333e91b3527cbf7a7",
+        "releaseName": "VLCR",
+        "displayName": "VLCR",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18cd233e91b3527cbf7b0",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware Live Cyber Recovery Connector",
+    "destination": "vCenter Server",
+    "serviceDescription": "vCenter Server Web Service",
+    "purpose": "External services",
+    "classification": "Outbound",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1797333e91b3527cbf7a7",
+        "releaseName": "VLCR",
+        "displayName": "VLCR",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18cd233e91b3527cbf7af",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware Live Cyber Recovery Connector",
+    "destination": "VMware Auto-support server",
+    "serviceDescription": "Support service",
+    "purpose": "Sending diagnostic data to support",
+    "classification": "Outbound",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1797333e91b3527cbf7a7",
+        "releaseName": "VLCR",
+        "displayName": "VLCR",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef5cc71755dfc61090a",
+    "port": "32032",
+    "protocol": "TCP",
+    "source": "ESXi host on the source site",
+    "destination": "vSphere Replication server at the target site",
+    "serviceDescription": "Initial and outgoing replication traffic from the ESXi host at the source site to the vSphere Replication appliance or vSphere Replication server at the target site for replication traffic with network encryption.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef3cc71755dfc6108fe",
+    "port": "5480",
+    "protocol": "HTTPS",
+    "source": "Web Browser",
+    "destination": "VMware Live Site Recovery Appliance",
+    "serviceDescription": "VMware Live Site Recovery Appliance Management Interface",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef3cc71755dfc6108ff",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware Live Site Recovery Server Appliance",
+    "destination": "VMware Live Site Recovery Server Appliance on target site",
+    "serviceDescription": "Bidirectional communication between Live Site Recovery Appliance servers.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef3cc71755dfc610900",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "vCenter Server",
+    "destination": "VMware Live Site Recovery Server Appliance",
+    "serviceDescription": "vCenter Server and target Live Site Recovery Appliance communication.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef3cc71755dfc6108fd",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware Live Site Recovery server",
+    "destination": "vCenter Server",
+    "serviceDescription": "Default SSL Web Port for incoming TCP traffic.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef2cc71755dfc6108f3",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware Live Site Recovery UI client",
+    "destination": "Local and remote vCenter Server or all vCenter Server instances in Enhanced Linked Mode on which there is a registered VMware Live Site Recovery server.",
+    "serviceDescription": "Default port for VMware Live Site Recovery user interface. when you open it from the VMware Live Site Recovery appliance.",
+    "purpose": "-",
+    "classification": "Network ports",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef1cc71755dfc6108f0",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware Live Site Recovery Appliance",
+    "destination": "https://vcsa.vmware.com",
+    "serviceDescription": "Customer Experience Improvement Program (CEIP) for VMware LIve Site Recovery",
+    "purpose": "-",
+    "classification": "Network ports",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef1cc71755dfc6108f1",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware LIve Site Recovery UI client",
+    "destination": "Local and remote vCenter Server or all vCenter Server instances in Enhanced Linked Mode on which there is a registered VMware LIve Site Recovery server. For more information about Enhanced Linked Mode, see vCenter Enhanced Linked Mode for vCenter Server Appliance in the vCenter Server Installation and Setup documentation.",
+    "serviceDescription": "Default port for VMware Live Site Recovery User Interface client. When you open it from the Live Site Recovery appliance.",
+    "purpose": "-",
+    "classification": "Network ports",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef2cc71755dfc6108f4",
+    "port": "9086",
+    "protocol": "HTTPS",
+    "source": "VMware Live Site Recovery Server ",
+    "destination": "VMware Live Site Recovery Server on the target site",
+    "serviceDescription": "Live Site Recovery server to Live Site Recovery server communication",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef2cc71755dfc6108f2",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware Live Site Recovery UI client",
+    "destination": "VMware Live Site Recovery server",
+    "serviceDescription": "Default port for the VMware Site Recovery client User Interface.",
+    "purpose": "-",
+    "classification": "Network ports",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef4cc71755dfc610901",
+    "port": "902",
+    "protocol": "TCP and UDP",
+    "source": "VMware Live Site Recovery Server on the recovery site.",
+    "destination": "Recovery site ESXi host.",
+    "serviceDescription": "Traffic from the Live Site Recovery Server on the recovery site to ESXi hosts when recovering or testing virtual machines with IP customization, with configured callout commands on recovered virtual machines, or that use raw disk mapping (RDM). All NFC traffic for updating or patching the VMX files of virtual machines that are replicated using vSphere Replication use this port.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef2cc71755dfc6108f9",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware LIve Site Recovery UI client",
+    "destination": "VMware Live Site Recovery server",
+    "serviceDescription": "DefaDefault port for the VMware Site Recovery client User Interface.Note:If the Platform Services Controller is installed on the same machine, you must change this port.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef2cc71755dfc6108f8",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "vSphere Web Client",
+    "destination": "VMware Live Site Recovery server",
+    "serviceDescription": "All management traffic to Live Site Recovery Server Appliance goes to this port. This includes traffic by external API clients for task automation and HTTPS interface for downloading the UI plug-in and icons. This port must be accessible from the vCenter Server proxy system. Used by vSphere Web Client to download the Live Site Recovery client plug-in. Note:If the Platform Services Controller is installed on the same machine, you must change this port.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef3cc71755dfc6108fa",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware Live Site Recovery server  on the recovery site",
+    "destination": "Recovery site ESXi host",
+    "serviceDescription": "Traffic from the Live Site Recovery Server on the recovery site to ESXi hosts when recovering or testing virtual machines with configured IP customization, or callout commands on recovered virtual machines.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef3cc71755dfc6108fc",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware Live Site Recovery ",
+    "destination": "Platform Services Controller ",
+    "serviceDescription": "Traffic from Live Site Recovery Server to local and remote Platform Services Controller.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef3cc71755dfc6108fb",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware Live Site Recovery ",
+    "destination": "Platform Services Controller and vCenter Server",
+    "serviceDescription": "Live Site Recovery server to vCenter Server communication - local and remote.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef4cc71755dfc610905",
+    "port": "8043",
+    "protocol": "HTTPS",
+    "source": "VMware Live Site Recovery Server",
+    "destination": "vSphere Replication appliance on the recovery and protected sites",
+    "serviceDescription": "Management traffic between Live Site Recovery instances and vSphere Replication appliances.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f18ef4cc71755dfc610907",
+    "port": "9086",
+    "protocol": "HTTPS",
+    "source": "vCenter Server",
+    "destination": "VMware Live Site Recovery Server",
+    "serviceDescription": "vCenter Server and target Live Site Recovery server communication.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "vkrasteva-1710427453325",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-03-19 00:00",
+    "product": {
+      "id": "65efbca5096e7f6b8f5ec708",
+      "productName": "VMware Live Recovery",
+      "displayName": "VMware Live Recovery",
+      "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+    },
+    "releases": [
+      {
+        "id": "65f1795b33e91b3527cbf7a6",
+        "releaseName": "VLSR 9.0",
+        "displayName": "VLSR 9.0",
+        "rmReleaseId": "",
+        "product": {
+          "id": "65efbca5096e7f6b8f5ec708",
+          "productName": "VMware Live Recovery",
+          "displayName": "VMware Live Recovery",
+          "rmProductId": "3822360E-FE3D-4A4A-9494-6B9683B3BC85"
+        }
+      }
+    ]
+  }
+]

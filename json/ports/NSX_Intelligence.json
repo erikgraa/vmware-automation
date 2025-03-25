@@ -1,0 +1,582 @@
+[
+  {
+    "id": "5e54c110dd3b100015868f23",
+    "port": "53",
+    "protocol": "TCP",
+    "source": "NSX Intelligence",
+    "destination": "DNS Servers",
+    "serviceDescription": "DNS ",
+    "purpose": "DNS Client connection",
+    "classification": "No",
+    "submissionId": "dleroy-1586208925879",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-11-03 00:00",
+    "product": {
+      "id": "5e54bf9c0b93120014da3f0d",
+      "productName": "NSX Intelligence",
+      "displayName": "NSX Intelligence",
+      "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+    },
+    "releases": [
+      {
+        "id": "5e54c07add3b100015868f22",
+        "releaseName": "NSX Intelligence 1.0",
+        "displayName": "1.0",
+        "rmReleaseId": "11F7879D-4959-4829-8FCE-E3F27B8D5423",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5e8ba06e699a5b000ef4f420",
+        "releaseName": "NSX Intelligence 1.1",
+        "displayName": "1.1",
+        "rmReleaseId": "FD6E8771-DF4A-4711-85AF-227CC5241E1D",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5fa6341c6a26920014ee0d17",
+        "releaseName": "NSX Intelligence 1.2",
+        "displayName": "1.2",
+        "rmReleaseId": "F9EDC9B9-F55B-4189-9F85-8B9AD1897FB8",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e54c110dd3b100015868f24",
+    "port": "53",
+    "protocol": "UDP",
+    "source": "NSX Intelligence",
+    "destination": "DNS Servers",
+    "serviceDescription": "DNS ",
+    "purpose": "DNS Client connection",
+    "classification": "No",
+    "submissionId": "dleroy-1586208925879",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-11-03 00:00",
+    "product": {
+      "id": "5e54bf9c0b93120014da3f0d",
+      "productName": "NSX Intelligence",
+      "displayName": "NSX Intelligence",
+      "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+    },
+    "releases": [
+      {
+        "id": "5e54c07add3b100015868f22",
+        "releaseName": "NSX Intelligence 1.0",
+        "displayName": "1.0",
+        "rmReleaseId": "11F7879D-4959-4829-8FCE-E3F27B8D5423",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5e8ba06e699a5b000ef4f420",
+        "releaseName": "NSX Intelligence 1.1",
+        "displayName": "1.1",
+        "rmReleaseId": "FD6E8771-DF4A-4711-85AF-227CC5241E1D",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5fa6341c6a26920014ee0d17",
+        "releaseName": "NSX Intelligence 1.2",
+        "displayName": "1.2",
+        "rmReleaseId": "F9EDC9B9-F55B-4189-9F85-8B9AD1897FB8",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e54c110dd3b100015868f25",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "NSX Intelligence",
+    "destination": "Management SCP Servers",
+    "serviceDescription": "SSH (upload support bundle, backups, etc.)",
+    "purpose": "SSH for backup",
+    "classification": "TLS Enabled",
+    "submissionId": "dleroy-1586208925879",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-11-03 00:00",
+    "product": {
+      "id": "5e54bf9c0b93120014da3f0d",
+      "productName": "NSX Intelligence",
+      "displayName": "NSX Intelligence",
+      "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+    },
+    "releases": [
+      {
+        "id": "5e54c07add3b100015868f22",
+        "releaseName": "NSX Intelligence 1.0",
+        "displayName": "1.0",
+        "rmReleaseId": "11F7879D-4959-4829-8FCE-E3F27B8D5423",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5e8ba06e699a5b000ef4f420",
+        "releaseName": "NSX Intelligence 1.1",
+        "displayName": "1.1",
+        "rmReleaseId": "FD6E8771-DF4A-4711-85AF-227CC5241E1D",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5fa6341c6a26920014ee0d17",
+        "releaseName": "NSX Intelligence 1.2",
+        "displayName": "1.2",
+        "rmReleaseId": "F9EDC9B9-F55B-4189-9F85-8B9AD1897FB8",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e54c110dd3b100015868f26",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "NSX Intelligence",
+    "destination": "NTP Servers",
+    "serviceDescription": "NTP",
+    "purpose": "NTP Client connection",
+    "classification": "TLS Enabled",
+    "submissionId": "dleroy-1586208925879",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-11-03 00:00",
+    "product": {
+      "id": "5e54bf9c0b93120014da3f0d",
+      "productName": "NSX Intelligence",
+      "displayName": "NSX Intelligence",
+      "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+    },
+    "releases": [
+      {
+        "id": "5e54c07add3b100015868f22",
+        "releaseName": "NSX Intelligence 1.0",
+        "displayName": "1.0",
+        "rmReleaseId": "11F7879D-4959-4829-8FCE-E3F27B8D5423",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5e8ba06e699a5b000ef4f420",
+        "releaseName": "NSX Intelligence 1.1",
+        "displayName": "1.1",
+        "rmReleaseId": "FD6E8771-DF4A-4711-85AF-227CC5241E1D",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5fa6341c6a26920014ee0d17",
+        "releaseName": "NSX Intelligence 1.2",
+        "displayName": "1.2",
+        "rmReleaseId": "F9EDC9B9-F55B-4189-9F85-8B9AD1897FB8",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e54c110dd3b100015868f27",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "NSX Intelligence",
+    "destination": "vCenter Server/NSX Unified Appliance",
+    "serviceDescription": "NSX Intelligence to a compute manager (vCenter Server) communication and NSX Unified Appliance, when configured.",
+    "purpose": "Entry point for NSX Intelligence to reach NSX Manager for certain API calls",
+    "classification": "TLS Enabled",
+    "submissionId": "dleroy-1586208925879",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-11-03 00:00",
+    "product": {
+      "id": "5e54bf9c0b93120014da3f0d",
+      "productName": "NSX Intelligence",
+      "displayName": "NSX Intelligence",
+      "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+    },
+    "releases": [
+      {
+        "id": "5e54c07add3b100015868f22",
+        "releaseName": "NSX Intelligence 1.0",
+        "displayName": "1.0",
+        "rmReleaseId": "11F7879D-4959-4829-8FCE-E3F27B8D5423",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5e8ba06e699a5b000ef4f420",
+        "releaseName": "NSX Intelligence 1.1",
+        "displayName": "1.1",
+        "rmReleaseId": "FD6E8771-DF4A-4711-85AF-227CC5241E1D",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5fa6341c6a26920014ee0d17",
+        "releaseName": "NSX Intelligence 1.2",
+        "displayName": "1.2",
+        "rmReleaseId": "F9EDC9B9-F55B-4189-9F85-8B9AD1897FB8",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e54c110dd3b100015868f29",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "NTP Servers",
+    "destination": "NSX Intelligence",
+    "serviceDescription": "NTP",
+    "purpose": "NTP Server connection",
+    "classification": "TLS Enabled",
+    "submissionId": "dleroy-1586208925879",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-11-03 00:00",
+    "product": {
+      "id": "5e54bf9c0b93120014da3f0d",
+      "productName": "NSX Intelligence",
+      "displayName": "NSX Intelligence",
+      "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+    },
+    "releases": [
+      {
+        "id": "5e54c07add3b100015868f22",
+        "releaseName": "NSX Intelligence 1.0",
+        "displayName": "1.0",
+        "rmReleaseId": "11F7879D-4959-4829-8FCE-E3F27B8D5423",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5e8ba06e699a5b000ef4f420",
+        "releaseName": "NSX Intelligence 1.1",
+        "displayName": "1.1",
+        "rmReleaseId": "FD6E8771-DF4A-4711-85AF-227CC5241E1D",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5fa6341c6a26920014ee0d17",
+        "releaseName": "NSX Intelligence 1.2",
+        "displayName": "1.2",
+        "rmReleaseId": "F9EDC9B9-F55B-4189-9F85-8B9AD1897FB8",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e54c110dd3b100015868f2a",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "Management Clients",
+    "destination": "NSX Intelligence",
+    "serviceDescription": "SSH",
+    "purpose": "HDFS and root login to appliance",
+    "classification": "TLS Enabled",
+    "submissionId": "dleroy-1586208925879",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-11-03 00:00",
+    "product": {
+      "id": "5e54bf9c0b93120014da3f0d",
+      "productName": "NSX Intelligence",
+      "displayName": "NSX Intelligence",
+      "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+    },
+    "releases": [
+      {
+        "id": "5e54c07add3b100015868f22",
+        "releaseName": "NSX Intelligence 1.0",
+        "displayName": "1.0",
+        "rmReleaseId": "11F7879D-4959-4829-8FCE-E3F27B8D5423",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5e8ba06e699a5b000ef4f420",
+        "releaseName": "NSX Intelligence 1.1",
+        "displayName": "1.1",
+        "rmReleaseId": "FD6E8771-DF4A-4711-85AF-227CC5241E1D",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5fa6341c6a26920014ee0d17",
+        "releaseName": "NSX Intelligence 1.2",
+        "displayName": "1.2",
+        "rmReleaseId": "F9EDC9B9-F55B-4189-9F85-8B9AD1897FB8",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e54c110dd3b100015868f2b",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Management Clients/ NSX Unified Appliance",
+    "destination": "NSX Intelligence",
+    "serviceDescription": "NSX API Server",
+    "purpose": "Entry point for APIs in NSX Intelligence",
+    "classification": "TLS Enabled",
+    "submissionId": "dleroy-1586208925879",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-11-03 00:00",
+    "product": {
+      "id": "5e54bf9c0b93120014da3f0d",
+      "productName": "NSX Intelligence",
+      "displayName": "NSX Intelligence",
+      "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+    },
+    "releases": [
+      {
+        "id": "5e54c07add3b100015868f22",
+        "releaseName": "NSX Intelligence 1.0",
+        "displayName": "1.0",
+        "rmReleaseId": "11F7879D-4959-4829-8FCE-E3F27B8D5423",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5e8ba06e699a5b000ef4f420",
+        "releaseName": "NSX Intelligence 1.1",
+        "displayName": "1.1",
+        "rmReleaseId": "FD6E8771-DF4A-4711-85AF-227CC5241E1D",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5fa6341c6a26920014ee0d17",
+        "releaseName": "NSX Intelligence 1.2",
+        "displayName": "1.2",
+        "rmReleaseId": "F9EDC9B9-F55B-4189-9F85-8B9AD1897FB8",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e54c111dd3b100015868f2c",
+    "port": "9092",
+    "protocol": "TCP",
+    "source": "NSX Unified Appliance/Transport Nodes",
+    "destination": "NSX Intelligence",
+    "serviceDescription": "Incoming messages from NSX Unified Appliance or Transport Nodes to NSX Intelligence Appliance",
+    "purpose": "Kafka broker for collecting data from NSX and hosts",
+    "classification": "TLS Enabled",
+    "submissionId": "dleroy-1586208925879",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-11-03 00:00",
+    "product": {
+      "id": "5e54bf9c0b93120014da3f0d",
+      "productName": "NSX Intelligence",
+      "displayName": "NSX Intelligence",
+      "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+    },
+    "releases": [
+      {
+        "id": "5e54c07add3b100015868f22",
+        "releaseName": "NSX Intelligence 1.0",
+        "displayName": "1.0",
+        "rmReleaseId": "11F7879D-4959-4829-8FCE-E3F27B8D5423",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5e8ba06e699a5b000ef4f420",
+        "releaseName": "NSX Intelligence 1.1",
+        "displayName": "1.1",
+        "rmReleaseId": "FD6E8771-DF4A-4711-85AF-227CC5241E1D",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5fa6341c6a26920014ee0d17",
+        "releaseName": "NSX Intelligence 1.2",
+        "displayName": "1.2",
+        "rmReleaseId": "F9EDC9B9-F55B-4189-9F85-8B9AD1897FB8",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e54c110dd3b100015868f28",
+    "port": "9092",
+    "protocol": "TCP",
+    "source": "NSX Intelligence",
+    "destination": "NSX Unified Appliance/NSX Transport Nodes",
+    "serviceDescription": "NSX Intelligence outgoing communication to NSX Unified Appliance or Transport Nodes",
+    "purpose": "Connection to NSX Intelligence from hosts and NSX for kafka",
+    "classification": "TLS Enabled",
+    "submissionId": "dleroy-1586208925879",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-11-03 00:00",
+    "product": {
+      "id": "5e54bf9c0b93120014da3f0d",
+      "productName": "NSX Intelligence",
+      "displayName": "NSX Intelligence",
+      "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+    },
+    "releases": [
+      {
+        "id": "5e54c07add3b100015868f22",
+        "releaseName": "NSX Intelligence 1.0",
+        "displayName": "1.0",
+        "rmReleaseId": "11F7879D-4959-4829-8FCE-E3F27B8D5423",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5e8ba06e699a5b000ef4f420",
+        "releaseName": "NSX Intelligence 1.1",
+        "displayName": "1.1",
+        "rmReleaseId": "FD6E8771-DF4A-4711-85AF-227CC5241E1D",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      },
+      {
+        "id": "5fa6341c6a26920014ee0d17",
+        "releaseName": "NSX Intelligence 1.2",
+        "displayName": "1.2",
+        "rmReleaseId": "F9EDC9B9-F55B-4189-9F85-8B9AD1897FB8",
+        "product": {
+          "id": "5e54bf9c0b93120014da3f0d",
+          "productName": "NSX Intelligence",
+          "displayName": "NSX Intelligence",
+          "rmProductId": "9297C33E-1D28-41D1-84C4-E222E0B3BBFC"
+        }
+      }
+    ]
+  }
+]

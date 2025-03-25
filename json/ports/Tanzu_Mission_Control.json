@@ -1,0 +1,70 @@
+[
+  {
+    "id": "618d9832d28a571a731c63db",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Tanzu Mission Control Command Line",
+    "destination": "*.tanzu.broadcom.com",
+    "serviceDescription": "Cloud Services Platform",
+    "purpose": "User authentication",
+    "classification": "TLS Enabled",
+    "submissionId": "matt.wilson-1741965072246",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-03-11 00:00",
+    "product": {
+      "id": "6188cd523d0c6b407f6b8efa",
+      "productName": "Tanzu Mission Control",
+      "displayName": "Tanzu Mission Control",
+      "rmProductId": "1108"
+    },
+    "releases": [
+      {
+        "id": "6188cdcad28a571a731c63d6",
+        "releaseName": "Tanzu Mission Control FY22Q3",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "FFE30164-E22A-4DFC-A634-B64F11CED2CB",
+        "product": {
+          "id": "6188cd523d0c6b407f6b8efa",
+          "productName": "Tanzu Mission Control",
+          "displayName": "Tanzu Mission Control",
+          "rmProductId": "1108"
+        }
+      }
+    ]
+  },
+  {
+    "id": "618d9832d28a571a731c63dc",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Tanzu Mission Control Cluster Agent Extensions",
+    "destination": "*.tanzu.broadcom.com",
+    "serviceDescription": "Tanzu Mission Control service",
+    "purpose": "Kubernetes cluster management",
+    "classification": "TLS Enabled",
+    "submissionId": "matt.wilson-1741965072246",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-03-11 00:00",
+    "product": {
+      "id": "6188cd523d0c6b407f6b8efa",
+      "productName": "Tanzu Mission Control",
+      "displayName": "Tanzu Mission Control",
+      "rmProductId": "1108"
+    },
+    "releases": [
+      {
+        "id": "6188cdcad28a571a731c63d6",
+        "releaseName": "Tanzu Mission Control FY22Q3",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "FFE30164-E22A-4DFC-A634-B64F11CED2CB",
+        "product": {
+          "id": "6188cd523d0c6b407f6b8efa",
+          "productName": "Tanzu Mission Control",
+          "displayName": "Tanzu Mission Control",
+          "rmProductId": "1108"
+        }
+      }
+    ]
+  }
+]

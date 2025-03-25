@@ -1,0 +1,1770 @@
+[
+  {
+    "id": "644a666930910021b5f7bbcf",
+    "port": "11101",
+    "protocol": "TCP",
+    "source": "Platform (localhost)",
+    "destination": "Platform (localhost)",
+    "serviceDescription": "RestApi service",
+    "purpose": "JMX Port: Collect Usage/Service metrics",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644a666930910021b5f7bbce",
+    "port": "11108",
+    "protocol": "TCP",
+    "source": "Platform (localhost)",
+    "destination": "Platform (localhost)",
+    "serviceDescription": "Launcher service",
+    "purpose": "JMX Port: Collect Usage/Service metrics",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "633e6751262c1853e7ae2485",
+    "port": "161 and 443",
+    "protocol": "SNMP and HTTPS",
+    "source": "Collector",
+    "destination": "Cisco ACI (Application Centric Infrastructure)",
+    "serviceDescription": "Communication with other data sources within the data center",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62ceab131c64e10d2ace57f8",
+    "port": "9000",
+    "protocol": "UDP",
+    "source": "Redirect from UDP 162",
+    "destination": "Collector ",
+    "serviceDescription": "SNMP trap collection",
+    "purpose": "Redirect SNMP traps received on UDP 162 port to internal port",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62ceab131c64e10d2ace57f7",
+    "port": "162",
+    "protocol": "UDP",
+    "source": "External physical devices",
+    "destination": "Collector",
+    "serviceDescription": "SNMP trap collection",
+    "purpose": "Receive SNMP traps sent by physical devices",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62cbf1245d543553407991c2",
+    "port": "9000",
+    "protocol": "UDP",
+    "source": "Redirect from UDP 162",
+    "destination": "Collector",
+    "serviceDescription": "SNMP trap collection",
+    "purpose": "Redirect SNMP traps received on UDP 162 port to internal port",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62cbf1245d543553407991c1",
+    "port": "162",
+    "protocol": "UDP",
+    "source": "External physical devices",
+    "destination": "Collector",
+    "serviceDescription": "SNMP trap collection",
+    "purpose": "Receive SNMP traps sent by physical devices",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62b199111c26192bd1f035bd",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Collector ",
+    "destination": "NSX-T",
+    "serviceDescription": "Communication with other data sources within the data center",
+    "purpose": "Network Communication",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c6594",
+    "port": "7074",
+    "protocol": "HTTP/TCP",
+    "source": "Localhost",
+    "destination": "Collector",
+    "serviceDescription": "If Telemetry service is on, Telemetry metrics come on this port, where the metrics are stored locally and included in the Support Bundle. Also, forwared to external telemetry server.",
+    "purpose": "Web Server (Nginx). Note: Internal port - does not need to be opened in a firewall. Only for information.",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c6593",
+    "port": "7072",
+    "protocol": "HTTP/TCP",
+    "source": "Localhost",
+    "destination": "Collector",
+    "serviceDescription": "If Telemetry service is off, Telemetry metrics come on this port, where the metrics are stored locally and included in the Support Bundle",
+    "purpose": "Web Server (Nginx). Note: Internal port - does not need to be opened in a firewall. Only for information.",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c6592",
+    "port": "UDP 2055",
+    "protocol": "NetFlow/IPFIX",
+    "source": "Flow Forwarder",
+    "destination": "Collector",
+    "serviceDescription": "Flows from target are pushed to this port",
+    "purpose": "Inbound communication port for collector",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c6591",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "SSH client",
+    "destination": "Collector",
+    "serviceDescription": "CLI or host access. User/Password or SSH key-based authentication.",
+    "purpose": "Inbound communication port for collector",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c6590",
+    "port": "50000",
+    "protocol": "GRPC",
+    "source": "Dell OS10",
+    "destination": "Collector",
+    "serviceDescription": "Network Communication",
+    "purpose": "Receiving buffer stats telemetry information from Dell OS10 devices",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c658f",
+    "port": "1991",
+    "protocol": "TCP",
+    "source": "ESXi Host",
+    "destination": "Collector",
+    "serviceDescription": "Network Communication",
+    "purpose": "Collecting latency measurement of virtual infrastructure, for example: latency between vNIC to pNIC, VTEP to VTEP, TEP to TEP, and so on.",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c658e",
+    "port": "2055",
+    "protocol": "UDP",
+    "source": "ESXi Hosts",
+    "destination": "Collector",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication for miscellaneous services configured",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c658d",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "NTP Server",
+    "destination": "Collector",
+    "serviceDescription": "Port used to synchronize to UTC time",
+    "purpose": "Host Time Synchronization",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c658c",
+    "port": "53",
+    "protocol": "UDP",
+    "source": "Collector",
+    "destination": "DNS server",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication for miscellaneous services configured",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c658b",
+    "port": "Configurable",
+    "protocol": "UDP",
+    "source": "Collector",
+    "destination": "Syslog server",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication for miscellaneous services configured",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c658a",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Collector",
+    "destination": "reg.ni.vmware.com",
+    "serviceDescription": "Registration Server",
+    "purpose": "Services that require Internet access",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c6589",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Collector",
+    "destination": "support2.ni.vmware.com",
+    "serviceDescription": "Support Server",
+    "purpose": "Services that require Internet access",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c6588",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Collector",
+    "destination": "svc.ni.vmware.com",
+    "serviceDescription": "Telemetry and Upgrade Server",
+    "purpose": "Services that require Internet access",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83bd28a571a731c6587",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "Collector",
+    "destination": "NTP Server",
+    "serviceDescription": "Port used to synchronize to UTC time",
+    "purpose": "Host Time Synchronization",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83ad28a571a731c6586",
+    "port": "443",
+    "protocol": "HTTPS/TCP",
+    "source": "Collector",
+    "destination": "VMC SDDC APIs (vmc.vmware.com)",
+    "serviceDescription": "Collector invokes VMC APIs on vmc.vmware.com to fetch SDDC related configuration and details",
+    "purpose": "VMC NSX Manager Data source",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83ad28a571a731c6585",
+    "port": "443",
+    "protocol": "HTTPS/TCP",
+    "source": "Collector",
+    "destination": "HCX Data source",
+    "serviceDescription": "Collector invokes HCX REST APIs exposed over HTTPS",
+    "purpose": "HCX Data collection for stretched VLAN information",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83ad28a571a731c6583",
+    "port": "50000",
+    "protocol": "TCP",
+    "source": "Collector",
+    "destination": "Dell OS10",
+    "serviceDescription": "Network Communication",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83ad28a571a731c6582",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Collector",
+    "destination": "Fortinet FortiManager",
+    "serviceDescription": "Network Communication",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83ad28a571a731c6580",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Collector",
+    "destination": "Check Point firewall",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83ad28a571a731c657f",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Collector",
+    "destination": "Check Point firewall",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83ad28a571a731c657e",
+    "port": "8443",
+    "protocol": "HTTPS/TCP",
+    "source": "Collector",
+    "destination": "Kubernetes/Openshift Cluster",
+    "serviceDescription": "Collector invokes Kubernetes Server APIs exposed over HTTPS",
+    "purpose": "Kubernetes/Openshift Cluster data collection",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83ad28a571a731c657d",
+    "port": "443, 2055",
+    "protocol": "HTTPS",
+    "source": "Collector",
+    "destination": "VeloCloud",
+    "serviceDescription": "Network Communication",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83ad28a571a731c657c",
+    "port": "161, 22, and 443",
+    "protocol": "SNMP, SSH, and HTTPS",
+    "source": "Collector",
+    "destination": "Cisco UCS (Unified Computing System)",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83ad28a571a731c657b",
+    "port": "443",
+    "protocol": "HTTPS/TCP",
+    "source": "Collector",
+    "destination": "VMC NSX Manager Data source",
+    "serviceDescription": "Collector invokes VMC NSX Manager exposed over HTTPS",
+    "purpose": "VMC NSX Manager Data collection",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83ad28a571a731c657a",
+    "port": "443",
+    "protocol": "HTTPS/TCP",
+    "source": "Collector",
+    "destination": "VMC VC Data source",
+    "serviceDescription": "Collector invokes VMC VC exposed over HTTPS",
+    "purpose": "VMC VC Data source",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada83ad28a571a731c6579",
+    "port": "6343",
+    "protocol": "UDP",
+    "source": "SFlow",
+    "destination": "Collector",
+    "serviceDescription": "Communication with SFLow withn the datacenter",
+    "purpose": "Network Communication",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada839d28a571a731c6578",
+    "port": "161 and 22",
+    "protocol": "SNMP and SSH",
+    "source": "Collector",
+    "destination": "Cisco Nexus",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada839d28a571a731c6577",
+    "port": "161 and 22",
+    "protocol": "SNMP and SSH",
+    "source": "Collector",
+    "destination": "Cisco Catalyst switches",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada839d28a571a731c6576",
+    "port": "161 and 22",
+    "protocol": "SNMP and SSH",
+    "source": "Collector",
+    "destination": "Dell switches",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada839d28a571a731c6575",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "Collector",
+    "destination": "HP",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada839d28a571a731c6574",
+    "port": "161 and 22",
+    "protocol": "SNMP and SSH",
+    "source": "Collector",
+    "destination": "Juniper Switches",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada839d28a571a731c6573",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Collector",
+    "destination": "Palo Alto Networks",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada839d28a571a731c6572",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Collector",
+    "destination": "VMware vSphere",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada839d28a571a731c6571",
+    "port": "22 and 443",
+    "protocol": "SSH and HTTPS",
+    "source": "Collector",
+    "destination": "NSX-V",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada839d28a571a731c6570",
+    "port": "161 and 22",
+    "protocol": "SNMP and SSH",
+    "source": "Collector",
+    "destination": "Brocade switches",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada839d28a571a731c656f",
+    "port": "161 and 22",
+    "protocol": "SNMP and SSH",
+    "source": "Collector",
+    "destination": "Arista switches",
+    "serviceDescription": "Network Communication ",
+    "purpose": "Communication with other data sources within the data center",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada839d28a571a731c656d",
+    "port": "8,44,39,21",
+    "protocol": "HTTPS/TCP",
+    "source": "Collector",
+    "destination": "TKGI Data source (PKS Controller)",
+    "serviceDescription": "Collector invokes VMC APIs on vmc.vmware.com to fetch SDDC related configuration and details",
+    "purpose": "TKGI API Server",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61ada839d28a571a731c656c",
+    "port": "443",
+    "protocol": "https",
+    "source": "Collector",
+    "destination": "Platform in Cloud ",
+    "serviceDescription": "SDMS, Metrics, and DatatSource config are pushed over this link",
+    "purpose": "Collector to Platform Communication",
+    "classification": "   pd.ni-onsaas.com ( US region)\n    uk.pd.ni-onsaas.com ( UK region)\n    de.pd.ni-onsaas.com ( Frankfurt region)\n    au.pd.ni-onsaas.com ( Sydney region)\n    jp.pd.ni-onsaas.com ( Tokyo region)\n    ca.pd.ni-onsaas.com ( Canada region)\n    ",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61d2f10c1e4523793c1c964c",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware NSX-T",
+    "destination": "Collector",
+    "serviceDescription": "Network Communication",
+    "purpose": "Inbound webhook alerts from NSX-T",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61dff5651e4523793c1c9655",
+    "port": "Configurable ",
+    "protocol": "SMTP",
+    "source": "Platform",
+    "destination": "SMTP Mail Server",
+    "serviceDescription": "Mail Server",
+    "purpose": "Send Email notifications for alerts",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "625534db1c26192bd1f03437",
+    "port": "2191",
+    "protocol": "UDP",
+    "source": "NSX-ALB Service Engine",
+    "destination": "Collector",
+    "serviceDescription": "NSX-ALB Flow collection",
+    "purpose": "Flows from NSX-ALB are pushed to this port.",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "625534db1c26192bd1f03438",
+    "port": "4406",
+    "protocol": "UDP",
+    "source": "NTS Server (Secure NTP Server)",
+    "destination": "Collector",
+    "serviceDescription": "Host time synchronization with Secure NTP Service",
+    "purpose": "Port used to synchronize to UTC time using secure NTP (NTS)",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "625551611e4523793c1c98f0",
+    "port": "4406",
+    "protocol": "UDP",
+    "source": "Collector",
+    "destination": "NTS Server (Secure NTP Server)",
+    "serviceDescription": "Host time synchronization with Secure NTP Service",
+    "purpose": "Port used to synchronize to UTC time using secure NTP (NTS)",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644a666930910021b5f7bbcd",
+    "port": "11102",
+    "protocol": "TCP",
+    "source": "Collector (localhost)",
+    "destination": "Collector (localhost)",
+    "serviceDescription": "Collector service",
+    "purpose": "JMX Port: Collect Usage/Service metrics",
+    "classification": "-",
+    "submissionId": "nandb-1688634376800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-07-03 00:00",
+    "product": {
+      "id": "618ccaeb3d0c6b407f6b8f2e",
+      "productName": "vRealize Network Insight Cloud",
+      "displayName": "vRealize Network Insight Cloud",
+      "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+    },
+    "releases": [
+      {
+        "id": "61a8f74bd28a571a731c656b",
+        "releaseName": "vRealize Network Insight Cloud 6.5.0",
+        "displayName": "Cloud Service",
+        "rmReleaseId": "5C8CE6C0-6247-4470-BFA2-E7B560C26A08",
+        "product": {
+          "id": "618ccaeb3d0c6b407f6b8f2e",
+          "productName": "vRealize Network Insight Cloud",
+          "displayName": "vRealize Network Insight Cloud",
+          "rmProductId": "FD83313B-6840-4383-AB6B-66EE49F3BE02"
+        }
+      }
+    ]
+  }
+]

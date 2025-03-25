@@ -1,0 +1,1260 @@
+[
+  {
+    "id": "5ce6b0ea7d6f930010f8e790",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Client PC",
+    "destination": "NSX Manager",
+    "serviceDescription": "PAM Authentication",
+    "purpose": "NSX Manager VIB Access",
+    "classification": "No",
+    "submissionId": "toliya-1560319383621",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-10-05 11:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5d009e422193c00018123f15",
+    "port": "48656",
+    "protocol": "TCP",
+    "source": "NSX Manager",
+    "destination": "ESXi Host",
+    "serviceDescription": "-",
+    "purpose": "User World Context Engine Connection (required for an RDSH workflow)",
+    "classification": "-",
+    "submissionId": "toliya-1560321601813",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-08-25 00:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ea7d6f930010f8e78f",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Client PC",
+    "destination": "NSX Manager",
+    "serviceDescription": "PAM Authentication",
+    "purpose": "NSX Manager Administrative Interface",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ea7d6f930010f8e791",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "ESXi Host",
+    "destination": "vCenter Server",
+    "serviceDescription": "-",
+    "purpose": "ESXi Host Preparation",
+    "classification": "No",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ea7d6f930010f8e792",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vCenter Server",
+    "destination": "ESXi Host",
+    "serviceDescription": "-",
+    "purpose": "ESXi Host Preparation",
+    "classification": "No",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ea7d6f930010f8e793",
+    "port": "5671",
+    "protocol": "TCP",
+    "source": "ESXi Host",
+    "destination": "NSX Manager",
+    "serviceDescription": "RabbitMQ User/Password",
+    "purpose": "RabbitMQ",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ea7d6f930010f8e794",
+    "port": "1234",
+    "protocol": "TCP",
+    "source": "ESXi Host",
+    "destination": "NSX Controller",
+    "serviceDescription": "-",
+    "purpose": "User World Agent Connection",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ea7d6f930010f8e795",
+    "port": "2878, 2888, 3888",
+    "protocol": "TCP",
+    "source": "NSX Controller",
+    "destination": "NSX Controller",
+    "serviceDescription": "IPsec",
+    "purpose": "Controller Cluster - State Sync",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ea7d6f930010f8e796",
+    "port": "7777",
+    "protocol": "TCP",
+    "source": "NSX Controller",
+    "destination": "NSX Controller",
+    "serviceDescription": "IPsec",
+    "purpose": "Inter-Controller RPC Port",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0eb7d6f930010f8e797",
+    "port": "30865",
+    "protocol": "TCP",
+    "source": "NSX Controller",
+    "destination": "NSX Controller",
+    "serviceDescription": "IPsec",
+    "purpose": "Controller Cluster - State Sync",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0eb7d6f930010f8e798",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "NSX Manager",
+    "destination": "NSX Controller",
+    "serviceDescription": "User/Password",
+    "purpose": "Controller to Manager Communication",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0eb7d6f930010f8e799",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "NSX Manager",
+    "destination": "vCenter Server",
+    "serviceDescription": "-",
+    "purpose": "vSphere Web Access",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0eb7d6f930010f8e79a",
+    "port": "902",
+    "protocol": "TCP",
+    "source": "NSX Manager",
+    "destination": "vCenter Server",
+    "serviceDescription": "-",
+    "purpose": "vSphere Web Access",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0eb7d6f930010f8e79b",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "NSX Manager",
+    "destination": "ESXi Host",
+    "serviceDescription": "-",
+    "purpose": "Management and provisioning connection",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0eb7d6f930010f8e79c",
+    "port": "902",
+    "protocol": "TCP",
+    "source": "NSX Manager",
+    "destination": "ESXi Host",
+    "serviceDescription": "-",
+    "purpose": "Management and provisioning connection",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0eb7d6f930010f8e79d",
+    "port": "53",
+    "protocol": "TCP",
+    "source": "NSX Manager",
+    "destination": "DNS Server",
+    "serviceDescription": "-",
+    "purpose": "DNS client connection",
+    "classification": "No",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0eb7d6f930010f8e79e",
+    "port": "53",
+    "protocol": "UDP",
+    "source": "NSX Manager",
+    "destination": "DNS Server",
+    "serviceDescription": "-",
+    "purpose": "DNS client connection",
+    "classification": "No",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0eb7d6f930010f8e79f",
+    "port": "514",
+    "protocol": "TCP",
+    "source": "NSX Manager",
+    "destination": "Syslog Server",
+    "serviceDescription": "-",
+    "purpose": "Syslog connection",
+    "classification": "No",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0eb7d6f930010f8e7a0",
+    "port": "514",
+    "protocol": "UDP",
+    "source": "NSX Manager",
+    "destination": "Syslog Server",
+    "serviceDescription": "-",
+    "purpose": "Syslog connection",
+    "classification": "No",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ec7d6f930010f8e7a1",
+    "port": "123",
+    "protocol": "TCP",
+    "source": "NSX Manager",
+    "destination": "NTP Time Server",
+    "serviceDescription": "-",
+    "purpose": "NTP client connection",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ec7d6f930010f8e7a2",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "NSX Manager",
+    "destination": "NTP Time Server",
+    "serviceDescription": "-",
+    "purpose": "NTP client connection",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ec7d6f930010f8e7a3",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "vCenter Server",
+    "destination": "NSX Manager",
+    "serviceDescription": "-",
+    "purpose": "Host Preparation",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ec7d6f930010f8e7a4",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "REST Client",
+    "destination": "NSX Manager",
+    "serviceDescription": "User/Password",
+    "purpose": "NSX Manager REST API",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ec7d6f930010f8e7a5",
+    "port": "8472",
+    "protocol": "UDP",
+    "source": "VXLAN Tunnel End Point (VTEP)",
+    "destination": "VXLAN Tunnel End Point (VTEP)",
+    "serviceDescription": "-",
+    "purpose": "Transport network encapsulation between VTEPs",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ec7d6f930010f8e7a6",
+    "port": "4789",
+    "protocol": "UDP",
+    "source": "VXLAN Tunnel End Point (VTEP)",
+    "destination": "VXLAN Tunnel End Point (VTEP)",
+    "serviceDescription": "-",
+    "purpose": "Transport network encapsulation between VTEPs",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ec7d6f930010f8e7a7",
+    "port": "6999",
+    "protocol": "UDP",
+    "source": "ESXi Host",
+    "destination": "ESXi Host",
+    "serviceDescription": "-",
+    "purpose": "ARP on VLAN LIFs",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ec7d6f930010f8e7a8",
+    "port": "8301, 8302",
+    "protocol": "UDP",
+    "source": "ESXi Host",
+    "destination": "NSX Manager",
+    "serviceDescription": "-",
+    "purpose": "DVS Sync",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ec7d6f930010f8e7a9",
+    "port": "8301, 8302",
+    "protocol": "UDP",
+    "source": "NSX Manager",
+    "destination": "ESXi Host",
+    "serviceDescription": "-",
+    "purpose": "DVS Sync",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ed7d6f930010f8e7aa",
+    "port": "5671",
+    "protocol": "TCP",
+    "source": "Guest Introspection VM",
+    "destination": "NSX Manager",
+    "serviceDescription": "RabbitMQ User/Password",
+    "purpose": "RabbitMQ",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ed7d6f930010f8e7ab",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Primary NSX Manager",
+    "destination": "Secondary NSX Manager",
+    "serviceDescription": "-",
+    "purpose": "Cross-vCenter NSX Universal Sync Service",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ed7d6f930010f8e7ac",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Primary NSX Manager",
+    "destination": "vCenter Server",
+    "serviceDescription": "-",
+    "purpose": "vSphere API",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ed7d6f930010f8e7ad",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Secondary NSX Manager",
+    "destination": "vCenter Server",
+    "serviceDescription": "-",
+    "purpose": "vSphere API",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ed7d6f930010f8e7ae",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Primary NSX Manager",
+    "destination": "NSX Universal Controller Cluster",
+    "serviceDescription": "User/Password",
+    "purpose": "NSX Controller REST API",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ed7d6f930010f8e7af",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Secondary NSX Manager",
+    "destination": "NSX Universal Controller Cluster",
+    "serviceDescription": "User/Password",
+    "purpose": "NSX Controller REST API",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ed7d6f930010f8e7b0",
+    "port": "1234",
+    "protocol": "TCP",
+    "source": "ESXi Host",
+    "destination": "NSX Universal Controller Cluster",
+    "serviceDescription": "-",
+    "purpose": "NSX Control Plane Protocol",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ed7d6f930010f8e7b1",
+    "port": "5671",
+    "protocol": "TCP",
+    "source": "ESXi Host",
+    "destination": "Primary NSX Manager",
+    "serviceDescription": "RabbitMQ User/Password",
+    "purpose": "RabbitMQ",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce6b0ed7d6f930010f8e7b2",
+    "port": "5671",
+    "protocol": "TCP",
+    "source": "ESXi Host",
+    "destination": "Secondary NSX Manager",
+    "serviceDescription": "RabbitMQ User/Password",
+    "purpose": "RabbitMQ",
+    "classification": "TLS enabled",
+    "submissionId": "fzaveri-1560319119817",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-06-10 01:00",
+    "product": {
+      "id": "5ce6af15c4c4bb0018ec6bf7",
+      "productName": "NSX for vSphere",
+      "displayName": "NSX Data Center for vSphere",
+      "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+    },
+    "releases": [
+      {
+        "id": "5ce6af827d6f930010f8e733",
+        "releaseName": "NSX for vSphere 6.4.0",
+        "displayName": "6.4",
+        "rmReleaseId": "01CA38CB-9552-4F38-B8ED-DFBD1C3AB899",
+        "product": {
+          "id": "5ce6af15c4c4bb0018ec6bf7",
+          "productName": "NSX for vSphere",
+          "displayName": "NSX Data Center for vSphere",
+          "rmProductId": "75AAD186-858C-41A1-98D8-B8B531918872"
+        }
+      }
+    ]
+  }
+]

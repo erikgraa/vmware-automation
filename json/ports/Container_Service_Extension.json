@@ -1,0 +1,70 @@
+[
+  {
+    "id": "63c3258b356a88092b5e5d2f",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "SSH Client",
+    "destination": "Container Service Extension VMs",
+    "serviceDescription": "Login to VM for troubleshooting ",
+    "purpose": "SSH",
+    "classification": "-",
+    "submissionId": "jvirk-1673733515316",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-01-11 00:00",
+    "product": {
+      "id": "62f2158b42be1b4787989253",
+      "productName": "Container Service Extension",
+      "displayName": "VMware Cloud Director Container Service Extension",
+      "rmProductId": "89DBDE60-CE07-4020-8808-184CD6DCEB49"
+    },
+    "releases": [
+      {
+        "id": "63c118b93d30460c1665ee2c",
+        "releaseName": "4.0",
+        "displayName": "4.0",
+        "rmReleaseId": "761325B7-EFC8-4726-B4A1-7D4AB1EC304A",
+        "product": {
+          "id": "62f2158b42be1b4787989253",
+          "productName": "Container Service Extension",
+          "displayName": "VMware Cloud Director Container Service Extension",
+          "rmProductId": "89DBDE60-CE07-4020-8808-184CD6DCEB49"
+        }
+      }
+    ]
+  },
+  {
+    "id": "63c3258b356a88092b5e5d30",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Container Service Extension VMs",
+    "destination": "VMware Cloud Director",
+    "serviceDescription": "Communication between VCD cell and Container Service Extension for Provider and Tenant services ",
+    "purpose": "Network Communication",
+    "classification": "-",
+    "submissionId": "jvirk-1673733515316",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-01-11 00:00",
+    "product": {
+      "id": "62f2158b42be1b4787989253",
+      "productName": "Container Service Extension",
+      "displayName": "VMware Cloud Director Container Service Extension",
+      "rmProductId": "89DBDE60-CE07-4020-8808-184CD6DCEB49"
+    },
+    "releases": [
+      {
+        "id": "63c118b93d30460c1665ee2c",
+        "releaseName": "4.0",
+        "displayName": "4.0",
+        "rmReleaseId": "761325B7-EFC8-4726-B4A1-7D4AB1EC304A",
+        "product": {
+          "id": "62f2158b42be1b4787989253",
+          "productName": "Container Service Extension",
+          "displayName": "VMware Cloud Director Container Service Extension",
+          "rmProductId": "89DBDE60-CE07-4020-8808-184CD6DCEB49"
+        }
+      }
+    ]
+  }
+]

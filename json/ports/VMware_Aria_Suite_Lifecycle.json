@@ -1,0 +1,2748 @@
+[
+  {
+    "id": "61b720e3b668e03b5a1458be",
+    "port": "5432,9999,9898,9000,9694,443,8443,22",
+    "protocol": "TCP, UDP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "Workspace ONE Access Appliances - Postgres Cluster",
+    "serviceDescription": "-",
+    "purpose": "Network Communication",
+    "classification": "-",
+    "submissionId": "prathinagiri-1639391541828",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-12-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f56020120019570362",
+    "port": "8443, 443, 22",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "Workspace ONE Access Appliances - Single Node",
+    "serviceDescription": "-",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "prathinagiri-1639391541828",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-12-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f6602012001957036e",
+    "port": "4443",
+    "protocol": "TCP",
+    "source": "vRealize Suite Products",
+    "destination": "vRealize Lifecycle Manager",
+    "serviceDescription": "-",
+    "purpose": "Downloading binaries for upgrade",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634100250033",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5fb618ec2e1455000f9ed91f",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "User Workstation",
+    "destination": "vRealize Lifecycle Manager",
+    "serviceDescription": "HTTP",
+    "purpose": "Network Communication",
+    "classification": "Inbound",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e661c82699a5b000ef4f41b",
+    "port": "-",
+    "protocol": "ICMP",
+    "source": "vRealize Suite Lifecycle Manager",
+    "destination": "vRealize Suite Products",
+    "serviceDescription": "-",
+    "purpose": "Test reachability of product nodes over network",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f6602012001957036d",
+    "port": "443,22",
+    "protocol": "TCP",
+    "source": "vRealize Network Insight Appliances",
+    "destination": "vRealize Lifecycle Manager",
+    "serviceDescription": "-",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f6602012001957036c",
+    "port": "443,22",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "vRealize Network Insight Appliances",
+    "serviceDescription": "-",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de61cfb602012001957037a",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "NTP Server",
+    "serviceDescription": "-",
+    "purpose": "Connecting directly to NTP instead of using host time",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f6602012001957036b",
+    "port": "88",
+    "protocol": "TCP, UDP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "AD server",
+    "serviceDescription": "-",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f6602012001957036a",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "User workstation",
+    "destination": "vRealize Network Insight Appliances",
+    "serviceDescription": "-",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f66020120019570369",
+    "port": "53",
+    "protocol": "TCP, UDP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "DNS server",
+    "serviceDescription": "-",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f56020120019570368",
+    "port": "25",
+    "protocol": "TCP, UDP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "Mail Server",
+    "serviceDescription": "-",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f56020120019570367",
+    "port": "443, 9543, 16520, 22",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "vRealize Network Insight Appliances",
+    "serviceDescription": "-",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f56020120019570366",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "Content Management Host (GitLab)",
+    "serviceDescription": "-",
+    "purpose": "Network Communication",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f56020120019570365",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "ESXi Host Instances",
+    "serviceDescription": "-",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f56020120019570364",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "vCenter Server Instances",
+    "serviceDescription": "-",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f56020120019570363",
+    "port": "8281",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "vRealize Orchestrator Appliances",
+    "serviceDescription": "-",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f56020120019570361",
+    "port": "443, 9543, 16520, 22",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "vRealize LogInsight Appliances",
+    "serviceDescription": "-",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f46020120019570360",
+    "port": "443, 22",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "vRealize Operations Manager Remote Collector Appliances",
+    "serviceDescription": "-",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f4602012001957035f",
+    "port": "443, 22",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "vRealize Operations Manager Analytics Cluster Appliances",
+    "serviceDescription": "-",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f4602012001957035e",
+    "port": "5480, 443, 22",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "vRealize Business for Cloud Server/Collector Appliances",
+    "serviceDescription": "-",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f4602012001957035d",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "vRealize Automation Proxy",
+    "serviceDescription": "-",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f4602012001957035c",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "vRealize Automation IaaS Server Nodes",
+    "serviceDescription": "-",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5de612f4602012001957035b",
+    "port": "5480, 443, 22",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "vRealize Automation Appliance",
+    "serviceDescription": "-",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "5dd26b5c60201200195702b8",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "7993D064-9D1A-4C76-A51C-A38C1C6ECCE4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60fe7602012001957033a",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "76C5E083-7328-4C47-8849-CD4B3DB26EC4",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5de60ff7602012001957033b",
+        "releaseName": "vRealize Suite Lifecycle Manager  2.1",
+        "displayName": "2.1",
+        "rmReleaseId": "D973A4B8-2B05-41D1-A346-360B3BC61342",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5e958de2dd3b10001586912a",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "112EB183-149E-4421-8DD6-630F79686179",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "5fb6120c4885f5000f9116b2",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "92076F22-27A9-4C37-B205-FC869988F8EF",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "615aee5688ac9f182c804b53",
+    "port": "22, 443",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "vRealize Automation SaltStack Config",
+    "serviceDescription": "-",
+    "purpose": "Network Communication",
+    "classification": "-",
+    "submissionId": "prathinagiri-1634099773658",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-10 00:00",
+    "product": {
+      "id": "5dcbd881bba3080013417494",
+      "productName": "VMware Aria Suite Lifecycle",
+      "displayName": "VMware Aria Suite Lifecycle",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "6036306ad2c18a002e466eb3",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "E74A57E1-E3CA-4B4C-BE9A-F09BF940571B",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "60a4f418eadd59003272d7b0",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "969A1C7F-D03F-4E00-A5ED-7F7529DDA51A",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      },
+      {
+        "id": "616661e3d28a571a731c6369",
+        "releaseName": "vRealize Suite Lifecycle Manager  8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "B8EA27F2-6CCA-4E9E-AE13-BC89C0677E6E",
+        "product": {
+          "id": "5dcbd881bba3080013417494",
+          "productName": "VMware Aria Suite Lifecycle",
+          "displayName": "VMware Aria Suite Lifecycle",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  }
+]

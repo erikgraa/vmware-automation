@@ -1,0 +1,410 @@
+[
+  {
+    "id": "6486cd29ad8be32e487da218",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Skyline Health Diagnostics Appliance",
+    "destination": "VMware vCenter Server",
+    "serviceDescription": "-",
+    "purpose": "Log, config, health and other diagnostics data collection using APIs.",
+    "classification": "Outbound",
+    "submissionId": "agrawaln-1686555945667",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-10 00:00",
+    "product": {
+      "id": "647da718c3f9fc6c492d911f",
+      "productName": "VMware Skyline Health Diagnostics",
+      "displayName": "VMware Skyline Health Diagnostics",
+      "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+    },
+    "releases": [
+      {
+        "id": "6486caf6ad8be32e487da217",
+        "releaseName": "VMware Skyline Health Diagnostics 4.0.0",
+        "displayName": "4.0.0",
+        "rmReleaseId": "CACBC834-30CB-4D22-BC3B-575864F68356",
+        "product": {
+          "id": "647da718c3f9fc6c492d911f",
+          "productName": "VMware Skyline Health Diagnostics",
+          "displayName": "VMware Skyline Health Diagnostics",
+          "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6486cd29ad8be32e487da219",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Skyline Health Diagnostics Appliance",
+    "destination": "VMware ESXi",
+    "serviceDescription": "-",
+    "purpose": "Log, config, health and other diagnostics data collection using APIs.",
+    "classification": "Outbound",
+    "submissionId": "agrawaln-1686555945667",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-10 00:00",
+    "product": {
+      "id": "647da718c3f9fc6c492d911f",
+      "productName": "VMware Skyline Health Diagnostics",
+      "displayName": "VMware Skyline Health Diagnostics",
+      "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+    },
+    "releases": [
+      {
+        "id": "6486caf6ad8be32e487da217",
+        "releaseName": "VMware Skyline Health Diagnostics 4.0.0",
+        "displayName": "4.0.0",
+        "rmReleaseId": "CACBC834-30CB-4D22-BC3B-575864F68356",
+        "product": {
+          "id": "647da718c3f9fc6c492d911f",
+          "productName": "VMware Skyline Health Diagnostics",
+          "displayName": "VMware Skyline Health Diagnostics",
+          "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6486cd29ad8be32e487da21a",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "Management Workstations",
+    "destination": "VMware Skyline Health Diagnostics Appliance",
+    "serviceDescription": "CLI or host access. User/Password or SSH key-based authentication.",
+    "purpose": "Inbound communication port for administrative tasks and set up.",
+    "classification": "Inbound",
+    "submissionId": "agrawaln-1686555945667",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-10 00:00",
+    "product": {
+      "id": "647da718c3f9fc6c492d911f",
+      "productName": "VMware Skyline Health Diagnostics",
+      "displayName": "VMware Skyline Health Diagnostics",
+      "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+    },
+    "releases": [
+      {
+        "id": "6486caf6ad8be32e487da217",
+        "releaseName": "VMware Skyline Health Diagnostics 4.0.0",
+        "displayName": "4.0.0",
+        "rmReleaseId": "CACBC834-30CB-4D22-BC3B-575864F68356",
+        "product": {
+          "id": "647da718c3f9fc6c492d911f",
+          "productName": "VMware Skyline Health Diagnostics",
+          "displayName": "VMware Skyline Health Diagnostics",
+          "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6486cd29ad8be32e487da21b",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Management Workstations",
+    "destination": "VMware Skyline Health Diagnostics Appliance",
+    "serviceDescription": "Primary management interface for VMware Skyline Health Diagnostics.",
+    "purpose": "Inbound communication to access the UI.",
+    "classification": "Inbound",
+    "submissionId": "agrawaln-1686555945667",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-10 00:00",
+    "product": {
+      "id": "647da718c3f9fc6c492d911f",
+      "productName": "VMware Skyline Health Diagnostics",
+      "displayName": "VMware Skyline Health Diagnostics",
+      "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+    },
+    "releases": [
+      {
+        "id": "6486caf6ad8be32e487da217",
+        "releaseName": "VMware Skyline Health Diagnostics 4.0.0",
+        "displayName": "4.0.0",
+        "rmReleaseId": "CACBC834-30CB-4D22-BC3B-575864F68356",
+        "product": {
+          "id": "647da718c3f9fc6c492d911f",
+          "productName": "VMware Skyline Health Diagnostics",
+          "displayName": "VMware Skyline Health Diagnostics",
+          "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6486cd29ad8be32e487da21c",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Skyline Health Diagnostics Appliance",
+    "destination": "https://shd-download.vmware.com",
+    "serviceDescription": "-",
+    "purpose": "Download patches and updates. Optional if you are working in offline mode or not connected to internet.",
+    "classification": "Outbound",
+    "submissionId": "agrawaln-1686555945667",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-10 00:00",
+    "product": {
+      "id": "647da718c3f9fc6c492d911f",
+      "productName": "VMware Skyline Health Diagnostics",
+      "displayName": "VMware Skyline Health Diagnostics",
+      "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+    },
+    "releases": [
+      {
+        "id": "6486caf6ad8be32e487da217",
+        "releaseName": "VMware Skyline Health Diagnostics 4.0.0",
+        "displayName": "4.0.0",
+        "rmReleaseId": "CACBC834-30CB-4D22-BC3B-575864F68356",
+        "product": {
+          "id": "647da718c3f9fc6c492d911f",
+          "productName": "VMware Skyline Health Diagnostics",
+          "displayName": "VMware Skyline Health Diagnostics",
+          "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6486cd29ad8be32e487da21d",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Skyline Health Diagnostics Appliance",
+    "destination": "https://shd-download.vmware.com",
+    "serviceDescription": "-",
+    "purpose": "Download patches and updates. Optional if you are working in offline mode or not connected to internet.",
+    "classification": "Outbound",
+    "submissionId": "agrawaln-1686555945667",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-10 00:00",
+    "product": {
+      "id": "647da718c3f9fc6c492d911f",
+      "productName": "VMware Skyline Health Diagnostics",
+      "displayName": "VMware Skyline Health Diagnostics",
+      "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+    },
+    "releases": [
+      {
+        "id": "6486caf6ad8be32e487da217",
+        "releaseName": "VMware Skyline Health Diagnostics 4.0.0",
+        "displayName": "4.0.0",
+        "rmReleaseId": "CACBC834-30CB-4D22-BC3B-575864F68356",
+        "product": {
+          "id": "647da718c3f9fc6c492d911f",
+          "productName": "VMware Skyline Health Diagnostics",
+          "displayName": "VMware Skyline Health Diagnostics",
+          "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6486cd2aad8be32e487da21e",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Skyline Health Diagnostics Appliance",
+    "destination": "https://vcsa.vmware.com",
+    "serviceDescription": "-",
+    "purpose": "Download patches and updates. Optional if you are working in offline mode or not connected to internet.",
+    "classification": "Outbound",
+    "submissionId": "agrawaln-1686555945667",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-10 00:00",
+    "product": {
+      "id": "647da718c3f9fc6c492d911f",
+      "productName": "VMware Skyline Health Diagnostics",
+      "displayName": "VMware Skyline Health Diagnostics",
+      "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+    },
+    "releases": [
+      {
+        "id": "6486caf6ad8be32e487da217",
+        "releaseName": "VMware Skyline Health Diagnostics 4.0.0",
+        "displayName": "4.0.0",
+        "rmReleaseId": "CACBC834-30CB-4D22-BC3B-575864F68356",
+        "product": {
+          "id": "647da718c3f9fc6c492d911f",
+          "productName": "VMware Skyline Health Diagnostics",
+          "displayName": "VMware Skyline Health Diagnostics",
+          "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6486cd2aad8be32e487da21f",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Skyline Health Diagnostics Appliance",
+    "destination": "VMware Cloud Foundation SDDC Manager",
+    "serviceDescription": "-",
+    "purpose": "Log, config, health and other diagnostics data collection using APIs.",
+    "classification": "Outbound",
+    "submissionId": "agrawaln-1686555945667",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-10 00:00",
+    "product": {
+      "id": "647da718c3f9fc6c492d911f",
+      "productName": "VMware Skyline Health Diagnostics",
+      "displayName": "VMware Skyline Health Diagnostics",
+      "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+    },
+    "releases": [
+      {
+        "id": "6486caf6ad8be32e487da217",
+        "releaseName": "VMware Skyline Health Diagnostics 4.0.0",
+        "displayName": "4.0.0",
+        "rmReleaseId": "CACBC834-30CB-4D22-BC3B-575864F68356",
+        "product": {
+          "id": "647da718c3f9fc6c492d911f",
+          "productName": "VMware Skyline Health Diagnostics",
+          "displayName": "VMware Skyline Health Diagnostics",
+          "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6486cd2aad8be32e487da220",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Skyline Health Diagnostics Appliance",
+    "destination": "VMware Horizon Connection Server",
+    "serviceDescription": "-",
+    "purpose": "Log, config, health and other diagnostics data collection using APIs.",
+    "classification": "Outbound",
+    "submissionId": "agrawaln-1686555945667",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-10 00:00",
+    "product": {
+      "id": "647da718c3f9fc6c492d911f",
+      "productName": "VMware Skyline Health Diagnostics",
+      "displayName": "VMware Skyline Health Diagnostics",
+      "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+    },
+    "releases": [
+      {
+        "id": "6486caf6ad8be32e487da217",
+        "releaseName": "VMware Skyline Health Diagnostics 4.0.0",
+        "displayName": "4.0.0",
+        "rmReleaseId": "CACBC834-30CB-4D22-BC3B-575864F68356",
+        "product": {
+          "id": "647da718c3f9fc6c492d911f",
+          "productName": "VMware Skyline Health Diagnostics",
+          "displayName": "VMware Skyline Health Diagnostics",
+          "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6486cd2aad8be32e487da221",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "Skyline Health Diagnostics Appliance",
+    "destination": "VMware ESXi",
+    "serviceDescription": "-",
+    "purpose": "Log, config, health and other diagnostics data collection using APIs.",
+    "classification": "Outbound",
+    "submissionId": "agrawaln-1686555945667",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-10 00:00",
+    "product": {
+      "id": "647da718c3f9fc6c492d911f",
+      "productName": "VMware Skyline Health Diagnostics",
+      "displayName": "VMware Skyline Health Diagnostics",
+      "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+    },
+    "releases": [
+      {
+        "id": "6486caf6ad8be32e487da217",
+        "releaseName": "VMware Skyline Health Diagnostics 4.0.0",
+        "displayName": "4.0.0",
+        "rmReleaseId": "CACBC834-30CB-4D22-BC3B-575864F68356",
+        "product": {
+          "id": "647da718c3f9fc6c492d911f",
+          "productName": "VMware Skyline Health Diagnostics",
+          "displayName": "VMware Skyline Health Diagnostics",
+          "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6486cd2aad8be32e487da222",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "Skyline Health Diagnostics Appliance",
+    "destination": "VMware vCenter Server",
+    "serviceDescription": "-",
+    "purpose": "Log, config, health and other diagnostics data collection.",
+    "classification": "Outbound",
+    "submissionId": "agrawaln-1686555945667",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-10 00:00",
+    "product": {
+      "id": "647da718c3f9fc6c492d911f",
+      "productName": "VMware Skyline Health Diagnostics",
+      "displayName": "VMware Skyline Health Diagnostics",
+      "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+    },
+    "releases": [
+      {
+        "id": "6486caf6ad8be32e487da217",
+        "releaseName": "VMware Skyline Health Diagnostics 4.0.0",
+        "displayName": "4.0.0",
+        "rmReleaseId": "CACBC834-30CB-4D22-BC3B-575864F68356",
+        "product": {
+          "id": "647da718c3f9fc6c492d911f",
+          "productName": "VMware Skyline Health Diagnostics",
+          "displayName": "VMware Skyline Health Diagnostics",
+          "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6486cd2aad8be32e487da223",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "Skyline Health Diagnostics Appliance",
+    "destination": "VMware Cloud Foundation SDDC Manager",
+    "serviceDescription": "-",
+    "purpose": "Log, config, health and other diagnostics data collection.",
+    "classification": "Outbound",
+    "submissionId": "agrawaln-1686555945667",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-10 00:00",
+    "product": {
+      "id": "647da718c3f9fc6c492d911f",
+      "productName": "VMware Skyline Health Diagnostics",
+      "displayName": "VMware Skyline Health Diagnostics",
+      "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+    },
+    "releases": [
+      {
+        "id": "6486caf6ad8be32e487da217",
+        "releaseName": "VMware Skyline Health Diagnostics 4.0.0",
+        "displayName": "4.0.0",
+        "rmReleaseId": "CACBC834-30CB-4D22-BC3B-575864F68356",
+        "product": {
+          "id": "647da718c3f9fc6c492d911f",
+          "productName": "VMware Skyline Health Diagnostics",
+          "displayName": "VMware Skyline Health Diagnostics",
+          "rmProductId": "9CA4662D-D02F-4E0E-9E1E-F3E800E85C11"
+        }
+      }
+    ]
+  }
+]

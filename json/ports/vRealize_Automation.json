@@ -1,0 +1,4050 @@
+[
+  {
+    "id": "5ce7a98a7d6f930010f8e823",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRB",
+    "serviceDescription": "-",
+    "purpose": "Optional. Access for SSH sessions",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98a7d6f930010f8e824",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vCenter",
+    "serviceDescription": "-",
+    "purpose": "Optional. Redirects to 443",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98b7d6f930010f8e825",
+    "port": "111",
+    "protocol": "TCP,\nUDP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "RPC",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98b7d6f930010f8e826",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRA DEM-O\nvRA DEM-W",
+    "serviceDescription": "-",
+    "purpose": "Access to the vRealize Automation console and API calls",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98b7d6f930010f8e827",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRA vCenter Agent",
+    "serviceDescription": "-",
+    "purpose": "Access for machines to download and grant agent and software bootstrap agent",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98c7d6f930010f8e828",
+    "port": "5480",
+    "protocol": "TCP",
+    "source": "vRA DEM-O\nvRA DEM-W",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Access to the virtual appliance Web management interface",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98c7d6f930010f8e829",
+    "port": "5480",
+    "protocol": "TCP",
+    "source": "vRA IaaS\nvRA vCenter Agent",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Used by the Management Agent and for communication with the vRealize Automation Appliance",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98c7d6f930010f8e82a",
+    "port": "5488,\n5489",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "Internally used by the vRealize Automation appliance for updates",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98d7d6f930010f8e82b",
+    "port": "4369,\n25672,\n5671,\n5672",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": " -",
+    "purpose": "RabbitMQ messaging",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98d7d6f930010f8e82c",
+    "port": "8230,\n8280,\n8281",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRealize Orchestrator",
+    "serviceDescription": "-",
+    "purpose": "Internal vRealize Orchestrator instance",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98d7d6f930010f8e82d",
+    "port": "8444,\n8082",
+    "protocol": "TCP",
+    "source": "Client browser",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Console proxy communication for vSphere Remote console connections",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98e7d6f930010f8e82e",
+    "port": "25,\n587",
+    "protocol": "TCP,\nUDP",
+    "source": "vRealize Automation",
+    "destination": "Mail Server",
+    "serviceDescription": "-",
+    "purpose": "SMTP for sending outbound notification emails",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98e7d6f930010f8e82f",
+    "port": "53",
+    "protocol": "TCP,\nUDP",
+    "source": "vRealize Automation",
+    "destination": "DNS",
+    "serviceDescription": "-",
+    "purpose": "DNS",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98e7d6f930010f8e830",
+    "port": "67,\n68,\n546,\n547",
+    "protocol": "TCP,\nUDP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "DHCP",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98e7d6f930010f8e831",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vCenter",
+    "serviceDescription": "-",
+    "purpose": "Optional. For fetching software updates. Updates can be downloaded separately and applied.",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b03a7d6f930010f8e863",
+    "port": "8484",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "Haproxy for Xenon",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b03a7d6f930010f8e862",
+    "port": "8090",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "vrhb",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b03a7d6f930010f8e861",
+    "port": "40793,\n5701,\n8005",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "vCO app server",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b03a7d6f930010f8e860",
+    "port": "5433",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "Haproxy for postgresql",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0397d6f930010f8e85f",
+    "port": "9200,\n9300",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "Elastic Search",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0397d6f930010f8e85e",
+    "port": "6443,\n8080,\n8443,\n40002,\n40003",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "VIDM",
+    "serviceDescription": "-",
+    "purpose": "VIDM horizon workspace service",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0397d6f930010f8e85d",
+    "port": "8105,\n8238,\n50676,\n8282",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vCenter Orchestrator Config Server",
+    "serviceDescription": "-",
+    "purpose": "vCO Configuration server",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0397d6f930010f8e85c",
+    "port": "1433",
+    "protocol": "TCP",
+    "source": "vRealize Automation IaaS",
+    "destination": "MSSQL",
+    "serviceDescription": "-",
+    "purpose": "MSSQL",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0387d6f930010f8e85b",
+    "port": "8281",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRealize Orchestrator",
+    "serviceDescription": "-",
+    "purpose": "Optional. For communicating with an external vRealize Orchestrator instance",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0387d6f930010f8e85a",
+    "port": "5432",
+    "protocol": "TCP,\nUDP",
+    "source": "vRealize Automation",
+    "destination": "vRA DB",
+    "serviceDescription": "-",
+    "purpose": "Optional. For communicating with an Appliance Database",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0387d6f930010f8e859",
+    "port": "5050",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "Optional. For communicating with vRealize Business",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0387d6f930010f8e858",
+    "port": "902",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "ESXi",
+    "serviceDescription": "-",
+    "purpose": "ESXi network file copy operations and Vmware Remote Console connections",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0377d6f930010f8e857",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vCenter Agent",
+    "serviceDescription": "-",
+    "purpose": "Communication with the software bootsrap agent over HTTPS",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0377d6f930010f8e856",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRA Iass",
+    "serviceDescription": "-",
+    "purpose": "Communication with IaaS Manager Service and infrastucture endpoint hosts over HTTPS",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0377d6f930010f8e855",
+    "port": "123",
+    "protocol": "TCP,\nUDP",
+    "source": "vRealize Automation",
+    "destination": "NTP",
+    "serviceDescription": "-",
+    "purpose": "Optional. For connecting directly to NTP instead of using host time",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0377d6f930010f8e854",
+    "port": "143,\n993",
+    "protocol": "TCP,\nUDP",
+    "source": "vRealize Automation",
+    "destination": "Mail Server",
+    "serviceDescription": "-",
+    "purpose": "IMAP for receiving inbound notification emails",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0367d6f930010f8e853",
+    "port": "110,\n995",
+    "protocol": "TCP,\nUDP",
+    "source": "vRealize Automation",
+    "destination": "Mail Server",
+    "serviceDescription": "-",
+    "purpose": "POP for receiving inbound notification emails",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0367d6f930010f8e852",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vCenter",
+    "serviceDescription": "-",
+    "purpose": "Optional. For fetching software updates. Updates can be downloaded separately and applied.",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0367d6f930010f8e851",
+    "port": "67,\n68,\n546,\n547",
+    "protocol": "TCP,\nUDP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "DHCP",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0367d6f930010f8e850",
+    "port": "53",
+    "protocol": "TCP,\nUDP",
+    "source": "vRealize Automation",
+    "destination": "DNS",
+    "serviceDescription": "-",
+    "purpose": "DNS",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0367d6f930010f8e84f",
+    "port": "25,\n587",
+    "protocol": "TCP,\nUDP",
+    "source": "vRealize Automation",
+    "destination": "Mail Server",
+    "serviceDescription": "-",
+    "purpose": "SMTP for sending outbound notification emails",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0357d6f930010f8e84e",
+    "port": "8444,\n8082",
+    "protocol": "TCP",
+    "source": "Client browser",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Console proxy communication for vSphere Remote console connections",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0357d6f930010f8e84d",
+    "port": "8230,\n8280,\n8281",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRealize Orchestrator",
+    "serviceDescription": "-",
+    "purpose": "Internal vRealize Orchestrator instance",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0357d6f930010f8e84c",
+    "port": "4369,\n25672,\n5671,\n5672",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "- ",
+    "purpose": "RabbitMQ messaging",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0357d6f930010f8e84b",
+    "port": "5488,\n5489",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "Internally used by the vRealize Automation appliance for updates",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0357d6f930010f8e84a",
+    "port": "5480",
+    "protocol": "TCP",
+    "source": "vRA IaaS\nvRA vCenter Agent",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Used by the Management Agent and for communication with the vRealize Automation Appliance",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0347d6f930010f8e849",
+    "port": "5480",
+    "protocol": "TCP",
+    "source": "vRA DEM-O\nvRA DEM-W",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Access to the virtual appliance Web management interface",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0347d6f930010f8e848",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRA vCenter Agent",
+    "serviceDescription": "-",
+    "purpose": "Access for machines to download and grant agent and software bootstrap agent",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0347d6f930010f8e847",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRA DEM-O\nvRA DEM-W",
+    "serviceDescription": "-",
+    "purpose": "Access to the vRealize Automation console and API calls",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0347d6f930010f8e846",
+    "port": "111",
+    "protocol": "TCP,\nUDP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "RPC",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0347d6f930010f8e845",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vCenter",
+    "serviceDescription": "-",
+    "purpose": "Optional. Redirects to 443",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7b0337d6f930010f8e844",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRB",
+    "serviceDescription": "-",
+    "purpose": "Optional. Access for SSH sessions",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a99d7d6f930010f8e842",
+    "port": "8484",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "Haproxy for Xenon",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a99d7d6f930010f8e841",
+    "port": "8090",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "vrhb",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a99c7d6f930010f8e840",
+    "port": "40793,\n5701,\n8005",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "vCO app server",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a99c7d6f930010f8e83f",
+    "port": "5433",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "Haproxy for postgresql",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a99b7d6f930010f8e83e",
+    "port": "9200,\n9300",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "Elastic Search",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a99a7d6f930010f8e83d",
+    "port": "6443,\n8080,\n8443,\n40002,\n40003",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "VIDM",
+    "serviceDescription": "-",
+    "purpose": "VIDM horizon workspace service",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a9967d6f930010f8e83c",
+    "port": "8105,\n8238,\n50676,\n8282",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vCenter Orchestrator Config Server",
+    "serviceDescription": "-",
+    "purpose": "vCO Configuration server",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a9947d6f930010f8e83b",
+    "port": "1433",
+    "protocol": "TCP",
+    "source": "vRealize Automation IaaS",
+    "destination": "MSSQL",
+    "serviceDescription": "-",
+    "purpose": "MSSQL",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a9937d6f930010f8e83a",
+    "port": "8281",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRealize Orchestrator",
+    "serviceDescription": "-",
+    "purpose": "Optional. For communicating with an external vRealize Orchestrator instance",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a9927d6f930010f8e839",
+    "port": "5432",
+    "protocol": "TCP,\nUDP",
+    "source": "vRealize Automation",
+    "destination": "vRA DB",
+    "serviceDescription": "-",
+    "purpose": "Optional. For communicating with an Appliance Database",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a9917d6f930010f8e838",
+    "port": "5050",
+    "protocol": "TCP",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "-",
+    "purpose": "Optional. For communicating with vRealize Business",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a9907d6f930010f8e837",
+    "port": "902",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "ESXi",
+    "serviceDescription": "-",
+    "purpose": "ESXi network file copy operations and Vmware Remote Console connections",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a9907d6f930010f8e836",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vCenter Agent",
+    "serviceDescription": "-",
+    "purpose": "Communication with the software bootsrap agent over HTTPS",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98f7d6f930010f8e835",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRA Iass",
+    "serviceDescription": "-",
+    "purpose": "Communication with IaaS Manager Service and infrastucture endpoint hosts over HTTPS",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98f7d6f930010f8e834",
+    "port": "123",
+    "protocol": "TCP,\nUDP",
+    "source": "vRealize Automation",
+    "destination": "NTP",
+    "serviceDescription": "-",
+    "purpose": "Optional. For connecting directly to NTP instead of using host time",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98f7d6f930010f8e833",
+    "port": "143,\n993",
+    "protocol": "TCP,\nUDP",
+    "source": "vRealize Automation",
+    "destination": "Mail Server",
+    "serviceDescription": "-",
+    "purpose": "IMAP for receiving inbound notification emails",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ce7a98f7d6f930010f8e832",
+    "port": "110,\n995",
+    "protocol": "TCP,\nUDP",
+    "source": "vRealize Automation",
+    "destination": "Mail Server",
+    "serviceDescription": "-",
+    "purpose": "POP for receiving inbound notification emails",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce6e4cb7d6f930010f8e820",
+        "releaseName": "vRealize Automation 7.4.0",
+        "displayName": "7.4",
+        "rmReleaseId": "35DDB6E9-1C5F-467A-99E7-ADB0C5B98FED",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4ea7d6f930010f8e821",
+        "releaseName": "vRealize Automation 7.5.0",
+        "displayName": "7.5",
+        "rmReleaseId": "A77F2F57-EA21-4364-9790-866F41D564B9",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      },
+      {
+        "id": "5ce6e4f97d6f930010f8e822",
+        "releaseName": "vRealize Automation 7.6.0",
+        "displayName": "7.6",
+        "rmReleaseId": "68B7193D-5D24-46A6-8D9C-6B18B0989366",
+        "product": {
+          "id": "5ce6e498c4c4bb0018ec6bff",
+          "productName": "vRealize Automation",
+          "displayName": "vRealize Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5dd6741a60201200195702ee",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "VMWare Identity Manager ",
+    "serviceDescription": "-",
+    "purpose": "Component Communication",
+    "classification": "Direct Access Only",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741a60201200195702ef",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRealize Lifecycle Manager",
+    "serviceDescription": "-",
+    "purpose": "Component Communication",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741a60201200195702f0",
+    "port": "8008",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Health Monitor",
+    "classification": "Direct Access Only",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741a60201200195702f1",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "Vmware Identity Manager",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Access for SSH sessions",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741a60201200195702f2",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "User",
+    "destination": "vRealize Lifecycle Manager",
+    "serviceDescription": "-",
+    "purpose": "Communication",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741a60201200195702f3",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "User",
+    "destination": "VMWare Identity Manager ",
+    "serviceDescription": "-",
+    "purpose": "Communication",
+    "classification": "Direct Access Only",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741a60201200195702f4",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "User",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Communication",
+    "classification": "Direct Access Only",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741a60201200195702f5",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "VMWare Identity Manager ",
+    "serviceDescription": "-",
+    "purpose": "Access for SSH sessions",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741a60201200195702f6",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Access for SSH sessions",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741a60201200195702f7",
+    "port": "10250",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741a60201200195702f8",
+    "port": "6443",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741a60201200195702f9",
+    "port": "8285",
+    "protocol": "UDP",
+    "source": "vRealize Automation",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741a60201200195702fa",
+    "port": "2379",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741b60201200195702fb",
+    "port": "2380",
+    "protocol": "TCP",
+    "source": "vRealize Automation",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741b60201200195702fc",
+    "port": "500",
+    "protocol": "UDP",
+    "source": "vRealize Automation",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  },
+  {
+    "id": "5dd6741b60201200195702fd",
+    "port": "4500",
+    "protocol": "UDP",
+    "source": "vRealize Automation",
+    "destination": "vRealize Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "fzaveri-1574335805890",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2019-11-19 01:00",
+    "product": {
+      "id": "5ce6e498c4c4bb0018ec6bff",
+      "productName": "vRealize Automation",
+      "displayName": "vRealize Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": []
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "655d24e9ad8be32e487da405",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Tanzu Mission Control (Self-Managed) Command Line and UI",
+    "destination": "LoadBalancer",
+    "serviceDescription": "Tanzu Mission Control (Self-Managed) service",
+    "purpose": "User interaction with TMC SM Application",
+    "classification": "SSL Enabled",
+    "submissionId": "cschaefer-1700603113679",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-11-18 00:00",
+    "product": {
+      "id": "6487fc00eaa6a73817d9c950",
+      "productName": "Tanzu Mission Control Self-Managed",
+      "displayName": "Tanzu Mission Control Self-Managed",
+      "rmProductId": "FC8BE959-5AA5-4353-B8B8-F5141210C6B1"
+    },
+    "releases": [
+      {
+        "id": "655d2278ad8be32e487da404",
+        "releaseName": "Tanzu Mission Control Self-Managed 1.1.0",
+        "displayName": "1.1.0",
+        "rmReleaseId": "6CFB2363-600D-4FC6-94EA-392172CEBF85",
+        "product": {
+          "id": "6487fc00eaa6a73817d9c950",
+          "productName": "Tanzu Mission Control Self-Managed",
+          "displayName": "Tanzu Mission Control Self-Managed",
+          "rmProductId": "FC8BE959-5AA5-4353-B8B8-F5141210C6B1"
+        }
+      }
+    ]
+  },
+  {
+    "id": "655d24e9ad8be32e487da406",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Tanzu Mission Control (Self-Managed) Cluster Agent Extensions",
+    "destination": "LoadBalancer",
+    "serviceDescription": "Tanzu Mission Control (Self-Managed) service",
+    "purpose": "Kubernetes cluster management",
+    "classification": "SSL Enabled",
+    "submissionId": "cschaefer-1700603113679",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-11-18 00:00",
+    "product": {
+      "id": "6487fc00eaa6a73817d9c950",
+      "productName": "Tanzu Mission Control Self-Managed",
+      "displayName": "Tanzu Mission Control Self-Managed",
+      "rmProductId": "FC8BE959-5AA5-4353-B8B8-F5141210C6B1"
+    },
+    "releases": [
+      {
+        "id": "655d2278ad8be32e487da404",
+        "releaseName": "Tanzu Mission Control Self-Managed 1.1.0",
+        "displayName": "1.1.0",
+        "rmReleaseId": "6CFB2363-600D-4FC6-94EA-392172CEBF85",
+        "product": {
+          "id": "6487fc00eaa6a73817d9c950",
+          "productName": "Tanzu Mission Control Self-Managed",
+          "displayName": "Tanzu Mission Control Self-Managed",
+          "rmProductId": "FC8BE959-5AA5-4353-B8B8-F5141210C6B1"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6499b683ad8be32e487da280",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Tanzu Mission Control (Self-Managed) Command Line and UI",
+    "destination": "LoadBalancer",
+    "serviceDescription": "Tanzu Mission Control (Self-Managed) service",
+    "purpose": "User interaction with TMC SM Application",
+    "classification": "SSL Enabled",
+    "submissionId": "cschaefer-1687795331058",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-27 00:00",
+    "product": {
+      "id": "6487fc00eaa6a73817d9c950",
+      "productName": "Tanzu Mission Control Self-Managed",
+      "displayName": "Tanzu Mission Control Self-Managed",
+      "rmProductId": "FC8BE959-5AA5-4353-B8B8-F5141210C6B1"
+    },
+    "releases": [
+      {
+        "id": "6487fc2e30910021b5f7bd0b",
+        "releaseName": "Tanzu Mission Control Self-Managed 1.0",
+        "displayName": "1.0",
+        "rmReleaseId": "F4034953-B101-43D1-999F-07BBB0A450AB",
+        "product": {
+          "id": "6487fc00eaa6a73817d9c950",
+          "productName": "Tanzu Mission Control Self-Managed",
+          "displayName": "Tanzu Mission Control Self-Managed",
+          "rmProductId": "FC8BE959-5AA5-4353-B8B8-F5141210C6B1"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6499b683ad8be32e487da281",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Tanzu Mission Control (Self-Managed) Cluster Agent Extensions",
+    "destination": "LoadBalancer",
+    "serviceDescription": "Tanzu Mission Control (Self-Managed) service",
+    "purpose": "Kubernetes cluster management",
+    "classification": "SSL Enabled",
+    "submissionId": "cschaefer-1687795331058",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-06-27 00:00",
+    "product": {
+      "id": "6487fc00eaa6a73817d9c950",
+      "productName": "Tanzu Mission Control Self-Managed",
+      "displayName": "Tanzu Mission Control Self-Managed",
+      "rmProductId": "FC8BE959-5AA5-4353-B8B8-F5141210C6B1"
+    },
+    "releases": [
+      {
+        "id": "6487fc2e30910021b5f7bd0b",
+        "releaseName": "Tanzu Mission Control Self-Managed 1.0",
+        "displayName": "1.0",
+        "rmReleaseId": "F4034953-B101-43D1-999F-07BBB0A450AB",
+        "product": {
+          "id": "6487fc00eaa6a73817d9c950",
+          "productName": "Tanzu Mission Control Self-Managed",
+          "displayName": "Tanzu Mission Control Self-Managed",
+          "rmProductId": "FC8BE959-5AA5-4353-B8B8-F5141210C6B1"
+        }
+      }
+    ]
+  }
+]

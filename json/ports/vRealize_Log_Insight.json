@@ -1,0 +1,2711 @@
+[
+  {
+    "id": "635027f53d30460c1665ed6b",
+    "port": "7001",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight appliance",
+    "destination": "vRealize Log Insight appliance",
+    "serviceDescription": "Cassandra replication and query over SSL",
+    "purpose": "Port required between cluster nodes",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5e846c3460e838000f30b55d",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027f43d30460c1665ed6a",
+    "port": "587",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "Mail Server",
+    "serviceDescription": "SMTPS: mail service over STARTTLS for outbound alerts",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5e87478d699a5b000ef4f41f",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027f43d30460c1665ed69",
+    "port": "59778, 16520 - 16580",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "vRealize Log Insight Appliance",
+    "serviceDescription": "vRealize Log Insight Thrift service",
+    "purpose": "Ports required between cluster nodes",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebc60201200195702ed",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027f33d30460c1665ed68",
+    "port": "9543",
+    "protocol": "CFAPI",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "Third-party log manager",
+    "serviceDescription": "Outbound Log Insight Ingestion API (CFAPI) traffic configured as a Forwarder destination with encryption (SSL/TLS)",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebc60201200195702ec",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027f23d30460c1665ed67",
+    "port": "9543",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Agents",
+    "destination": "vRealize Log Insight Appliance",
+    "serviceDescription": "Log Insight Ingestion API over SSL",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebc60201200195702eb",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027f23d30460c1665ed66",
+    "port": "9000",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Agents",
+    "destination": "vRealize Log Insight Appliance",
+    "serviceDescription": "Log Insight Ingestion API",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebc60201200195702ea",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027f13d30460c1665ed65",
+    "port": "9042",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "vRealize Log Insight Appliance",
+    "serviceDescription": "Cassandra service for native protocol clients",
+    "purpose": "Port required between cluster nodes",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebc60201200195702e9",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027f13d30460c1665ed64",
+    "port": "9000",
+    "protocol": "CFAPI",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "Third-party log manager",
+    "serviceDescription": "Outbound Log Insight Ingestion API (CFAPI) traffic configured as a Forwarder destination",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebc60201200195702e8",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027f03d30460c1665ed63",
+    "port": "7000",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "vRealize Log Insight Appliance",
+    "serviceDescription": "Cassandra replication and query",
+    "purpose": "Port required between cluster nodes",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebb60201200195702e7",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027f03d30460c1665ed62",
+    "port": "3269",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "AD server",
+    "serviceDescription": "Active Directory Global Catalog SSL",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebb60201200195702e6",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027ef3d30460c1665ed61",
+    "port": "3268",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "AD server",
+    "serviceDescription": "Active Directory Global Catalog",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebb60201200195702e5",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027ef3d30460c1665ed60",
+    "port": "636",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "AD server",
+    "serviceDescription": "Active Directory over SSL",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebb60201200195702e4",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027ee3d30460c1665ed5f",
+    "port": "514",
+    "protocol": "TCP, UDP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "Third-party log manager",
+    "serviceDescription": "syslog data",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebb60201200195702e3",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027ed3d30460c1665ed5e",
+    "port": "1514, 6514",
+    "protocol": "TCP",
+    "source": "System sending logs",
+    "destination": "vRealize Log Insight Appliance",
+    "serviceDescription": "syslog data over SSL",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebb60201200195702e2",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027ed3d30460c1665ed5d",
+    "port": "514",
+    "protocol": "TCP, UDP",
+    "source": "System sending logs",
+    "destination": "vRealize Log Insight Appliance",
+    "serviceDescription": "Outbound syslog traffic configured as a Forwarder destination",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebb60201200195702e1",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027ec3d30460c1665ed5c",
+    "port": "465",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "Mail Server",
+    "serviceDescription": "SMTPS: mail service over SSL for outbound alerts",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebb60201200195702e0",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027ec3d30460c1665ed5b",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "User workstation",
+    "destination": "vRealize Log Insight Appliance",
+    "serviceDescription": "HTTPS: Web interface",
+    "purpose": "User interface",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebb60201200195702df",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027eb3d30460c1665ed5a",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "vRealize Operations Manager appliance",
+    "serviceDescription": "vRealize Operations Web service",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65ebb60201200195702de",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027eb3d30460c1665ed59",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "vCenter Server",
+    "serviceDescription": "vCenter Server Web Service",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65eba60201200195702dd",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027ea3d30460c1665ed58",
+    "port": "389",
+    "protocol": "TCP, UDP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "AD server",
+    "serviceDescription": "Active Directory",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65eba60201200195702dc",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027e93d30460c1665ed57",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "NTP Server",
+    "serviceDescription": "NTPD: Provides NTP time synchronization. The port is open only if you select to use NTP time synchronization.",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65eba60201200195702db",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027e93d30460c1665ed56",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "User workstation",
+    "destination": "vRealize Log Insight Appliance",
+    "serviceDescription": "HTTP: Web interface",
+    "purpose": "User interface",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65eba60201200195702d9",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027e83d30460c1665ed55",
+    "port": "53",
+    "protocol": "TCP, UDP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "DNS server",
+    "serviceDescription": "DNS: name resolution service",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65eba60201200195702d8",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027e83d30460c1665ed54",
+    "port": "25",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "Mail Server",
+    "serviceDescription": "SMTP: mail service for outbound alerts",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65eba60201200195702d7",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "635027e73d30460c1665ed53",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "Admin workstation",
+    "destination": "vRealize Log Insight Appliance",
+    "serviceDescription": "SSH: Secure Shell connectivity",
+    "purpose": "User interface",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1666197479158",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "5dd65eba60201200195702d6",
+    "publishDate": "2022-10-20 20:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a0d884aa0d002cda483e",
+        "releaseName": "vRealize Log Insight 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "241DD51D-FAFB-4936-A565-BD29FF2AE1E3",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2c984aa0d002cda4859",
+        "releaseName": "vRealize Log Insight 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "286FEF15-2B8B-48C1-8C4B-E836EE31E67A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "6058a2ddd2c18a002e466fdc",
+        "releaseName": "vRealize Log Insight 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "44C0A7FF-DFB8-4812-9336-EBD5639EEA8D",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "615ee4c488ac9f182c804b57",
+        "releaseName": "vRealize Log Insight 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "7F72684B-66BA-475E-B801-054069EF031A",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "635025f3262c1853e7ae267a",
+        "releaseName": "VMware vRealize Log Insight 8.10",
+        "displayName": "8.10",
+        "rmReleaseId": "A51823F1-64B8-4D99-89C6-39D1681F408F",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5dd65eba60201200195702da",
+    "port": "88",
+    "protocol": "TCP, UDP",
+    "source": "vRealize Log Insight Appliance",
+    "destination": "AD server",
+    "serviceDescription": "Kerberos",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1634065034583",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-10-09 00:00",
+    "product": {
+      "id": "5dca751ebba3080013417492",
+      "productName": "vRealize Log Insight",
+      "displayName": "vRealize Log Insight",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "5dcbd82b60201200195702b3",
+        "releaseName": "vRealize Log Insight 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "28ABFF6C-4F82-4688-A0B7-8C333261CC17",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "5e84731260e838000f30b55e",
+        "releaseName": "vRealize Log Insight 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "C756A1AA-A95F-40F8-B19A-356205C7F8C0",
+        "product": {
+          "id": "5dca751ebba3080013417492",
+          "productName": "vRealize Log Insight",
+          "displayName": "vRealize Log Insight",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  }
+]

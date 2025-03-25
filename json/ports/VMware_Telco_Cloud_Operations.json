@@ -1,0 +1,2321 @@
+[
+  {
+    "id": "6151f22d88ac9f182c804b4a",
+    "port": "32181",
+    "protocol": "TCP",
+    "source": "External clients connecting to Zookeeper",
+    "destination": "Routes to internal client port 2181",
+    "serviceDescription": "Zookeeper service",
+    "purpose": "Zookeeper service",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155384aa0d002cda4906",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22d88ac9f182c804b4b",
+    "port": "2181",
+    "protocol": "TCP",
+    "source": "Internal clients on platform connecting to Zookeeper.",
+    "destination": "Zookeeper broker port. There are two Zookeeper instances viz. 1. Internal Zookeeper 2. Edge-Zookeeper (which is used by the Edge Kafka)",
+    "serviceDescription": "Zookeeper service",
+    "purpose": "Zookeeper service",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155384aa0d002cda4905",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22d88ac9f182c804b4c",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Web browser ",
+    "destination": "Nginx container on platform",
+    "serviceDescription": "Nginx container hosting TCOps UI and providing reverse-proxy for internal TCOps services.",
+    "purpose": "Telco Cloud Operations (TCOps) User Interface",
+    "classification": "Sensitive and SSL Enabled",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155384aa0d002cda4904",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22d88ac9f182c804b4d",
+    "port": "80",
+    "protocol": "HTTPS",
+    "source": "Web browser ",
+    "destination": "Nginx container on platform",
+    "serviceDescription": "Nginx container hosting TCOps UI and providing reverse-proxy for internal TCOps services.",
+    "purpose": "Telco Cloud Operations (TCOps) User Interface",
+    "classification": "Sensitive and SSL Enabled",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155384aa0d002cda4903",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22d88ac9f182c804b4e",
+    "port": "8443",
+    "protocol": "HTTPS",
+    "source": "Systemd service on platform",
+    "destination": "Harbor registry endpoint on platform",
+    "serviceDescription": "Harbor registry endpoint",
+    "purpose": "Internal Inbound port for Docker image requests",
+    "classification": "Sensitive and SSL Enabled",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155384aa0d002cda4902",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22d88ac9f182c804b4f",
+    "port": "6443",
+    "protocol": "TCP",
+    "source": "Kubernetes worker node VM on platform",
+    "destination": "Kubernetes control-plane-node VM on platform",
+    "serviceDescription": "Kubernetes server process listening to worker requests to form cluster.",
+    "purpose": "Internal port for Kubernetes requests",
+    "classification": "Sensitive and SSL Enabled",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155384aa0d002cda4901",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22d88ac9f182c804b50",
+    "port": "4960",
+    "protocol": "TCP",
+    "source": "Nginx web server (admin-nginx container) on platform",
+    "destination": "Deploy Server on platform",
+    "serviceDescription": "Deploy Server internally exposing REST endpoint for deployment requests. For all worker nodes the service/port is shutdown after 1st time use setup of the environment. For the control-plane node the service is shutdown on an invalid POST attempt. ",
+    "purpose": "Internal communication port for deployment REST requests from Nginx web proxy",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155384aa0d002cda4900",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22d88ac9f182c804b51",
+    "port": "1081",
+    "protocol": "HTTPS",
+    "source": "1. Web browser\n2. Deploy-Tool (command-line Shell script)",
+    "destination": "Deployment UI service on Platform",
+    "serviceDescription": "Nginx web proxy (admin-nginx container) receives deployment requests and provides deployment status.",
+    "purpose": "Inbound communication port receives deployment requests viz. POST to initiate cluster deployment and GET deployment status. Proxies these to backend Deploy Server running on port 4960 on control plane node.",
+    "classification": "Sensitive and SSL Enabled",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155384aa0d002cda48ff",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22d88ac9f182c804b52",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "SSH client. Specific sources are:\n1. Deploy-Tool (command-line Shell script)\n2. Terminal",
+    "destination": "Platform",
+    "serviceDescription": "SSH server providing host access via password or key-based authentication.",
+    "purpose": "Inbound communication port for platform Cluster Deployment and troubleshooting",
+    "classification": "Sensitive and SSL Enabled",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155284aa0d002cda48fe",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22988ac9f182c804b21",
+    "port": "9081",
+    "protocol": "TCP",
+    "source": "REST Endpoint for Grafana Infinty Plugin",
+    "destination": "Sends PSQL request to NCM",
+    "serviceDescription": "REST API service which receives REST API requests from Grafana and sends PSQL request to NCM",
+    "purpose": "REST API service which receives REST API requests from Grafana and sends PSQL request to NCM",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "6150aec2d28a571a731c62fa",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "614f584988ac9f182c804b19",
+        "releaseName": "VMware Telco Cloud Operations 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "493E3F43-F2BE-4DBF-9D2D-C9D245EB0949",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22988ac9f182c804b22",
+    "port": "1389",
+    "protocol": "TCP",
+    "source": "Internal TCOps Services",
+    "destination": "Inbound port for OpenLDAP service",
+    "serviceDescription": "OpenLDAP service",
+    "purpose": "OpenLDAP service",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "6150aec2d28a571a731c62f9",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "614f584988ac9f182c804b19",
+        "releaseName": "VMware Telco Cloud Operations 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "493E3F43-F2BE-4DBF-9D2D-C9D245EB0949",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22a88ac9f182c804b23",
+    "port": "6122",
+    "protocol": "TCP",
+    "source": "Internal TCOps Flink Taskmanager",
+    "destination": "Internal TCOps Flink TaskManager & JobManager",
+    "serviceDescription": "Flink service",
+    "purpose": "Flink to distribute big objects like jar files etc.",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "6150a9e388ac9f182c804b1c",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "614f584988ac9f182c804b19",
+        "releaseName": "VMware Telco Cloud Operations 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "493E3F43-F2BE-4DBF-9D2D-C9D245EB0949",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22a88ac9f182c804b24",
+    "port": "6121",
+    "protocol": "TCP",
+    "source": "Internal TCOps Flink Taskmanager",
+    "destination": "Internal TCOps Flink TaskManager & ResourceManager",
+    "serviceDescription": "Flink service",
+    "purpose": "Flink internal RPC communication. Ignored in HA mode",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "6150a9e388ac9f182c804b1b",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "614f584988ac9f182c804b19",
+        "releaseName": "VMware Telco Cloud Operations 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "493E3F43-F2BE-4DBF-9D2D-C9D245EB0949",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22a88ac9f182c804b25",
+    "port": "4443",
+    "protocol": "HTTPS",
+    "source": "Web browser",
+    "destination": "Metrics server container on platform",
+    "serviceDescription": "Metrics server gathering metrics on Kuberenetes nodes, pods",
+    "purpose": "Metrics server gathering metrics on Kuberenetes nodes, pods",
+    "classification": "Sensitive and SSL enabled",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "6150a8e7d28a571a731c62f5",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "614f584988ac9f182c804b19",
+        "releaseName": "VMware Telco Cloud Operations 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "493E3F43-F2BE-4DBF-9D2D-C9D245EB0949",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22a88ac9f182c804b26",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Web browser",
+    "destination": "Metrics server container on platform",
+    "serviceDescription": "Metrics server gathering metrics on Kuberenetes nodes, pods",
+    "purpose": "Metrics server gathering metrics on Kuberenetes nodes, pods",
+    "classification": "Sensitive and SSL enabled",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "6150a8e7d28a571a731c62f4",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "614f584988ac9f182c804b19",
+        "releaseName": "VMware Telco Cloud Operations 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "493E3F43-F2BE-4DBF-9D2D-C9D245EB0949",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "614f7c44d28a571a731c62f0",
+    "port": "2379:2380",
+    "protocol": "TCP",
+    "source": "Internal Kubernetes service",
+    "destination": "Internal Kubernetes service",
+    "serviceDescription": "etcd server/client API\t",
+    "purpose": "etcd server/client API\t",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60d205e87a524d000d02e39a",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "614f584988ac9f182c804b19",
+        "releaseName": "VMware Telco Cloud Operations 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "493E3F43-F2BE-4DBF-9D2D-C9D245EB0949",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "614f7c44d28a571a731c62ef",
+    "port": "10250",
+    "protocol": "TCP",
+    "source": "Internal Kubernetes service",
+    "destination": "Internal Kubernetes service",
+    "serviceDescription": "Kubelet API",
+    "purpose": "Kubelet API (internal communication)\t",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60d205e87a524d000d02e39b",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "614f584988ac9f182c804b19",
+        "releaseName": "VMware Telco Cloud Operations 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "493E3F43-F2BE-4DBF-9D2D-C9D245EB0949",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "614f7c44d28a571a731c62ee",
+    "port": "10251",
+    "protocol": "TCP",
+    "source": "Internal Kubernetes service",
+    "destination": "Internal Kubernetes service",
+    "serviceDescription": "kube-scheduler (internal communication)",
+    "purpose": "kube-scheduler (internal communication)",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60d205e87a524d000d02e39c",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "614f584988ac9f182c804b19",
+        "releaseName": "VMware Telco Cloud Operations 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "493E3F43-F2BE-4DBF-9D2D-C9D245EB0949",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "614f7c43d28a571a731c62ed",
+    "port": "10252",
+    "protocol": "TCP",
+    "source": "Internal Kubernetes service",
+    "destination": "Internal Kubernetes service",
+    "serviceDescription": "kube-controller-manager (internal communication)",
+    "purpose": "kube-controller-manager (internal communication)",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60d205e87a524d000d02e39d",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "614f584988ac9f182c804b19",
+        "releaseName": "VMware Telco Cloud Operations 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "493E3F43-F2BE-4DBF-9D2D-C9D245EB0949",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "614f7c43d28a571a731c62ec",
+    "port": "30000:32767",
+    "protocol": "TCP",
+    "source": "Internal Kubernetes service",
+    "destination": "Internal Kubernetes service",
+    "serviceDescription": "Kubernetes NodePort Services\t",
+    "purpose": "Kubernetes NodePort Services\t",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60d205e87a524d000d02e39e",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "614f584988ac9f182c804b19",
+        "releaseName": "VMware Telco Cloud Operations 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "493E3F43-F2BE-4DBF-9D2D-C9D245EB0949",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60d0be12d968be001cb96e2c",
+    "port": "8081",
+    "protocol": "TCP",
+    "source": "Internal TCOps services",
+    "destination": "Inbound port with REST endpoint for Topology service",
+    "serviceDescription": "TopologyService: Interfaces with data collectors to sync network topology with persistence service ",
+    "purpose": "Interfaces with collector and persistence service to update Network Topology",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155684aa0d002cda4922",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "614f584988ac9f182c804b19",
+        "releaseName": "VMware Telco Cloud Operations 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "493E3F43-F2BE-4DBF-9D2D-C9D245EB0949",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "614f7bb488ac9f182c804b1a",
+    "port": "6123",
+    "protocol": "TCP",
+    "source": "Internal TCOps Flink Jobmanager",
+    "destination": "Internal TCOps Flink JobManager & ResourceManager",
+    "serviceDescription": "Flink service",
+    "purpose": "Flink internal RPC communication. Ignored in HA mode",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155484aa0d002cda4911",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "614f584988ac9f182c804b19",
+        "releaseName": "VMware Telco Cloud Operations 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "493E3F43-F2BE-4DBF-9D2D-C9D245EB0949",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b27",
+    "port": "4789",
+    "protocol": "UDP",
+    "source": "Internal Kubernetes service",
+    "destination": "Internal Kubernetes service",
+    "serviceDescription": "Calico VXLAN networking",
+    "purpose": "Calico VXLAN networking",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60d205e77a524d000d02e399",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b28",
+    "port": "179",
+    "protocol": "TCP",
+    "source": "Internal Kubernetes service",
+    "destination": "Internal Kubernetes service",
+    "serviceDescription": "Calico BGP networking",
+    "purpose": "Calico BGP networking",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60d205e77a524d000d02e398",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b29",
+    "port": "179",
+    "protocol": "TCP",
+    "source": "Internal Kubernetes service",
+    "destination": "Internal Kubernetes service",
+    "serviceDescription": "Calico BGP networking",
+    "purpose": "Calico BGP networking",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60d20500d968be001cb96e56",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      },
+      {
+        "id": "60d1e0e4d0a7ef0026439df7",
+        "releaseName": "VMware Telco Cloud Operations 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "333EA6F3-868D-4DD1-ADAD-096937AA40BA",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b2a",
+    "port": "9090",
+    "protocol": "HTTP",
+    "source": "Internal TCOps services",
+    "destination": "Inbound REST Endpoint for Esdb-proxy service",
+    "serviceDescription": "Esdp-proxy: Proxy service for Elastic Search",
+    "purpose": "Expose REST endpoint on the Esdb-proxy service",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155784aa0d002cda4928",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b2b",
+    "port": "8888",
+    "protocol": "HTTP",
+    "source": "Internal TCOps services",
+    "destination": "Inbound REST endpoint for Notification Service",
+    "serviceDescription": "Notification Service: Provides Event Ingestion and processing service",
+    "purpose": "Exposes REST endpoint for Notification Service",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155784aa0d002cda4927",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b2c",
+    "port": "9999",
+    "protocol": "HTTP",
+    "source": "Internal TCOps services",
+    "destination": "Inboubd REST endpoint for dm-adapter",
+    "serviceDescription": "Dm-adapter: It is a proxy to the EDAA from TCOps.",
+    "purpose": "Exposes REST endpoint for dm-adapter service  ",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155784aa0d002cda4926",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b2d",
+    "port": "9002",
+    "protocol": "TCP",
+    "source": "Internal TCOps services",
+    "destination": "Inbound REST endpoint for Catalog service ",
+    "serviceDescription": "CatalogService: API Service for Metric Catalog",
+    "purpose": "Exposes REST endpoint for Catalog service",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155684aa0d002cda4925",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b2e",
+    "port": "8080",
+    "protocol": "TCP",
+    "source": "Internal TCOps services",
+    "destination": "Inbound port to Keycloak server",
+    "serviceDescription": "Keycloak service: Provision single sign-on with Identity and Access Management for TCOps services",
+    "purpose": "Keycloak service endpoint",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155684aa0d002cda4924",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b2f",
+    "port": "8080",
+    "protocol": "TCP",
+    "source": "Internal TCOps services",
+    "destination": "Inbound port with REST endpoint for Persistence service",
+    "serviceDescription": "Persistence Service: Interfaces with Topology service and updates data to Arango DB",
+    "purpose": "Exposes REST endpoint for Persistence service",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155684aa0d002cda4923",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b30",
+    "port": "8080",
+    "protocol": "TCP",
+    "source": "Internal TCOps services",
+    "destination": "Inbound port with REST endpoint for Apiservice",
+    "serviceDescription": "Apiservice",
+    "purpose": "Exposes REST API Interface for Apiservice",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155684aa0d002cda4921",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b31",
+    "port": "9600",
+    "protocol": "TCP",
+    "source": "Internal TCOps services",
+    "destination": "Inbound REST endpoint for MetricService",
+    "serviceDescription": "MetricService: Provides Metric  Ingestion and processing",
+    "purpose": "Exposes Rest Endpoint for Metric Service",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155684aa0d002cda4920",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b32",
+    "port": "7000",
+    "protocol": "TCP",
+    "source": "Internal TCOps Nginx",
+    "destination": "Inbound port with REST endpoint",
+    "serviceDescription": "Analytics service",
+    "purpose": "Internal communication port for analytics job related REST requests from Nginx web proxy.",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155684aa0d002cda491f",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b33",
+    "port": "8080",
+    "protocol": "TCP",
+    "source": "Internal TCOps services",
+    "destination": "Internal REST endpoint port for Alerting service",
+    "serviceDescription": "Alerting service",
+    "purpose": "Exposes REST endpoint for Alerting service",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155684aa0d002cda491e",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b34",
+    "port": "8083",
+    "protocol": "TCP",
+    "source": "Internal TCOps services",
+    "destination": "Internal REST endpoint port for Enrichment service",
+    "serviceDescription": "Enrichment service",
+    "purpose": "Exposes REST endpoint for Enrichment service",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155684aa0d002cda491d",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b35",
+    "port": "8083",
+    "protocol": "TCP",
+    "source": "Internal TCOps services",
+    "destination": "Internal REST endpoint port for KPI Engine service",
+    "serviceDescription": "KPI Engine service (K4M)",
+    "purpose": "Exposes REST endpoint for KPI Engine service",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155684aa0d002cda491c",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22b88ac9f182c804b36",
+    "port": "2055",
+    "protocol": "UDP",
+    "source": "User's devices being monitored",
+    "destination": "Inbound UDP socket on metric collector",
+    "serviceDescription": "Netflow Collector",
+    "purpose": "Externally exposed port for UDP socket. Devices being monitored can push metrics to collector. Note: 2055 is the default port but is configurable.",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155584aa0d002cda491b",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b37",
+    "port": "12375",
+    "protocol": "TCP",
+    "source": "Internal TCOps services viz. Nginx",
+    "destination": "Internal inbound REST endpoint port",
+    "serviceDescription": "Collector Manager service",
+    "purpose": "REST API endpoint for Collector Manager service",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155584aa0d002cda491a",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b38",
+    "port": "8080",
+    "protocol": "TCP",
+    "source": "Internal TCOps services (Keycloak, Grafana)",
+    "destination": "Internal Inbound database stats port",
+    "serviceDescription": "Postgres service",
+    "purpose": "Postgres Stats port",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155584aa0d002cda4919",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b39",
+    "port": "8008",
+    "protocol": "TCP",
+    "source": "Internal TCOps services (Keycloak, Grafana)",
+    "destination": "Internal Inbound database stats port",
+    "serviceDescription": "Postgres service",
+    "purpose": "Postgres Stats port",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155584aa0d002cda4918",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b3a",
+    "port": "5432",
+    "protocol": "TCP",
+    "source": "Internal TCOps services (Keycloak, Grafana)",
+    "destination": "Internal Inbound Database port",
+    "serviceDescription": "Postgres service",
+    "purpose": "Postgres default port ",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155584aa0d002cda4917",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b3b",
+    "port": "8083",
+    "protocol": "TCP",
+    "source": "1. TCOps internal services and 2. Nginx",
+    "destination": "Internal Inbound port for Patching service REST endpoint ",
+    "serviceDescription": "Patching service ",
+    "purpose": "REST endpoint for Patching service",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155584aa0d002cda4916",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b3c",
+    "port": "3000",
+    "protocol": "TCP",
+    "source": "1. Web browser and 2. Internal TCOps services",
+    "destination": "Inbound database port for Grafana",
+    "serviceDescription": "Grafana service",
+    "purpose": "1. User interface for Grafana dashboards 2. Database port",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155584aa0d002cda4915",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b3d",
+    "port": "50010",
+    "protocol": "TCP",
+    "source": "Internal TCOps Flink TaskManager",
+    "destination": "Internal TCOps Flink JobManager & ResourceManager",
+    "serviceDescription": "Flink service",
+    "purpose": "Flink internal RPC communication. Used in HA mode",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155584aa0d002cda4914",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b3e",
+    "port": "8081",
+    "protocol": "TCP",
+    "source": "Internal TCOps Flink clients",
+    "destination": "Internal TCOps Flink REST endpoint",
+    "serviceDescription": "Flink service",
+    "purpose": "Flink REST API to deploy jobs or get job information",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155584aa0d002cda4913",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b3f",
+    "port": "6124",
+    "protocol": "TCP",
+    "source": "Internal TCOps Flink JobManager",
+    "destination": "Internal TCOps Flink JobManager & taskManager",
+    "serviceDescription": "Flink service",
+    "purpose": "Flink to distribute big objects like jar files etc.",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155584aa0d002cda4912",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b40",
+    "port": "9300",
+    "protocol": "TCP",
+    "source": "Internal TCOps Elasticsearch peer nodes",
+    "destination": "Inbound port for peer communication",
+    "serviceDescription": "Elasticsearch service",
+    "purpose": "Elasticsearch port for peer communication",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155484aa0d002cda4910",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b41",
+    "port": "9200",
+    "protocol": "TCP",
+    "source": "Internal TCOps services that are clients to Elasticsearch",
+    "destination": "Inbound port with REST endpoint",
+    "serviceDescription": "Elasticsearch service",
+    "purpose": "Elasticsearch REST endpoint",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155484aa0d002cda490f",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b42",
+    "port": "6379",
+    "protocol": "TCP",
+    "source": "Internal TCOps services that are clients to Redis.",
+    "destination": "Inbound database port for Redis instance",
+    "serviceDescription": "Redis service",
+    "purpose": "Redis database port",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155484aa0d002cda490e",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b43",
+    "port": "6378",
+    "protocol": "TCP",
+    "source": "Internal TCOps services that are clients to Redis.",
+    "destination": "Inbound database port for Redis instance",
+    "serviceDescription": "Redis service",
+    "purpose": "Redis database port",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155484aa0d002cda490d",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b44",
+    "port": "6377",
+    "protocol": "TCP",
+    "source": "Internal TCOps services that are clients to Redis.",
+    "destination": "Inbound database port for Redis instance",
+    "serviceDescription": "Redis service",
+    "purpose": "Redis database port",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155484aa0d002cda490c",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b45",
+    "port": "8529",
+    "protocol": "TCP",
+    "source": "Internal TCOps services which are clients to ArangoDB",
+    "destination": "Inbound database port for ArangoDB",
+    "serviceDescription": "ArangoDB service",
+    "purpose": "ArangoDB database port",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155484aa0d002cda490b",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b46",
+    "port": "9093",
+    "protocol": "TCP",
+    "source": "External publishers for the Edge-Kafka service.",
+    "destination": "Port for Edge-Kafka broker",
+    "serviceDescription": "Kafka service",
+    "purpose": "Broker port",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155484aa0d002cda490a",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b47",
+    "port": "9092",
+    "protocol": "TCP",
+    "source": "Internal TCOps services i.e. message publishers and subscribers.",
+    "destination": "Port for Kafka brokers viz. 1. Internal Kafka service 2. Edge-Kafka service",
+    "serviceDescription": "Kafka service",
+    "purpose": "Broker port",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155484aa0d002cda4909",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22c88ac9f182c804b48",
+    "port": "3888",
+    "protocol": "TCP",
+    "source": "Zookeeper nodes",
+    "destination": "Zookeeper nodes. Only configured for the internal HA Zookeeper.",
+    "serviceDescription": "Zookeeper service",
+    "purpose": "Leader election",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155384aa0d002cda4908",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6151f22d88ac9f182c804b49",
+    "port": "2888",
+    "protocol": "TCP",
+    "source": "Zookeeper nodes",
+    "destination": "Zookeeper nodes. Only configured for the internal HA Zookeeper.",
+    "serviceDescription": "Zookeeper service",
+    "purpose": "Peer nodes communication. Connect followers to leaders.",
+    "classification": "Sensitive",
+    "submissionId": "bharadwajv-1632760361791",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "605e155384aa0d002cda4907",
+    "publishDate": "2021-09-30 02:00",
+    "product": {
+      "id": "6012a633799c0200152bdb9a",
+      "productName": "VMware Telco Cloud Operations",
+      "displayName": "VMware Telco Cloud Operations",
+      "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+    },
+    "releases": [
+      {
+        "id": "605d115919c28a0024136dd2",
+        "releaseName": "VMware Telco Cloud Operations 1.2.0",
+        "displayName": "1.2.0",
+        "rmReleaseId": "CEC64A7B-3C39-4B58-8B93-0046952E88A5",
+        "product": {
+          "id": "6012a633799c0200152bdb9a",
+          "productName": "VMware Telco Cloud Operations",
+          "displayName": "VMware Telco Cloud Operations",
+          "rmProductId": "241FA772-7215-4686-84C4-7D61CBE6F014"
+        }
+      }
+    ]
+  }
+]

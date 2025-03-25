@@ -1,0 +1,614 @@
+[
+  {
+    "id": "6536422fad8be32e487da3e9",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "Kubernetes Cluster Being Protected",
+    "serviceDescription": "Perform backup and restore",
+    "purpose": "Network Communication",
+    "classification": "Incoming",
+    "submissionId": "williamz-1698054832021",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-10-20 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "6536405e30910021b5f7c051",
+        "releaseName": "VMware Cloud Director Object Storage Extension 2.2",
+        "displayName": "2.2",
+        "rmReleaseId": "5BB7CB5F-358E-458C-BB56-34AE4FD13407",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6536422fad8be32e487da3ea",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Kubernetes Cluster Being Protected",
+    "destination": "Docker Hub",
+    "serviceDescription": "Pull image to install Velero agent",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "williamz-1698054832021",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-10-20 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "6536405e30910021b5f7c051",
+        "releaseName": "VMware Cloud Director Object Storage Extension 2.2",
+        "displayName": "2.2",
+        "rmReleaseId": "5BB7CB5F-358E-458C-BB56-34AE4FD13407",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "653641a5ad8be32e487da3e8",
+    "port": "6443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "Kubernetes Cluster To Be Protected",
+    "serviceDescription": "Install Velero agent to Kubernetes cluster, backup and restore it.",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "williamz-1698054832021",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-10-20 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "6536405e30910021b5f7c051",
+        "releaseName": "VMware Cloud Director Object Storage Extension 2.2",
+        "displayName": "2.2",
+        "rmReleaseId": "5BB7CB5F-358E-458C-BB56-34AE4FD13407",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddf0eadd59003272d7a4",
+    "port": "5198",
+    "protocol": "TCP",
+    "source": "The ose utility on the Linux machine",
+    "destination": "Cloud Director Object Storage Extension",
+    "serviceDescription": "Used for configuring the VMware Cloud Director Object Storage Extension Keeper service (voss-keeper).",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddf0eadd59003272d7a5",
+    "port": "8091",
+    "protocol": "TCP",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "Cloud Director Object Storage Extension",
+    "serviceDescription": "Used for the translation-related communication between the VMware Cloud Director Object Storage Extension Service Java daemon and the internal VMware internationalization protocol Java daemon.",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddf0eadd59003272d7a6",
+    "port": "5432",
+    "protocol": "TCP",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "PostgreSQL Server",
+    "serviceDescription": "Used for communication between the PostgreSQL database and VMware Cloud Director Object Storage Extension.",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddf1eadd59003272d7ad",
+    "port": "16080 (optional)",
+    "protocol": "HTTP",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "Cloudian HyperStore",
+    "serviceDescription": "Used for communication between VMware Cloud Director Object Storage Extension and the Cloudian IAM Service.",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddf1eadd59003272d7ac",
+    "port": "16443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "Cloudian HyperStore",
+    "serviceDescription": "Used for communication between VMware Cloud Director Object Storage Extension and the Cloudian IAM Service.",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddf1eadd59003272d7ab",
+    "port": "8843",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "ECS",
+    "serviceDescription": "Used for communication between VMware Cloud Director Object Storage Extension and the ECS Management Console.",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddf0eadd59003272d7aa",
+    "port": "8443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "Cloudian HyperStore",
+    "serviceDescription": "Used for communication between VMware Cloud Director Object Storage Extension and the Cloudian Management Console.",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddf0eadd59003272d7a9",
+    "port": "9021",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "ECS",
+    "serviceDescription": "Used for communication between VMware Cloud Director Object Storage Extension and the ECS S3 Service.",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddf0eadd59003272d7a8",
+    "port": "4443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "ECS",
+    "serviceDescription": "Used for communication between VMware Cloud Director Object Storage Extension and the ECS Admin Service.",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddf0eadd59003272d7a7",
+    "port": "19443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "Cloudian HyperStore",
+    "serviceDescription": "Used for communication between VMware Cloud Director Object Storage Extension and the Cloudian Admin Service.",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddf0eadd59003272d7a3",
+    "port": "80 (Optional)",
+    "protocol": "HTTP",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "Cloudian HyperStore",
+    "serviceDescription": "Used for communication between VMware Cloud Director Object Storage Extension and the Cloudian S3 Service.",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddf0eadd59003272d7a2",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "Cloudian HyperStore",
+    "serviceDescription": "Used for communication between VMware Cloud Director Object Storage Extension and the Cloudian S3 Service.",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddf0eadd59003272d7a1",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "VMware Cloud Director",
+    "serviceDescription": "Used for interactions with VMware Cloud Director.",
+    "purpose": "Network Communication",
+    "classification": "Bidirectional",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddefeadd59003272d7a0",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware Cloud Director service provider admin portal, VMware Cloud Director tenant portal, or an S3 client",
+    "destination": "Cloud Director Object Storage Extension",
+    "serviceDescription": "The public API port of VMware Cloud Director Object Storage Extension.",
+    "purpose": "Network Communication",
+    "classification": "Bidirectional",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "609cddefeadd59003272d79f",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Object Storage Extension",
+    "destination": "AWS S3 Service, AWS Organizations Service, AWS IAM Service, and AWS Security Token Service",
+    "serviceDescription": "Used for communication between VMware Cloud Director Object Storage Extension and AWS services.",
+    "purpose": "Network Communication",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1621845648910",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-23 00:00",
+    "product": {
+      "id": "606d6bb227cb1d0031dbd224",
+      "productName": "Cloud Director Object Storage Extension",
+      "displayName": "Cloud Director Object Storage Extension",
+      "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+    },
+    "releases": [
+      {
+        "id": "609cd1ae382323002880117c",
+        "releaseName": "Cloud Director Object Storage Extension 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "D0968614-A8B1-4EBB-9034-43F20BA0424F",
+        "product": {
+          "id": "606d6bb227cb1d0031dbd224",
+          "productName": "Cloud Director Object Storage Extension",
+          "displayName": "Cloud Director Object Storage Extension",
+          "rmProductId": "D06D79A5-2AB2-4DED-A121-8C91EF8705B4"
+        }
+      }
+    ]
+  }
+]

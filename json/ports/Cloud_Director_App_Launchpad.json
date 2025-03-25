@@ -1,0 +1,206 @@
+[
+  {
+    "id": "6094d79a3823230028801175",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "App Launchpad Server",
+    "destination": "VMware Cloud Director",
+    "serviceDescription": "Communication between VCD cell and App Launchpad, for provider and tenant services",
+    "purpose": "Network Communication ",
+    "classification": "Bidirectional",
+    "submissionId": "xhuijian-1620367258552",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-10 00:00",
+    "product": {
+      "id": "606d68c7cff394000eedd641",
+      "productName": "Cloud Director App Launchpad",
+      "displayName": "Cloud Director App Launchpad",
+      "rmProductId": "4AA5474F-57C4-4D2D-AD2D-5FBBCD436FC5"
+    },
+    "releases": [
+      {
+        "id": "606d696a84aa0d002cda4945",
+        "releaseName": "Cloud Director App Launchpad 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "21DFE6E6-C128-42CE-B5A8-B709456C12FC",
+        "product": {
+          "id": "606d68c7cff394000eedd641",
+          "productName": "Cloud Director App Launchpad",
+          "displayName": "Cloud Director App Launchpad",
+          "rmProductId": "4AA5474F-57C4-4D2D-AD2D-5FBBCD436FC5"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6094d79a3823230028801176",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "App Launchpad Server",
+    "destination": "VMware Cloud Marketplace",
+    "serviceDescription": "Importing applications, catalogs creation, service synch",
+    "purpose": "Network Communication ",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1620367258552",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-10 00:00",
+    "product": {
+      "id": "606d68c7cff394000eedd641",
+      "productName": "Cloud Director App Launchpad",
+      "displayName": "Cloud Director App Launchpad",
+      "rmProductId": "4AA5474F-57C4-4D2D-AD2D-5FBBCD436FC5"
+    },
+    "releases": [
+      {
+        "id": "606d696a84aa0d002cda4945",
+        "releaseName": "Cloud Director App Launchpad 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "21DFE6E6-C128-42CE-B5A8-B709456C12FC",
+        "product": {
+          "id": "606d68c7cff394000eedd641",
+          "productName": "Cloud Director App Launchpad",
+          "displayName": "Cloud Director App Launchpad",
+          "rmProductId": "4AA5474F-57C4-4D2D-AD2D-5FBBCD436FC5"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6094d79a3823230028801177",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "App Launchpad Server",
+    "destination": "VMware Cloud Services Platform (CSP)",
+    "serviceDescription": "Marketplace API token validation",
+    "purpose": "Network Communication ",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1620367258552",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-10 00:00",
+    "product": {
+      "id": "606d68c7cff394000eedd641",
+      "productName": "Cloud Director App Launchpad",
+      "displayName": "Cloud Director App Launchpad",
+      "rmProductId": "4AA5474F-57C4-4D2D-AD2D-5FBBCD436FC5"
+    },
+    "releases": [
+      {
+        "id": "606d696a84aa0d002cda4945",
+        "releaseName": "Cloud Director App Launchpad 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "21DFE6E6-C128-42CE-B5A8-B709456C12FC",
+        "product": {
+          "id": "606d68c7cff394000eedd641",
+          "productName": "Cloud Director App Launchpad",
+          "displayName": "Cloud Director App Launchpad",
+          "rmProductId": "4AA5474F-57C4-4D2D-AD2D-5FBBCD436FC5"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6094d79a3823230028801178",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "App Launchpad Server",
+    "destination": "VMware CEIP Server",
+    "serviceDescription": "CEIP usage collection",
+    "purpose": "Network Communication ",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1620367258552",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-10 00:00",
+    "product": {
+      "id": "606d68c7cff394000eedd641",
+      "productName": "Cloud Director App Launchpad",
+      "displayName": "Cloud Director App Launchpad",
+      "rmProductId": "4AA5474F-57C4-4D2D-AD2D-5FBBCD436FC5"
+    },
+    "releases": [
+      {
+        "id": "606d696a84aa0d002cda4945",
+        "releaseName": "Cloud Director App Launchpad 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "21DFE6E6-C128-42CE-B5A8-B709456C12FC",
+        "product": {
+          "id": "606d68c7cff394000eedd641",
+          "productName": "Cloud Director App Launchpad",
+          "displayName": "Cloud Director App Launchpad",
+          "rmProductId": "4AA5474F-57C4-4D2D-AD2D-5FBBCD436FC5"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6094d79b3823230028801179",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "App Launchpad Server",
+    "destination": "3rd Party Object Storage for Bitnami Helm Charts",
+    "serviceDescription": "Access 3rd party Bitnami Helm Charts",
+    "purpose": "Network Communication ",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1620367258552",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-10 00:00",
+    "product": {
+      "id": "606d68c7cff394000eedd641",
+      "productName": "Cloud Director App Launchpad",
+      "displayName": "Cloud Director App Launchpad",
+      "rmProductId": "4AA5474F-57C4-4D2D-AD2D-5FBBCD436FC5"
+    },
+    "releases": [
+      {
+        "id": "606d696a84aa0d002cda4945",
+        "releaseName": "Cloud Director App Launchpad 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "21DFE6E6-C128-42CE-B5A8-B709456C12FC",
+        "product": {
+          "id": "606d68c7cff394000eedd641",
+          "productName": "Cloud Director App Launchpad",
+          "displayName": "Cloud Director App Launchpad",
+          "rmProductId": "4AA5474F-57C4-4D2D-AD2D-5FBBCD436FC5"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6094d79b382323002880117a",
+    "port": "6443",
+    "protocol": "HTTPS",
+    "source": "App Launchpad Server",
+    "destination": "Tenant Kubernetes cluster",
+    "serviceDescription": "Communication for container application deployment",
+    "purpose": "Network Communication ",
+    "classification": "Outgoing",
+    "submissionId": "xhuijian-1620367258552",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-10 00:00",
+    "product": {
+      "id": "606d68c7cff394000eedd641",
+      "productName": "Cloud Director App Launchpad",
+      "displayName": "Cloud Director App Launchpad",
+      "rmProductId": "4AA5474F-57C4-4D2D-AD2D-5FBBCD436FC5"
+    },
+    "releases": [
+      {
+        "id": "606d696a84aa0d002cda4945",
+        "releaseName": "Cloud Director App Launchpad 2.0",
+        "displayName": "2.0",
+        "rmReleaseId": "21DFE6E6-C128-42CE-B5A8-B709456C12FC",
+        "product": {
+          "id": "606d68c7cff394000eedd641",
+          "productName": "Cloud Director App Launchpad",
+          "displayName": "Cloud Director App Launchpad",
+          "rmProductId": "4AA5474F-57C4-4D2D-AD2D-5FBBCD436FC5"
+        }
+      }
+    ]
+  }
+]

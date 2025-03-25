@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "60598df019c28a0024136d20",
+    "port": "9001",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Designate endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598df019c28a0024136d1f",
+    "port": "53",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "DNS name service",
+    "purpose": "Designate MiniDNS service",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598df019c28a0024136d1e",
+    "port": "8043",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Panko API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598df019c28a0024136d1d",
+    "port": "8042",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Aodh API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598def19c28a0024136d1c",
+    "port": "8041",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Gnocchi API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598def19c28a0024136d1b",
+    "port": "9000",
+    "protocol": "TCP",
+    "source": "Manager, Controllers",
+    "destination": "vRealize Log Insight server or syslog server",
+    "serviceDescription": "Syslog server",
+    "purpose": "Syslog service",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598def19c28a0024136d1a",
+    "port": "3269",
+    "protocol": "TCP",
+    "source": "Manager, Controllers",
+    "destination": "Active Directory or LDAP hosts",
+    "serviceDescription": "Domain controller (LDAPS)",
+    "purpose": "Serving LDAP requests with global catalog (secured)",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598def19c28a0024136d19",
+    "port": "3268",
+    "protocol": "TCP",
+    "source": "Manager, Controllers",
+    "destination": "Active Directory or LDAP hosts",
+    "serviceDescription": "Domain controller",
+    "purpose": "Serving LDAP requests with global catalog (non-secured)",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598def19c28a0024136d18",
+    "port": "636",
+    "protocol": "TCP",
+    "source": "Manager, Controllers",
+    "destination": "Active Directory or LDAP hosts",
+    "serviceDescription": "Domain controller or LDAP server (LDAPS)",
+    "purpose": "Serving LDAP requests (secured)",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598def19c28a0024136d17",
+    "port": "389",
+    "protocol": "TCP",
+    "source": "Manager, Controllers",
+    "destination": "Active Directory or LDAP hosts",
+    "serviceDescription": "Domain controller or LDAP server",
+    "purpose": "Serving LDAP requests (non-secured)",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598def19c28a0024136d16",
+    "port": "44134",
+    "protocol": "TCP",
+    "source": "Manager",
+    "destination": "Controllers",
+    "serviceDescription": "Tiller Server",
+    "purpose": "Tiller service endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598def19c28a0024136d15",
+    "port": "44134",
+    "protocol": "TCP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "Tiller Server",
+    "purpose": "Tiller service endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598def19c28a0024136d14",
+    "port": "35357",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Keystone administrator API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598def19c28a0024136d13",
+    "port": "11211",
+    "protocol": "TCP",
+    "source": "Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack control plane cache",
+    "purpose": "Memory cache services for controller nodes",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dee19c28a0024136d12",
+    "port": "10252",
+    "protocol": "TCP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "Kubrernetes controller manager",
+    "purpose": "Kubrernetes controller manager",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dee19c28a0024136d11",
+    "port": "10251",
+    "protocol": "TCP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "Kubernetes scheduler",
+    "purpose": "Kubernetes scheduler",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dee19c28a0024136d10",
+    "port": "10250",
+    "protocol": "TCP",
+    "source": "Manager",
+    "destination": "Controllers",
+    "serviceDescription": "Kubernetes kubelet",
+    "purpose": "Kubernetes kubelet",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dee19c28a0024136d0f",
+    "port": "10250",
+    "protocol": "TCP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "Kubernetes kubelet",
+    "purpose": "Kubernetes kubelet",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dee19c28a0024136d0e",
+    "port": "9876",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Octavia API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dee19c28a0024136d0d",
+    "port": "9696",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Neutron API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dee19c28a0024136d0c",
+    "port": "9449",
+    "protocol": "TCP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "vAPI",
+    "purpose": "vAPI",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dee19c28a0024136d0b",
+    "port": "9311",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Barbican API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dee19c28a0024136d0a",
+    "port": "9292",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Glance API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dee19c28a0024136d09",
+    "port": "9099",
+    "protocol": "TCP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "Calico CNI",
+    "purpose": "Calico CNI",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598ded19c28a0024136d08",
+    "port": "9099",
+    "protocol": "TCP",
+    "source": "Manager",
+    "destination": "Controllers",
+    "serviceDescription": "Calico CNI",
+    "purpose": "Calico CNI",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598ded19c28a0024136d07",
+    "port": "9090",
+    "protocol": "TCP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "VIO API swagger",
+    "purpose": "VIO API swagger endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598ded19c28a0024136d06",
+    "port": "9000",
+    "protocol": "TCP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "VIO Web UI Authentication Proxy",
+    "purpose": "VIO Web UI Authentiation Proxy",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598ded19c28a0024136d05",
+    "port": "8879",
+    "protocol": "TCP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "Helm Repo Server",
+    "purpose": "Helm Repo service endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598ded19c28a0024136d04",
+    "port": "8778",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Nova Placement API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598ded19c28a0024136d03",
+    "port": "8776",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Cinder API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598ded19c28a0024136d02",
+    "port": "8775",
+    "protocol": "TCP",
+    "source": "Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack metadata",
+    "purpose": "Metadata service (required unless config drive is used)",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598ded19c28a0024136d01",
+    "port": "8774",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Nova API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598ded19c28a0024136d00",
+    "port": "8443",
+    "protocol": "TCP",
+    "source": "User workstation",
+    "destination": "Manager",
+    "serviceDescription": "VIO API",
+    "purpose": "VIO API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598ded19c28a0024136cff",
+    "port": "8004",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Heat API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598ded19c28a0024136cfe",
+    "port": "8000",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Heat CloudFormation API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dec19c28a0024136cfd",
+    "port": "6443",
+    "protocol": "TCP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "Kubernetes apiserver",
+    "purpose": "Kubernetes apiserver endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dec19c28a0024136cfc",
+    "port": "6090",
+    "protocol": "TCP",
+    "source": "User workstation, Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack console services",
+    "purpose": "MKS proxy",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dec19c28a0024136cfb",
+    "port": "5672",
+    "protocol": "TCP",
+    "source": "Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack RPC bus",
+    "purpose": "RabbitMQ message bus",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dec19c28a0024136cfa",
+    "port": "5000",
+    "protocol": "TCP",
+    "source": "User workstation",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack API services",
+    "purpose": "Keystone API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dec19c28a0024136cf9",
+    "port": "5000",
+    "protocol": "TCP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "Docker Registry",
+    "purpose": "Docker Registry service endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dec19c28a0024136cf8",
+    "port": "4567",
+    "protocol": "TCP",
+    "source": "Manager, Controllers",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack database",
+    "purpose": "MariaDB Galera replication traffic",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dec19c28a0024136cf7",
+    "port": "3306",
+    "protocol": "TCP",
+    "source": "Manager",
+    "destination": "Controllers",
+    "serviceDescription": "OpenStack database",
+    "purpose": "Database cluster",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dec19c28a0024136cf6",
+    "port": "2380",
+    "protocol": "TCP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "etcd service",
+    "purpose": "etcd API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dec19c28a0024136cf5",
+    "port": "2379",
+    "protocol": "TCP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "etcd service",
+    "purpose": "etcd API endpoint",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598dec19c28a0024136cf4",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "User workstation",
+    "destination": "Controllers",
+    "serviceDescription": "HTTPS: OpenStack dashboard service",
+    "purpose": "VMware Integrated OpenStack dashboard",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598deb19c28a0024136cf3",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "User workstation",
+    "destination": "Manager",
+    "serviceDescription": "HTTPS: VIO Web UI service",
+    "purpose": "Web UI",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598deb19c28a0024136cf2",
+    "port": "53",
+    "protocol": "TCP, UDP",
+    "source": "Manager, Controllers",
+    "destination": "Controllers",
+    "serviceDescription": "DNS name service",
+    "purpose": "SSH service",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598deb19c28a0024136cf1",
+    "port": "53",
+    "protocol": "TCP, UDP",
+    "source": "Controllers",
+    "destination": "Manager",
+    "serviceDescription": "DNS name service",
+    "purpose": "SSH service",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598deb19c28a0024136cf0",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "Manager",
+    "destination": "Controllers",
+    "serviceDescription": "SSH: Secure Shell connectivity",
+    "purpose": "SSH service",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60598deb19c28a0024136cef",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "User workstation",
+    "destination": "Manager",
+    "serviceDescription": "SSH: Secure Shell connectivity",
+    "purpose": "SSH service",
+    "classification": "-",
+    "submissionId": "bizhao-1616481771401",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-05-14 00:00",
+    "product": {
+      "id": "6037d38227cb1d0031dbd214",
+      "productName": "VMware Integrated OpenStack",
+      "displayName": "VMware Integrated OpenStack",
+      "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+    },
+    "releases": [
+      {
+        "id": "604079afd2c18a002e466fbe",
+        "releaseName": "VMware Integrated OpenStack 7.1",
+        "displayName": "7.1",
+        "rmReleaseId": "A37A6C30-27AE-408F-94F6-0C99F6C4A784",
+        "product": {
+          "id": "6037d38227cb1d0031dbd214",
+          "productName": "VMware Integrated OpenStack",
+          "displayName": "VMware Integrated OpenStack",
+          "rmProductId": "42556DCC-2918-4D6D-AAEA-77107676444D"
+        }
+      }
+    ]
+  }
+]

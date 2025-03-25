@@ -1,0 +1,2510 @@
+[
+  {
+    "id": "62a3e5151c26192bd1f03500",
+    "port": "30000-32767",
+    "protocol": "TCP",
+    "source": "All",
+    "destination": "NodePort Services",
+    "serviceDescription": "External access to hosted services via L7 ingress in NodePort mode",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654908181578",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3e5151c26192bd1f034ff",
+    "port": "61000-62000 (default)",
+    "protocol": "TCP",
+    "source": "All",
+    "destination": "NodePortLocal Services",
+    "serviceDescription": "External access to hosted services via L7 ingress in NodePortLocal mode",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654908181578",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9251e4523793c1c9b33",
+    "port": "6443",
+    "protocol": "TCP",
+    "source": "All",
+    "destination": "Kubernetes API server",
+    "serviceDescription": "Kubernetes API requests",
+    "purpose": "Kubernetes control plane",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9251e4523793c1c9b32",
+    "port": "31234",
+    "protocol": "TCP",
+    "source": "Workload Cluster Network CIDR",
+    "destination": "Management Cluster Network CIDR",
+    "serviceDescription": "Allow Pinniped concierge on workload cluster to access Pinniped supervisor on management cluster",
+    "purpose": "Identity broker",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9251e4523793c1c9b2e",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "Management and Workload Cluster CIDR",
+    "destination": "NTP Servers",
+    "serviceDescription": "Allow components to sync current time",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9241e4523793c1c9b2d",
+    "port": "53",
+    "protocol": "UDP",
+    "source": "Management and Workload Cluster CIDR",
+    "destination": "DNS Servers",
+    "serviceDescription": "Allow components to look up machine addresses",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9241e4523793c1c9b2c",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Management and Workload Cluster CIDR",
+    "destination": "vCenter IP",
+    "serviceDescription": "Allow components to access vCenter to create VMs and Storage volumes",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9241e4523793c1c9b2b",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Management and Workload Cluster CIDR",
+    "destination": "Harbor IP",
+    "serviceDescription": "Allow components to retrieve container images",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9241e4523793c1c9b2a",
+    "port": "31234",
+    "protocol": "HTTPS",
+    "source": "Browser",
+    "destination": "OIDC endpoint",
+    "serviceDescription": "Pinniped using Nodeport in vSphere",
+    "purpose": "Identity broker",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9241e4523793c1c9b29",
+    "port": "30167",
+    "protocol": "HTTPS",
+    "source": "Browser",
+    "destination": "OIDC endpoint",
+    "serviceDescription": "Dex using Nodeport in vSphere",
+    "purpose": "Identity broker",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9241e4523793c1c9b28",
+    "port": "6081",
+    "protocol": "UDP",
+    "source": "Platform",
+    "destination": "Platform",
+    "serviceDescription": "CNI ingress rule for Geneve",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9241e4523793c1c9b27",
+    "port": "10349",
+    "protocol": "TCP",
+    "source": "Platform",
+    "destination": "Platform",
+    "serviceDescription": "CNI ingress rule for Antrea",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9231e4523793c1c9b26",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Management and Workload Cluster CIDR",
+    "destination": "Avi Controller",
+    "serviceDescription": "(NSX ALB only) Allow Avi Kubernetes Operator (AKO) and AKO Operator (AKOO)  access to Avi Controller",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9231e4523793c1c9b25",
+    "port": "2380",
+    "protocol": "TCP",
+    "source": "etcd",
+    "destination": "etcd server client API",
+    "serviceDescription": "etcd peer communication",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9231e4523793c1c9b24",
+    "port": "2379",
+    "protocol": "TCP",
+    "source": "Kubernetes API server",
+    "destination": "etcd server client API",
+    "serviceDescription": "etcd client requests",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9231e4523793c1c9b23",
+    "port": "10250",
+    "protocol": "TCP",
+    "source": "Kubernetes API server, Kubelet API",
+    "destination": "Kubelet API",
+    "serviceDescription": "Allow ingress from Security Groups <cluster-name>-controlplane and <cluster-name>-node",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9231e4523793c1c9b22",
+    "port": "10257",
+    "protocol": "TCP",
+    "source": "kube-controller-manager",
+    "destination": "kube-controller-manager",
+    "serviceDescription": "-",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62a3a9231e4523793c1c9b21",
+    "port": "10259",
+    "protocol": "TCP",
+    "source": "kube-scheduler",
+    "destination": "kube-scheduler",
+    "serviceDescription": "-",
+    "purpose": "Internal communications",
+    "classification": "-",
+    "submissionId": "pspinrad-1654892834877",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-06-07 00:00",
+    "product": {
+      "id": "60536ae7212009000e3a2edd",
+      "productName": "Tanzu Kubernetes Grid",
+      "displayName": "Tanzu Kubernetes Grid",
+      "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+    },
+    "releases": [
+      {
+        "id": "62a0f62a1c26192bd1f034fe",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.1",
+        "displayName": "1.4.1",
+        "rmReleaseId": "8F66244F-D975-4AAE-80A6-27D36027C22B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5e91e4523793c1c9b20",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.2",
+        "displayName": "1.4.2",
+        "rmReleaseId": "45EB8593-113C-4E91-8EE6-0456480B3CD3",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5d71c26192bd1f034fd",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.4",
+        "displayName": "1.5.4",
+        "rmReleaseId": "578EF245-9220-4222-A1B6-CE7BF83D5C06",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5c71e4523793c1c9b1f",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.3",
+        "displayName": "1.5.3",
+        "rmReleaseId": "197441B1-6074-4D9F-977C-C25B0F2C3903",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5b71c26192bd1f034fc",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.2",
+        "displayName": "1.5.2",
+        "rmReleaseId": "FFCA7DCE-B2BA-457C-9B2E-33152077CEA4",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5a51e4523793c1c9b1e",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.1",
+        "displayName": "1.5.1",
+        "rmReleaseId": "033F5BE6-FA22-4EE0-9A33-F8F88196936C",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "62a0f5911e4523793c1c9b1d",
+        "releaseName": "Tanzu Kubernetes Grid 1.5.0",
+        "displayName": "1.5.0",
+        "rmReleaseId": "52BE255B-344D-458C-9DFC-5BF0F953F03E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "612f0ad8d28a571a731c62ba",
+        "releaseName": "Tanzu Kubernetes Grid 1.4.0",
+        "displayName": "1.4.0",
+        "rmReleaseId": "E6E50808-477E-4975-8E7A-EE5B61BE661B",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "6081ffda19c28a0024136f8a",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.0",
+        "displayName": "1.3.0",
+        "rmReleaseId": "5C2D6079-6327-4157-A0BD-D6F494C49311",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      },
+      {
+        "id": "609d58ac382323002880117d",
+        "releaseName": "Tanzu Kubernetes Grid 1.3.1",
+        "displayName": "1.3.1",
+        "rmReleaseId": "5CEBB80C-9BB9-4646-806A-636FF0F6CC5E",
+        "product": {
+          "id": "60536ae7212009000e3a2edd",
+          "productName": "Tanzu Kubernetes Grid",
+          "displayName": "Tanzu Kubernetes Grid",
+          "rmProductId": "D2118AC6-B289-4DBD-B2B2-2A7C3C6C017E"
+        }
+      }
+    ]
+  }
+]

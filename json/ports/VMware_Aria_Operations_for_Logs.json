@@ -1,0 +1,1962 @@
+[
+  {
+    "id": "6532a088ad8be32e487da3e7",
+    "port": "9000",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "VMware Aria Operations for Logs",
+    "serviceDescription": "VMware Aria Operations for Logs Ingestion API",
+    "purpose": "Ports required between cluster nodes",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65329e7e30910021b5f7c050",
+    "port": "9543",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "VMware Aria Operations for Logs",
+    "serviceDescription": "VMware Aria Operations for Logs Ingestion API over SSL",
+    "purpose": "Ports required between cluster nodes",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11930910021b5f7bba6",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "NTP Server",
+    "serviceDescription": "NTPD: Provides NTP time synchronization. The port is open only if you select to use NTP time synchronization.",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11930910021b5f7bba7",
+    "port": "1514, 6514",
+    "protocol": "TCP",
+    "source": "System sending logs",
+    "destination": "VMware Aria Operations for Logs",
+    "serviceDescription": "syslog data over SSL",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bba8",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "Admin workstation",
+    "destination": "VMware Aria Operations for Logs",
+    "serviceDescription": "SSH: Secure Shell connectivity",
+    "purpose": "User interface",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bba9",
+    "port": "25",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "Mail Server",
+    "serviceDescription": "SMTP: mail service for outbound alerts",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbaa",
+    "port": "3268",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "AD server",
+    "serviceDescription": "Active Directory Global Catalog",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbab",
+    "port": "3269",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "AD server",
+    "serviceDescription": "Active Directory Global Catalog over SSL",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbac",
+    "port": "389",
+    "protocol": "TCP, UDP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "AD server",
+    "serviceDescription": "Active Directory",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbad",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "User workstation",
+    "destination": "VMware Aria Operations for Logs",
+    "serviceDescription": "HTTPS: Web interface",
+    "purpose": "User interface",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbae",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "VMware Aria Operations",
+    "serviceDescription": "VMware Aria Operations Web service",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbaf",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "vCenter Server",
+    "serviceDescription": "vCenter Server Web Service",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbb0",
+    "port": "465",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "Mail Server",
+    "serviceDescription": "SMTPS: mail service over SSL for outbound alerts",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbb1",
+    "port": "514",
+    "protocol": "TCP, UDP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "Third-party log manager",
+    "serviceDescription": "syslog data",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbb2",
+    "port": "514",
+    "protocol": "TCP, UDP",
+    "source": "System sending logs",
+    "destination": "vRealize Log Insight Appliance",
+    "serviceDescription": "Outbound syslog traffic configured as a Forwarder destination",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbb3",
+    "port": "53",
+    "protocol": "TCP, UDP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "DNS server",
+    "serviceDescription": "DNS: name resolution service",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbb4",
+    "port": "587",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "Mail Server",
+    "serviceDescription": "SMTPS: mail service over STARTTLS for outbound alerts",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbb5",
+    "port": "59778, 16520 - 16580",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "VMware Aria Operations for Logs",
+    "serviceDescription": "VMware Aria Operations for Logs Thrift service",
+    "purpose": "Ports required between cluster nodes",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbb6",
+    "port": "636",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "AD server",
+    "serviceDescription": "Active Directory over SSL",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbb7",
+    "port": "7000",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "VMware Aria Operations for Logs",
+    "serviceDescription": "Cassandra replication and query",
+    "purpose": "Port required between cluster nodes",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11a30910021b5f7bbb8",
+    "port": "7001",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "VMware Aria Operations for Logs",
+    "serviceDescription": "Cassandra replication and query over SSL",
+    "purpose": "Port required between cluster nodes",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11b30910021b5f7bbb9",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "User workstation",
+    "destination": "VMware Aria Operations for Logs",
+    "serviceDescription": "HTTP: Web interface",
+    "purpose": "User interface",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11b30910021b5f7bbba",
+    "port": "88",
+    "protocol": "TCP, UDP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "AD server",
+    "serviceDescription": "Kerberos",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11b30910021b5f7bbbb",
+    "port": "9000",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Agents",
+    "destination": "VMware Aria Operations for Logs",
+    "serviceDescription": "VMware Aria Operations for Logs Ingestion API",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11b30910021b5f7bbbc",
+    "port": "9000",
+    "protocol": "CFAPI",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "Third-party log manager",
+    "serviceDescription": "Outbound Log Insight Ingestion API (CFAPI) traffic configured as a Forwarder destination",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11b30910021b5f7bbbd",
+    "port": "9042",
+    "protocol": "TCP",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "VMware Aria Operations for Logs",
+    "serviceDescription": "Cassandra service for native protocol clients",
+    "purpose": "Port required between cluster nodes",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11b30910021b5f7bbbe",
+    "port": "9543",
+    "protocol": "CFAPI",
+    "source": "VMware Aria Operations for Logs",
+    "destination": "Third-party log manager",
+    "serviceDescription": "Outbound Log Insight Ingestion API (CFAPI) traffic configured as a Forwarder destination with encryption (SSL/TLS)",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "643dc11b30910021b5f7bbbf",
+    "port": "9543",
+    "protocol": "TCP",
+    "source": "vRealize Log Insight Agents",
+    "destination": "VMware Aria Operations for Logs",
+    "serviceDescription": "VMware Aria Operations for Logs Ingestion API over SSL",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "mnalbandyan-1708399465269",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-07-20 00:00",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "64343888ad8be32e487da0e2",
+        "releaseName": "VMware Aria Operations for Logs 8.12",
+        "displayName": "8.12",
+        "rmReleaseId": "77BEA097-4894-444B-9A1E-E1CC5F3A9F58",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65329d5aad8be32e487da3e6",
+        "releaseName": "VMware Aria Operations for Logs 8.14",
+        "displayName": "8.14",
+        "rmReleaseId": "E732042C-E48B-4035-AA53-D9B932777100",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "65b06ebdeaeb2b2d7779ae82",
+        "releaseName": "VMware Aria Operations for Logs 8.16",
+        "displayName": "8.16",
+        "rmReleaseId": "B50BAED2-EB06-4E5B-92DD-2037C21D9D75",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      },
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  }
+]

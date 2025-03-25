@@ -1,0 +1,342 @@
+[
+  {
+    "id": "641701d4ad8be32e487da022",
+    "port": "443",
+    "protocol": "HTTP",
+    "source": "Wavefront Proxy",
+    "destination": "Wavefront Cloud",
+    "serviceDescription": "HTTP proxy port",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "patilyo-1679229395800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-03-16 00:00",
+    "product": {
+      "id": "6405a14eeaa6a73817d9c82e",
+      "productName": "VMware Aria Operations for Applications",
+      "displayName": "VMware Aria Operations for Applications",
+      "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+    },
+    "releases": [
+      {
+        "id": "64118f3bad8be32e487da002",
+        "releaseName": "Wavefront by VMware 37",
+        "displayName": "SaaS",
+        "rmReleaseId": "8B965109-97B9-4C1A-A392-24F76CEA7771",
+        "product": {
+          "id": "6405a14eeaa6a73817d9c82e",
+          "productName": "VMware Aria Operations for Applications",
+          "displayName": "VMware Aria Operations for Applications",
+          "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "641701d4ad8be32e487da021",
+    "port": "4445",
+    "protocol": "OTLP/HTTP",
+    "source": "OpenTelemetry Protobuf data",
+    "destination": "Wavefront Proxy",
+    "serviceDescription": "otlpHttpListenerPorts: Incoming data OTLP/HTTP",
+    "purpose": "Ports to receive OpenTelemetry Protobuf data over HTTP.\nDefault: none",
+    "classification": "-",
+    "submissionId": "patilyo-1679229395800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-03-16 00:00",
+    "product": {
+      "id": "6405a14eeaa6a73817d9c82e",
+      "productName": "VMware Aria Operations for Applications",
+      "displayName": "VMware Aria Operations for Applications",
+      "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+    },
+    "releases": [
+      {
+        "id": "64118f3bad8be32e487da002",
+        "releaseName": "Wavefront by VMware 37",
+        "displayName": "SaaS",
+        "rmReleaseId": "8B965109-97B9-4C1A-A392-24F76CEA7771",
+        "product": {
+          "id": "6405a14eeaa6a73817d9c82e",
+          "productName": "VMware Aria Operations for Applications",
+          "displayName": "VMware Aria Operations for Applications",
+          "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "641701d4ad8be32e487da020",
+    "port": "4444",
+    "protocol": "OTLP/HTTP",
+    "source": "OpenTelemetry Protobuf data",
+    "destination": "Wavefront Proxy",
+    "serviceDescription": "otlpGrpcListenerPorts: Incoming data OTLP/HTTP",
+    "purpose": "Ports to receive OpenTelemetry Protobuf data over gRPC.\nDefault: none",
+    "classification": "-",
+    "submissionId": "patilyo-1679229395800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-03-16 00:00",
+    "product": {
+      "id": "6405a14eeaa6a73817d9c82e",
+      "productName": "VMware Aria Operations for Applications",
+      "displayName": "VMware Aria Operations for Applications",
+      "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+    },
+    "releases": [
+      {
+        "id": "64118f3bad8be32e487da002",
+        "releaseName": "Wavefront by VMware 37",
+        "displayName": "SaaS",
+        "rmReleaseId": "8B965109-97B9-4C1A-A392-24F76CEA7771",
+        "product": {
+          "id": "6405a14eeaa6a73817d9c82e",
+          "productName": "VMware Aria Operations for Applications",
+          "displayName": "VMware Aria Operations for Applications",
+          "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "641701d4ad8be32e487da01f",
+    "port": "4443",
+    "protocol": "TLS / SSL",
+    "source": "TLS",
+    "destination": "Wavefront Proxy",
+    "serviceDescription": "tlsPorts: Incoming data TLS/SSL",
+    "purpose": "Ports to be used for incoming TLS/SSL connections. ",
+    "classification": "-",
+    "submissionId": "patilyo-1679229395800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-03-16 00:00",
+    "product": {
+      "id": "6405a14eeaa6a73817d9c82e",
+      "productName": "VMware Aria Operations for Applications",
+      "displayName": "VMware Aria Operations for Applications",
+      "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+    },
+    "releases": [
+      {
+        "id": "64118f3bad8be32e487da002",
+        "releaseName": "Wavefront by VMware 37",
+        "displayName": "SaaS",
+        "rmReleaseId": "8B965109-97B9-4C1A-A392-24F76CEA7771",
+        "product": {
+          "id": "6405a14eeaa6a73817d9c82e",
+          "productName": "VMware Aria Operations for Applications",
+          "displayName": "VMware Aria Operations for Applications",
+          "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "641701d4ad8be32e487da01e",
+    "port": "5045",
+    "protocol": "TCP",
+    "source": "Raw Logs",
+    "destination": "Wavefront Proxy",
+    "serviceDescription": "rawLogsPort: Incoming data TCP",
+    "purpose": "TCP port to listen on for log data.\nDefault: none",
+    "classification": "-",
+    "submissionId": "patilyo-1679229395800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-03-16 00:00",
+    "product": {
+      "id": "6405a14eeaa6a73817d9c82e",
+      "productName": "VMware Aria Operations for Applications",
+      "displayName": "VMware Aria Operations for Applications",
+      "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+    },
+    "releases": [
+      {
+        "id": "64118f3bad8be32e487da002",
+        "releaseName": "Wavefront by VMware 37",
+        "displayName": "SaaS",
+        "rmReleaseId": "8B965109-97B9-4C1A-A392-24F76CEA7771",
+        "product": {
+          "id": "6405a14eeaa6a73817d9c82e",
+          "productName": "VMware Aria Operations for Applications",
+          "displayName": "VMware Aria Operations for Applications",
+          "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "641701d4ad8be32e487da01d",
+    "port": "2878",
+    "protocol": "HTTP / TCP",
+    "source": "push Listener",
+    "destination": "Wavefront Proxy",
+    "serviceDescription": "pushListenerPorts: Incoming data HTTP/ TCP",
+    "purpose": "Port to listen on for incoming data. A single port definition can accept both HTTP and TCP data. For HTTP data, make a POST to this proxy port with an empty header, and the line terminated data format. If you want to use HTTPS/TLS, set the tlsPorts, privateKeyPath, and privateCertPath properties as well.\nDefault: 2878",
+    "classification": "-",
+    "submissionId": "patilyo-1679229395800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-03-16 00:00",
+    "product": {
+      "id": "6405a14eeaa6a73817d9c82e",
+      "productName": "VMware Aria Operations for Applications",
+      "displayName": "VMware Aria Operations for Applications",
+      "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+    },
+    "releases": [
+      {
+        "id": "64118f3bad8be32e487da002",
+        "releaseName": "Wavefront by VMware 37",
+        "displayName": "SaaS",
+        "rmReleaseId": "8B965109-97B9-4C1A-A392-24F76CEA7771",
+        "product": {
+          "id": "6405a14eeaa6a73817d9c82e",
+          "productName": "VMware Aria Operations for Applications",
+          "displayName": "VMware Aria Operations for Applications",
+          "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "641701d4ad8be32e487da01c",
+    "port": "5878",
+    "protocol": "TCP",
+    "source": "Graphite pickle",
+    "destination": "Wavefront Proxy",
+    "serviceDescription": "picklePorts: Incoming data on TCP port",
+    "purpose": "TCP ports to listen on for incoming data in Graphite pickle format (from carbon-relay).\nDefault: none",
+    "classification": "-",
+    "submissionId": "patilyo-1679229395800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-03-16 00:00",
+    "product": {
+      "id": "6405a14eeaa6a73817d9c82e",
+      "productName": "VMware Aria Operations for Applications",
+      "displayName": "VMware Aria Operations for Applications",
+      "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+    },
+    "releases": [
+      {
+        "id": "64118f3bad8be32e487da002",
+        "releaseName": "Wavefront by VMware 37",
+        "displayName": "SaaS",
+        "rmReleaseId": "8B965109-97B9-4C1A-A392-24F76CEA7771",
+        "product": {
+          "id": "6405a14eeaa6a73817d9c82e",
+          "productName": "VMware Aria Operations for Applications",
+          "displayName": "VMware Aria Operations for Applications",
+          "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "641701d3ad8be32e487da01b",
+    "port": "4242",
+    "protocol": "TCP",
+    "source": "OpenTSDB",
+    "destination": "Wavefront Proxy",
+    "serviceDescription": "opentsdbPorts: Incoming data on TCP port",
+    "purpose": "TCP ports to listen on for incoming OpenTSDB-formatted data.\nDefault: none",
+    "classification": "-",
+    "submissionId": "patilyo-1679229395800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-03-16 00:00",
+    "product": {
+      "id": "6405a14eeaa6a73817d9c82e",
+      "productName": "VMware Aria Operations for Applications",
+      "displayName": "VMware Aria Operations for Applications",
+      "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+    },
+    "releases": [
+      {
+        "id": "64118f3bad8be32e487da002",
+        "releaseName": "Wavefront by VMware 37",
+        "displayName": "SaaS",
+        "rmReleaseId": "8B965109-97B9-4C1A-A392-24F76CEA7771",
+        "product": {
+          "id": "6405a14eeaa6a73817d9c82e",
+          "productName": "VMware Aria Operations for Applications",
+          "displayName": "VMware Aria Operations for Applications",
+          "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "641701d3ad8be32e487da01a",
+    "port": "8080",
+    "protocol": "HTTP",
+    "source": "HTTP Connections",
+    "destination": "Wavefront Proxy",
+    "serviceDescription": "HTTP proxy port",
+    "purpose": "HTTP proxy port to be used in configurations when direct HTTP connections to Wavefront instances are not possible. Must be used with proxyHost.",
+    "classification": "-",
+    "submissionId": "patilyo-1679229395800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-03-16 00:00",
+    "product": {
+      "id": "6405a14eeaa6a73817d9c82e",
+      "productName": "VMware Aria Operations for Applications",
+      "displayName": "VMware Aria Operations for Applications",
+      "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+    },
+    "releases": [
+      {
+        "id": "64118f3bad8be32e487da002",
+        "releaseName": "Wavefront by VMware 37",
+        "displayName": "SaaS",
+        "rmReleaseId": "8B965109-97B9-4C1A-A392-24F76CEA7771",
+        "product": {
+          "id": "6405a14eeaa6a73817d9c82e",
+          "productName": "VMware Aria Operations for Applications",
+          "displayName": "VMware Aria Operations for Applications",
+          "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "641701d3ad8be32e487da019",
+    "port": "5044",
+    "protocol": "TCP",
+    "source": "Filebeat",
+    "destination": "Wavefront Proxy",
+    "serviceDescription": "Get Filebeat data",
+    "purpose": "TCP port to listen on for Filebeat data.\nDefault: none",
+    "classification": "-",
+    "submissionId": "patilyo-1679229395800",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2023-03-16 00:00",
+    "product": {
+      "id": "6405a14eeaa6a73817d9c82e",
+      "productName": "VMware Aria Operations for Applications",
+      "displayName": "VMware Aria Operations for Applications",
+      "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+    },
+    "releases": [
+      {
+        "id": "64118f3bad8be32e487da002",
+        "releaseName": "Wavefront by VMware 37",
+        "displayName": "SaaS",
+        "rmReleaseId": "8B965109-97B9-4C1A-A392-24F76CEA7771",
+        "product": {
+          "id": "6405a14eeaa6a73817d9c82e",
+          "productName": "VMware Aria Operations for Applications",
+          "displayName": "VMware Aria Operations for Applications",
+          "rmProductId": "EE48CBE1-607C-4B7B-9454-7E7893346DCF"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,444 @@
+[
+  {
+    "id": "61485e19d28a571a731c62db",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "Virtual Appliance",
+    "destination": "FTP Client",
+    "serviceDescription": "FTP",
+    "purpose": "Access tenant app virtual appliance",
+    "classification": "Incoming",
+    "submissionId": "fzaveri-1632132633495",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-09-17 00:00",
+    "product": {
+      "id": "6148474f99c61a78010f976b",
+      "productName": "vROps Tenant App for vCD",
+      "displayName": "vRealize Operations Tenant App for vCloud Director",
+      "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+    },
+    "releases": [
+      {
+        "id": "61485cf2d28a571a731c62cd",
+        "releaseName": "vROps Tenant App for vCD 2.6",
+        "displayName": "2.6",
+        "rmReleaseId": "C2EDAEBF-5846-44B7-82E2-C02AFA8A2E3C",
+        "product": {
+          "id": "6148474f99c61a78010f976b",
+          "productName": "vROps Tenant App for vCD",
+          "displayName": "vRealize Operations Tenant App for vCloud Director",
+          "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61485e19d28a571a731c62dc",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "Nginx",
+    "destination": "Browser",
+    "serviceDescription": "HTTP",
+    "purpose": "Access tenant app UI",
+    "classification": "Incoming",
+    "submissionId": "fzaveri-1632132633495",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-09-17 00:00",
+    "product": {
+      "id": "6148474f99c61a78010f976b",
+      "productName": "vROps Tenant App for vCD",
+      "displayName": "vRealize Operations Tenant App for vCloud Director",
+      "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+    },
+    "releases": [
+      {
+        "id": "61485cf2d28a571a731c62cd",
+        "releaseName": "vROps Tenant App for vCD 2.6",
+        "displayName": "2.6",
+        "rmReleaseId": "C2EDAEBF-5846-44B7-82E2-C02AFA8A2E3C",
+        "product": {
+          "id": "6148474f99c61a78010f976b",
+          "productName": "vROps Tenant App for vCD",
+          "displayName": "vRealize Operations Tenant App for vCloud Director",
+          "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61485e19d28a571a731c62dd",
+    "port": "8080",
+    "protocol": "TCP",
+    "source": "Nginx",
+    "destination": "Browser",
+    "serviceDescription": "HTTP",
+    "purpose": "Access tenant app UI",
+    "classification": "Incoming",
+    "submissionId": "fzaveri-1632132633495",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-09-17 00:00",
+    "product": {
+      "id": "6148474f99c61a78010f976b",
+      "productName": "vROps Tenant App for vCD",
+      "displayName": "vRealize Operations Tenant App for vCloud Director",
+      "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+    },
+    "releases": [
+      {
+        "id": "61485cf2d28a571a731c62cd",
+        "releaseName": "vROps Tenant App for vCD 2.6",
+        "displayName": "2.6",
+        "rmReleaseId": "C2EDAEBF-5846-44B7-82E2-C02AFA8A2E3C",
+        "product": {
+          "id": "6148474f99c61a78010f976b",
+          "productName": "vROps Tenant App for vCD",
+          "displayName": "vRealize Operations Tenant App for vCloud Director",
+          "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61485e19d28a571a731c62de",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Nginx",
+    "destination": "Browser",
+    "serviceDescription": "HTTPS",
+    "purpose": "Access tenant app UI",
+    "classification": "Incoming",
+    "submissionId": "fzaveri-1632132633495",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-09-17 00:00",
+    "product": {
+      "id": "6148474f99c61a78010f976b",
+      "productName": "vROps Tenant App for vCD",
+      "displayName": "vRealize Operations Tenant App for vCloud Director",
+      "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+    },
+    "releases": [
+      {
+        "id": "61485cf2d28a571a731c62cd",
+        "releaseName": "vROps Tenant App for vCD 2.6",
+        "displayName": "2.6",
+        "rmReleaseId": "C2EDAEBF-5846-44B7-82E2-C02AFA8A2E3C",
+        "product": {
+          "id": "6148474f99c61a78010f976b",
+          "productName": "vROps Tenant App for vCD",
+          "displayName": "vRealize Operations Tenant App for vCloud Director",
+          "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61485e19d28a571a731c62df",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "TenantApp",
+    "destination": "vRealize Operations",
+    "serviceDescription": "HTTPS",
+    "purpose": "Collect metrics from vRealize Operations",
+    "classification": "Incoming",
+    "submissionId": "fzaveri-1632132633495",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-09-17 00:00",
+    "product": {
+      "id": "6148474f99c61a78010f976b",
+      "productName": "vROps Tenant App for vCD",
+      "displayName": "vRealize Operations Tenant App for vCloud Director",
+      "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+    },
+    "releases": [
+      {
+        "id": "61485cf2d28a571a731c62cd",
+        "releaseName": "vROps Tenant App for vCD 2.6",
+        "displayName": "2.6",
+        "rmReleaseId": "C2EDAEBF-5846-44B7-82E2-C02AFA8A2E3C",
+        "product": {
+          "id": "6148474f99c61a78010f976b",
+          "productName": "vROps Tenant App for vCD",
+          "displayName": "vRealize Operations Tenant App for vCloud Director",
+          "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61485e19d28a571a731c62e0",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "TenantApp",
+    "destination": "Cloud Director",
+    "serviceDescription": "HTTPS",
+    "purpose": "Enable plugin to access UI inside Cloud Director",
+    "classification": "Incoming",
+    "submissionId": "fzaveri-1632132633495",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-09-17 00:00",
+    "product": {
+      "id": "6148474f99c61a78010f976b",
+      "productName": "vROps Tenant App for vCD",
+      "displayName": "vRealize Operations Tenant App for vCloud Director",
+      "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+    },
+    "releases": [
+      {
+        "id": "61485cf2d28a571a731c62cd",
+        "releaseName": "vROps Tenant App for vCD 2.6",
+        "displayName": "2.6",
+        "rmReleaseId": "C2EDAEBF-5846-44B7-82E2-C02AFA8A2E3C",
+        "product": {
+          "id": "6148474f99c61a78010f976b",
+          "productName": "vROps Tenant App for vCD",
+          "displayName": "vRealize Operations Tenant App for vCloud Director",
+          "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61485e19d28a571a731c62e1",
+    "port": "5672",
+    "protocol": "TCP",
+    "source": "TenantApp",
+    "destination": "Cloud Director",
+    "serviceDescription": "HTTPS",
+    "purpose": "Communicate Cloud Director MQP",
+    "classification": "Outgoing",
+    "submissionId": "fzaveri-1632132633495",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-09-17 00:00",
+    "product": {
+      "id": "6148474f99c61a78010f976b",
+      "productName": "vROps Tenant App for vCD",
+      "displayName": "vRealize Operations Tenant App for vCloud Director",
+      "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+    },
+    "releases": [
+      {
+        "id": "61485cf2d28a571a731c62cd",
+        "releaseName": "vROps Tenant App for vCD 2.6",
+        "displayName": "2.6",
+        "rmReleaseId": "C2EDAEBF-5846-44B7-82E2-C02AFA8A2E3C",
+        "product": {
+          "id": "6148474f99c61a78010f976b",
+          "productName": "vROps Tenant App for vCD",
+          "displayName": "vRealize Operations Tenant App for vCloud Director",
+          "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61485e19d28a571a731c62e2",
+    "port": "5480",
+    "protocol": "TCP",
+    "source": "VAMI",
+    "destination": "Browser",
+    "serviceDescription": "HTTPS",
+    "purpose": "Access VAMI UI",
+    "classification": "Incoming",
+    "submissionId": "fzaveri-1632132633495",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-09-17 00:00",
+    "product": {
+      "id": "6148474f99c61a78010f976b",
+      "productName": "vROps Tenant App for vCD",
+      "displayName": "vRealize Operations Tenant App for vCloud Director",
+      "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+    },
+    "releases": [
+      {
+        "id": "61485cf2d28a571a731c62cd",
+        "releaseName": "vROps Tenant App for vCD 2.6",
+        "displayName": "2.6",
+        "rmReleaseId": "C2EDAEBF-5846-44B7-82E2-C02AFA8A2E3C",
+        "product": {
+          "id": "6148474f99c61a78010f976b",
+          "productName": "vROps Tenant App for vCD",
+          "displayName": "vRealize Operations Tenant App for vCloud Director",
+          "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61485e19d28a571a731c62e3",
+    "port": "7000",
+    "protocol": "TCP",
+    "source": "TenantApp",
+    "destination": "Cassandra (Docker Container)",
+    "serviceDescription": "HTTPS",
+    "purpose": "Communicate cassandra database",
+    "classification": "Incoming",
+    "submissionId": "fzaveri-1632132633495",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-09-17 00:00",
+    "product": {
+      "id": "6148474f99c61a78010f976b",
+      "productName": "vROps Tenant App for vCD",
+      "displayName": "vRealize Operations Tenant App for vCloud Director",
+      "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+    },
+    "releases": [
+      {
+        "id": "61485cf2d28a571a731c62cd",
+        "releaseName": "vROps Tenant App for vCD 2.6",
+        "displayName": "2.6",
+        "rmReleaseId": "C2EDAEBF-5846-44B7-82E2-C02AFA8A2E3C",
+        "product": {
+          "id": "6148474f99c61a78010f976b",
+          "productName": "vROps Tenant App for vCD",
+          "displayName": "vRealize Operations Tenant App for vCloud Director",
+          "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61485e1ad28a571a731c62e4",
+    "port": "7001",
+    "protocol": "TCP",
+    "source": "TenantApp",
+    "destination": "Cassandra (Docker Container)",
+    "serviceDescription": "HTTPS",
+    "purpose": "Communicate cassandra database",
+    "classification": "Incoming",
+    "submissionId": "fzaveri-1632132633495",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-09-17 00:00",
+    "product": {
+      "id": "6148474f99c61a78010f976b",
+      "productName": "vROps Tenant App for vCD",
+      "displayName": "vRealize Operations Tenant App for vCloud Director",
+      "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+    },
+    "releases": [
+      {
+        "id": "61485cf2d28a571a731c62cd",
+        "releaseName": "vROps Tenant App for vCD 2.6",
+        "displayName": "2.6",
+        "rmReleaseId": "C2EDAEBF-5846-44B7-82E2-C02AFA8A2E3C",
+        "product": {
+          "id": "6148474f99c61a78010f976b",
+          "productName": "vROps Tenant App for vCD",
+          "displayName": "vRealize Operations Tenant App for vCloud Director",
+          "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61485e1ad28a571a731c62e5",
+    "port": "7199",
+    "protocol": "TCP",
+    "source": "TenantApp",
+    "destination": "Cassandra (Docker Container)",
+    "serviceDescription": "HTTPS",
+    "purpose": "Communicate cassandra database",
+    "classification": "Incoming",
+    "submissionId": "fzaveri-1632132633495",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-09-17 00:00",
+    "product": {
+      "id": "6148474f99c61a78010f976b",
+      "productName": "vROps Tenant App for vCD",
+      "displayName": "vRealize Operations Tenant App for vCloud Director",
+      "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+    },
+    "releases": [
+      {
+        "id": "61485cf2d28a571a731c62cd",
+        "releaseName": "vROps Tenant App for vCD 2.6",
+        "displayName": "2.6",
+        "rmReleaseId": "C2EDAEBF-5846-44B7-82E2-C02AFA8A2E3C",
+        "product": {
+          "id": "6148474f99c61a78010f976b",
+          "productName": "vROps Tenant App for vCD",
+          "displayName": "vRealize Operations Tenant App for vCloud Director",
+          "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61485e1ad28a571a731c62e6",
+    "port": "9042",
+    "protocol": "TCP",
+    "source": "TenantApp",
+    "destination": "Cassandra (Docker Container)",
+    "serviceDescription": "HTTPS",
+    "purpose": "Communicate cassandra database",
+    "classification": "Incoming",
+    "submissionId": "fzaveri-1632132633495",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-09-17 00:00",
+    "product": {
+      "id": "6148474f99c61a78010f976b",
+      "productName": "vROps Tenant App for vCD",
+      "displayName": "vRealize Operations Tenant App for vCloud Director",
+      "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+    },
+    "releases": [
+      {
+        "id": "61485cf2d28a571a731c62cd",
+        "releaseName": "vROps Tenant App for vCD 2.6",
+        "displayName": "2.6",
+        "rmReleaseId": "C2EDAEBF-5846-44B7-82E2-C02AFA8A2E3C",
+        "product": {
+          "id": "6148474f99c61a78010f976b",
+          "productName": "vROps Tenant App for vCD",
+          "displayName": "vRealize Operations Tenant App for vCloud Director",
+          "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61485e1ad28a571a731c62e7",
+    "port": "9160",
+    "protocol": "TCP",
+    "source": "TenantApp",
+    "destination": "Cassandra (Docker Container)",
+    "serviceDescription": "HTTPS",
+    "purpose": "Communicate cassandra database",
+    "classification": "Incoming",
+    "submissionId": "fzaveri-1632132633495",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2021-09-17 00:00",
+    "product": {
+      "id": "6148474f99c61a78010f976b",
+      "productName": "vROps Tenant App for vCD",
+      "displayName": "vRealize Operations Tenant App for vCloud Director",
+      "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+    },
+    "releases": [
+      {
+        "id": "61485cf2d28a571a731c62cd",
+        "releaseName": "vROps Tenant App for vCD 2.6",
+        "displayName": "2.6",
+        "rmReleaseId": "C2EDAEBF-5846-44B7-82E2-C02AFA8A2E3C",
+        "product": {
+          "id": "6148474f99c61a78010f976b",
+          "productName": "vROps Tenant App for vCD",
+          "displayName": "vRealize Operations Tenant App for vCloud Director",
+          "rmProductId": "1FBC7759-5C38-45D5-9191-AE0C0AD71D86"
+        }
+      }
+    ]
+  }
+]

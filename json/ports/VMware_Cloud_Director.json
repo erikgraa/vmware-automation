@@ -1,0 +1,2714 @@
+[
+  {
+    "id": "64a72fefad8be32e487da286",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Server",
+    "destination": " User defined content repositories such as VMware Marketplace and/or Helm charts repositories",
+    "serviceDescription": " Cloud Director Server Content Hub features connects to Marketplace and/or Helm charts repositories to download app images such as VM templates and Helm charts",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6179a48c88ac9f182c804bba",
+    "port": "6443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Server",
+    "destination": "WCP supervisor cluster in vSphere",
+    "serviceDescription": "supervisor-cluster management endpoint (floating IP)",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "607470c119c28a0024136e2f",
+        "releaseName": "VMware Cloud Director 10.2.2",
+        "displayName": "10.2.2",
+        "rmReleaseId": "B9C2FD3B-AED6-4962-BD48-D890A2E031EF",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6179a48c88ac9f182c804bb9",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Server",
+    "destination": "WCP supervisor cluster in vSphere",
+    "serviceDescription": "supervisor-cluster management endpoint (floating IP)",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "607470c119c28a0024136e2f",
+        "releaseName": "VMware Cloud Director 10.2.2",
+        "displayName": "10.2.2",
+        "rmReleaseId": "B9C2FD3B-AED6-4962-BD48-D890A2E031EF",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5bfcabc900103831b7",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "SSH client, Cloud Director Appliance",
+    "destination": "Cloud Director Appliance",
+    "serviceDescription": "CLI access and Appliance sync. User/Password or SSH key-based authentication.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5dfcabc900103831cc",
+    "port": "5672",
+    "protocol": "TCP, UDP",
+    "source": "Cloud Director Server",
+    "destination": "AMQP/Rabbit MQ Broker",
+    "serviceDescription": "Optional port at which the broker listens for messages. RabbitMQ Messaging for task extensions.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5dfcabc900103831cb",
+    "port": "5671",
+    "protocol": "TCP, UDP",
+    "source": "Cloud Director Server",
+    "destination": "AMQP/Rabbit MQ Broker",
+    "serviceDescription": "Optional port at which the broker listens for messages. RabbitMQ Messaging over SSL for task extensions.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5dfcabc900103831ca",
+    "port": "5480",
+    "protocol": "TCP",
+    "source": "Client Web-Browser",
+    "destination": "Cloud Director Appliance",
+    "serviceDescription": "Appliance Management Interface",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5dfcabc900103831c9",
+    "port": "5432",
+    "protocol": "TCP",
+    "source": "Cloud Director Server",
+    "destination": "PostgreSQL Database Server",
+    "serviceDescription": "Communicate with PostgreSQL Database",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5dfcabc900103831c8",
+    "port": "920",
+    "protocol": "TCP, UDP",
+    "source": "Cloud Director Server",
+    "destination": "NFS",
+    "serviceDescription": "NFS rpc.statd used by transfer service",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5cfcabc900103831c4",
+    "port": "636",
+    "protocol": "TCP, UDP",
+    "source": "Cloud Director Server",
+    "destination": "External LDAP Server",
+    "serviceDescription": "Query active directory using LDAP over SSL",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5cfcabc900103831c3",
+    "port": "514",
+    "protocol": "UDP",
+    "source": "Cloud Director Server",
+    "destination": "Syslog Servers",
+    "serviceDescription": "Syslog",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5cfcabc900103831c2",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Server",
+    "destination": "Servers Outside the Datacenter",
+    "serviceDescription": "Communication with other data sources outside the data center including Multisite, Catalog Sync and VAMI. ",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5cfcabc900103831c0",
+    "port": "389",
+    "protocol": "TCP, UDP",
+    "source": "Cloud Director Server",
+    "destination": "External LDAP Server",
+    "serviceDescription": "Query active directory using LDAP",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5cfcabc900103831bf",
+    "port": "123",
+    "protocol": "TCP, UDP",
+    "source": "Cloud Director Server",
+    "destination": "NTP Server(s)",
+    "serviceDescription": "Time Synchronization over NTP",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5cfcabc900103831be",
+    "port": "111",
+    "protocol": "TCP, UDP",
+    "source": "Cloud Director Server",
+    "destination": "File Storage",
+    "serviceDescription": "NFS portmapper used by transfer service",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5bfcabc900103831ba",
+    "port": "53",
+    "protocol": "TCP, UDP",
+    "source": "Cloud Director Server",
+    "destination": "DNS Server",
+    "serviceDescription": "Name resolution over DNS",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5bfcabc900103831b9",
+    "port": "25",
+    "protocol": "TCP, UDP",
+    "source": "Cloud Director Server",
+    "destination": "Mail Server",
+    "serviceDescription": "SMTP for sending outbound notification emails",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec6eb0eadd66400106a5a07",
+    "port": "5432",
+    "protocol": "TCP",
+    "source": "PostgreSQL Database Server",
+    "destination": "PostgreSQL Database Server",
+    "serviceDescription": "Appliance only: database replication",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5dfcabc900103831d1",
+    "port": "61616",
+    "protocol": "TCP",
+    "source": "Cloud Director Server",
+    "destination": "Cloud Director Server",
+    "serviceDescription": "ActiveMQ Artemis Messaging bus for inter-cell communication over JMS",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6074713184aa0d002cda494c",
+    "port": "161",
+    "protocol": "UDP",
+    "source": "External SNMP Client/Monitoring solution",
+    "destination": "Cloud Director Appliance",
+    "serviceDescription": "Allows external snmp clients to send snmp requests to SNMP daemon on Appliance. Enabled only when vmware-snmp is enabled on the appliance.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "607470c119c28a0024136e2f",
+        "releaseName": "VMware Cloud Director 10.2.2",
+        "displayName": "10.2.2",
+        "rmReleaseId": "B9C2FD3B-AED6-4962-BD48-D890A2E031EF",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5dfcabc900103831cd",
+    "port": "8443",
+    "protocol": "HTTPS",
+    "source": "Client Web-Browser",
+    "destination": "Cloud Director Appliance",
+    "serviceDescription": "Console Proxy Service up to Version 10.3",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5bfcabc900103831bc",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Server",
+    "destination": "vSphere ESXi Hosts",
+    "serviceDescription": "Network communication",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6446f81230910021b5f7bbc0",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Server",
+    "destination": "vCenter Server",
+    "serviceDescription": "Access vCenter APIs",
+    "purpose": "-",
+    "classification": "-  ",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6446f852ad8be32e487da0f3",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Server",
+    "destination": "NSX Manager",
+    "serviceDescription": "Access NSX APIs",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6446f87430910021b5f7bbc1",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Cloud Director Server",
+    "destination": "NSX ALB Connector",
+    "serviceDescription": "Access NSX ALB APIs",
+    "purpose": "- ",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ec59e5cfcabc900103831c1",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Client Web-Browser ",
+    "destination": "Cloud Director Server",
+    "serviceDescription": "UI/API access (all versions) and Console Proxy Service beginning with Version  10.4.",
+    "purpose": "- ",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64a6e75e30910021b5f7bd6c",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Tenant Kubernetes Cluster",
+    "destination": "Cloud Director Server",
+    "serviceDescription": "Content Hub Operator in Tenant Kubernetes Cluster communicates with Cloud Director Server for container application deployment",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6558e4a930910021b5f7c071",
+    "port": "8999",
+    "protocol": "JMX, RMI",
+    "source": "Cloud Director Server, Cell Management Tool, JMX Client",
+    "destination": "Cloud Director Server",
+    "serviceDescription": "RMI Registry. Facilitates JMX RMI. Used during cell-to-cell communication and to allow Cell Management Tool to perform certain actions.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6558e4a930910021b5f7c070",
+    "port": "8998",
+    "protocol": "JMX, RMI",
+    "source": "Cloud Director Server, Cell Management Tool, JMX Client",
+    "destination": "Cloud Director Server",
+    "serviceDescription": "JMX RMI. Used during cell-to-cell communication and to allow Cell Management Tool to perform certain actions.",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "65f1fc2533e91b3527cbf7cc",
+    "port": "2049",
+    "protocol": "TCP, UDP",
+    "source": "Cloud Director Server",
+    "destination": "NFS",
+    "serviceDescription": "NFS connectivity",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "jfeldman-1719848300656",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-28 00:00",
+    "product": {
+      "id": "5e8c782f34d56b0015b44076",
+      "productName": "VMware Cloud Director",
+      "displayName": "VMware Cloud Director",
+      "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+    },
+    "releases": [
+      {
+        "id": "64a6e606ad8be32e487da285",
+        "releaseName": "VMware Cloud Director 10.5",
+        "displayName": "10.5",
+        "rmReleaseId": "FC6C5F6A-ECC2-43B1-9AEC-52981E545424",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "62d58e501c64e10d2ace582f",
+        "releaseName": "VMware Cloud Director 10.4",
+        "displayName": "10.4",
+        "rmReleaseId": "7984D120-8F49-43EC-9EEB-6F30E1D08EF6",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "617991e788ac9f182c804bb8",
+        "releaseName": "VMware Cloud Director 10.3",
+        "displayName": "10.3",
+        "rmReleaseId": "0E35BA4F-599D-45B9-89D1-91EB531CC653",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5e8c7849dd3b100015868feb",
+        "releaseName": "VMware Cloud Director 10.1",
+        "displayName": "10.1",
+        "rmReleaseId": "C6572FD3-63AB-4B7F-8F8C-FD3822FD8CD8",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "5f889e1b620b72000d5b2724",
+        "releaseName": "VMware Cloud Director 10.2",
+        "displayName": "10.2",
+        "rmReleaseId": "ABD1148A-535C-4F66-B7D9-0FA203A18051",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      },
+      {
+        "id": "6682ccd32e04cd44af66b445",
+        "releaseName": "VMware Cloud Director 10.6",
+        "displayName": "10.6",
+        "rmReleaseId": "61017587-03E4-4740-9A12-4CE5A164DBF9",
+        "product": {
+          "id": "5e8c782f34d56b0015b44076",
+          "productName": "VMware Cloud Director",
+          "displayName": "VMware Cloud Director",
+          "rmProductId": "D3C723C8-A84C-4CDC-BD7D-0BDFE1B1725D"
+        }
+      }
+    ]
+  }
+]

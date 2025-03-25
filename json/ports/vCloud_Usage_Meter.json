@@ -1,0 +1,824 @@
+[
+  {
+    "id": "5e7dd9f060e838000f30b557",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "Platform",
+    "destination": "UM Appliance",
+    "serviceDescription": "Usage Meter agent access. User/Password or SSH key-based authentication.",
+    "purpose": "Inbound communication port for Usage Meter to login using SSH",
+    "classification": "SSL Enabled",
+    "submissionId": "pnedyalkov-1707290441769",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-02-04 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "5f995b8277105900107a7cb6",
+        "releaseName": "vCloud Usage Meter 4.3",
+        "displayName": "4.3",
+        "rmReleaseId": "3966CA73-78F5-4BE1-B9B3-ECAC9F2CD66E",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "6092741ebe82d90019c5c1cd",
+        "releaseName": "vCloud Usage Meter 4.4",
+        "displayName": "4.4",
+        "rmReleaseId": "07F01DFC-3D48-467B-A8E4-05AE9D7B5165",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "61b9a71bb668e03b5a1458ee",
+        "releaseName": "vCloud Usage Meter 4.5",
+        "displayName": "4.5",
+        "rmReleaseId": "B9A660BD-6A5A-40A8-8858-EE8878DA6E6A",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "633c2d0c3d30460c1665ecff",
+        "releaseName": "VMware vCloud Usage Meter 4.6",
+        "displayName": "4.6",
+        "rmReleaseId": "62E04F69-CDDC-4339-A791-F4F9786A96BC",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "64c769d730910021b5f7bdfa",
+        "releaseName": "VMware vCloud Usage Meter 4.7",
+        "displayName": "4.7",
+        "rmReleaseId": "7CC3931F-909F-4E1A-B889-BA9A440D40FB",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "65bbc9a130910021b5f7c14f",
+        "releaseName": "VMware vCloud Usage Meter 4.8",
+        "displayName": "4,8",
+        "rmReleaseId": "D5137BBE-4E2E-4513-B4BD-D31808EF0349",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e7dd9f060e838000f30b55c",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "UM Appliance",
+    "destination": "ums.cloud.vmware.com",
+    "serviceDescription": "Outbound communication to VMware Cloud",
+    "purpose": "Sending Usage Data to VMware cloud",
+    "classification": "Sensitive and SSL Enabled ",
+    "submissionId": "pnedyalkov-1707290441769",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-02-04 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "5f995b8277105900107a7cb6",
+        "releaseName": "vCloud Usage Meter 4.3",
+        "displayName": "4.3",
+        "rmReleaseId": "3966CA73-78F5-4BE1-B9B3-ECAC9F2CD66E",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "6092741ebe82d90019c5c1cd",
+        "releaseName": "vCloud Usage Meter 4.4",
+        "displayName": "4.4",
+        "rmReleaseId": "07F01DFC-3D48-467B-A8E4-05AE9D7B5165",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "61b9a71bb668e03b5a1458ee",
+        "releaseName": "vCloud Usage Meter 4.5",
+        "displayName": "4.5",
+        "rmReleaseId": "B9A660BD-6A5A-40A8-8858-EE8878DA6E6A",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "633c2d0c3d30460c1665ecff",
+        "releaseName": "VMware vCloud Usage Meter 4.6",
+        "displayName": "4.6",
+        "rmReleaseId": "62E04F69-CDDC-4339-A791-F4F9786A96BC",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "64c769d730910021b5f7bdfa",
+        "releaseName": "VMware vCloud Usage Meter 4.7",
+        "displayName": "4.7",
+        "rmReleaseId": "7CC3931F-909F-4E1A-B889-BA9A440D40FB",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "65bbc9a130910021b5f7c14f",
+        "releaseName": "VMware vCloud Usage Meter 4.8",
+        "displayName": "4,8",
+        "rmReleaseId": "D5137BBE-4E2E-4513-B4BD-D31808EF0349",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e7dd9f060e838000f30b55b",
+    "port": "Proxy server port",
+    "protocol": "HTTPS",
+    "source": "-",
+    "destination": "-",
+    "serviceDescription": "Serves requests from proxy and sends commands to proxy",
+    "purpose": "Communication port for proxy connection",
+    "classification": "Sensitive and SSL Enabled ",
+    "submissionId": "pnedyalkov-1707290441769",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-02-04 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "5f995b8277105900107a7cb6",
+        "releaseName": "vCloud Usage Meter 4.3",
+        "displayName": "4.3",
+        "rmReleaseId": "3966CA73-78F5-4BE1-B9B3-ECAC9F2CD66E",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "6092741ebe82d90019c5c1cd",
+        "releaseName": "vCloud Usage Meter 4.4",
+        "displayName": "4.4",
+        "rmReleaseId": "07F01DFC-3D48-467B-A8E4-05AE9D7B5165",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "61b9a71bb668e03b5a1458ee",
+        "releaseName": "vCloud Usage Meter 4.5",
+        "displayName": "4.5",
+        "rmReleaseId": "B9A660BD-6A5A-40A8-8858-EE8878DA6E6A",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "633c2d0c3d30460c1665ecff",
+        "releaseName": "VMware vCloud Usage Meter 4.6",
+        "displayName": "4.6",
+        "rmReleaseId": "62E04F69-CDDC-4339-A791-F4F9786A96BC",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "64c769d730910021b5f7bdfa",
+        "releaseName": "VMware vCloud Usage Meter 4.7",
+        "displayName": "4.7",
+        "rmReleaseId": "7CC3931F-909F-4E1A-B889-BA9A440D40FB",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "65bbc9a130910021b5f7c14f",
+        "releaseName": "VMware vCloud Usage Meter 4.8",
+        "displayName": "4,8",
+        "rmReleaseId": "D5137BBE-4E2E-4513-B4BD-D31808EF0349",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e7dd9f060e838000f30b559",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "UM Appliance",
+    "destination": "All Metered Products",
+    "serviceDescription": "Default port to access products and execute API",
+    "purpose": "To access products and execute API commands",
+    "classification": "-",
+    "submissionId": "pnedyalkov-1707290441769",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-02-04 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "5f995b8277105900107a7cb6",
+        "releaseName": "vCloud Usage Meter 4.3",
+        "displayName": "4.3",
+        "rmReleaseId": "3966CA73-78F5-4BE1-B9B3-ECAC9F2CD66E",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "6092741ebe82d90019c5c1cd",
+        "releaseName": "vCloud Usage Meter 4.4",
+        "displayName": "4.4",
+        "rmReleaseId": "07F01DFC-3D48-467B-A8E4-05AE9D7B5165",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "61b9a71bb668e03b5a1458ee",
+        "releaseName": "vCloud Usage Meter 4.5",
+        "displayName": "4.5",
+        "rmReleaseId": "B9A660BD-6A5A-40A8-8858-EE8878DA6E6A",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "633c2d0c3d30460c1665ecff",
+        "releaseName": "VMware vCloud Usage Meter 4.6",
+        "displayName": "4.6",
+        "rmReleaseId": "62E04F69-CDDC-4339-A791-F4F9786A96BC",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "64c769d730910021b5f7bdfa",
+        "releaseName": "VMware vCloud Usage Meter 4.7",
+        "displayName": "4.7",
+        "rmReleaseId": "7CC3931F-909F-4E1A-B889-BA9A440D40FB",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "65bbc9a130910021b5f7c14f",
+        "releaseName": "VMware vCloud Usage Meter 4.8",
+        "displayName": "4,8",
+        "rmReleaseId": "D5137BBE-4E2E-4513-B4BD-D31808EF0349",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e7dd9f060e838000f30b558",
+    "port": "8443",
+    "protocol": "HTTPS",
+    "source": "Platform",
+    "destination": "UM Appliance",
+    "serviceDescription": "API access and communication with Usage Meter. SSL channel encrypted with 2048 RSA key based SHA2 cert.",
+    "purpose": "Inbound communication port for Usage Meter",
+    "classification": "Sensitive and SSL Enabled",
+    "submissionId": "pnedyalkov-1707290441769",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-02-04 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "5f995b8277105900107a7cb6",
+        "releaseName": "vCloud Usage Meter 4.3",
+        "displayName": "4.3",
+        "rmReleaseId": "3966CA73-78F5-4BE1-B9B3-ECAC9F2CD66E",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "6092741ebe82d90019c5c1cd",
+        "releaseName": "vCloud Usage Meter 4.4",
+        "displayName": "4.4",
+        "rmReleaseId": "07F01DFC-3D48-467B-A8E4-05AE9D7B5165",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "61b9a71bb668e03b5a1458ee",
+        "releaseName": "vCloud Usage Meter 4.5",
+        "displayName": "4.5",
+        "rmReleaseId": "B9A660BD-6A5A-40A8-8858-EE8878DA6E6A",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "633c2d0c3d30460c1665ecff",
+        "releaseName": "VMware vCloud Usage Meter 4.6",
+        "displayName": "4.6",
+        "rmReleaseId": "62E04F69-CDDC-4339-A791-F4F9786A96BC",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "64c769d730910021b5f7bdfa",
+        "releaseName": "VMware vCloud Usage Meter 4.7",
+        "displayName": "4.7",
+        "rmReleaseId": "7CC3931F-909F-4E1A-B889-BA9A440D40FB",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "65bbc9a130910021b5f7c14f",
+        "releaseName": "VMware vCloud Usage Meter 4.8",
+        "displayName": "4,8",
+        "rmReleaseId": "D5137BBE-4E2E-4513-B4BD-D31808EF0349",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e7dd9f060e838000f30b55a",
+    "port": "7444",
+    "protocol": "TCP",
+    "source": "UM Appliance",
+    "destination": "Product PSC server for vCenter Lookup service",
+    "serviceDescription": "Default port to access PSC server product and execute API",
+    "purpose": "To access PSC server product and execute API",
+    "classification": "API calls, Authentication",
+    "submissionId": "pnedyalkov-1707290441769",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-02-04 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "5f995b8277105900107a7cb6",
+        "releaseName": "vCloud Usage Meter 4.3",
+        "displayName": "4.3",
+        "rmReleaseId": "3966CA73-78F5-4BE1-B9B3-ECAC9F2CD66E",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "6092741ebe82d90019c5c1cd",
+        "releaseName": "vCloud Usage Meter 4.4",
+        "displayName": "4.4",
+        "rmReleaseId": "07F01DFC-3D48-467B-A8E4-05AE9D7B5165",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "61b9a71bb668e03b5a1458ee",
+        "releaseName": "vCloud Usage Meter 4.5",
+        "displayName": "4.5",
+        "rmReleaseId": "B9A660BD-6A5A-40A8-8858-EE8878DA6E6A",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "633c2d0c3d30460c1665ecff",
+        "releaseName": "VMware vCloud Usage Meter 4.6",
+        "displayName": "4.6",
+        "rmReleaseId": "62E04F69-CDDC-4339-A791-F4F9786A96BC",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "64c769d730910021b5f7bdfa",
+        "releaseName": "VMware vCloud Usage Meter 4.7",
+        "displayName": "4.7",
+        "rmReleaseId": "7CC3931F-909F-4E1A-B889-BA9A440D40FB",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "65bbc9a130910021b5f7c14f",
+        "releaseName": "VMware vCloud Usage Meter 4.8",
+        "displayName": "4,8",
+        "rmReleaseId": "D5137BBE-4E2E-4513-B4BD-D31808EF0349",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5daeb56d73ae8f000f5f0e58",
+    "port": "8443",
+    "protocol": "TCP",
+    "source": "Client browser ",
+    "destination": "vCloud Usage Meter",
+    "serviceDescription": "Used for the Web application.",
+    "purpose": "vCloud Usage Meter UI",
+    "classification": "Used for the Web application.",
+    "submissionId": "pnedyalkov-1707290441769",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-02-04 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "5f995b8277105900107a7cb6",
+        "releaseName": "vCloud Usage Meter 4.3",
+        "displayName": "4.3",
+        "rmReleaseId": "3966CA73-78F5-4BE1-B9B3-ECAC9F2CD66E",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "6092741ebe82d90019c5c1cd",
+        "releaseName": "vCloud Usage Meter 4.4",
+        "displayName": "4.4",
+        "rmReleaseId": "07F01DFC-3D48-467B-A8E4-05AE9D7B5165",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "61b9a71bb668e03b5a1458ee",
+        "releaseName": "vCloud Usage Meter 4.5",
+        "displayName": "4.5",
+        "rmReleaseId": "B9A660BD-6A5A-40A8-8858-EE8878DA6E6A",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "633c2d0c3d30460c1665ecff",
+        "releaseName": "VMware vCloud Usage Meter 4.6",
+        "displayName": "4.6",
+        "rmReleaseId": "62E04F69-CDDC-4339-A791-F4F9786A96BC",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "64c769d730910021b5f7bdfa",
+        "releaseName": "VMware vCloud Usage Meter 4.7",
+        "displayName": "4.7",
+        "rmReleaseId": "7CC3931F-909F-4E1A-B889-BA9A440D40FB",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "65bbc9a130910021b5f7c14f",
+        "releaseName": "VMware vCloud Usage Meter 4.8",
+        "displayName": "4,8",
+        "rmReleaseId": "D5137BBE-4E2E-4513-B4BD-D31808EF0349",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "61b9aa8eb668e03b5a1458ef",
+    "port": "5480",
+    "protocol": "TCP",
+    "source": "Client Browser ",
+    "destination": "Virtual Appliance Management Interface (VAMI)",
+    "serviceDescription": "Used for VAMI Web application",
+    "purpose": "To access VAMI UI.",
+    "classification": "URL access",
+    "submissionId": "pnedyalkov-1707290441769",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-02-04 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "61b9a71bb668e03b5a1458ee",
+        "releaseName": "vCloud Usage Meter 4.5",
+        "displayName": "4.5",
+        "rmReleaseId": "B9A660BD-6A5A-40A8-8858-EE8878DA6E6A",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "633c2d0c3d30460c1665ecff",
+        "releaseName": "VMware vCloud Usage Meter 4.6",
+        "displayName": "4.6",
+        "rmReleaseId": "62E04F69-CDDC-4339-A791-F4F9786A96BC",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "64c769d730910021b5f7bdfa",
+        "releaseName": "VMware vCloud Usage Meter 4.7",
+        "displayName": "4.7",
+        "rmReleaseId": "7CC3931F-909F-4E1A-B889-BA9A440D40FB",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "65bbc9a130910021b5f7c14f",
+        "releaseName": "VMware vCloud Usage Meter 4.8",
+        "displayName": "4,8",
+        "rmReleaseId": "D5137BBE-4E2E-4513-B4BD-D31808EF0349",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5f9963986a26920014ee0ce0",
+    "port": "80, 8080, 443",
+    "protocol": "TCP",
+    "source": "Client Browser",
+    "destination": "UM Appliance",
+    "serviceDescription": "Accepts HTTP connections and upgrades them to HTTPS connections on port 443. This port is optional and is not required to be open if you connect over HTTPS exclusively",
+    "purpose": "HTTPS access to web UI or HTTPS upgrade for Usage Meter web UI ",
+    "classification": "-",
+    "submissionId": "pnedyalkov-1707290441769",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-02-04 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "5f995b8277105900107a7cb6",
+        "releaseName": "vCloud Usage Meter 4.3",
+        "displayName": "4.3",
+        "rmReleaseId": "3966CA73-78F5-4BE1-B9B3-ECAC9F2CD66E",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "6092741ebe82d90019c5c1cd",
+        "releaseName": "vCloud Usage Meter 4.4",
+        "displayName": "4.4",
+        "rmReleaseId": "07F01DFC-3D48-467B-A8E4-05AE9D7B5165",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "61b9a71bb668e03b5a1458ee",
+        "releaseName": "vCloud Usage Meter 4.5",
+        "displayName": "4.5",
+        "rmReleaseId": "B9A660BD-6A5A-40A8-8858-EE8878DA6E6A",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "633c2d0c3d30460c1665ecff",
+        "releaseName": "VMware vCloud Usage Meter 4.6",
+        "displayName": "4.6",
+        "rmReleaseId": "62E04F69-CDDC-4339-A791-F4F9786A96BC",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "64c769d730910021b5f7bdfa",
+        "releaseName": "VMware vCloud Usage Meter 4.7",
+        "displayName": "4.7",
+        "rmReleaseId": "7CC3931F-909F-4E1A-B889-BA9A440D40FB",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      },
+      {
+        "id": "65bbc9a130910021b5f7c14f",
+        "releaseName": "VMware vCloud Usage Meter 4.8",
+        "displayName": "4,8",
+        "rmReleaseId": "D5137BBE-4E2E-4513-B4BD-D31808EF0349",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  }
+]

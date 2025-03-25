@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "644bd37d30910021b5f7bbd3",
+    "port": "ICMP",
+    "protocol": "ICMP",
+    "source": "VCP LCM Appliance",
+    "destination": "VMware Chargeback",
+    "serviceDescription": "VCP LCM uses ICMP (ping) to verify if the Chargeback VM is deployed successfully",
+    "purpose": "Verify successful deployment",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644bd37d30910021b5f7bbd4",
+    "port": "ICMP",
+    "protocol": "ICMP",
+    "source": "VCP LCM Appliance",
+    "destination": "vCloud Usage Meter",
+    "serviceDescription": "VCP LCM uses ICMP (ping) to verify if the Usage Meter VM is deployed successfully",
+    "purpose": "Verify successful deployment",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644bd37d30910021b5f7bbd5",
+    "port": "ICMP",
+    "protocol": "ICMP",
+    "source": "VCP LCM Appliance",
+    "destination": "RabbitMQ VMs",
+    "serviceDescription": "VCP LCM uses ICMP (ping) to verify if the RMQ VMs are deployed successfully",
+    "purpose": "Verify successful deployment",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644b9c24ad8be32e487da0f5",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VCP LCM Appliance",
+    "destination": "vCenter Server",
+    "serviceDescription": "vCenter API is used to deploy VMs and to retrieve information about VMs or other VC entities.",
+    "purpose": "Outbound communication with vCenter to deploy VMs or retrieve configuration values",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644b9c24ad8be32e487da0f6",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCP LCM Appliance",
+    "destination": "vCenter Server (hosting VCP LCM managed products)",
+    "serviceDescription": "Commands are executed on VMs via vmtools through vCenter",
+    "purpose": "Outbound communication with VMs via VMtools",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644b9c24ad8be32e487da0f7",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCP LCM Appliance",
+    "destination": "ESXi (hosting VCP LCM managed products)",
+    "serviceDescription": "Some files are transferred to VMs using vmtools, which requires communication between VCP LCM and the ESXi server",
+    "purpose": "File transfer to VMs via vmtools",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644ba219ad8be32e487da104",
+    "port": "9443",
+    "protocol": "HTTPS",
+    "source": "API client",
+    "destination": "VCP LCM API",
+    "serviceDescription": "Access to VCP LCM API",
+    "purpose": "API access to VCP LCM",
+    "classification": "Inbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644ba219ad8be32e487da103",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "User client (browser)",
+    "destination": "VCP LCM Appliance",
+    "serviceDescription": "Access to VCP LCM User Interface",
+    "purpose": "UI access to VCP LCM",
+    "classification": "Inbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644ba219ad8be32e487da102",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VCP LCM Appliance",
+    "destination": "VMware Aria Operations",
+    "serviceDescription": "VCP LCM validates access to Aria Operations",
+    "purpose": "Access to Aria Operations",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644ba219ad8be32e487da101",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VCP LCM Appliance",
+    "destination": "NSX-T",
+    "serviceDescription": "VCP LCM validates access to a specified NSX-T instance and retrieves info about certain entities",
+    "purpose": "Access to NSX-T",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644ba219ad8be32e487da100",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "VCP LCM Appliance",
+    "destination": "RabbitMQ VMs",
+    "serviceDescription": "VCP LCM runs some commands on the RabbitMQ VMs via SSH",
+    "purpose": "SSH access to RabbitMQ VMs",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644ba219ad8be32e487da0ff",
+    "port": "5671 (AMQP port)",
+    "protocol": "TCP",
+    "source": "VCP LCM Appliance",
+    "destination": "RabbitMQ",
+    "serviceDescription": "VCP LCM validates AMQP access to RabbitMQ",
+    "purpose": "AMQP access to RabbitMQ",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644ba219ad8be32e487da0fe",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "VCP LCM Appliance",
+    "destination": "VMware Chargeback",
+    "serviceDescription": "VCP LCM runs some commands on the Chargeback appliance via SSH",
+    "purpose": "SSH access to VMware Chargeback Appliance",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644ba219ad8be32e487da0fd",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "VCP LCM Appliance",
+    "destination": "vCloud Usage Meter",
+    "serviceDescription": "VCP LCM runs some commands on the UM appliance via SSH",
+    "purpose": "SSH access to Usage Meter Appliance",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644ba219ad8be32e487da0fc",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "VCP LCM Appliance",
+    "destination": "VMware Cloud Director Cells",
+    "serviceDescription": "VCP LCM runs some commands on VCD cells via SSH",
+    "purpose": "SSH access to VCD cells",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644ba219ad8be32e487da0fb",
+    "port": "5480",
+    "protocol": "HTTPS",
+    "source": "VCP LCM Appliance",
+    "destination": "VMware Cloud Director Cells",
+    "serviceDescription": "VCP LCM accesses VCD cells' management API to retrieve information about DB cluster",
+    "purpose": "Access Management API",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644ba219ad8be32e487da0fa",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VCP LCM Appliance",
+    "destination": "VMware Chargeback",
+    "serviceDescription": "VCP LCM accesses Chargeback API to retrieve and set configuration",
+    "purpose": "Access Chargeback API",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644ba219ad8be32e487da0f9",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VCP LCM Appliance",
+    "destination": "vCloud Usage Meter",
+    "serviceDescription": "VCP LCM accesses UM API to retrieve and set configuration",
+    "purpose": "Access UM API",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644ba219ad8be32e487da0f8",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VCP LCM Appliance",
+    "destination": "VMware Cloud Director ",
+    "serviceDescription": "VCP LCM accesses VCD API to retrieve and set configuration",
+    "purpose": "Access VCD API",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "644bd37d30910021b5f7bbd2",
+    "port": "ICMP",
+    "protocol": "ICMP",
+    "source": "VCP LCM Appliance",
+    "destination": "VCD cells",
+    "serviceDescription": "VCP LCM uses ICMP (ping) to verify if cells are deployed successfully",
+    "purpose": "Verify successful deployment",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6537bf3030910021b5f7c066",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VCP LCM Appliance",
+    "destination": "vcsa.vmware.com",
+    "serviceDescription": "If the user of VCP LCM agrees to VMware's CEIP, VCP LCM sends anonymous telemetry data regularly to VMware. If connectivity is not given, data cannot be sent. This does not have any effect on VCP LCM functionality.",
+    "purpose": "Telemetry data",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6537bf3030910021b5f7c065",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VCP LCM Appliance",
+    "destination": "customerconnect.vmware.com",
+    "serviceDescription": "VCP LCM checks regularly for new interop bundle updates. If connectivity is not given, the check cannot be performed. This does not have any effect on VCP LCM functionality.",
+    "purpose": "Check for interop bundle update",
+    "classification": "Outbound",
+    "submissionId": "pnedyalkov-1713339396262",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-06-29 00:00",
+    "product": {
+      "id": "644a923ec3f9fc6c492d90b0",
+      "productName": "VMware Cloud Provider Lifecycle Manager",
+      "displayName": "VMware Cloud Provider Lifecycle Manager",
+      "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+    },
+    "releases": [
+      {
+        "id": "6537b9a0ad8be32e487da3eb",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.6",
+        "displayName": "1.6",
+        "rmReleaseId": "46462174-AB9B-474B-A4CF-03D7075CF6FF",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c4730910021b5f7bbd1",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.5",
+        "displayName": "1.5",
+        "rmReleaseId": "9B3FB90C-1BD4-4F94-8B8A-4D38C707C580",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "644a9c3330910021b5f7bbd0",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.4",
+        "displayName": "1.4",
+        "rmReleaseId": "2AF02EDC-3D31-49D9-99B3-08045B8F8022",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      },
+      {
+        "id": "661f7bdccc71755dfc610942",
+        "releaseName": "VMware Cloud Provider Lifecycle Manager 1.7",
+        "displayName": "1.7",
+        "rmReleaseId": "F2E7C92E-3848-4162-9B5B-711E17791772",
+        "product": {
+          "id": "644a923ec3f9fc6c492d90b0",
+          "productName": "VMware Cloud Provider Lifecycle Manager",
+          "displayName": "VMware Cloud Provider Lifecycle Manager",
+          "rmProductId": "9590A9C1-3576-40F0-BDBD-7CE42A1897A3"
+        }
+      }
+    ]
+  }
+]

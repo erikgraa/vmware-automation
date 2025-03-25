@@ -1,0 +1,412 @@
+[
+  {
+    "id": "5ebccdccadd66400106a59ff",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SD-WAN Edge",
+    "destination": "SD-WAN Orchestrator (VCO)",
+    "serviceDescription": "TLS secured session from Edge to Orchestrator for managment plane traffic during activation. Note that this session is normally via Gateways to the VCO unless all tunnels to Gateways are down",
+    "purpose": "-",
+    "classification": "uni-directional (outbound)",
+    "submissionId": "fzaveri-1589431756558",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-05-07 02:00",
+    "product": {
+      "id": "5e7058ef23a0e6000e599de2",
+      "productName": "VMware SD-WAN by VeloCloud",
+      "displayName": "VMware SD-WAN by VeloCloud",
+      "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+    },
+    "releases": [
+      {
+        "id": "5ebccb1efcabc900103831b4",
+        "releaseName": "VMware SD-WAN by VeloCloud 2.5.3",
+        "displayName": "3.0",
+        "rmReleaseId": "EFD4C2E6-E474-41B3-9CB9-7D93D0109027",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb2db85bae0010e617aa",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.1.2",
+        "displayName": "3.1",
+        "rmReleaseId": "B8D056E2-F316-44CE-AA9D-2B1F10DCF895",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb3eadd66400106a59f8",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.2.2",
+        "displayName": "3.2",
+        "rmReleaseId": "8C432E0D-C1AF-42DF-888D-5E477E2E392F",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb51b85bae0010e617ab",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.3.2",
+        "displayName": "3.3",
+        "rmReleaseId": "88B94A13-94C0-4ACE-AA83-20D0CC3A14F2",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb64add66400106a59f9",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.4.2",
+        "displayName": "3.4",
+        "rmReleaseId": "AE3868AA-D983-45FD-8A4F-4DCF613F60A0",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ebccdccadd66400106a5a00",
+    "port": "2426",
+    "protocol": "UDP",
+    "source": "SD-WAN Edge",
+    "destination": "SD-WAN Gateway (VCG)",
+    "serviceDescription": "VeloCloud Multipath Protocol (VCMP), established from Edge to Gateway for control plane and dataplane (license required)",
+    "purpose": "-",
+    "classification": "uni-directional (outbound)",
+    "submissionId": "fzaveri-1589431756558",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-05-07 02:00",
+    "product": {
+      "id": "5e7058ef23a0e6000e599de2",
+      "productName": "VMware SD-WAN by VeloCloud",
+      "displayName": "VMware SD-WAN by VeloCloud",
+      "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+    },
+    "releases": [
+      {
+        "id": "5ebccb1efcabc900103831b4",
+        "releaseName": "VMware SD-WAN by VeloCloud 2.5.3",
+        "displayName": "3.0",
+        "rmReleaseId": "EFD4C2E6-E474-41B3-9CB9-7D93D0109027",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb2db85bae0010e617aa",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.1.2",
+        "displayName": "3.1",
+        "rmReleaseId": "B8D056E2-F316-44CE-AA9D-2B1F10DCF895",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb3eadd66400106a59f8",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.2.2",
+        "displayName": "3.2",
+        "rmReleaseId": "8C432E0D-C1AF-42DF-888D-5E477E2E392F",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb51b85bae0010e617ab",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.3.2",
+        "displayName": "3.3",
+        "rmReleaseId": "88B94A13-94C0-4ACE-AA83-20D0CC3A14F2",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb64add66400106a59f9",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.4.2",
+        "displayName": "3.4",
+        "rmReleaseId": "AE3868AA-D983-45FD-8A4F-4DCF613F60A0",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ebccdcdadd66400106a5a01",
+    "port": "53",
+    "protocol": "UDP",
+    "source": "SD-WAN Edge",
+    "destination": "8.8.8.8",
+    "serviceDescription": "Default DNS server used during activation. Can be re-configured for other destinations after activation",
+    "purpose": "-",
+    "classification": "uni-directional (outbound)",
+    "submissionId": "fzaveri-1589431756558",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-05-07 02:00",
+    "product": {
+      "id": "5e7058ef23a0e6000e599de2",
+      "productName": "VMware SD-WAN by VeloCloud",
+      "displayName": "VMware SD-WAN by VeloCloud",
+      "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+    },
+    "releases": [
+      {
+        "id": "5ebccb1efcabc900103831b4",
+        "releaseName": "VMware SD-WAN by VeloCloud 2.5.3",
+        "displayName": "3.0",
+        "rmReleaseId": "EFD4C2E6-E474-41B3-9CB9-7D93D0109027",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb2db85bae0010e617aa",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.1.2",
+        "displayName": "3.1",
+        "rmReleaseId": "B8D056E2-F316-44CE-AA9D-2B1F10DCF895",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb3eadd66400106a59f8",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.2.2",
+        "displayName": "3.2",
+        "rmReleaseId": "8C432E0D-C1AF-42DF-888D-5E477E2E392F",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb51b85bae0010e617ab",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.3.2",
+        "displayName": "3.3",
+        "rmReleaseId": "88B94A13-94C0-4ACE-AA83-20D0CC3A14F2",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb64add66400106a59f9",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.4.2",
+        "displayName": "3.4",
+        "rmReleaseId": "AE3868AA-D983-45FD-8A4F-4DCF613F60A0",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ebccdcdadd66400106a5a02",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "SD-WAN Edge",
+    "destination": "0.pool.ntp.org, 1.pool.ntp.org, 2.pool.ntp.org, 3.pool.ntp.org",
+    "serviceDescription": "Network Time Protocol (NTP) for Edge to obtain clock synchronisation prior to activation. The edge first queries for a list of NTP servers based on the lookup of x.pool.ntp.org. The list keeps changing everytime a lookup is done. After activation a different NTP server can be configured via the Orchestrator.",
+    "purpose": "-",
+    "classification": "uni-directional (outbound)",
+    "submissionId": "fzaveri-1589431756558",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-05-07 02:00",
+    "product": {
+      "id": "5e7058ef23a0e6000e599de2",
+      "productName": "VMware SD-WAN by VeloCloud",
+      "displayName": "VMware SD-WAN by VeloCloud",
+      "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+    },
+    "releases": [
+      {
+        "id": "5ebccb1efcabc900103831b4",
+        "releaseName": "VMware SD-WAN by VeloCloud 2.5.3",
+        "displayName": "3.0",
+        "rmReleaseId": "EFD4C2E6-E474-41B3-9CB9-7D93D0109027",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb2db85bae0010e617aa",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.1.2",
+        "displayName": "3.1",
+        "rmReleaseId": "B8D056E2-F316-44CE-AA9D-2B1F10DCF895",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb3eadd66400106a59f8",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.2.2",
+        "displayName": "3.2",
+        "rmReleaseId": "8C432E0D-C1AF-42DF-888D-5E477E2E392F",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb51b85bae0010e617ab",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.3.2",
+        "displayName": "3.3",
+        "rmReleaseId": "88B94A13-94C0-4ACE-AA83-20D0CC3A14F2",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb64add66400106a59f9",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.4.2",
+        "displayName": "3.4",
+        "rmReleaseId": "AE3868AA-D983-45FD-8A4F-4DCF613F60A0",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5ebccdcdadd66400106a5a03",
+    "port": "2426",
+    "protocol": "UDP",
+    "source": "SD-WAN Edge",
+    "destination": "SD-WAN Hub Edge",
+    "serviceDescription": "VeloCloud Multipath Protocol (VCMP), established from spoke Edge to hub Edge or from spoke Edge to spoke Edge if dynamic branch to branch is enabled",
+    "purpose": "-",
+    "classification": "uni-directional (inbound)",
+    "submissionId": "fzaveri-1589431756558",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2020-05-07 02:00",
+    "product": {
+      "id": "5e7058ef23a0e6000e599de2",
+      "productName": "VMware SD-WAN by VeloCloud",
+      "displayName": "VMware SD-WAN by VeloCloud",
+      "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+    },
+    "releases": [
+      {
+        "id": "5ebccb1efcabc900103831b4",
+        "releaseName": "VMware SD-WAN by VeloCloud 2.5.3",
+        "displayName": "3.0",
+        "rmReleaseId": "EFD4C2E6-E474-41B3-9CB9-7D93D0109027",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb2db85bae0010e617aa",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.1.2",
+        "displayName": "3.1",
+        "rmReleaseId": "B8D056E2-F316-44CE-AA9D-2B1F10DCF895",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb3eadd66400106a59f8",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.2.2",
+        "displayName": "3.2",
+        "rmReleaseId": "8C432E0D-C1AF-42DF-888D-5E477E2E392F",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb51b85bae0010e617ab",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.3.2",
+        "displayName": "3.3",
+        "rmReleaseId": "88B94A13-94C0-4ACE-AA83-20D0CC3A14F2",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      },
+      {
+        "id": "5ebccb64add66400106a59f9",
+        "releaseName": "VMware SD-WAN by VeloCloud 3.4.2",
+        "displayName": "3.4",
+        "rmReleaseId": "AE3868AA-D983-45FD-8A4F-4DCF613F60A0",
+        "product": {
+          "id": "5e7058ef23a0e6000e599de2",
+          "productName": "VMware SD-WAN by VeloCloud",
+          "displayName": "VMware SD-WAN by VeloCloud",
+          "rmProductId": "E088F5ED-7E21-48C8-98D8-7863E7562A2E"
+        }
+      }
+    ]
+  }
+]

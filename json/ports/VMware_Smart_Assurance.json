@@ -1,0 +1,4042 @@
+[
+  {
+    "id": "656d795a30910021b5f7c0f4",
+    "port": "11880",
+    "protocol": "TCP",
+    "source": "SmartsAdapter Client ",
+    "destination": "SmartsAdapter Server",
+    "serviceDescription": "Used by SmartsAdapter for internal communication",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce19d021200166a4de0",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d795a30910021b5f7c0f5",
+    "port": "11805",
+    "protocol": "TCP",
+    "source": "SmartsAdapter Client ",
+    "destination": "SmartsAdapter Server",
+    "serviceDescription": "Used by SmartsAdapter for internal communication",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce19d021200166a4ddf",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d795b30910021b5f7c0f6",
+    "port": "9998",
+    "protocol": "TCP",
+    "source": "Device Server",
+    "destination": "Application Server",
+    "serviceDescription": "Used for inter-service communication",
+    "purpose": "Used by syssyncd service",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce19d021200166a4dde",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d795b30910021b5f7c0f7",
+    "port": "9997",
+    "protocol": "TCP",
+    "source": "Application Server",
+    "destination": "Device Server",
+    "serviceDescription": "Used for inter-service communication",
+    "purpose": "Used by syssyncd service",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce19d021200166a4ddd",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d795c30910021b5f7c0f8",
+    "port": "9996",
+    "protocol": "TCP",
+    "source": "Application Server",
+    "destination": "Device Server",
+    "serviceDescription": "Used for inter-service communication",
+    "purpose": "Used by autodiscd service",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce09d021200166a4ddc",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d795c30910021b5f7c0f9",
+    "port": "9995",
+    "protocol": "TCP",
+    "source": "Application Server",
+    "destination": "Device Server",
+    "serviceDescription": "Used for inter-service communication",
+    "purpose": "Used by commmgrd  process",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce09d021200166a4ddb",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d795d30910021b5f7c0fa",
+    "port": "61616",
+    "protocol": "TCP",
+    "source": "NCM Client",
+    "destination": "NCM Server",
+    "serviceDescription": "Used by ActiveMQ for messaging",
+    "purpose": "ActiveMQ broker port",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce09d021200166a4dda",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d795d30910021b5f7c0fb",
+    "port": "9992",
+    "protocol": "TCP",
+    "source": "Device Server",
+    "destination": "Application Server",
+    "serviceDescription": "Used for inter-service communication",
+    "purpose": "Used by voyenced service",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce09d021200166a4dd9",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d795d30910021b5f7c0fc",
+    "port": "9991",
+    "protocol": "TCP",
+    "source": "Application Server",
+    "destination": "Device Server",
+    "serviceDescription": "Used for inter-service communication",
+    "purpose": "Used by voyenced service",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce09d021200166a4dd8",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d795e30910021b5f7c0fd",
+    "port": "8005",
+    "protocol": "TCP",
+    "source": "Tomcat",
+    "destination": "N/A",
+    "serviceDescription": "Used by Tomcat service for internal communication",
+    "purpose": "Tomcat internal port",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce09d021200166a4dd7",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d795e30910021b5f7c0fe",
+    "port": "9005",
+    "protocol": "TCP",
+    "source": "MSA Server",
+    "destination": "MSA Server",
+    "serviceDescription": "Used by MSA service for internal communication",
+    "purpose": "MSA internal port",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce09d021200166a4dd6",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d795f30910021b5f7c0ff",
+    "port": "9443",
+    "protocol": "TCP",
+    "source": "MSA URL",
+    "destination": "MSA Server",
+    "serviceDescription": "For EDAA interface",
+    "purpose": "Apache Communication port for MSA ",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce09d021200166a4dd5",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d795f30910021b5f7c100",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "UI Client",
+    "destination": "NCM Server",
+    "serviceDescription": "Used to listen to client requests",
+    "purpose": "Apache inbound port for communication between NCM UI Client and NCM Server ",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cde9d021200166a4dbd",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796030910021b5f7c101",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "UI Client",
+    "destination": "NCM Server",
+    "serviceDescription": "Used to listen to client requests",
+    "purpose": "Apache inbound SSL enabled port for communication between NCM UI Client and NCM Server ",
+    "classification": "SSL Enabled",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cde9d021200166a4dbe",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796030910021b5f7c102",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "NCM Server",
+    "destination": "Client",
+    "serviceDescription": "Used to send responses to client requests",
+    "purpose": "Apache outbound SSL enabled port for communication between NCM Server and NCM Client ",
+    "classification": "SSL Enabled",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cde9d021200166a4dbf",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796030910021b5f7c103",
+    "port": "8881",
+    "protocol": "TCP",
+    "source": "UI Client",
+    "destination": "NCM Server",
+    "serviceDescription": "For Client Requests",
+    "purpose": "communication port between Client and ncm-as service",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cde9d021200166a4dc0",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796130910021b5f7c104",
+    "port": "8880",
+    "protocol": "TCP",
+    "source": "UI Client",
+    "destination": "NCM Server",
+    "serviceDescription": "For SSL enabled client requests",
+    "purpose": "SSL enabled communication port between Client and ncm-as service",
+    "classification": "Sensitive and SSL Enabled",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cde9d021200166a4dc1",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796130910021b5f7c105",
+    "port": "161",
+    "protocol": "UDP",
+    "source": "NCM Server",
+    "destination": "Device",
+    "serviceDescription": "SNMP Communication",
+    "purpose": "SNMP communication port between NCM and Device",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cde9d021200166a4dc2",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796230910021b5f7c106",
+    "port": "23",
+    "protocol": "TCP",
+    "source": "NCM Server",
+    "destination": "Device",
+    "serviceDescription": "Telnet Communication",
+    "purpose": "For Telnet Communication",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cde9d021200166a4dc3",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796530910021b5f7c10e",
+    "port": "49",
+    "protocol": "TCP",
+    "source": "NCM Server",
+    "destination": "TACACS+ Server",
+    "serviceDescription": "Communication for TACACS+ Users",
+    "purpose": "Communication port between NCM Server and TACACS+ Server",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cdf9d021200166a4dcb",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796230910021b5f7c107",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "NCM Server",
+    "destination": "Device",
+    "serviceDescription": "Used for SSH and SCP communication",
+    "purpose": "For SSH and SCP Communication",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cde9d021200166a4dc4",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796230910021b5f7c108",
+    "port": "69 and > 1023",
+    "protocol": "TCP",
+    "source": "NCM Server / Device",
+    "destination": "Device / NCM Server",
+    "serviceDescription": "Used for TFTP Communication",
+    "purpose": "For TFTP Communication",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cdf9d021200166a4dc5",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796330910021b5f7c109",
+    "port": "21",
+    "protocol": "TCP",
+    "source": "NCM Server",
+    "destination": "Device",
+    "serviceDescription": "Used for FTP communication",
+    "purpose": "For FTP Communication",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cdf9d021200166a4dc6",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796330910021b5f7c10a",
+    "port": "162",
+    "protocol": "UDP",
+    "source": "NCM Server",
+    "destination": "Device",
+    "serviceDescription": "Used for receiving SNMP Traps",
+    "purpose": "For SNMP Traps",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cdf9d021200166a4dc7",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796430910021b5f7c10b",
+    "port": "514",
+    "protocol": "UDP",
+    "source": "NCM Server",
+    "destination": "Device",
+    "serviceDescription": "For receiving Syslog messages",
+    "purpose": "For Syslog messages",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cdf9d021200166a4dc8",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796430910021b5f7c10c",
+    "port": "11965",
+    "protocol": "TCP",
+    "source": "Client",
+    "destination": "NCM Server",
+    "serviceDescription": "For secure communication",
+    "purpose": "For creating a tunnel between NCM Client to NCM Server",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cdf9d021200166a4dc9",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796530910021b5f7c10d",
+    "port": "11966",
+    "protocol": "TCP",
+    "source": "Application Server",
+    "destination": "Device Server",
+    "serviceDescription": "For secure communication",
+    "purpose": "For creating a tunnel between AS to DS",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cdf9d021200166a4dca",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796530910021b5f7c10f",
+    "port": "1645, 1646, 1812, 1813",
+    "protocol": "TCP",
+    "source": "NCM Server",
+    "destination": "Radius Server",
+    "serviceDescription": "Communication for RADIUS Users",
+    "purpose": "Communication port between NCM Server and RADIUS Server",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cdf9d021200166a4dcc",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796630910021b5f7c110",
+    "port": "389",
+    "protocol": "TCP",
+    "source": "NCM Server",
+    "destination": "LDAP server",
+    "serviceDescription": "Communication for LDAP Users",
+    "purpose": "Communication port between NCM Server and LDAP Server",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cdf9d021200166a4dcd",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796630910021b5f7c111",
+    "port": "1029",
+    "protocol": "TCP",
+    "source": "Application Server",
+    "destination": "Device Server",
+    "serviceDescription": "Establishes telnet proxy ",
+    "purpose": "For Telnet proxy",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cdf9d021200166a4dce",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796730910021b5f7c112",
+    "port": "1031",
+    "protocol": "TCP",
+    "source": "Application Server",
+    "destination": "Device Server",
+    "serviceDescription": "Establishes SSH proxy ",
+    "purpose": "For SSH proxy",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cdf9d021200166a4dcf",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796730910021b5f7c114",
+    "port": "53",
+    "protocol": "TCP",
+    "source": "NCM Server",
+    "destination": "DNS server",
+    "serviceDescription": "Communication with DNS Server",
+    "purpose": "Communication port between NCM Server and DNS Server",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce09d021200166a4dd1",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796830910021b5f7c115",
+    "port": "8443",
+    "protocol": "TCP",
+    "source": "NCM Client",
+    "destination": "Application Server",
+    "serviceDescription": "Network Communication",
+    "purpose": "Tomcat SSL port",
+    "classification": "Sensitive and SSL Enabled",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce09d021200166a4dd2",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796830910021b5f7c116",
+    "port": "5435",
+    "protocol": "TCP",
+    "source": "NCM Server",
+    "destination": "PostgreSQL Server",
+    "serviceDescription": "Communication with PostgreSQL server",
+    "purpose": "PostgreSQL port",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce09d021200166a4dd3",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796930910021b5f7c117",
+    "port": "1099",
+    "protocol": "TCP",
+    "source": "NCM Server",
+    "destination": "N/A",
+    "serviceDescription": "Used as registry port for bean registration",
+    "purpose": "Internal Bean Registration port",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce09d021200166a4dd4",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d796730910021b5f7c113",
+    "port": "25",
+    "protocol": "TCP",
+    "source": "NCM Server",
+    "destination": "SMTP Server",
+    "serviceDescription": "For email notification",
+    "purpose": "Communication port between NCM Server and SMTP Server",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215cdf9d021200166a4dd0",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "656d795a30910021b5f7c0f3",
+    "port": "11843",
+    "protocol": "TCP",
+    "source": "SmartsAdapter Client ",
+    "destination": "SmartsAdapter Server",
+    "serviceDescription": "Used by SmartsAdapter for receiving client requests",
+    "purpose": "Network Communication ",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60215ce19d021200166a4de1",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "6013bc0436ce7f00153d97af",
+        "releaseName": "VMware Smart Assurance 10.1.4",
+        "displayName": "10.1.4",
+        "rmReleaseId": "F099E9CD-B74A-4B4E-B7A2-B6356FCE2945",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61482ba6d28a571a731c62cc",
+        "releaseName": "VMware Smart Assurance 10.1.6",
+        "displayName": "10.1.6",
+        "rmReleaseId": "810F8155-7A43-411F-A304-35C35E042CAE",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "62727d041e4523793c1c9a42",
+        "releaseName": "VMware Smart Assurance 10.1.8",
+        "displayName": "10.1.8",
+        "rmReleaseId": "F4CAACDC-DEEB-44C8-B41C-813140FAAAEB",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "63846b473d30460c1665ed81",
+        "releaseName": "VMware Smart Assurance 10.1.11",
+        "displayName": "10.1.11",
+        "rmReleaseId": "C8BB4145-AB5B-4DC9-9DA0-4E0A8557A33E",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "656d78b4ad8be32e487da42d",
+        "releaseName": "VMware Smart Assurance 10.1.13.0",
+        "displayName": "10.1.13",
+        "rmReleaseId": "296444E5-B9C2-4DE3-A11E-75E5C437D8D3",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "630cc1a83d30460c1665ec11",
+    "port": "426",
+    "protocol": "TCP",
+    "source": "Smarts Broker",
+    "destination": "VSA Domain managers",
+    "serviceDescription": "Used to listen to client requests",
+    "purpose": "It is the default port that communicates with the VSA Broker.",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60a34f00382323002880118e",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6305eb4f3d30460c1665ec0f",
+        "releaseName": "VMware Smart Assurance 10.1.9",
+        "displayName": "10.1.9",
+        "rmReleaseId": "286F5566-F129-41CF-9117-ABE9CF96E0FD",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6454b90930910021b5f7bbda",
+        "releaseName": "VMware Smart Assurance 10.1.12",
+        "displayName": "10.1.12",
+        "rmReleaseId": "4354724A-9072-44A9-8871-761DA9F0F02D",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "630cc1a73d30460c1665ec10",
+    "port": "514",
+    "protocol": "UDP",
+    "source": "Device",
+    "destination": "VSA Application",
+    "serviceDescription": "VSA syslog adapter service",
+    "purpose": "For Syslog messages",
+    "classification": "-",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60a34f02382323002880119b",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6305eb4f3d30460c1665ec0f",
+        "releaseName": "VMware Smart Assurance 10.1.9",
+        "displayName": "10.1.9",
+        "rmReleaseId": "286F5566-F129-41CF-9117-ABE9CF96E0FD",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6454b90930910021b5f7bbda",
+        "releaseName": "VMware Smart Assurance 10.1.12",
+        "displayName": "10.1.12",
+        "rmReleaseId": "4354724A-9072-44A9-8871-761DA9F0F02D",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "630cc1a83d30460c1665ec12",
+    "port": "161",
+    "protocol": "UDP",
+    "source": "VSA Application",
+    "destination": "Device",
+    "serviceDescription": "SNMP Communication",
+    "purpose": "SNMP communication port between NCM and Device",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60a34f01382323002880118f",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6305eb4f3d30460c1665ec0f",
+        "releaseName": "VMware Smart Assurance 10.1.9",
+        "displayName": "10.1.9",
+        "rmReleaseId": "286F5566-F129-41CF-9117-ABE9CF96E0FD",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6454b90930910021b5f7bbda",
+        "releaseName": "VMware Smart Assurance 10.1.12",
+        "displayName": "10.1.12",
+        "rmReleaseId": "4354724A-9072-44A9-8871-761DA9F0F02D",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "630cc1a83d30460c1665ec13",
+    "port": "8443",
+    "protocol": "TCP",
+    "source": "VSA application",
+    "destination": "DCF",
+    "serviceDescription": "DCF service",
+    "purpose": "Communication between DCF and VSA application",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60a34f02382323002880119a",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6305eb4f3d30460c1665ec0f",
+        "releaseName": "VMware Smart Assurance 10.1.9",
+        "displayName": "10.1.9",
+        "rmReleaseId": "286F5566-F129-41CF-9117-ABE9CF96E0FD",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6454b90930910021b5f7bbda",
+        "releaseName": "VMware Smart Assurance 10.1.12",
+        "displayName": "10.1.12",
+        "rmReleaseId": "4354724A-9072-44A9-8871-761DA9F0F02D",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "630cc1a83d30460c1665ec14",
+    "port": "9091,9092,9093",
+    "protocol": "TCP",
+    "source": "Kafka broker",
+    "destination": "Domain managers",
+    "serviceDescription": "Kafka service",
+    "purpose": "VSA application communication with Kafka process",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60a34f023823230028801199",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6305eb4f3d30460c1665ec0f",
+        "releaseName": "VMware Smart Assurance 10.1.9",
+        "displayName": "10.1.9",
+        "rmReleaseId": "286F5566-F129-41CF-9117-ABE9CF96E0FD",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6454b90930910021b5f7bbda",
+        "releaseName": "VMware Smart Assurance 10.1.12",
+        "displayName": "10.1.12",
+        "rmReleaseId": "4354724A-9072-44A9-8871-761DA9F0F02D",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "630cc1a93d30460c1665ec15",
+    "port": "58443",
+    "protocol": "TCP",
+    "source": "EMC M&R (Watch4net) Tomcat server",
+    "destination": "EMC M&R",
+    "serviceDescription": "M&R service.",
+    "purpose": "Used for communication between M&R and VSA application (SSL enabled).",
+    "classification": "Sensitive and SSL enabled",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60a34f023823230028801198",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6305eb4f3d30460c1665ec0f",
+        "releaseName": "VMware Smart Assurance 10.1.9",
+        "displayName": "10.1.9",
+        "rmReleaseId": "286F5566-F129-41CF-9117-ABE9CF96E0FD",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6454b90930910021b5f7bbda",
+        "releaseName": "VMware Smart Assurance 10.1.12",
+        "displayName": "10.1.12",
+        "rmReleaseId": "4354724A-9072-44A9-8871-761DA9F0F02D",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "630cc1a93d30460c1665ec16",
+    "port": "8443",
+    "protocol": "TCP",
+    "source": "VSA Application (Tomcat)",
+    "destination": "EDA API",
+    "serviceDescription": "Secured Tomcat service",
+    "purpose": "Used for accessing VSA application by the clients (SSL enabled).",
+    "classification": "Sensitive and SSL enabled",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60a34f023823230028801197",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6305eb4f3d30460c1665ec0f",
+        "releaseName": "VMware Smart Assurance 10.1.9",
+        "displayName": "10.1.9",
+        "rmReleaseId": "286F5566-F129-41CF-9117-ABE9CF96E0FD",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6454b90930910021b5f7bbda",
+        "releaseName": "VMware Smart Assurance 10.1.12",
+        "displayName": "10.1.12",
+        "rmReleaseId": "4354724A-9072-44A9-8871-761DA9F0F02D",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "630cc1a93d30460c1665ec17",
+    "port": "15672",
+    "protocol": "TCP",
+    "source": "VSA Application (RabbitMQ)",
+    "destination": "SAM notification publisher",
+    "serviceDescription": "RabbitMQ service",
+    "purpose": "Used for SAM notification publisher",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60a34f013823230028801196",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6305eb4f3d30460c1665ec0f",
+        "releaseName": "VMware Smart Assurance 10.1.9",
+        "displayName": "10.1.9",
+        "rmReleaseId": "286F5566-F129-41CF-9117-ABE9CF96E0FD",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6454b90930910021b5f7bbda",
+        "releaseName": "VMware Smart Assurance 10.1.12",
+        "displayName": "10.1.12",
+        "rmReleaseId": "4354724A-9072-44A9-8871-761DA9F0F02D",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "630cc1a93d30460c1665ec18",
+    "port": "9200",
+    "protocol": "TCP",
+    "source": "VSA Application (Elastic Search)",
+    "destination": "EDAA ingestion",
+    "serviceDescription": "Elastic search communication",
+    "purpose": "Used for interacting with EDAA ingestion",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60a34f013823230028801195",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6305eb4f3d30460c1665ec0f",
+        "releaseName": "VMware Smart Assurance 10.1.9",
+        "displayName": "10.1.9",
+        "rmReleaseId": "286F5566-F129-41CF-9117-ABE9CF96E0FD",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6454b90930910021b5f7bbda",
+        "releaseName": "VMware Smart Assurance 10.1.12",
+        "displayName": "10.1.12",
+        "rmReleaseId": "4354724A-9072-44A9-8871-761DA9F0F02D",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "630cc1aa3d30460c1665ec19",
+    "port": "58080",
+    "protocol": "TCP",
+    "source": "VSA Application (Tomcat)",
+    "destination": "EMC M&R",
+    "serviceDescription": "M&R service.",
+    "purpose": "Used for communication between M&R and VSA application.",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60a34f013823230028801194",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6305eb4f3d30460c1665ec0f",
+        "releaseName": "VMware Smart Assurance 10.1.9",
+        "displayName": "10.1.9",
+        "rmReleaseId": "286F5566-F129-41CF-9117-ABE9CF96E0FD",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6454b90930910021b5f7bbda",
+        "releaseName": "VMware Smart Assurance 10.1.12",
+        "displayName": "10.1.12",
+        "rmReleaseId": "4354724A-9072-44A9-8871-761DA9F0F02D",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "630cc1aa3d30460c1665ec1a",
+    "port": "8080",
+    "protocol": "TCP",
+    "source": "VSA Application (Tomcat)",
+    "destination": "VSA client Application",
+    "serviceDescription": "Tomcat service",
+    "purpose": "Used for accessing VSA application by the clients.",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60a34f013823230028801193",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6305eb4f3d30460c1665ec0f",
+        "releaseName": "VMware Smart Assurance 10.1.9",
+        "displayName": "10.1.9",
+        "rmReleaseId": "286F5566-F129-41CF-9117-ABE9CF96E0FD",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6454b90930910021b5f7bbda",
+        "releaseName": "VMware Smart Assurance 10.1.12",
+        "displayName": "10.1.12",
+        "rmReleaseId": "4354724A-9072-44A9-8871-761DA9F0F02D",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "630cc1aa3d30460c1665ec1b",
+    "port": "23",
+    "protocol": "TCP",
+    "source": "VSA Application",
+    "destination": "Device",
+    "serviceDescription": "Telnet communication",
+    "purpose": "For Telnet communication",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60a34f013823230028801192",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6305eb4f3d30460c1665ec0f",
+        "releaseName": "VMware Smart Assurance 10.1.9",
+        "displayName": "10.1.9",
+        "rmReleaseId": "286F5566-F129-41CF-9117-ABE9CF96E0FD",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6454b90930910021b5f7bbda",
+        "releaseName": "VMware Smart Assurance 10.1.12",
+        "displayName": "10.1.12",
+        "rmReleaseId": "4354724A-9072-44A9-8871-761DA9F0F02D",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "630cc1ab3d30460c1665ec1c",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "VSA Application",
+    "destination": "Device",
+    "serviceDescription": "SSH communication",
+    "purpose": "For SSH communication.",
+    "classification": "Sensitive",
+    "submissionId": "psivasubrama-1702013266551",
+    "status": "PUBLISHED",
+    "active": "true",
+    "parentId": "60a34f013823230028801191",
+    "publishDate": "2023-12-19 10:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6305eb4f3d30460c1665ec0f",
+        "releaseName": "VMware Smart Assurance 10.1.9",
+        "displayName": "10.1.9",
+        "rmReleaseId": "286F5566-F129-41CF-9117-ABE9CF96E0FD",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "6454b90930910021b5f7bbda",
+        "releaseName": "VMware Smart Assurance 10.1.12",
+        "displayName": "10.1.12",
+        "rmReleaseId": "4354724A-9072-44A9-8871-761DA9F0F02D",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  },
+  {
+    "id": "60a34f013823230028801190",
+    "port": "162",
+    "protocol": "UDP",
+    "source": "Device",
+    "destination": "VSA Application",
+    "serviceDescription": "Used for receiving SNMP Traps.",
+    "purpose": "For SNMP Traps.",
+    "classification": "Sensitive",
+    "submissionId": "anandramacha-1638937169405",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2022-02-02 21:00",
+    "product": {
+      "id": "6012a73ff22397000fa32457",
+      "productName": "VMware Smart Assurance",
+      "displayName": "VMware Smart Assurance",
+      "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+    },
+    "releases": [
+      {
+        "id": "60a33ef4eadd59003272d7af",
+        "releaseName": "VMware Smart Assurance 10.1.5",
+        "displayName": "10.1.5",
+        "rmReleaseId": "7DF23698-7C5E-4EF8-8567-0C2ACCFBD62A",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      },
+      {
+        "id": "61b031d188ac9f182c804d77",
+        "releaseName": "VMware Smart Assurance 10.1.7",
+        "displayName": "10.1.7",
+        "rmReleaseId": "43595C1C-AB05-482A-A9A1-B473EED4EDBF",
+        "product": {
+          "id": "6012a73ff22397000fa32457",
+          "productName": "VMware Smart Assurance",
+          "displayName": "VMware Smart Assurance",
+          "rmProductId": "4ACF7A92-C690-4020-8787-A6EC88AE9189"
+        }
+      }
+    ]
+  }
+]

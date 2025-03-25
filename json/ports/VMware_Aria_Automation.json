@@ -1,0 +1,546 @@
+[
+  {
+    "id": "66f6f366a1ff633e022f0542",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware Aria Automation",
+    "destination": "VMWare Identity Manager ",
+    "serviceDescription": "-",
+    "purpose": "Component Communication",
+    "classification": "Direct Access Only",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f366a1ff633e022f0543",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "VMware Aria Automation",
+    "destination": "VMware Aria Suite Lifecycle Appliance\t",
+    "serviceDescription": "-",
+    "purpose": "Component Communication",
+    "classification": "-",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f366a1ff633e022f0544",
+    "port": "8008",
+    "protocol": "TCP",
+    "source": "VMware Aria Automation",
+    "destination": "VMware Aria Automation",
+    "serviceDescription": "-",
+    "purpose": "Health Monitor",
+    "classification": "Direct Access Only",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f366a1ff633e022f0545",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Vmware Identity Manager",
+    "destination": "VMware Aria Automation",
+    "serviceDescription": "-",
+    "purpose": "Access for SSH sessions",
+    "classification": "-",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f366a1ff633e022f0546",
+    "port": "22, 443",
+    "protocol": "SSH, HTTPS",
+    "source": "User",
+    "destination": "VMware Aria Suite Lifecycle Appliance\t",
+    "serviceDescription": "-",
+    "purpose": "Communication",
+    "classification": "-",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f366a1ff633e022f0547",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "User",
+    "destination": "VMWare Identity Manager ",
+    "serviceDescription": "-",
+    "purpose": "Communication",
+    "classification": "Direct Access Only",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f366a1ff633e022f0548",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "User",
+    "destination": "VMware Aria Automation",
+    "serviceDescription": "-",
+    "purpose": "Communication",
+    "classification": "Direct Access Only",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f366a1ff633e022f0549",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "VMWare Identity Manager ",
+    "serviceDescription": "-",
+    "purpose": "Access for SSH sessions",
+    "classification": "-",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f367a1ff633e022f054a",
+    "port": "22, 443",
+    "protocol": "SSH, HTTPS",
+    "source": "vRealize Lifecycle Manager",
+    "destination": "VMware Aria Automation",
+    "serviceDescription": "-",
+    "purpose": "Access for SSH sessions",
+    "classification": "-",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f367a1ff633e022f054b",
+    "port": "10250",
+    "protocol": "TCP,UDP",
+    "source": "VMware Aria Automation",
+    "destination": "VMware Aria Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f367a1ff633e022f054c",
+    "port": "6443",
+    "protocol": "TCP,UDP",
+    "source": "VMware Aria Automation",
+    "destination": "VMware Aria Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f367a1ff633e022f054d",
+    "port": "8285",
+    "protocol": "TCP,UDP",
+    "source": "VMware Aria Automation",
+    "destination": "VMware Aria Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f367a1ff633e022f054e",
+    "port": "2379",
+    "protocol": "ETCD, TCP",
+    "source": "VMware Aria Automation",
+    "destination": "VMware Aria Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f367a1ff633e022f054f",
+    "port": "2380",
+    "protocol": "TCP,UDP",
+    "source": "VMware Aria Automation",
+    "destination": "VMware Aria Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f367a1ff633e022f0550",
+    "port": "500",
+    "protocol": "UDP",
+    "source": "VMware Aria Automation",
+    "destination": "VMware Aria Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  },
+  {
+    "id": "66f6f367a1ff633e022f0551",
+    "port": "undefined",
+    "protocol": "undefined",
+    "source": "VMware Aria Automation",
+    "destination": "VMware Aria Automation",
+    "serviceDescription": "-",
+    "purpose": "Intra-cluster communication",
+    "classification": "-",
+    "submissionId": "prateek.gokhale-1727460198182",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-10-01 00:00",
+    "product": {
+      "id": "645cf2daeaa6a73817d9c8e8",
+      "productName": "VMware Aria Automation",
+      "displayName": "VMware Aria Automation",
+      "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+    },
+    "releases": [
+      {
+        "id": "5ce7b6097d6f930010f8e864",
+        "releaseName": "VMware Aria Automation 8.0.0",
+        "displayName": "8.0",
+        "rmReleaseId": "11BDF1C6-6BE3-4732-89BC-2B1CC387F952",
+        "product": {
+          "id": "645cf2daeaa6a73817d9c8e8",
+          "productName": "VMware Aria Automation",
+          "displayName": "VMware Aria Automation",
+          "rmProductId": "7F9E0946-C873-4A8A-85C5-57413E83DC11"
+        }
+      }
+    ]
+  }
+]
