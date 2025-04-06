@@ -1,5 +1,75 @@
 [
   {
+    "id": "652f97f3ad8be32e487da3e5",
+    "port": "443, 902",
+    "protocol": "TCP",
+    "source": "Airgap Server / Migration Tool",
+    "destination": "ESXi Server",
+    "serviceDescription": "TCA 2.x to 3.x Migration",
+    "purpose": "Uploading TCA VM Templates",
+    "classification": "Outgoing",
+    "submissionId": "umar.shaikh-1743755479118",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-01 00:00",
+    "product": {
+      "id": "60388db5cff394000eedd632",
+      "productName": "VMware Telco Cloud Automation",
+      "displayName": "VMware Telco Cloud Automation",
+      "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
+    },
+    "releases": [
+      {
+        "id": "652d74ecad8be32e487da3b3",
+        "releaseName": "VMware Telco Cloud Automation 3.0",
+        "displayName": "3.0",
+        "rmReleaseId": "F568CE9A-ECB9-442C-9429-6F346BB198BE",
+        "product": {
+          "id": "60388db5cff394000eedd632",
+          "productName": "VMware Telco Cloud Automation",
+          "displayName": "VMware Telco Cloud Automation",
+          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
+        }
+      },
+      {
+        "id": "66085f2bcc71755dfc61090e",
+        "releaseName": "VMware Telco Cloud Automation 3.1",
+        "displayName": "3.1",
+        "rmReleaseId": "736DD01E-4683-4476-90CD-554F9684B5BF",
+        "product": {
+          "id": "60388db5cff394000eedd632",
+          "productName": "VMware Telco Cloud Automation",
+          "displayName": "VMware Telco Cloud Automation",
+          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
+        }
+      },
+      {
+        "id": "664df5032cadac20e6997d03",
+        "releaseName": "VMware Telco Cloud Automation 3.1.1",
+        "displayName": "3.1.1",
+        "rmReleaseId": "BA1EED08-ECEB-4E80-BB39-D46DD109E370",
+        "product": {
+          "id": "60388db5cff394000eedd632",
+          "productName": "VMware Telco Cloud Automation",
+          "displayName": "VMware Telco Cloud Automation",
+          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
+        }
+      },
+      {
+        "id": "66f1417aa1ff633e022f04f8",
+        "releaseName": "VMware Telco Cloud Automation 3.2",
+        "displayName": "3.2",
+        "rmReleaseId": "7982F233-80CF-41D6-BCA9-F7CC8A69AD51",
+        "product": {
+          "id": "60388db5cff394000eedd632",
+          "productName": "VMware Telco Cloud Automation",
+          "displayName": "VMware Telco Cloud Automation",
+          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
+        }
+      }
+    ]
+  },
+  {
     "id": "605affa119c28a0024136db8",
     "port": "8281",
     "protocol": "TCP",
@@ -3297,76 +3367,6 @@
     "destination": "Migration Tool",
     "serviceDescription": "TCA 2.x to 3.x Migration",
     "purpose": "SSH to Execute TCA 2.x to 3.x Migration",
-    "classification": "Outgoing",
-    "submissionId": "umar.shaikh-1727691786809",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2024-09-27 00:00",
-    "product": {
-      "id": "60388db5cff394000eedd632",
-      "productName": "VMware Telco Cloud Automation",
-      "displayName": "VMware Telco Cloud Automation",
-      "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
-    },
-    "releases": [
-      {
-        "id": "652d74ecad8be32e487da3b3",
-        "releaseName": "VMware Telco Cloud Automation 3.0",
-        "displayName": "3.0",
-        "rmReleaseId": "F568CE9A-ECB9-442C-9429-6F346BB198BE",
-        "product": {
-          "id": "60388db5cff394000eedd632",
-          "productName": "VMware Telco Cloud Automation",
-          "displayName": "VMware Telco Cloud Automation",
-          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
-        }
-      },
-      {
-        "id": "66085f2bcc71755dfc61090e",
-        "releaseName": "VMware Telco Cloud Automation 3.1",
-        "displayName": "3.1",
-        "rmReleaseId": "736DD01E-4683-4476-90CD-554F9684B5BF",
-        "product": {
-          "id": "60388db5cff394000eedd632",
-          "productName": "VMware Telco Cloud Automation",
-          "displayName": "VMware Telco Cloud Automation",
-          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
-        }
-      },
-      {
-        "id": "664df5032cadac20e6997d03",
-        "releaseName": "VMware Telco Cloud Automation 3.1.1",
-        "displayName": "3.1.1",
-        "rmReleaseId": "BA1EED08-ECEB-4E80-BB39-D46DD109E370",
-        "product": {
-          "id": "60388db5cff394000eedd632",
-          "productName": "VMware Telco Cloud Automation",
-          "displayName": "VMware Telco Cloud Automation",
-          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
-        }
-      },
-      {
-        "id": "66f1417aa1ff633e022f04f8",
-        "releaseName": "VMware Telco Cloud Automation 3.2",
-        "displayName": "3.2",
-        "rmReleaseId": "7982F233-80CF-41D6-BCA9-F7CC8A69AD51",
-        "product": {
-          "id": "60388db5cff394000eedd632",
-          "productName": "VMware Telco Cloud Automation",
-          "displayName": "VMware Telco Cloud Automation",
-          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
-        }
-      }
-    ]
-  },
-  {
-    "id": "652f97f3ad8be32e487da3e5",
-    "port": "443",
-    "protocol": "TCP",
-    "source": "Airgap Server / Migration Tool",
-    "destination": "ESXi Server",
-    "serviceDescription": "TCA 2.x to 3.x Migration",
-    "purpose": "Uploading TCA VM Templates",
     "classification": "Outgoing",
     "submissionId": "umar.shaikh-1727691786809",
     "status": "PUBLISHED",
