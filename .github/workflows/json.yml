@@ -4,6 +4,8 @@ on:
       - 'main'
       - 'develop'
       - 'releases/**'
+    paths:
+      - 'powershell/Get-VMwarePortList.ps1'
   schedule:
     - cron: "0 6 */5 * *"      
   workflow_dispatch:      
