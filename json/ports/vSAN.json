@@ -1,5 +1,109 @@
 [
   {
+    "id": "623025af1e4523793c1c9713",
+    "port": "Type 8, Code 0",
+    "protocol": "ICMP",
+    "source": "vSAN Witness IP address",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "ICMP Echo (Ping) - Used for monitoring and by installers and health prechecks",
+    "purpose": "vSAN - Two Node",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96ea",
+    "port": "2233",
+    "protocol": "TCP",
+    "source": "vSAN Witness IP address",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "Storage I/O for vSAN",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
     "id": "623025ae1e4523793c1c96e0",
     "port": "80",
     "protocol": "TCP",
@@ -8,10 +112,2902 @@
     "serviceDescription": "vSAN Performance Service",
     "purpose": "vSAN - Base",
     "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
+    "submissionId": "bob.plankers-1744912949008",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-03-12 00:00",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96e2",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "vSAN Witness IP address",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Performance Service",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96e3",
+    "port": "445",
+    "protocol": "TCP",
+    "source": "vSAN SMB Clients",
+    "destination": "vSAN File Services IP Addresses",
+    "serviceDescription": "vSAN File Services - SMB",
+    "purpose": "vSAN - File Services",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96e4",
+    "port": "875",
+    "protocol": "TCP",
+    "source": "vSAN NFS Clients",
+    "destination": "vSAN File Services IP Addresses",
+    "serviceDescription": "vSAN File Services - NFS",
+    "purpose": "vSAN - File Services",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96e5",
+    "port": "1564",
+    "protocol": "TCP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Service Management - VDFS Data Path",
+    "purpose": "vSAN - Base",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96e6",
+    "port": "1565",
+    "protocol": "TCP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Service Management - VDFS Proxy",
+    "purpose": "vSAN - Base",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96e7",
+    "port": "2049",
+    "protocol": "TCP",
+    "source": "vSAN NFS Clients",
+    "destination": "vSAN File Services IP Addresses",
+    "serviceDescription": "vSAN File Services - NFS",
+    "purpose": "vSAN - File Services",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96e8",
+    "port": "2233",
+    "protocol": "TCP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "Storage I/O for vSAN",
+    "purpose": "vSAN - Base",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96e9",
+    "port": "2233",
+    "protocol": "TCP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "vSAN Witness IP address",
+    "serviceDescription": "Storage I/O for vSAN",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96eb",
+    "port": "3260",
+    "protocol": "TCP",
+    "source": "vSAN iSCSI Clients",
+    "destination": "vSAN iSCSI Target Service IP address",
+    "serviceDescription": "Interface for client access to vSAN iSCSI Target Service",
+    "purpose": "vSAN - iSCSI",
+    "classification": "Outgoing",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96ec",
+    "port": "5001",
+    "protocol": "UDP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Proactive Network Testing",
+    "purpose": "vSAN - Base",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96ed",
+    "port": "5001",
+    "protocol": "UDP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "vSAN Witness IP address",
+    "serviceDescription": "vSAN Proactive Network Testing",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96ee",
+    "port": "5001",
+    "protocol": "UDP",
+    "source": "vSAN Witness IP address",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Proactive Network Testing",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96ef",
+    "port": "5201",
+    "protocol": "TCP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Proactive Network Testing - vSAN VMODL HTTPS Endpoint",
+    "purpose": "vSAN - Base",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96f0",
+    "port": "5201",
+    "protocol": "UDP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Proactive Network Testing - vSAN VMODL HTTPS Endpoint",
+    "purpose": "vSAN - Base",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96f1",
+    "port": "5696",
+    "protocol": "TCP",
+    "source": "ESXi Management IP addresses",
+    "destination": "Key Management Server addresses",
+    "serviceDescription": "KMS/Standard Key Provider access for vSAN Encryption",
+    "purpose": "vSAN - Encryption",
+    "classification": "Outgoing",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96f2",
+    "port": "8010",
+    "protocol": "TCP",
+    "source": "Management Workstations",
+    "destination": "vCenter Server Management IP address",
+    "serviceDescription": "vSAN Live Statistics interface",
+    "purpose": "vSAN - Base",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96f3",
+    "port": "8080",
+    "protocol": "TCP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "Storage Profile-based Management for vSAN",
+    "purpose": "vSAN - Base",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96f4",
+    "port": "8080",
+    "protocol": "TCP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "vSAN Witness IP address",
+    "serviceDescription": "Storage Profile-based Management for vSAN",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96f5",
+    "port": "8080",
+    "protocol": "TCP",
+    "source": "vSAN Witness IP address",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "Storage Profile-based Management for vSAN",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96f6",
+    "port": "9095",
+    "protocol": "TCP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Management - vSAN VMODL HTTPS Endpoint",
+    "purpose": "vSAN - Base",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96f7",
+    "port": "9096",
+    "protocol": "TCP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Management - vSAN VMODL HTTPS Endpoint",
+    "purpose": "vSAN - Base",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96f8",
+    "port": "9097",
+    "protocol": "TCP",
+    "source": "Management Workstations",
+    "destination": "vCenter Server Management IP address",
+    "serviceDescription": "vSAN Management - vSAN Metrics REST Endpoint",
+    "purpose": "vSAN - Base",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96f9",
+    "port": "12321",
+    "protocol": "UDP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
+    "purpose": "vSAN - Base",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025ae1e4523793c1c96fa",
+    "port": "12321",
+    "protocol": "UDP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "vSAN Witness IP address",
+    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c96fb",
+    "port": "12321",
+    "protocol": "UDP",
+    "source": "vSAN Witness IP address",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c96fc",
+    "port": "12345",
+    "protocol": "UDP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
+    "purpose": "vSAN - Base",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c96fd",
+    "port": "12345",
+    "protocol": "UDP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "vSAN Witness IP address",
+    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c96fe",
+    "port": "12345",
+    "protocol": "UDP",
+    "source": "vSAN Witness IP address",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c96ff",
+    "port": "12443",
+    "protocol": "TCP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Storage Transport",
+    "purpose": "vSAN - Base",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c9700",
+    "port": "12443",
+    "protocol": "TCP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "vSAN Witness IP address",
+    "serviceDescription": "vSAN Storage Transport",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c9701",
+    "port": "12443",
+    "protocol": "TCP",
+    "source": "vSAN Witness IP address",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Storage Transport",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c9702",
+    "port": "20048",
+    "protocol": "TCP",
+    "source": "vSAN NFS Clients",
+    "destination": "vSAN File Services IP Addresses",
+    "serviceDescription": "vSAN File Services - NFS",
+    "purpose": "vSAN - File Services",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c9703",
+    "port": "23451",
+    "protocol": "UDP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
+    "purpose": "vSAN - Base",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c9704",
+    "port": "23451",
+    "protocol": "UDP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "vSAN Witness IP address",
+    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c9705",
+    "port": "23451",
+    "protocol": "UDP",
+    "source": "vSAN Witness IP address",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c9706",
+    "port": "27689",
+    "protocol": "TCP",
+    "source": "vSAN NFS Clients",
+    "destination": "vSAN File Services IP Addresses",
+    "serviceDescription": "vSAN File Services - NFS",
+    "purpose": "vSAN - File Services",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c9707",
+    "port": "32803",
+    "protocol": "TCP",
+    "source": "vSAN NFS Clients",
+    "destination": "vSAN File Services IP Addresses",
+    "serviceDescription": "vSAN File Services - NFS",
+    "purpose": "vSAN - File Services",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c9708",
+    "port": "Type 0, Code 0",
+    "protocol": "ICMP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "ICMP Echo Reply (Ping Reply) - Used for monitoring and by installers and health prechecks",
+    "purpose": "vSAN - Base",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c9709",
+    "port": "Type 0, Code 0",
+    "protocol": "ICMP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "vSAN Witness IP address",
+    "serviceDescription": "ICMP Echo Reply (Ping Reply) - Used for monitoring and by installers and health prechecks",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c970a",
+    "port": "Type 0, Code 0",
+    "protocol": "ICMP",
+    "source": "vSAN Witness IP address",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "ICMP Echo Reply (Ping Reply) - Used for monitoring and by installers and health prechecks",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c970b",
+    "port": "Type 11, Code 0",
+    "protocol": "ICMP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "ICMP Time Exceeded - Enables traceroute, important for troubleshooting",
+    "purpose": "vSAN - Base",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c970c",
+    "port": "Type 11, Code 0",
+    "protocol": "ICMP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "vSAN Witness IP address",
+    "serviceDescription": "ICMP Time Exceeded - Enables traceroute, important for troubleshooting",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c970d",
+    "port": "Type 11, Code 0",
+    "protocol": "ICMP",
+    "source": "vSAN Witness IP address",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "ICMP Time Exceeded - Enables traceroute, important for troubleshooting",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c970e",
+    "port": "Type 3, Code 4",
+    "protocol": "ICMP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "ICMP Fragmentation Needed - Important for Path MTU Discovery (automatic network performance tuning)",
+    "purpose": "vSAN - Base",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c970f",
+    "port": "Type 3, Code 4",
+    "protocol": "ICMP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "vSAN Witness IP address",
+    "serviceDescription": "ICMP Fragmentation Needed - Important for Path MTU Discovery (automatic network performance tuning)",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c9710",
+    "port": "Type 3, Code 4",
+    "protocol": "ICMP",
+    "source": "vSAN Witness IP address",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "ICMP Fragmentation Needed - Important for Path MTU Discovery (automatic network performance tuning)",
+    "purpose": "vSAN - Two Node",
+    "classification": "Bidirectional",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c9711",
+    "port": "Type 8, Code 0",
+    "protocol": "ICMP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "ESXi vSAN IP addresses",
+    "serviceDescription": "ICMP Echo (Ping) - Used for monitoring and by installers and health prechecks",
+    "purpose": "vSAN - Base",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce6af647d6f930010f8e732",
+        "releaseName": "vSAN 6.7",
+        "displayName": "6.7",
+        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "5ce8379e678d350017772ef7",
+        "releaseName": "vSAN 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "623025af1e4523793c1c9712",
+    "port": "Type 8, Code 0",
+    "protocol": "ICMP",
+    "source": "ESXi vSAN IP addresses",
+    "destination": "vSAN Witness IP address",
+    "serviceDescription": "ICMP Echo (Ping) - Used for monitoring and by installers and health prechecks",
+    "purpose": "vSAN - Two Node",
+    "classification": "Incoming",
+    "submissionId": "bob.plankers-1744912949008",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-14 00:00",
     "product": {
       "id": "5ce6aeadc4c4bb0018ec6bf5",
       "productName": "vSAN",
@@ -65,535 +3061,11 @@
     "destination": "vSAN Witness IP address",
     "serviceDescription": "vSAN Performance Service",
     "purpose": "vSAN - Two Node",
-    "classification": "Outgoing",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96e2",
-    "port": "80",
-    "protocol": "TCP",
-    "source": "vSAN Witness IP address",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Performance Service",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96e3",
-    "port": "445",
-    "protocol": "TCP",
-    "source": "vSAN SMB Clients",
-    "destination": "vSAN File Services IP Addresses",
-    "serviceDescription": "vSAN File Services - SMB",
-    "purpose": "vSAN - File Services",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96e4",
-    "port": "875",
-    "protocol": "TCP",
-    "source": "vSAN NFS Clients",
-    "destination": "vSAN File Services IP Addresses",
-    "serviceDescription": "vSAN File Services - NFS",
-    "purpose": "vSAN - File Services",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96e5",
-    "port": "1564",
-    "protocol": "TCP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Service Management - VDFS Data Path",
-    "purpose": "vSAN - Base",
     "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
+    "submissionId": "bob.plankers-1744912949008",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96e6",
-    "port": "1565",
-    "protocol": "TCP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Service Management - VDFS Proxy",
-    "purpose": "vSAN - Base",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96e7",
-    "port": "2049",
-    "protocol": "TCP",
-    "source": "vSAN NFS Clients",
-    "destination": "vSAN File Services IP Addresses",
-    "serviceDescription": "vSAN File Services - NFS",
-    "purpose": "vSAN - File Services",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96e8",
-    "port": "2233",
-    "protocol": "TCP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "Storage I/O for vSAN",
-    "purpose": "vSAN - Base",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96e9",
-    "port": "2233",
-    "protocol": "TCP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "vSAN Witness IP address",
-    "serviceDescription": "Storage I/O for vSAN",
-    "purpose": "vSAN - Two Node",
-    "classification": "Outgoing",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96ea",
-    "port": "2233",
-    "protocol": "TCP",
-    "source": "vSAN Witness IP address",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "Storage I/O for vSAN",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96eb",
-    "port": "3260",
-    "protocol": "TCP",
-    "source": "vSAN iSCSI Clients",
-    "destination": "vSAN iSCSI Target Service IP address",
-    "serviceDescription": "Interface for client access to vSAN iSCSI Target Service",
-    "purpose": "vSAN - iSCSI",
-    "classification": "Outgoing",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96ec",
-    "port": "5001",
-    "protocol": "UDP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Proactive Network Testing",
-    "purpose": "vSAN - Base",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96ed",
-    "port": "5001",
-    "protocol": "UDP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "vSAN Witness IP address",
-    "serviceDescription": "vSAN Proactive Network Testing",
-    "purpose": "vSAN - Two Node",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96ee",
-    "port": "5001",
-    "protocol": "UDP",
-    "source": "vSAN Witness IP address",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Proactive Network Testing",
-    "purpose": "vSAN - Two Node",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96ef",
-    "port": "5201",
-    "protocol": "TCP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Proactive Network Testing - vSAN VMODL HTTPS Endpoint",
-    "purpose": "vSAN - Base",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
+    "publishDate": "2025-04-14 00:00",
     "product": {
       "id": "5ce6aeadc4c4bb0018ec6bf5",
       "productName": "vSAN",
@@ -636,1884 +3108,12 @@
           "displayName": "vSAN",
           "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
         }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96f0",
-    "port": "5201",
-    "protocol": "UDP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Proactive Network Testing - vSAN VMODL HTTPS Endpoint",
-    "purpose": "vSAN - Base",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
       },
       {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96f1",
-    "port": "5696",
-    "protocol": "TCP",
-    "source": "ESXi Management IP addresses",
-    "destination": "Key Management Server addresses",
-    "serviceDescription": "KMS/Standard Key Provider access for vSAN Encryption",
-    "purpose": "vSAN - Encryption",
-    "classification": "Outgoing",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96f2",
-    "port": "8010",
-    "protocol": "TCP",
-    "source": "Management Workstations",
-    "destination": "vCenter Server Management IP address",
-    "serviceDescription": "vSAN Live Statistics interface",
-    "purpose": "vSAN - Base",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96f3",
-    "port": "8080",
-    "protocol": "TCP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "Storage Profile-based Management for vSAN",
-    "purpose": "vSAN - Base",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96f4",
-    "port": "8080",
-    "protocol": "TCP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "vSAN Witness IP address",
-    "serviceDescription": "Storage Profile-based Management for vSAN",
-    "purpose": "vSAN - Two Node",
-    "classification": "Outgoing",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96f5",
-    "port": "8080",
-    "protocol": "TCP",
-    "source": "vSAN Witness IP address",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "Storage Profile-based Management for vSAN",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96f6",
-    "port": "9095",
-    "protocol": "TCP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Management - vSAN VMODL HTTPS Endpoint",
-    "purpose": "vSAN - Base",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96f7",
-    "port": "9096",
-    "protocol": "TCP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Management - vSAN VMODL HTTPS Endpoint",
-    "purpose": "vSAN - Base",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96f8",
-    "port": "9097",
-    "protocol": "TCP",
-    "source": "Management Workstations",
-    "destination": "vCenter Server Management IP address",
-    "serviceDescription": "vSAN Management - vSAN Metrics REST Endpoint",
-    "purpose": "vSAN - Base",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96f9",
-    "port": "12321",
-    "protocol": "UDP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
-    "purpose": "vSAN - Base",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025ae1e4523793c1c96fa",
-    "port": "12321",
-    "protocol": "UDP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "vSAN Witness IP address",
-    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
-    "purpose": "vSAN - Two Node",
-    "classification": "Outgoing",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c96fb",
-    "port": "12321",
-    "protocol": "UDP",
-    "source": "vSAN Witness IP address",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c96fc",
-    "port": "12345",
-    "protocol": "UDP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
-    "purpose": "vSAN - Base",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c96fd",
-    "port": "12345",
-    "protocol": "UDP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "vSAN Witness IP address",
-    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
-    "purpose": "vSAN - Two Node",
-    "classification": "Outgoing",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c96fe",
-    "port": "12345",
-    "protocol": "UDP",
-    "source": "vSAN Witness IP address",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c96ff",
-    "port": "12443",
-    "protocol": "TCP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Storage Transport",
-    "purpose": "vSAN - Base",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9700",
-    "port": "12443",
-    "protocol": "TCP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "vSAN Witness IP address",
-    "serviceDescription": "vSAN Storage Transport",
-    "purpose": "vSAN - Two Node",
-    "classification": "Outgoing",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9701",
-    "port": "12443",
-    "protocol": "TCP",
-    "source": "vSAN Witness IP address",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Storage Transport",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9702",
-    "port": "20048",
-    "protocol": "TCP",
-    "source": "vSAN NFS Clients",
-    "destination": "vSAN File Services IP Addresses",
-    "serviceDescription": "vSAN File Services - NFS",
-    "purpose": "vSAN - File Services",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9703",
-    "port": "23451",
-    "protocol": "UDP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
-    "purpose": "vSAN - Base",
-    "classification": "Bidirectional",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9704",
-    "port": "23451",
-    "protocol": "UDP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "vSAN Witness IP address",
-    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
-    "purpose": "vSAN - Two Node",
-    "classification": "Outgoing",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9705",
-    "port": "23451",
-    "protocol": "UDP",
-    "source": "vSAN Witness IP address",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "vSAN Cluster Monitoring, Membership, and Directory Service",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9706",
-    "port": "27689",
-    "protocol": "TCP",
-    "source": "vSAN NFS Clients",
-    "destination": "vSAN File Services IP Addresses",
-    "serviceDescription": "vSAN File Services - NFS",
-    "purpose": "vSAN - File Services",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9707",
-    "port": "32803",
-    "protocol": "TCP",
-    "source": "vSAN NFS Clients",
-    "destination": "vSAN File Services IP Addresses",
-    "serviceDescription": "vSAN File Services - NFS",
-    "purpose": "vSAN - File Services",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9708",
-    "port": "Type 0, Code 0",
-    "protocol": "ICMP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "ICMP Echo Reply (Ping Reply) - Used for monitoring and by installers and health prechecks",
-    "purpose": "vSAN - Base",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9709",
-    "port": "Type 0, Code 0",
-    "protocol": "ICMP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "vSAN Witness IP address",
-    "serviceDescription": "ICMP Echo Reply (Ping Reply) - Used for monitoring and by installers and health prechecks",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c970a",
-    "port": "Type 0, Code 0",
-    "protocol": "ICMP",
-    "source": "vSAN Witness IP address",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "ICMP Echo Reply (Ping Reply) - Used for monitoring and by installers and health prechecks",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c970b",
-    "port": "Type 11, Code 0",
-    "protocol": "ICMP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "ICMP Time Exceeded - Enables traceroute, important for troubleshooting",
-    "purpose": "vSAN - Base",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c970c",
-    "port": "Type 11, Code 0",
-    "protocol": "ICMP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "vSAN Witness IP address",
-    "serviceDescription": "ICMP Time Exceeded - Enables traceroute, important for troubleshooting",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c970d",
-    "port": "Type 11, Code 0",
-    "protocol": "ICMP",
-    "source": "vSAN Witness IP address",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "ICMP Time Exceeded - Enables traceroute, important for troubleshooting",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c970e",
-    "port": "Type 3, Code 4",
-    "protocol": "ICMP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "ICMP Fragmentation Needed - Important for Path MTU Discovery (automatic network performance tuning)",
-    "purpose": "vSAN - Base",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c970f",
-    "port": "Type 3, Code 4",
-    "protocol": "ICMP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "vSAN Witness IP address",
-    "serviceDescription": "ICMP Fragmentation Needed - Important for Path MTU Discovery (automatic network performance tuning)",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9710",
-    "port": "Type 3, Code 4",
-    "protocol": "ICMP",
-    "source": "vSAN Witness IP address",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "ICMP Fragmentation Needed - Important for Path MTU Discovery (automatic network performance tuning)",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9711",
-    "port": "Type 8, Code 0",
-    "protocol": "ICMP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "ICMP Echo (Ping) - Used for monitoring and by installers and health prechecks",
-    "purpose": "vSAN - Base",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9712",
-    "port": "Type 8, Code 0",
-    "protocol": "ICMP",
-    "source": "ESXi vSAN IP addresses",
-    "destination": "vSAN Witness IP address",
-    "serviceDescription": "ICMP Echo (Ping) - Used for monitoring and by installers and health prechecks",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "623025af1e4523793c1c9713",
-    "port": "Type 8, Code 0",
-    "protocol": "ICMP",
-    "source": "vSAN Witness IP address",
-    "destination": "ESXi vSAN IP addresses",
-    "serviceDescription": "ICMP Echo (Ping) - Used for monitoring and by installers and health prechecks",
-    "purpose": "vSAN - Two Node",
-    "classification": "Incoming",
-    "submissionId": "fzaveri-1647322542144",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2022-03-12 00:00",
-    "product": {
-      "id": "5ce6aeadc4c4bb0018ec6bf5",
-      "productName": "vSAN",
-      "displayName": "vSAN",
-      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-    },
-    "releases": [
-      {
-        "id": "622b7dd01c26192bd1f03355",
-        "releaseName": "vSAN 7.0",
-        "displayName": "7.0",
-        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce6af647d6f930010f8e732",
-        "releaseName": "vSAN 6.7",
-        "displayName": "6.7",
-        "rmReleaseId": "06E16D95-1EE7-4D20-9B98-9342B969D01C",
-        "product": {
-          "id": "5ce6aeadc4c4bb0018ec6bf5",
-          "productName": "vSAN",
-          "displayName": "vSAN",
-          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
-        }
-      },
-      {
-        "id": "5ce8379e678d350017772ef7",
-        "releaseName": "vSAN 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "3AEB6871-EB62-4E5F-BA89-4F9EB530FD3D",
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
         "product": {
           "id": "5ce6aeadc4c4bb0018ec6bf5",
           "productName": "vSAN",
