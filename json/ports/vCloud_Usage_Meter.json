@@ -1,5 +1,311 @@
 [
   {
+    "id": "680189c02e0ed329ce84599f",
+    "port": "80, 8080, 443",
+    "protocol": "TCP",
+    "source": "Client Browser",
+    "destination": "UM Appliance",
+    "serviceDescription": "Accepts HTTP connections and upgrades them to HTTPS connections on port 443. This port is optional and is not required to be open if you connect over HTTPS exclusively",
+    "purpose": "HTTPS access to web UI or HTTPS upgrade for Usage Meter web UI ",
+    "classification": "NA",
+    "submissionId": "hitesh.rana-1745442851911",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-20 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "68017594fbd4580d566eae57",
+        "releaseName": "VMware vCloud Usage Meter 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "7A1379CB-6D81-4568-8356-8F45A5853AA4",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "680189c02e0ed329ce84599e",
+    "port": "5480",
+    "protocol": "TCP",
+    "source": "Client Browser",
+    "destination": "Virtual Appliance Management Interface (VAMI)",
+    "serviceDescription": "Used for VAMI Web application",
+    "purpose": "To access VAMI UI.",
+    "classification": "URL access",
+    "submissionId": "hitesh.rana-1745442851911",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-20 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "68017594fbd4580d566eae57",
+        "releaseName": "VMware vCloud Usage Meter 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "7A1379CB-6D81-4568-8356-8F45A5853AA4",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "680189c02e0ed329ce84599d",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Client browser ",
+    "destination": "VCF Usage Meter",
+    "serviceDescription": "Used for the Web application.",
+    "purpose": "VCF Usage Meter UI",
+    "classification": "Used for the Web application.",
+    "submissionId": "hitesh.rana-1745442851911",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-20 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "68017594fbd4580d566eae57",
+        "releaseName": "VMware vCloud Usage Meter 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "7A1379CB-6D81-4568-8356-8F45A5853AA4",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "680189c02e0ed329ce84599c",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Platform",
+    "destination": "UM Appliance",
+    "serviceDescription": "API access and communication with Usage Meter. SSL channel encrypted with 2048 RSA key based SHA2 cert.",
+    "purpose": "Inbound communication port for Usage Meter",
+    "classification": "Sensitive and SSL Enabled",
+    "submissionId": "hitesh.rana-1745442851911",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-20 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "68017594fbd4580d566eae57",
+        "releaseName": "VMware vCloud Usage Meter 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "7A1379CB-6D81-4568-8356-8F45A5853AA4",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "680189c02e0ed329ce84599b",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "UM Appliance",
+    "destination": "All Metered Products",
+    "serviceDescription": "Default port to access products and execute API",
+    "purpose": "To access products and execute API commands",
+    "classification": "NA",
+    "submissionId": "hitesh.rana-1745442851911",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-20 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "68017594fbd4580d566eae57",
+        "releaseName": "VMware vCloud Usage Meter 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "7A1379CB-6D81-4568-8356-8F45A5853AA4",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "680189bf2e0ed329ce84599a",
+    "port": "Proxy server port",
+    "protocol": "HTTPS",
+    "source": "NA",
+    "destination": "Proxy server",
+    "serviceDescription": "Serves requests from proxy and sends commands to proxy",
+    "purpose": "Communication port for proxy connection",
+    "classification": "Sensitive and SSL Enabled ",
+    "submissionId": "hitesh.rana-1745442851911",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-20 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "68017594fbd4580d566eae57",
+        "releaseName": "VMware vCloud Usage Meter 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "7A1379CB-6D81-4568-8356-8F45A5853AA4",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "680189bf2e0ed329ce845999",
+    "port": "SMTP server port",
+    "protocol": "SMTP",
+    "source": "NA",
+    "destination": "SMTP server",
+    "serviceDescription": "Outbound communication to SMTP server",
+    "purpose": "Sending requests for delivering email notifications",
+    "classification": "Sensitive and SSL Enabled",
+    "submissionId": "hitesh.rana-1745442851911",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-20 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "68017594fbd4580d566eae57",
+        "releaseName": "VMware vCloud Usage Meter 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "7A1379CB-6D81-4568-8356-8F45A5853AA4",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6801769b2e0ed329ce845998",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "UM Appliance",
+    "destination": "eapi.broadcom.com",
+    "serviceDescription": "Outbound communication to VCF Business Services console",
+    "purpose": "Sending Usage Data to VMware cloud",
+    "classification": "Sensitive and SSL Enabled ",
+    "submissionId": "hitesh.rana-1745442851911",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-20 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "68017594fbd4580d566eae57",
+        "releaseName": "VMware vCloud Usage Meter 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "7A1379CB-6D81-4568-8356-8F45A5853AA4",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6801769b2e0ed329ce845997",
+    "port": "22",
+    "protocol": "SSH",
+    "source": "Platform",
+    "destination": "UM Appliance",
+    "serviceDescription": "Usage Meter agent access. User/Password or SSH key-based authentication",
+    "purpose": "Inbound communication port for Usage Meter to login using SSH",
+    "classification": "SSL Enabled",
+    "submissionId": "hitesh.rana-1745442851911",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-04-20 00:00",
+    "product": {
+      "id": "5d787537fcc4020015d34973",
+      "productName": "vCloud Usage Meter",
+      "displayName": "vCloud Usage Meter",
+      "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+    },
+    "releases": [
+      {
+        "id": "68017594fbd4580d566eae57",
+        "releaseName": "VMware vCloud Usage Meter 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "7A1379CB-6D81-4568-8356-8F45A5853AA4",
+        "product": {
+          "id": "5d787537fcc4020015d34973",
+          "productName": "vCloud Usage Meter",
+          "displayName": "vCloud Usage Meter",
+          "rmProductId": "DB5C9328-26F7-4BDB-B070-729CD42DC08F"
+        }
+      }
+    ]
+  },
+  {
     "id": "5e7dd9f060e838000f30b557",
     "port": "22",
     "protocol": "SSH",
