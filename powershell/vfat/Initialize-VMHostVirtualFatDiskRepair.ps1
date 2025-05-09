@@ -19,9 +19,9 @@
 #Requires -Modules 'Posh-SSH'
 
 function Initialize-VMHostVirtualFatDiskRepair {
-    [CmdletBinding(SupportsShouldProcess=$true, ConfirmImpact='High')]
+    [CmdletBinding(SupportsShouldProcess = $true, ConfirmImpact = 'High')]
     param (
-        [Parameter(Mandatory=$true, ValueFromPipeline=$true)]
+        [Parameter(Mandatory = $true, ValueFromPipeline = $true)]
         [ValidateNotNullOrEmpty()]
         [VMware.VimAutomation.ViCore.Types.V1.Inventory.VMHost[]]$VMHost,
 
@@ -33,35 +33,35 @@ function Initialize-VMHostVirtualFatDiskRepair {
 
     process {
         foreach ($_VMHost in $VMHost) {
-            if ($_VMHost.Version -ge 8) {
-                try {
-                    if ($PSCmdlet.ShouldProcess($_VMHost.Name, 'Prepare for Virtual FAT Disk Repair')) {
-                        $disks = $_VMHost | Test-VMHostVirtualFatDisk -Credential $Credential
+            if ($_VMHost.Version -lt 8) {
+                Write-Warning ("This cmdlet is only supported for vSphere version >= 8, and VMHost '{0}' is '{1}'" -f $_VMHost.Name, $_VMHost.Version)
+                continue
+            }
 
-                        if ($false -in $disks.Consistent) {
-                            $session = New-SSHSession -ComputerName $_VMHost.Name -Credential $Credential -Port 22 -AcceptKey:$true -ErrorAction Stop
+            try {
+                if ($PSCmdlet.ShouldProcess($_VMHost.Name, 'Prepare for Virtual FAT Disk Repair')) {
+                    $disks = $_VMHost | Test-VMHostVirtualFatDisk -Credential $Credential
 
-                            $null = $_VMHost | Set-VMHost -State Maintenance -VsanDataMigrationMode EnsureAccessibility -ErrorAction Stop
-
-                            $command = Invoke-SSHCommand -Command 'kill $(cat /var/run/crond.pid)' -SSHSession $session -EnsureConnection
-                            $command = Invoke-SSHCommand -Command '/usr/lib/vmware/vmsyslog/bin/shutdown.sh' -SSHSession $session -EnsureConnection
-                            $command = Invoke-SSHCommand -Command '/etc/init.d/vmfstraced stop' -SSHSession $session -EnsureConnection
-                            $command = Invoke-SSHCommand -Command '/etc/init.d/rhttpproxy stop' -SSHSession $session -EnsureConnection
-                            $command = Invoke-SSHCommand -Command '/etc/init.d/vsandevicemonitord stop' -SSHSession $session -EnsureConnection
-
-                            Write-Output ("You can now run the cmdlet 'Repair-VMHostVirtualFatDisk' on VMHost '{0}', then reboot the host" -f $_VMHost.Name)
-                        }
-                        else {
-                            Write-Output 'All vFAT partitioned disk(s) are consistent and not in need of repair'
-                        }
+                    if ($false -notin $disks.Consistent) {
+                        Write-Output 'All vFAT partitioned disk(s) are consistent and not in need of repair'
+                        continue
                     }
-                }
-                catch {
-                    throw ("Error encountered preparing VMHost '{0}' for Virtual FAT disk(s) repair: {1}. Reboot the host" -f $_VMHost.Name, $_)
+
+                    $session = New-SSHSession -ComputerName $_VMHost.Name -Credential $Credential -Port 22 -AcceptKey:$true -ErrorAction Stop
+
+                    $null = $_VMHost | Set-VMHost -State Maintenance -VsanDataMigrationMode EnsureAccessibility -ErrorAction Stop
+
+                    $command = Invoke-SSHCommand -Command 'kill $(cat /var/run/crond.pid)' -SSHSession $session -EnsureConnection
+                    $command = Invoke-SSHCommand -Command '/usr/lib/vmware/vmsyslog/bin/shutdown.sh' -SSHSession $session -EnsureConnection
+                    $command = Invoke-SSHCommand -Command '/etc/init.d/vmfstraced stop' -SSHSession $session -EnsureConnection
+                    $command = Invoke-SSHCommand -Command '/etc/init.d/rhttpproxy stop' -SSHSession $session -EnsureConnection
+                    $command = Invoke-SSHCommand -Command '/etc/init.d/vsandevicemonitord stop' -SSHSession $session -EnsureConnection
+
+                    Write-Output ("You can now run the cmdlet 'Repair-VMHostVirtualFatDisk' on VMHost '{0}', then reboot the host" -f $_VMHost.Name)
                 }
             }
-            else {
-                Write-Warning ("This cmdlet is only supported for vSphere version >= 8, and VMHost '{0}' is '{1}'" -f $_VMHost.Name, $_VMHost.Version)
+            catch {
+                throw ("Error encountered preparing VMHost '{0}' for Virtual FAT disk(s) repair: {1}. Reboot the host" -f $_VMHost.Name, $_)
             }
         }
     }
