@@ -1,5 +1,145 @@
 [
   {
+    "id": "66d01612a1ff633e022f04c9",
+    "port": "5140",
+    "protocol": "TCP/UDP",
+    "source": "HCX-NE",
+    "destination": "HCX Manager",
+    "serviceDescription": "Syslog Originator to Syslog Forwarder",
+    "purpose": "Common Infrastructure Management",
+    "classification": "HCX Local Connections",
+    "submissionId": "frances.wong-1747802203643",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-05-17 00:00",
+    "product": {
+      "id": "5d82589c8e3b97001626bac8",
+      "productName": "VMware HCX",
+      "displayName": "VMware HCX",
+      "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
+    },
+    "releases": [
+      {
+        "id": "650489c930910021b5f7be3b",
+        "releaseName": "VMware HCX 4.8",
+        "displayName": "4.8",
+        "rmReleaseId": "D12FADBF-57AB-4FA9-9532-D5580C2B3735",
+        "product": {
+          "id": "5d82589c8e3b97001626bac8",
+          "productName": "VMware HCX",
+          "displayName": "VMware HCX",
+          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
+        }
+      },
+      {
+        "id": "650489c930910021b5f12345",
+        "releaseName": "VMware HCX 4.9",
+        "displayName": "4.9",
+        "rmReleaseId": "A103E441-A2F5-4CD5-89A2-40E104C5E138",
+        "product": {
+          "id": "5d82589c8e3b97001626bac8",
+          "productName": "VMware HCX",
+          "displayName": "VMware HCX",
+          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
+        }
+      },
+      {
+        "id": "67109efcd99fa067736c03aa",
+        "releaseName": "VMware HCX 4.10.0",
+        "displayName": "4.10",
+        "rmReleaseId": "5C71A393-0877-4E45-AF5D-6BA97C6F2277",
+        "product": {
+          "id": "5d82589c8e3b97001626bac8",
+          "productName": "VMware HCX",
+          "displayName": "VMware HCX",
+          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
+        }
+      },
+      {
+        "id": "676ad76cd1aebd0fa2b74467",
+        "releaseName": "VMware HCX 4.11.0",
+        "displayName": "4.11",
+        "rmReleaseId": "C240D207-16FE-46F8-9309-DB70FFCABB49",
+        "product": {
+          "id": "5d82589c8e3b97001626bac8",
+          "productName": "VMware HCX",
+          "displayName": "VMware HCX",
+          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5d8259fb73ae8f000f5f0d3f",
+    "port": "5140",
+    "protocol": "TCP/UDP",
+    "source": "Interconnect (HCX-IX)",
+    "destination": "HCX Manager",
+    "serviceDescription": "Syslog Originator to Syslog Forwarder",
+    "purpose": "Common Infrastructure Management",
+    "classification": "HCX Local Connections",
+    "submissionId": "frances.wong-1747801587078",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-05-17 00:00",
+    "product": {
+      "id": "5d82589c8e3b97001626bac8",
+      "productName": "VMware HCX",
+      "displayName": "VMware HCX",
+      "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
+    },
+    "releases": [
+      {
+        "id": "650489c930910021b5f7be3b",
+        "releaseName": "VMware HCX 4.8",
+        "displayName": "4.8",
+        "rmReleaseId": "D12FADBF-57AB-4FA9-9532-D5580C2B3735",
+        "product": {
+          "id": "5d82589c8e3b97001626bac8",
+          "productName": "VMware HCX",
+          "displayName": "VMware HCX",
+          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
+        }
+      },
+      {
+        "id": "650489c930910021b5f12345",
+        "releaseName": "VMware HCX 4.9",
+        "displayName": "4.9",
+        "rmReleaseId": "A103E441-A2F5-4CD5-89A2-40E104C5E138",
+        "product": {
+          "id": "5d82589c8e3b97001626bac8",
+          "productName": "VMware HCX",
+          "displayName": "VMware HCX",
+          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
+        }
+      },
+      {
+        "id": "67109efcd99fa067736c03aa",
+        "releaseName": "VMware HCX 4.10.0",
+        "displayName": "4.10",
+        "rmReleaseId": "5C71A393-0877-4E45-AF5D-6BA97C6F2277",
+        "product": {
+          "id": "5d82589c8e3b97001626bac8",
+          "productName": "VMware HCX",
+          "displayName": "VMware HCX",
+          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
+        }
+      },
+      {
+        "id": "676ad76cd1aebd0fa2b74467",
+        "releaseName": "VMware HCX 4.11.0",
+        "displayName": "4.11",
+        "rmReleaseId": "C240D207-16FE-46F8-9309-DB70FFCABB49",
+        "product": {
+          "id": "5d82589c8e3b97001626bac8",
+          "productName": "VMware HCX",
+          "displayName": "VMware HCX",
+          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
+        }
+      }
+    ]
+  },
+  {
     "id": "5d8259fb73ae8f000f5f0d4d",
     "port": "9443",
     "protocol": "TCP",
@@ -777,76 +917,6 @@
     "destination": "Interconnect (HCX-IX)",
     "serviceDescription": "Control traffic for HCX vMotion migration operations.",
     "purpose": "HCX Migration Services",
-    "classification": "HCX Local Connections",
-    "submissionId": "snehansu.chatterjee-1729142736739",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2024-12-21 00:00",
-    "product": {
-      "id": "5d82589c8e3b97001626bac8",
-      "productName": "VMware HCX",
-      "displayName": "VMware HCX",
-      "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
-    },
-    "releases": [
-      {
-        "id": "650489c930910021b5f7be3b",
-        "releaseName": "VMware HCX 4.8",
-        "displayName": "4.8",
-        "rmReleaseId": "D12FADBF-57AB-4FA9-9532-D5580C2B3735",
-        "product": {
-          "id": "5d82589c8e3b97001626bac8",
-          "productName": "VMware HCX",
-          "displayName": "VMware HCX",
-          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
-        }
-      },
-      {
-        "id": "650489c930910021b5f12345",
-        "releaseName": "VMware HCX 4.9",
-        "displayName": "4.9",
-        "rmReleaseId": "A103E441-A2F5-4CD5-89A2-40E104C5E138",
-        "product": {
-          "id": "5d82589c8e3b97001626bac8",
-          "productName": "VMware HCX",
-          "displayName": "VMware HCX",
-          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
-        }
-      },
-      {
-        "id": "67109efcd99fa067736c03aa",
-        "releaseName": "VMware HCX 4.10.0",
-        "displayName": "4.10",
-        "rmReleaseId": "5C71A393-0877-4E45-AF5D-6BA97C6F2277",
-        "product": {
-          "id": "5d82589c8e3b97001626bac8",
-          "productName": "VMware HCX",
-          "displayName": "VMware HCX",
-          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
-        }
-      },
-      {
-        "id": "676ad76cd1aebd0fa2b74467",
-        "releaseName": "VMware HCX 4.11.0",
-        "displayName": "4.11",
-        "rmReleaseId": "C240D207-16FE-46F8-9309-DB70FFCABB49",
-        "product": {
-          "id": "5d82589c8e3b97001626bac8",
-          "productName": "VMware HCX",
-          "displayName": "VMware HCX",
-          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "5d8259fb73ae8f000f5f0d3f",
-    "port": "514",
-    "protocol": "TCP/UDP",
-    "source": "Interconnect (HCX-IX)",
-    "destination": "Syslog Server",
-    "serviceDescription": "Syslog Originator to Syslog Collector ",
-    "purpose": "Common Infrastructure Management",
     "classification": "HCX Local Connections",
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
@@ -4679,52 +4749,6 @@
     "destination": "ESXi Management Network",
     "serviceDescription": "OVF Import / Service Appliance Deployment",
     "purpose": "HCX Service Mesh Deployment",
-    "classification": "HCX Local Connections",
-    "submissionId": "snehansu.chatterjee-1724913087673",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2024-08-26 00:00",
-    "product": {
-      "id": "5d82589c8e3b97001626bac8",
-      "productName": "VMware HCX",
-      "displayName": "VMware HCX",
-      "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
-    },
-    "releases": [
-      {
-        "id": "650489c930910021b5f7be3b",
-        "releaseName": "VMware HCX 4.8",
-        "displayName": "4.8",
-        "rmReleaseId": "D12FADBF-57AB-4FA9-9532-D5580C2B3735",
-        "product": {
-          "id": "5d82589c8e3b97001626bac8",
-          "productName": "VMware HCX",
-          "displayName": "VMware HCX",
-          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
-        }
-      },
-      {
-        "id": "650489c930910021b5f12345",
-        "releaseName": "VMware HCX 4.9",
-        "displayName": "4.9",
-        "rmReleaseId": "A103E441-A2F5-4CD5-89A2-40E104C5E138",
-        "product": {
-          "id": "5d82589c8e3b97001626bac8",
-          "productName": "VMware HCX",
-          "displayName": "VMware HCX",
-          "rmProductId": "C24C4B7B-519F-4A4A-ABEB-FC0F576F491E"
-        }
-      }
-    ]
-  },
-  {
-    "id": "66d01612a1ff633e022f04c9",
-    "port": "514",
-    "protocol": "TCP/UDP",
-    "source": "Interconnect (HCX-IX)",
-    "destination": "Syslog Server",
-    "serviceDescription": "Syslog Originator to Syslog Collector ",
-    "purpose": "Common Infrastructure Management",
     "classification": "HCX Local Connections",
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
