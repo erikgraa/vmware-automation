@@ -8,10 +8,10 @@
     "serviceDescription": "Intra-site communication used for SDRS.",
     "purpose": "Intra-site communication used for SDRS.",
     "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1749120128742",
+    "submissionId": "ivo.ivanov-1750174974407",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-06-02 00:00",
+    "publishDate": "2025-06-14 00:00",
     "product": {
       "id": "64638d79c3f9fc6c492d90e4",
       "productName": "VMware vSphere Replication",
@@ -150,10 +150,10 @@
     "serviceDescription": "Inter-site communication from the vSphere Replication Management servers of the source and the target site.",
     "purpose": "Inter-site communication from the vSphere Replication Management servers of the source and the target site.",
     "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1749120128742",
+    "submissionId": "ivo.ivanov-1750174974407",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-06-02 00:00",
+    "publishDate": "2025-06-14 00:00",
     "product": {
       "id": "64638d79c3f9fc6c492d90e4",
       "productName": "VMware vSphere Replication",
@@ -238,136 +238,6 @@
         "releaseName": "VMware vSphere Replication 8.8",
         "displayName": "8.8",
         "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "68357f9f47ee292ff4d151d6",
-    "port": "5480",
-    "protocol": "HTTPS",
-    "source": "Local vSphere Replication appliance",
-    "destination": "Remote vSphere Replication appliance",
-    "serviceDescription": "Local vSphere Replication appliance needs to check the health status of remote vSphere Replication appliance via port 5480 if the sites are in linked mode.",
-    "purpose": "Local vSphere Replication appliance needs to check the health status of remote vSphere Replication appliance via port 5480 if the sites are in linked mode.",
-    "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748341872905",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff808ad8be32e487da28a",
-        "releaseName": "VMware vSphere Replication 8.2",
-        "displayName": "8.2",
-        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff82e30910021b5f7bddc",
-        "releaseName": "VMware vSphere Replication 8.1",
-        "displayName": "8.1",
-        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
         "product": {
           "id": "64638d79c3f9fc6c492d90e4",
           "productName": "VMware vSphere Replication",
@@ -386,10 +256,10 @@
     "serviceDescription": "ThevSphere Replication UI uses the Inventory Service of the remote vCenter Server to list target datastores.",
     "purpose": "The vSphere Replication UI uses the Inventory Service of the remote vCenter Server to list target datastores.",
     "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
+    "submissionId": "ivo.ivanov-1750174974407",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-05-24 00:00",
+    "publishDate": "2025-06-14 00:00",
     "product": {
       "id": "64638d79c3f9fc6c492d90e4",
       "productName": "VMware vSphere Replication",
@@ -432,10 +302,10 @@
     "serviceDescription": "All management traffic to the local vCenter Server proxy system. vSphere Replication opens an SSL tunnel to connect to the vCenter Server services.",
     "purpose": "All management traffic to the local vCenter Server proxy system. vSphere Replication opens an SSL tunnel to connect to the vCenter Server services.",
     "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
+    "submissionId": "ivo.ivanov-1750174974407",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-05-24 00:00",
+    "publishDate": "2025-06-14 00:00",
     "product": {
       "id": "64638d79c3f9fc6c492d90e4",
       "productName": "VMware vSphere Replication",
@@ -550,10 +420,10 @@
     "serviceDescription": "Used to establish the connection before initial replication starts.",
     "purpose": "Used to establish the connection before initial replication starts.",
     "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
+    "submissionId": "ivo.ivanov-1750174974407",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-05-24 00:00",
+    "publishDate": "2025-06-14 00:00",
     "product": {
       "id": "64638d79c3f9fc6c492d90e4",
       "productName": "VMware vSphere Replication",
@@ -584,10 +454,10 @@
     "serviceDescription": "All management traffic to the vSphere Replication appliance goes to port 80 on the vCenter Server proxy system.",
     "purpose": "All management traffic to the vSphere Replication appliance goes to port 80 on the vCenter Server proxy system.",
     "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
+    "submissionId": "ivo.ivanov-1750174974407",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-05-24 00:00",
+    "publishDate": "2025-06-14 00:00",
     "product": {
       "id": "64638d79c3f9fc6c492d90e4",
       "productName": "VMware vSphere Replication",
@@ -600,2144 +470,6 @@
         "releaseName": "VMware vSphere Replication 6.1",
         "displayName": "6.1",
         "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b0176c30910021b5f7bdde",
-    "port": "443",
-    "protocol": "HTTPS",
-    "source": "Site Recovery UI client",
-    "destination": "vSphere Replication appliance",
-    "serviceDescription": "Default port for the Site Recovery UI client when you open it from the vSphere Replication appliance.",
-    "purpose": "Default port for the Site Recovery UI client when you open it from the vSphere Replication appliance.",
-    "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff808ad8be32e487da28a",
-        "releaseName": "VMware vSphere Replication 8.2",
-        "displayName": "8.2",
-        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff82e30910021b5f7bddc",
-        "releaseName": "VMware vSphere Replication 8.1",
-        "displayName": "8.1",
-        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b0176c30910021b5f7bde1",
-    "port": "443",
-    "protocol": "TCP",
-    "source": "Site Recovery UI client",
-    "destination": "Remote Site Recovery Manager appliance",
-    "serviceDescription": "TCP port 443 must be open when you access the Site Recovery UI client from the vSphere Replication appliance.",
-    "purpose": "TCP port 443 must be open when you access the Site Recovery UI client from the vSphere Replication appliance.",
-    "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b0176c30910021b5f7bddf",
-    "port": "443",
-    "protocol": "HTTPS",
-    "source": "Site Recovery UI client",
-    "destination": "Local and remote vCenter Server or all vCenter Server instances in Enhanced Linked Mode with a registered vSphere Replication",
-    "serviceDescription": "Default port for the Site Recovery UI client when you open it from the vSphere Replication appliance.",
-    "purpose": "Default port for the Site Recovery UI client when you open it from the vSphere Replication appliance.",
-    "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b01cbaad8be32e487da28e",
-    "port": "902",
-    "protocol": "TCP and UDP",
-    "source": "vSphere Replication server",
-    "destination": "ESXi host (intra-site only) on target site",
-    "serviceDescription": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. Specifically the traffic of the NFC service to the destination ESXi servers.",
-    "purpose": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. Specifically the traffic of the NFC service to the destination ESXi servers.",
-    "classification": "Communication ports used by the vSphere Replication server",
-    "submissionId": "ivo.ivanov-1748334776689",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff808ad8be32e487da28a",
-        "releaseName": "VMware vSphere Replication 8.2",
-        "displayName": "8.2",
-        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff82e30910021b5f7bddc",
-        "releaseName": "VMware vSphere Replication 8.1",
-        "displayName": "8.1",
-        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff84630910021b5f7bddd",
-        "releaseName": "VMware vSphere Replication 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff85bad8be32e487da28b",
-        "releaseName": "VMware vSphere Replication 6.1",
-        "displayName": "6.1",
-        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b01cbaad8be32e487da290",
-    "port": "8123",
-    "protocol": "SOAP",
-    "source": "vSphere Replication Management server",
-    "destination": "vSphere Replication server",
-    "serviceDescription": "Intra-site management traffic from the vSphere Replication Management server to the vSphere Replication server.",
-    "purpose": "Intra-site management traffic from the vSphere Replication Management server to the vSphere Replication server.",
-    "classification": "Communication ports used by the vSphere Replication server",
-    "submissionId": "ivo.ivanov-1748334776689",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff808ad8be32e487da28a",
-        "releaseName": "VMware vSphere Replication 8.2",
-        "displayName": "8.2",
-        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff82e30910021b5f7bddc",
-        "releaseName": "VMware vSphere Replication 8.1",
-        "displayName": "8.1",
-        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff84630910021b5f7bddd",
-        "releaseName": "VMware vSphere Replication 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff85bad8be32e487da28b",
-        "releaseName": "VMware vSphere Replication 6.1",
-        "displayName": "6.1",
-        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b0186b30910021b5f7bdeb",
-    "port": "32032\t",
-    "protocol": "TCP",
-    "source": "ESXi host on the source site",
-    "destination": "vSphere Replication server at the target site",
-    "serviceDescription": "Initial and outgoing replication traffic from the ESXi host on the source site to the vSphere Replication appliance or vSphere Replication server at the target site for replication traffic with network encryption.",
-    "purpose": "Initial and outgoing replication traffic from the ESXi host on the source site to the vSphere Replication appliance or vSphere Replication server at the target site for replication traffic with network encryption.",
-    "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff808ad8be32e487da28a",
-        "releaseName": "VMware vSphere Replication 8.2",
-        "displayName": "8.2",
-        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b0186b30910021b5f7bdea",
-    "port": "31031",
-    "protocol": "TCP",
-    "source": "ESXi host on the source site",
-    "destination": "vSphere Replication server at the target site",
-    "serviceDescription": "Initial and outgoing replication traffic from the ESXi host on the source site to the vSphere Replication appliance or vSphere Replication server at the target site for replication traffic without network encryption.",
-    "purpose": "Initial and outgoing replication traffic from the ESXi host on the source site to the vSphere Replication appliance or vSphere Replication server at the target site for replication traffic without network encryption.",
-    "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff808ad8be32e487da28a",
-        "releaseName": "VMware vSphere Replication 8.2",
-        "displayName": "8.2",
-        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff82e30910021b5f7bddc",
-        "releaseName": "VMware vSphere Replication 8.1",
-        "displayName": "8.1",
-        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff84630910021b5f7bddd",
-        "releaseName": "VMware vSphere Replication 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff85bad8be32e487da28b",
-        "releaseName": "VMware vSphere Replication 6.1",
-        "displayName": "6.1",
-        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b0186b30910021b5f7bde9",
-    "port": "8123",
-    "protocol": "SOAP",
-    "source": "vSphere Replication appliance",
-    "destination": "vSphere Replication server",
-    "serviceDescription": "Intra-site management traffic from the vSphere Replication Management server to additional vSphere Replication server in the environment.",
-    "purpose": "Intra-site management traffic from the vSphere Replication Management server to additional vSphere Replication server in the environment.",
-    "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff808ad8be32e487da28a",
-        "releaseName": "VMware vSphere Replication 8.2",
-        "displayName": "8.2",
-        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff82e30910021b5f7bddc",
-        "releaseName": "VMware vSphere Replication 8.1",
-        "displayName": "8.1",
-        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff84630910021b5f7bddd",
-        "releaseName": "VMware vSphere Replication 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff85bad8be32e487da28b",
-        "releaseName": "VMware vSphere Replication 6.1",
-        "displayName": "6.1",
-        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b0176c30910021b5f7bde5",
-    "port": "902",
-    "protocol": "TCP and UDP",
-    "source": "vSphere Replication server in the vSphere Replication appliance",
-    "destination": "ESXi host (intra-site only) on target site",
-    "serviceDescription": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. Specifically the traffic of the NFC service to the destination ESXi servers.",
-    "purpose": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. Specifically the traffic of the NFC service to the destination ESXi servers.",
-    "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff808ad8be32e487da28a",
-        "releaseName": "VMware vSphere Replication 8.2",
-        "displayName": "8.2",
-        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff82e30910021b5f7bddc",
-        "releaseName": "VMware vSphere Replication 8.1",
-        "displayName": "8.1",
-        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff84630910021b5f7bddd",
-        "releaseName": "VMware vSphere Replication 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff85bad8be32e487da28b",
-        "releaseName": "VMware vSphere Replication 6.1",
-        "displayName": "6.1",
-        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b0176c30910021b5f7bde4",
-    "port": "443",
-    "protocol": "TCP",
-    "source": "vSphere Replication appliance",
-    "destination": "https://vcsa.vmware.com",
-    "serviceDescription": "Customer Experience Improvement Program (CEIP) for vSphere Replication.",
-    "purpose": "Customer Experience Improvement Program (CEIP) for vSphere Replication.",
-    "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b0176c30910021b5f7bde3",
-    "port": "443",
-    "protocol": "TCP",
-    "source": "vSphere Replication appliance",
-    "destination": "Local and remote vCenter Server",
-    "serviceDescription": "All management traffic to the vSphere Replication appliance.",
-    "purpose": "All management traffic to the vSphere Replication appliance.",
-    "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff808ad8be32e487da28a",
-        "releaseName": "VMware vSphere Replication 8.2",
-        "displayName": "8.2",
-        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff82e30910021b5f7bddc",
-        "releaseName": "VMware vSphere Replication 8.1",
-        "displayName": "8.1",
-        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff84630910021b5f7bddd",
-        "releaseName": "VMware vSphere Replication 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b0176c30910021b5f7bde2",
-    "port": "80",
-    "protocol": "HTTP",
-    "source": "vSphere Replication server in the vSphere Replication appliance",
-    "destination": "Local ESXi host (intra-site)",
-    "serviceDescription": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. vSphere Replication opens an SSL tunnel to the ESXi services (only when a tunnel over port 443 cannot be established).",
-    "purpose": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. vSphere Replication opens an SSL tunnel to the ESXi services (only when a tunnel over port 443 cannot be established).",
-    "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff808ad8be32e487da28a",
-        "releaseName": "VMware vSphere Replication 8.2",
-        "displayName": "8.2",
-        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff82e30910021b5f7bddc",
-        "releaseName": "VMware vSphere Replication 8.1",
-        "displayName": "8.1",
-        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff84630910021b5f7bddd",
-        "releaseName": "VMware vSphere Replication 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b013a2ad8be32e487da28d",
-    "port": "443",
-    "protocol": "TCP",
-    "source": "vSphere Replication appliance",
-    "destination": "Remote Lookup Service",
-    "serviceDescription": "All calls to the remote Lookup Service.",
-    "purpose": "All calls to the remote Lookup Service.",
-    "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334776689",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff808ad8be32e487da28a",
-        "releaseName": "VMware vSphere Replication 8.2",
-        "displayName": "8.2",
-        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b0186b30910021b5f7bde6",
-    "port": "5480",
-    "protocol": "HTTPS",
-    "source": "Browser",
-    "destination": "vSphere Replication appliance",
-    "serviceDescription": "VRMS Appliance Management Interface.",
-    "purpose": "VRMS Appliance Management Interface.",
-    "classification": "Communication ports used by the vSphere Replication appliance",
-    "submissionId": "ivo.ivanov-1748334649702",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff808ad8be32e487da28a",
-        "releaseName": "VMware vSphere Replication 8.2",
-        "displayName": "8.2",
-        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff82e30910021b5f7bddc",
-        "releaseName": "VMware vSphere Replication 8.1",
-        "displayName": "8.1",
-        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff84630910021b5f7bddd",
-        "releaseName": "VMware vSphere Replication 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff85bad8be32e487da28b",
-        "releaseName": "VMware vSphere Replication 6.1",
-        "displayName": "6.1",
-        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "64b01cbaad8be32e487da28f",
-    "port": "5480",
-    "protocol": "HTTPS",
-    "source": "Browser",
-    "destination": "vSphere Replication server",
-    "serviceDescription": "VRMS Appliance Management Interface.",
-    "purpose": "VRMS Appliance Management Interface.",
-    "classification": "Communication ports used by the vSphere Replication server",
-    "submissionId": "ivo.ivanov-1748334649702",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-05-24 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "6463900830910021b5f7bc9c",
-        "releaseName": "VMware vSphere Replication 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7a5ad8be32e487da287",
-        "releaseName": "VMware vSphere Replication 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7bb30910021b5f7bddb",
-        "releaseName": "VMware vSphere Replication 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7cfad8be32e487da288",
-        "releaseName": "VMware vSphere Replication 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff7e5ad8be32e487da289",
-        "releaseName": "VMware vSphere Replication 8.3",
-        "displayName": "8.3",
-        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff808ad8be32e487da28a",
-        "releaseName": "VMware vSphere Replication 8.2",
-        "displayName": "8.2",
-        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff82e30910021b5f7bddc",
-        "releaseName": "VMware vSphere Replication 8.1",
-        "displayName": "8.1",
-        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff84630910021b5f7bddd",
-        "releaseName": "VMware vSphere Replication 6.5",
-        "displayName": "6.5",
-        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "64aff85bad8be32e487da28b",
-        "releaseName": "VMware vSphere Replication 6.1",
-        "displayName": "6.1",
-        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "650c9b89ad8be32e487da3ac",
-    "port": "443",
-    "protocol": "HTTP",
-    "source": " vSphere Replication server in the vSphere Replication appliance",
-    "destination": "Local ESXi host (intra-site)",
-    "serviceDescription": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. ",
-    "purpose": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. ",
-    "classification": "Communication ports",
-    "submissionId": "ivivaylo-1710858843080",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2024-03-16 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      }
-    ]
-  },
-  {
-    "id": "650c9c4ead8be32e487da3ad",
-    "port": "9084",
-    "protocol": "HTTP",
-    "source": "vSphere Replication appliance",
-    "destination": "Local vCenter Server",
-    "serviceDescription": "Used for uploading the hbr agent VIB to vCenter Server during the installation of the VIB file to the source ESXi hosts.",
-    "purpose": "Used for uploading the hbr agent VIB to vCenter Server during the installation of the VIB file to the source ESXi hosts.",
-    "classification": "Communication ports",
-    "submissionId": "ivivaylo-1710858843080",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2024-03-16 00:00",
-    "product": {
-      "id": "64638d79c3f9fc6c492d90e4",
-      "productName": "VMware vSphere Replication",
-      "displayName": "vSphere Replication",
-      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-    },
-    "releases": [
-      {
-        "id": "650c97afad8be32e487da3ab",
-        "releaseName": "VMware vSphere Replication 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
-        "product": {
-          "id": "64638d79c3f9fc6c492d90e4",
-          "productName": "VMware vSphere Replication",
-          "displayName": "vSphere Replication",
-          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
-        }
-      },
-      {
-        "id": "65f03159cc71755dfc6108d9",
-        "releaseName": "VMware vSphere Replication 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
         "product": {
           "id": "64638d79c3f9fc6c492d90e4",
           "productName": "VMware vSphere Replication",
@@ -2756,10 +488,10 @@
     "serviceDescription": " The vCloud Tunneling Agent opens one of these ports on the vSphere Replication appliance. ESXi hosts connect to that port to send replication data to a cloud organization.",
     "purpose": " The vCloud Tunneling Agent opens one of these ports on the vSphere Replication appliance. ESXi hosts connect to that port to send replication data to a cloud organization.",
     "classification": "Communication ports required for Cloud Replications",
-    "submissionId": "ivivaylo-1689597731733",
+    "submissionId": "ivo.ivanov-1750174974407",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-07-14 00:00",
+    "publishDate": "2025-06-14 00:00",
     "product": {
       "id": "64638d79c3f9fc6c492d90e4",
       "productName": "VMware vSphere Replication",
@@ -2826,10 +558,10 @@
     "serviceDescription": " The vCenter Server reverse proxy forwards VIB (vCloud Availability firewall rules) download request to the vSphere Replication appliance.",
     "purpose": " The vCenter Server reverse proxy forwards VIB (vCloud Availability firewall rules) download request to the vSphere Replication appliance.",
     "classification": "Communication ports required for Cloud Replications",
-    "submissionId": "ivivaylo-1689597731733",
+    "submissionId": "ivo.ivanov-1750174974407",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-07-14 00:00",
+    "publishDate": "2025-06-14 00:00",
     "product": {
       "id": "64638d79c3f9fc6c492d90e4",
       "productName": "VMware vSphere Replication",
@@ -2896,10 +628,10 @@
     "serviceDescription": " vSphere Replication appliance connects to this port to send replication data to a cloud organization.",
     "purpose": " vSphere Replication appliance connects to this port to send replication data to a cloud organization.",
     "classification": "Communication ports required for Cloud Replications",
-    "submissionId": "ivivaylo-1689597731733",
+    "submissionId": "ivo.ivanov-1750174974407",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-07-14 00:00",
+    "publishDate": "2025-06-14 00:00",
     "product": {
       "id": "64638d79c3f9fc6c492d90e4",
       "productName": "VMware vSphere Replication",
@@ -2948,6 +680,2490 @@
         "releaseName": "VMware vSphere Replication 6.1",
         "displayName": "6.1",
         "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b0176c30910021b5f7bdde",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Site Recovery UI client",
+    "destination": "vSphere Replication appliance",
+    "serviceDescription": "Default port for the Site Recovery UI client when you open it from the vSphere Replication appliance.",
+    "purpose": "Default port for the Site Recovery UI client when you open it from the vSphere Replication appliance.",
+    "classification": "Communication ports used by the vSphere Replication appliance",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff808ad8be32e487da28a",
+        "releaseName": "VMware vSphere Replication 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff82e30910021b5f7bddc",
+        "releaseName": "VMware vSphere Replication 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b0176c30910021b5f7bde1",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Site Recovery UI client",
+    "destination": "Remote Site Recovery Manager appliance",
+    "serviceDescription": "TCP port 443 must be open when you access the Site Recovery UI client from the vSphere Replication appliance.",
+    "purpose": "TCP port 443 must be open when you access the Site Recovery UI client from the vSphere Replication appliance.",
+    "classification": "Communication ports used by the vSphere Replication appliance",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b0176c30910021b5f7bddf",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Site Recovery UI client",
+    "destination": "Local and remote vCenter Server or all vCenter Server instances in Enhanced Linked Mode with a registered vSphere Replication",
+    "serviceDescription": "Default port for the Site Recovery UI client when you open it from the vSphere Replication appliance.",
+    "purpose": "Default port for the Site Recovery UI client when you open it from the vSphere Replication appliance.",
+    "classification": "Communication ports used by the vSphere Replication appliance",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b01cbaad8be32e487da28e",
+    "port": "902",
+    "protocol": "TCP and UDP",
+    "source": "vSphere Replication server",
+    "destination": "ESXi host (intra-site only) on target site",
+    "serviceDescription": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. Specifically the traffic of the NFC service to the destination ESXi servers.",
+    "purpose": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. Specifically the traffic of the NFC service to the destination ESXi servers.",
+    "classification": "Communication ports used by the vSphere Replication server",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff808ad8be32e487da28a",
+        "releaseName": "VMware vSphere Replication 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff82e30910021b5f7bddc",
+        "releaseName": "VMware vSphere Replication 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff84630910021b5f7bddd",
+        "releaseName": "VMware vSphere Replication 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff85bad8be32e487da28b",
+        "releaseName": "VMware vSphere Replication 6.1",
+        "displayName": "6.1",
+        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b01cbaad8be32e487da290",
+    "port": "8123",
+    "protocol": "SOAP",
+    "source": "vSphere Replication Management server",
+    "destination": "vSphere Replication server",
+    "serviceDescription": "Intra-site management traffic from the vSphere Replication Management server to the vSphere Replication server.",
+    "purpose": "Intra-site management traffic from the vSphere Replication Management server to the vSphere Replication server.",
+    "classification": "Communication ports used by the vSphere Replication server",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff808ad8be32e487da28a",
+        "releaseName": "VMware vSphere Replication 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff82e30910021b5f7bddc",
+        "releaseName": "VMware vSphere Replication 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff84630910021b5f7bddd",
+        "releaseName": "VMware vSphere Replication 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff85bad8be32e487da28b",
+        "releaseName": "VMware vSphere Replication 6.1",
+        "displayName": "6.1",
+        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b0186b30910021b5f7bdeb",
+    "port": "32032\t",
+    "protocol": "TCP",
+    "source": "ESXi host on the source site",
+    "destination": "vSphere Replication server at the target site",
+    "serviceDescription": "Initial and outgoing replication traffic from the ESXi host on the source site to the vSphere Replication appliance or vSphere Replication server at the target site for replication traffic with network encryption.",
+    "purpose": "Initial and outgoing replication traffic from the ESXi host on the source site to the vSphere Replication appliance or vSphere Replication server at the target site for replication traffic with network encryption.",
+    "classification": "Communication ports used by the vSphere Replication appliance",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff808ad8be32e487da28a",
+        "releaseName": "VMware vSphere Replication 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b0186b30910021b5f7bdea",
+    "port": "31031",
+    "protocol": "TCP",
+    "source": "ESXi host on the source site",
+    "destination": "vSphere Replication server at the target site",
+    "serviceDescription": "Initial and outgoing replication traffic from the ESXi host on the source site to the vSphere Replication appliance or vSphere Replication server at the target site for replication traffic without network encryption.",
+    "purpose": "Initial and outgoing replication traffic from the ESXi host on the source site to the vSphere Replication appliance or vSphere Replication server at the target site for replication traffic without network encryption.",
+    "classification": "Communication ports used by the vSphere Replication appliance",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff808ad8be32e487da28a",
+        "releaseName": "VMware vSphere Replication 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff82e30910021b5f7bddc",
+        "releaseName": "VMware vSphere Replication 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff84630910021b5f7bddd",
+        "releaseName": "VMware vSphere Replication 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff85bad8be32e487da28b",
+        "releaseName": "VMware vSphere Replication 6.1",
+        "displayName": "6.1",
+        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b0186b30910021b5f7bde9",
+    "port": "8123",
+    "protocol": "SOAP",
+    "source": "vSphere Replication appliance",
+    "destination": "vSphere Replication server",
+    "serviceDescription": "Intra-site management traffic from the vSphere Replication Management server to additional vSphere Replication server in the environment.",
+    "purpose": "Intra-site management traffic from the vSphere Replication Management server to additional vSphere Replication server in the environment.",
+    "classification": "Communication ports used by the vSphere Replication appliance",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff808ad8be32e487da28a",
+        "releaseName": "VMware vSphere Replication 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff82e30910021b5f7bddc",
+        "releaseName": "VMware vSphere Replication 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff84630910021b5f7bddd",
+        "releaseName": "VMware vSphere Replication 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff85bad8be32e487da28b",
+        "releaseName": "VMware vSphere Replication 6.1",
+        "displayName": "6.1",
+        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b0176c30910021b5f7bde5",
+    "port": "902",
+    "protocol": "TCP and UDP",
+    "source": "vSphere Replication server in the vSphere Replication appliance",
+    "destination": "ESXi host (intra-site only) on target site",
+    "serviceDescription": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. Specifically the traffic of the NFC service to the destination ESXi servers.",
+    "purpose": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. Specifically the traffic of the NFC service to the destination ESXi servers.",
+    "classification": "Communication ports used by the vSphere Replication appliance",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff808ad8be32e487da28a",
+        "releaseName": "VMware vSphere Replication 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff82e30910021b5f7bddc",
+        "releaseName": "VMware vSphere Replication 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff84630910021b5f7bddd",
+        "releaseName": "VMware vSphere Replication 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff85bad8be32e487da28b",
+        "releaseName": "VMware vSphere Replication 6.1",
+        "displayName": "6.1",
+        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b0176c30910021b5f7bde4",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vSphere Replication appliance",
+    "destination": "https://vcsa.vmware.com",
+    "serviceDescription": "Customer Experience Improvement Program (CEIP) for vSphere Replication.",
+    "purpose": "Customer Experience Improvement Program (CEIP) for vSphere Replication.",
+    "classification": "Communication ports used by the vSphere Replication appliance",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b0176c30910021b5f7bde3",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vSphere Replication appliance",
+    "destination": "Local and remote vCenter Server",
+    "serviceDescription": "All management traffic to the vSphere Replication appliance.",
+    "purpose": "All management traffic to the vSphere Replication appliance.",
+    "classification": "Communication ports used by the vSphere Replication appliance",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff808ad8be32e487da28a",
+        "releaseName": "VMware vSphere Replication 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff82e30910021b5f7bddc",
+        "releaseName": "VMware vSphere Replication 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff84630910021b5f7bddd",
+        "releaseName": "VMware vSphere Replication 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b0176c30910021b5f7bde2",
+    "port": "80",
+    "protocol": "HTTP",
+    "source": "vSphere Replication server in the vSphere Replication appliance",
+    "destination": "Local ESXi host (intra-site)",
+    "serviceDescription": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. vSphere Replication opens an SSL tunnel to the ESXi services (only when a tunnel over port 443 cannot be established).",
+    "purpose": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. vSphere Replication opens an SSL tunnel to the ESXi services (only when a tunnel over port 443 cannot be established).",
+    "classification": "Communication ports used by the vSphere Replication appliance",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff808ad8be32e487da28a",
+        "releaseName": "VMware vSphere Replication 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff82e30910021b5f7bddc",
+        "releaseName": "VMware vSphere Replication 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff84630910021b5f7bddd",
+        "releaseName": "VMware vSphere Replication 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b013a2ad8be32e487da28d",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "vSphere Replication appliance",
+    "destination": "Remote Lookup Service",
+    "serviceDescription": "All calls to the remote Lookup Service.",
+    "purpose": "All calls to the remote Lookup Service.",
+    "classification": "Communication ports used by the vSphere Replication appliance",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff808ad8be32e487da28a",
+        "releaseName": "VMware vSphere Replication 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b0186b30910021b5f7bde6",
+    "port": "5480",
+    "protocol": "HTTPS",
+    "source": "Browser",
+    "destination": "vSphere Replication appliance",
+    "serviceDescription": "VRMS Appliance Management Interface.",
+    "purpose": "VRMS Appliance Management Interface.",
+    "classification": "Communication ports used by the vSphere Replication appliance",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff808ad8be32e487da28a",
+        "releaseName": "VMware vSphere Replication 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff82e30910021b5f7bddc",
+        "releaseName": "VMware vSphere Replication 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff84630910021b5f7bddd",
+        "releaseName": "VMware vSphere Replication 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff85bad8be32e487da28b",
+        "releaseName": "VMware vSphere Replication 6.1",
+        "displayName": "6.1",
+        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "64b01cbaad8be32e487da28f",
+    "port": "5480",
+    "protocol": "HTTPS",
+    "source": "Browser",
+    "destination": "vSphere Replication server",
+    "serviceDescription": "VRMS Appliance Management Interface.",
+    "purpose": "VRMS Appliance Management Interface.",
+    "classification": "Communication ports used by the vSphere Replication server",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff808ad8be32e487da28a",
+        "releaseName": "VMware vSphere Replication 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff82e30910021b5f7bddc",
+        "releaseName": "VMware vSphere Replication 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff84630910021b5f7bddd",
+        "releaseName": "VMware vSphere Replication 6.5",
+        "displayName": "6.5",
+        "rmReleaseId": "A082C163-EB5E-4515-8D27-1D6C99EECB40",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff85bad8be32e487da28b",
+        "releaseName": "VMware vSphere Replication 6.1",
+        "displayName": "6.1",
+        "rmReleaseId": "E69538B5-38C5-4E4E-B509-2859DD0482FC",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "650c9b89ad8be32e487da3ac",
+    "port": "443",
+    "protocol": "HTTP",
+    "source": " vSphere Replication server in the vSphere Replication appliance",
+    "destination": "Local ESXi host (intra-site)",
+    "serviceDescription": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. ",
+    "purpose": "Traffic between the vSphere Replication server and the ESXi hosts on the same site. ",
+    "classification": "Communication ports",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "650c9c4ead8be32e487da3ad",
+    "port": "9084",
+    "protocol": "HTTP",
+    "source": "vSphere Replication appliance",
+    "destination": "Local vCenter Server",
+    "serviceDescription": "Used for uploading the hbr agent VIB to vCenter Server during the installation of the VIB file to the source ESXi hosts.",
+    "purpose": "Used for uploading the hbr agent VIB to vCenter Server during the installation of the VIB file to the source ESXi hosts.",
+    "classification": "Communication ports",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68357f9f47ee292ff4d151d6",
+    "port": "5480",
+    "protocol": "HTTPS",
+    "source": "Local vSphere Replication appliance",
+    "destination": "Remote vSphere Replication appliance",
+    "serviceDescription": "Local vSphere Replication appliance needs to check the health status of remote vSphere Replication appliance via port 5480 if the sites are in linked mode.",
+    "purpose": "Local vSphere Replication appliance needs to check the health status of remote vSphere Replication appliance via port 5480 if the sites are in linked mode.",
+    "classification": "Communication ports used by the vSphere Replication appliance",
+    "submissionId": "ivo.ivanov-1750174974407",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7e5ad8be32e487da289",
+        "releaseName": "VMware vSphere Replication 8.3",
+        "displayName": "8.3",
+        "rmReleaseId": "66717E61-9A90-4033-8D60-9B020C896BA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7cfad8be32e487da288",
+        "releaseName": "VMware vSphere Replication 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "38730B93-CD38-4455-BBB9-84E5B453FDA8",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7bb30910021b5f7bddb",
+        "releaseName": "VMware vSphere Replication 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "7D2E7B7D-8C00-4151-9B7C-CFD9312537B4",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "6463900830910021b5f7bc9c",
+        "releaseName": "VMware vSphere Replication 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "7C710BEB-B775-48EA-A406-FF22A52F17E1",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff808ad8be32e487da28a",
+        "releaseName": "VMware vSphere Replication 8.2",
+        "displayName": "8.2",
+        "rmReleaseId": "E7D60CB6-04AF-4F69-A40A-DFE8D4F6BA41",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff82e30910021b5f7bddc",
+        "releaseName": "VMware vSphere Replication 8.1",
+        "displayName": "8.1",
+        "rmReleaseId": "869DFA72-AA13-45B8-8688-60F28B9D3F5F",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "64aff7a5ad8be32e487da287",
+        "releaseName": "VMware vSphere Replication 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "9D7D3AEA-A117-41CA-99DA-5FA4BA4CA43C",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
         "product": {
           "id": "64638d79c3f9fc6c492d90e4",
           "productName": "VMware vSphere Replication",

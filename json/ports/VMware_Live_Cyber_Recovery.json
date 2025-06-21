@@ -1,0 +1,274 @@
+[
+  {
+    "id": "684abd7f621ce808bb9a2b45",
+    "port": "1492",
+    "protocol": "TCP",
+    "source": "ESXi hosts",
+    "destination": "VMware Live Cyber Recovery Connector (on-prem site or SDDC)",
+    "serviceDescription": "For high-frequency snapshots; reading/writing vdisks.",
+    "purpose": "External services",
+    "classification": "Inbound",
+    "submissionId": "velina.krasteva-1749728639688",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "6849eab6c24de76358826321",
+      "productName": "VMware Live Cyber Recovery",
+      "displayName": "VMware Live Cyber Recovery",
+      "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+    },
+    "releases": [
+      {
+        "id": "684abba00508451896b59be0",
+        "releaseName": "VMware Live Cyber Recovery 7.27.6.0",
+        "displayName": "VLCR",
+        "rmReleaseId": "E12807B4-2E6A-41AF-977F-EEF08481756D",
+        "product": {
+          "id": "6849eab6c24de76358826321",
+          "productName": "VMware Live Cyber Recovery",
+          "displayName": "VMware Live Cyber Recovery",
+          "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+        }
+      }
+    ]
+  },
+  {
+    "id": "684abd80621ce808bb9a2b46",
+    "port": "53",
+    "protocol": "TCP and UDP",
+    "source": "VMware Live Cyber Recovery Connector",
+    "destination": "DNS server",
+    "serviceDescription": "DNS service",
+    "purpose": "External services",
+    "classification": "Outbound",
+    "submissionId": "velina.krasteva-1749728639688",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "6849eab6c24de76358826321",
+      "productName": "VMware Live Cyber Recovery",
+      "displayName": "VMware Live Cyber Recovery",
+      "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+    },
+    "releases": [
+      {
+        "id": "684abba00508451896b59be0",
+        "releaseName": "VMware Live Cyber Recovery 7.27.6.0",
+        "displayName": "VLCR",
+        "rmReleaseId": "E12807B4-2E6A-41AF-977F-EEF08481756D",
+        "product": {
+          "id": "6849eab6c24de76358826321",
+          "productName": "VMware Live Cyber Recovery",
+          "displayName": "VMware Live Cyber Recovery",
+          "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+        }
+      }
+    ]
+  },
+  {
+    "id": "684abd80621ce808bb9a2b47",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware Live Cyber Recovery Connector",
+    "destination": "Scale-out Cloud File System",
+    "serviceDescription": "Encrypted tunnel for data transfers and metadata operations",
+    "purpose": "Sending data",
+    "classification": "Outbound",
+    "submissionId": "velina.krasteva-1749728639688",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "6849eab6c24de76358826321",
+      "productName": "VMware Live Cyber Recovery",
+      "displayName": "VMware Live Cyber Recovery",
+      "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+    },
+    "releases": [
+      {
+        "id": "684abba00508451896b59be0",
+        "releaseName": "VMware Live Cyber Recovery 7.27.6.0",
+        "displayName": "VLCR",
+        "rmReleaseId": "E12807B4-2E6A-41AF-977F-EEF08481756D",
+        "product": {
+          "id": "6849eab6c24de76358826321",
+          "productName": "VMware Live Cyber Recovery",
+          "displayName": "VMware Live Cyber Recovery",
+          "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+        }
+      }
+    ]
+  },
+  {
+    "id": "684abd80621ce808bb9a2b48",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware Live Cyber Recovery Connector",
+    "destination": "SaaS Orchestrator",
+    "serviceDescription": "Management service",
+    "purpose": "Sending data",
+    "classification": "Outbound",
+    "submissionId": "velina.krasteva-1749728639688",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "6849eab6c24de76358826321",
+      "productName": "VMware Live Cyber Recovery",
+      "displayName": "VMware Live Cyber Recovery",
+      "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+    },
+    "releases": [
+      {
+        "id": "684abba00508451896b59be0",
+        "releaseName": "VMware Live Cyber Recovery 7.27.6.0",
+        "displayName": "VLCR",
+        "rmReleaseId": "E12807B4-2E6A-41AF-977F-EEF08481756D",
+        "product": {
+          "id": "6849eab6c24de76358826321",
+          "productName": "VMware Live Cyber Recovery",
+          "displayName": "VMware Live Cyber Recovery",
+          "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+        }
+      }
+    ]
+  },
+  {
+    "id": "684abd80621ce808bb9a2b49",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "VMware Live Cyber Recovery Connector(on-premises deployments only)",
+    "destination": "vCenter Server",
+    "serviceDescription": "vCenter web service",
+    "purpose": "Internal services",
+    "classification": "Outbound",
+    "submissionId": "velina.krasteva-1749728639688",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "6849eab6c24de76358826321",
+      "productName": "VMware Live Cyber Recovery",
+      "displayName": "VMware Live Cyber Recovery",
+      "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+    },
+    "releases": [
+      {
+        "id": "684abba00508451896b59be0",
+        "releaseName": "VMware Live Cyber Recovery 7.27.6.0",
+        "displayName": "VLCR",
+        "rmReleaseId": "E12807B4-2E6A-41AF-977F-EEF08481756D",
+        "product": {
+          "id": "6849eab6c24de76358826321",
+          "productName": "VMware Live Cyber Recovery",
+          "displayName": "VMware Live Cyber Recovery",
+          "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+        }
+      }
+    ]
+  },
+  {
+    "id": "684abd80621ce808bb9a2b4a",
+    "port": "902",
+    "protocol": "TCP",
+    "source": "VMware Live Cyber Recovery Connector(needed for on-premises deployments only)",
+    "destination": "ESXi Management IP addresses",
+    "serviceDescription": "Reading/writing vdisks",
+    "purpose": "Internal services",
+    "classification": "Outbound",
+    "submissionId": "velina.krasteva-1749728639688",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "6849eab6c24de76358826321",
+      "productName": "VMware Live Cyber Recovery",
+      "displayName": "VMware Live Cyber Recovery",
+      "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+    },
+    "releases": [
+      {
+        "id": "684abba00508451896b59be0",
+        "releaseName": "VMware Live Cyber Recovery 7.27.6.0",
+        "displayName": "VLCR",
+        "rmReleaseId": "E12807B4-2E6A-41AF-977F-EEF08481756D",
+        "product": {
+          "id": "6849eab6c24de76358826321",
+          "productName": "VMware Live Cyber Recovery",
+          "displayName": "VMware Live Cyber Recovery",
+          "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+        }
+      }
+    ]
+  },
+  {
+    "id": "684abd80621ce808bb9a2b4b",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware Live Cyber Recovery Connector",
+    "destination": "vCenter Server",
+    "serviceDescription": "vCenter Server Web Service",
+    "purpose": "External services",
+    "classification": "Outbound",
+    "submissionId": "velina.krasteva-1749728639688",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "6849eab6c24de76358826321",
+      "productName": "VMware Live Cyber Recovery",
+      "displayName": "VMware Live Cyber Recovery",
+      "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+    },
+    "releases": [
+      {
+        "id": "684abba00508451896b59be0",
+        "releaseName": "VMware Live Cyber Recovery 7.27.6.0",
+        "displayName": "VLCR",
+        "rmReleaseId": "E12807B4-2E6A-41AF-977F-EEF08481756D",
+        "product": {
+          "id": "6849eab6c24de76358826321",
+          "productName": "VMware Live Cyber Recovery",
+          "displayName": "VMware Live Cyber Recovery",
+          "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+        }
+      }
+    ]
+  },
+  {
+    "id": "684abd80621ce808bb9a2b4c",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware Live Cyber Recovery Connector",
+    "destination": "VMware Auto-support server",
+    "serviceDescription": "Support service",
+    "purpose": "Sending diagnostic data to support",
+    "classification": "Outbound",
+    "submissionId": "velina.krasteva-1749728639688",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-14 00:00",
+    "product": {
+      "id": "6849eab6c24de76358826321",
+      "productName": "VMware Live Cyber Recovery",
+      "displayName": "VMware Live Cyber Recovery",
+      "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+    },
+    "releases": [
+      {
+        "id": "684abba00508451896b59be0",
+        "releaseName": "VMware Live Cyber Recovery 7.27.6.0",
+        "displayName": "VLCR",
+        "rmReleaseId": "E12807B4-2E6A-41AF-977F-EEF08481756D",
+        "product": {
+          "id": "6849eab6c24de76358826321",
+          "productName": "VMware Live Cyber Recovery",
+          "displayName": "VMware Live Cyber Recovery",
+          "rmProductId": "8AC580EA-137A-4717-A666-B115E72B0E64"
+        }
+      }
+    ]
+  }
+]
