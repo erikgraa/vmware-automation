@@ -1,0 +1,954 @@
+[
+  {
+    "id": "6859524c20253433919303ac",
+    "port": "9543",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs Agents",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "VCF Operations for Logs Ingestion API over SSL",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524c20253433919303ab",
+    "port": "9543",
+    "protocol": "CFAPI",
+    "source": "VCF Operations for Logs",
+    "destination": "Third-party log manager",
+    "serviceDescription": "Outbound Log Insight Ingestion API (CFAPI) traffic configured as a Forwarder destination with encryption (SSL/TLS)",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524c20253433919303aa",
+    "port": "9042",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "Cassandra service for native protocol clients",
+    "purpose": "Port required between cluster nodes",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524c20253433919303a9",
+    "port": "9000",
+    "protocol": "CFAPI",
+    "source": "VCF Operations for Logs",
+    "destination": "Third-party log manager",
+    "serviceDescription": "Outbound Log Insight Ingestion API (CFAPI) traffic configured as a Forwarder destination",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524c20253433919303a8",
+    "port": "9000",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs Agents",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "VCF Operations for Logs Ingestion API",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524c20253433919303a7",
+    "port": "88",
+    "protocol": "TCP, UDP",
+    "source": "VCF Operations for Logs",
+    "destination": "AD server",
+    "serviceDescription": "Kerberos",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524c20253433919303a6",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "User workstation",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "HTTP: Web interface",
+    "purpose": "User interface",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524c20253433919303a5",
+    "port": "7001",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "Cassandra replication and query over SSL",
+    "purpose": "Port required between cluster nodes",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b20253433919303a4",
+    "port": "7000",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "Cassandra replication and query",
+    "purpose": "Port required between cluster nodes",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b20253433919303a3",
+    "port": "636",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "AD server",
+    "serviceDescription": "Active Directory over SSL",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b20253433919303a2",
+    "port": "59778, 16520 - 16580",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "VCF Operations for Logs Thrift service",
+    "purpose": "Ports required between cluster nodes",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b20253433919303a1",
+    "port": "587",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "Mail Server",
+    "serviceDescription": "SMTPS: mail service over STARTTLS for outbound alerts",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b20253433919303a0",
+    "port": "53",
+    "protocol": "TCP, UDP",
+    "source": "VCF Operations for Logs",
+    "destination": "DNS server",
+    "serviceDescription": "DNS: name resolution service",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b202534339193039f",
+    "port": "514",
+    "protocol": "TCP, UDP",
+    "source": "System sending logs",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "Outbound syslog traffic configured as a Forwarder destination",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b202534339193039e",
+    "port": "514",
+    "protocol": "TCP, UDP",
+    "source": "VCF Operations for Logs",
+    "destination": "Third-party log manager",
+    "serviceDescription": "syslog data",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b202534339193039d",
+    "port": "465",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "Mail Server",
+    "serviceDescription": "SMTPS: mail service over SSL for outbound alerts",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b202534339193039c",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "vCenter Server",
+    "serviceDescription": "vCenter Server Web Service",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b202534339193039b",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "VCF Operations ",
+    "serviceDescription": "VCF Operations  Web service",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b202534339193039a",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "User workstation",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "HTTPS: Web interface",
+    "purpose": "User interface",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b2025343391930399",
+    "port": "389",
+    "protocol": "TCP, UDP",
+    "source": "VCF Operations for Logs",
+    "destination": "AD server",
+    "serviceDescription": "Active Directory",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b2025343391930398",
+    "port": "3269",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "AD server",
+    "serviceDescription": "Active Directory Global Catalog over SSL",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b2025343391930397",
+    "port": "3268",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "AD server",
+    "serviceDescription": "Active Directory Global Catalog",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b2025343391930396",
+    "port": "25",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "Mail Server",
+    "serviceDescription": "SMTP: mail service for outbound alerts",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b2025343391930395",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "Admin workstation",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "SSH: Secure Shell connectivity",
+    "purpose": "User interface",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b2025343391930394",
+    "port": "1514, 6514",
+    "protocol": "TCP",
+    "source": "System sending logs",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "syslog data over SSL",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b2025343391930393",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "VCF Operations for Logs",
+    "destination": "NTP Server",
+    "serviceDescription": "NTPD: Provides NTP time synchronization. The port is open only if you select to use NTP time synchronization.",
+    "purpose": "External services",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b2025343391930392",
+    "port": "9543",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "VCF Operations for Logs Ingestion API over SSL",
+    "purpose": "Ports required between cluster nodes",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6859524b2025343391930391",
+    "port": "9000",
+    "protocol": "TCP",
+    "source": "VCF Operations for Logs",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "VCF Operations for Logs Ingestion API",
+    "purpose": "Ports required between cluster nodes",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750684235240",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  }
+]

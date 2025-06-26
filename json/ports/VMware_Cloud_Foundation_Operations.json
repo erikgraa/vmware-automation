@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "68594e202025343391930390",
+    "port": "6443",
+    "protocol": "TCP",
+    "source": "Cloud Proxy ",
+    "destination": "Cloud Proxy ",
+    "serviceDescription": "Opensource Telegraf",
+    "purpose": "Load balancer",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbe202534339193038f",
+    "port": "9543",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "Cloud Proxies",
+    "serviceDescription": "VMware Aria Operations for Logs Ingestion API over SSL",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbe202534339193038e",
+    "port": "9000",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "Cloud Proxies",
+    "serviceDescription": "VMware Aria Operations for Logs Ingestion API",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbe202534339193038d",
+    "port": "6514",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "Cloud Proxies",
+    "serviceDescription": "Syslog over SSL",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbe202534339193038c",
+    "port": "1514",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "Cloud Proxies",
+    "serviceDescription": "Syslog over SSL",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbe202534339193038b",
+    "port": "514",
+    "protocol": "UDP",
+    "source": "External Resources",
+    "destination": "Cloud Proxies",
+    "serviceDescription": "Syslog",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbe202534339193038a",
+    "port": "514",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "Cloud Proxies",
+    "serviceDescription": "Syslog",
+    "purpose": "Sources sending data",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbe2025343391930389",
+    "port": "389",
+    "protocol": "TCP",
+    "source": "Primary, Replica, Data nodes",
+    "destination": "External Resources",
+    "serviceDescription": "LDAP",
+    "purpose": "External Communications",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbe2025343391930388",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Primary, Replica, Data and Witness nodes",
+    "destination": "Primary, Replica, Data and Witness nodes",
+    "serviceDescription": "HTTPS",
+    "purpose": "Connectivity within the same cluster.",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbe2025343391930387",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Cloud Proxy",
+    "destination": "ESXi where the End-Point VMs are hosted",
+    "serviceDescription": "HTTPS",
+    "purpose": "Push install bits to End-Point using guest operations",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbe2025343391930386",
+    "port": "636",
+    "protocol": "TCP",
+    "source": "Primary, Replica, Data nodes",
+    "destination": "External Resources",
+    "serviceDescription": "LDAPS",
+    "purpose": "Secure external communications for LDAP service",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbe2025343391930385",
+    "port": "3268, 3269",
+    "protocol": "TCP",
+    "source": "Primary, Replica, Data nodes",
+    "destination": "External Resources",
+    "serviceDescription": "Global Catalog",
+    "purpose": "External Communications for Global Catalog of Active Directory",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbe2025343391930384",
+    "port": "5433",
+    "protocol": "TCP",
+    "source": "Data Node",
+    "destination": "Primary, Replica nodes",
+    "serviceDescription": "Communication with Postgres Central DB on Primary Node",
+    "purpose": "Connectivity from the data node within the same cluster.",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd2025343391930383",
+    "port": "10002-10010",
+    "protocol": "UDP",
+    "source": "Primary, Replica, Data nodes",
+    "destination": "Primary, Replica, Data nodes",
+    "serviceDescription": "Geode",
+    "purpose": "Geode unicast UDP messaging",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd2025343391930382",
+    "port": "10002-10010",
+    "protocol": "TCP",
+    "source": "Primary, Replica, Data nodes",
+    "destination": "Primary, Replica, Data nodes",
+    "serviceDescription": "Geode",
+    "purpose": "Geode TCP inter-node failure detection & peer-to-peer TCP communication",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd2025343391930381",
+    "port": "20002-20010",
+    "protocol": "TCP",
+    "source": "Data Node",
+    "destination": "Primary, Replica nodes",
+    "serviceDescription": "Geode",
+    "purpose": "Geode TCP inter-node failure detection & peer-to-peer TCP communication for Master Locator",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd2025343391930380",
+    "port": "20002-20010",
+    "protocol": "UDP",
+    "source": "Data Node",
+    "destination": "Primary, Replica nodes",
+    "serviceDescription": "Geode",
+    "purpose": "Geode unicast UDP messaging for Replica Locator",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd202534339193037f",
+    "port": "25",
+    "protocol": "TCP",
+    "source": "Primary, Replica, Data nodes, Cloud Proxies",
+    "destination": "External Resources",
+    "serviceDescription": "SMTP",
+    "purpose": "External Communications",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd202534339193037e",
+    "port": "161",
+    "protocol": "UDP",
+    "source": "Primary, Replica, Data nodes, Cloud Proxies",
+    "destination": "External Resources",
+    "serviceDescription": "SNMP",
+    "purpose": "External Communications",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd202534339193037d",
+    "port": "8443",
+    "protocol": "TCP",
+    "source": "Endpoint VM/Physical Server",
+    "destination": "Cloud Proxies",
+    "serviceDescription": "User-managed and Opensource Telegraf",
+    "purpose": "Posting metrics to Cloud Proxies",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd202534339193037c",
+    "port": "10000",
+    "protocol": "TCP",
+    "source": "Primary, Replica and Data nodes ",
+    "destination": "Primary, Replica and Data nodes",
+    "serviceDescription": "Geode",
+    "purpose": "Communication with Geode server embedded in Analytics process",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd202534339193037b",
+    "port": "6061",
+    "protocol": "TCP",
+    "source": "Primary, Replica and Data nodes",
+    "destination": "Primary, Replica nodes",
+    "serviceDescription": "Geode",
+    "purpose": "Communication with Geode Locator on Primary node",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd202534339193037a",
+    "port": "4505-4506",
+    "protocol": "TCP",
+    "source": "Endpoint VM",
+    "destination": "Cloud Proxies",
+    "serviceDescription": "Salt Control Plane",
+    "purpose": "Communication from Telegraf Agent to Control Plane on Cloud Proxies",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd2025343391930379",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Endpoint VM",
+    "destination": "Cloud Proxies",
+    "serviceDescription": "HTTPS",
+    "purpose": "Downloading files and posting metrics (Data plane)",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd2025343391930378",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Cloud Proxies",
+    "destination": "Primary, Replica and Data nodes",
+    "serviceDescription": "HTTPS",
+    "purpose": "Connectivity from the Cloud Proxies within the same cluster",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd2025343391930377",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "Primary, Replica, Witness and Data nodes, Cloud Proxies",
+    "serviceDescription": "HTTPS",
+    "purpose": "External Communications",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd2025343391930376",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Primary, Replica, Data nodes, Cloud Proxies",
+    "destination": "vCenter/Platform Services Controller",
+    "serviceDescription": "HTTPS",
+    "purpose": "Communications to vCenter/Platform Services Controller",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbd2025343391930375",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "Primary, Replica, Data and Witness nodes, Cloud Proxies",
+    "destination": "External Resources",
+    "serviceDescription": "NTP",
+    "purpose": "NTP sync from External Resources",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbc2025343391930374",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "Data, Witness nodes, Cloud Proxies",
+    "destination": "Primary, Replica nodes",
+    "serviceDescription": "NTP",
+    "purpose": "NTP sync from Primary and Replica nodes",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbc2025343391930373",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "Primary, Replica, Data and Witness nodes, Cloud Proxies",
+    "serviceDescription": "HTTP",
+    "purpose": "External Communications",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbc2025343391930372",
+    "port": "53",
+    "protocol": "TCP, UDP",
+    "source": "Primary, Replica, Data and Witness nodes, Cloud Proxies",
+    "destination": "External Resources",
+    "serviceDescription": "DNS",
+    "purpose": "External Communications",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68594cbc2025343391930371",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "Primary, Replica, Data and Witness nodes, Cloud Proxies",
+    "serviceDescription": "SSH",
+    "purpose": "External Communications",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1750683608349",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-20 00:00",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  }
+]
