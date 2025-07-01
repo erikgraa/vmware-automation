@@ -1,0 +1,3572 @@
+[
+  {
+    "id": "685d828420253433919303ad",
+    "port": "N/A",
+    "protocol": "ICMP",
+    "source": "Cloud Builder",
+    "destination": "ESXi Hosts for Management/Workload Domains",
+    "serviceDescription": "IP Reachability Checks",
+    "purpose": "IP Reachability Checks",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750960413520",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930415",
+    "port": "111",
+    "protocol": "TCP, UDP",
+    "source": "ESXi Hosts",
+    "destination": "SDDC Manager",
+    "serviceDescription": "RPC bind for NFS Server on SDDC Manager.",
+    "purpose": "NFS RPC Bind",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930414",
+    "port": "2049",
+    "protocol": "TCP, UDP",
+    "source": "ESXi Hosts",
+    "destination": "SDDC Manager",
+    "serviceDescription": "This daemon is used for client file-system requests",
+    "purpose": "NFS Daemon (nfsd).",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930413",
+    "port": "32767",
+    "protocol": "TCP, UDP",
+    "source": "ESXi Hosts",
+    "destination": "SDDC Manager",
+    "serviceDescription": "This is a remote procedure call (RPC) server that handles file-system mount requests from remote systems and provides access control.",
+    "purpose": "NFS (mountd). ",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930412",
+    "port": "32766",
+    "protocol": "TCP, UDP",
+    "source": "ESXi Hosts",
+    "destination": "SDDC Manager",
+    "serviceDescription": "This daemon works with (lockd) to provide crash and recovery functions for the lock manager.",
+    "purpose": "NFS RPC Listen (statd).",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930411",
+    "port": "4045",
+    "protocol": "TCP, UDP",
+    "source": "ESXi Hosts",
+    "destination": "SDDC Manager",
+    "serviceDescription": "This daemon is used for record-locking operations on NFS files. It sends and manages locking requests from the client to the NFS server.",
+    "purpose": "NFS Lock Manager (lockd).",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930410",
+    "port": "123",
+    "protocol": "TCP, UDP",
+    "source": "Not Applicable",
+    "destination": "VCF Installer",
+    "serviceDescription": "Time Synchronization Daemon (systemd-timesyncd). This port is no longer used and was removed in the 4.2 release.",
+    "purpose": "NTP",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d8287202534339193040f",
+    "port": "66",
+    "protocol": "UDP",
+    "source": "Not Applicable",
+    "destination": "VCF Installer",
+    "serviceDescription": "This port is no longer used and will be removed in a future release.",
+    "purpose": "VIA-based ESXi Host Imaging",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d8287202534339193040e",
+    "port": "53",
+    "protocol": "TCP, UDP",
+    "source": "Not Applicable",
+    "destination": "VCF Installer",
+    "serviceDescription": "Name Resolution over DNS. This port is no longer used and will be removed in a future release",
+    "purpose": "DNS",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d8287202534339193040d",
+    "port": "8010",
+    "protocol": "TCP",
+    "source": "Not Applicable",
+    "destination": "VCF Installer",
+    "serviceDescription": "This port is no longer used and will be removed in a future release.",
+    "purpose": "Legacy UI",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d8287202534339193040c",
+    "port": "123",
+    "protocol": "TCP, UDP",
+    "source": "ESXi Hosts",
+    "destination": "SDDC Manager",
+    "serviceDescription": "Time Synchronization Daemon (systemd-timesyncd). This port is no longer used and was removed in the 4.2 release.",
+    "purpose": "NTP",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d8287202534339193040b",
+    "port": "7444",
+    "protocol": "TCP",
+    "source": "Administrative / Management Network(s)",
+    "destination": "Platform Service Controllers for the Management/Workload Domains",
+    "serviceDescription": "Access for vCenter Single Sign-on for SDDC Manager Authentication",
+    "purpose": "vCenter Single Sign-on",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d8287202534339193040a",
+    "port": "7444",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "Platform Service Controllers for the Management/Workload Domains",
+    "serviceDescription": "Access for vCenter Single Sign-on for SDDC Manager Authentication",
+    "purpose": "vCenter Single Sign-on",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930409",
+    "port": "5480",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "Platform Service Controllers for the Management/Workload Domains",
+    "serviceDescription": "Appliance Management Interface access for Bring-Up",
+    "purpose": "Bring-Up",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930408",
+    "port": "-",
+    "protocol": "ICMP",
+    "source": "VCF Installer",
+    "destination": "Upstream L3 Gateway(s) for North/South ECMP NSX-v Edge Services Gateway Peering for the Management Domain",
+    "serviceDescription": "Bring-Up Application Virtual Network (AVN) L3 Gateway Reachability Check",
+    "purpose": "IP Reachability Checks",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930407",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "NSX Edge Service Gateways (NSX-v) for the Management Domain",
+    "serviceDescription": "NSX-v APIs for Bring-Up",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930406",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "NSX Controllers (NSX-v) for the Management Domain",
+    "serviceDescription": "NSX-v APIs for Bring-Up",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930405",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "NSX Manager (NSX-v) for the Management Domain",
+    "serviceDescription": "NSX-v APIs for Bring-Up",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930404",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "NSX Manager (NSX-v) for the Management Domain",
+    "serviceDescription": "SSH access for Bring-Up operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930403",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "NSX Controllers (NSX-v) for the Management Domain",
+    "serviceDescription": "SSH access for Bring-Up operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930402",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "NSX Edge Service Gateways (NSX-v) for the Management Domain",
+    "serviceDescription": "SSH access for Bring-Up operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930401",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "Platform Service Controllers for the Management/Workload Domains",
+    "serviceDescription": "SSH access for Bring-Up operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d82872025343391930400",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "Platform Service Controllers for the Management/Workload Domains",
+    "serviceDescription": "SSH access for Bring-Up operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303ff",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "NSX Manager (NSX-v or NSX-T) for Workload Domains",
+    "serviceDescription": "SSH access for management operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303fe",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "NSX Controllers (NSX-v) for Management/Workload Domains",
+    "serviceDescription": "SSH access required for management operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303fd",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "NSX Manager (NSX-v) for the Management Domain",
+    "serviceDescription": "SSH access required for management operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303fc",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "Platform Service Controller for Management/Workload Domains",
+    "serviceDescription": "SSH access required for management operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303fb",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "NSX Controllers (NSX-v) for Management/Workload Domains",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303fa",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "NSX Manager (NSX-v) for the Management Domain",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303f9",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "NSX Managers (NSX-v or NSX-T) for Workload Domains",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303f8",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "Platform Service Controllers for Management/Workload Domains",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303f7",
+    "port": "7444",
+    "protocol": "TCP",
+    "source": "Administrative / Management Network(s)",
+    "destination": "vCenter Server for the Management Domain",
+    "serviceDescription": "Access for vCenter Single Sign-on for SDDC Manager Authentication ",
+    "purpose": "vCenter Single Sign-on",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303f6",
+    "port": "9099",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Zookeeper RMI port. Accessible only to Controller nodes in the federation. Not in use, to be deprecated in future release.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303f5",
+    "port": "9099",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Zookeeper RMI port. Accessible only to Controller nodes in the federation. Not in use, to be deprecated in future release.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303f4",
+    "port": "8092",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Kafka RMI port. Accessible only to Controller nodes in the federation. Not in use, to be deprecated in future release.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303f3",
+    "port": "8092",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Kafka RMI port. Accessible only to Controller nodes in the federation. Not in use, to be deprecated in future release.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303f2",
+    "port": "9096",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Zookeeper client to Zookeeper server port. Not in use, to be deprecated in future release.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828720253433919303f1",
+    "port": "9096",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Zookeeper client to Zookeeper server port. Not in use, to be deprecated in future release.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303f0",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "Federated SDDC Manager Instances",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303ef",
+    "port": "8093",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Member Node)",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Schema Registry port. All Kafka clients register their schemas with th Schema Registry. Accessible only to Member nodes authorized to join the federation.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303ee",
+    "port": "9093",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Member Node)",
+    "serviceDescription": "Kafka client port. All Kafka clients (Consumer/Schema Registry client) communicate to the broker on this port. All Zookeeper Controller nodes communicate to Kafka broker on this port.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303ed",
+    "port": "9095",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Zookeeper external client port. All outgoing communication from Zookeeper. Accessible only to Controller nodes in the federation.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303ec",
+    "port": "9093",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Member Node)",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Kafka client port. All Kafka clients (Consumer/Schema Registry client) communicate to the broker on this port. All Zookeeper Controller nodes communicate to Kafka broker on this port.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303eb",
+    "port": "9095",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Zookeeper external client port. All outgoing communication from Zookeeper. Accessible only to Controller nodes in the federation.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303ea",
+    "port": "9097",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Zookeeper leader elections port. Accessible only to Controller nodes in the federation.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303e9",
+    "port": "9098",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Zookeeper peering port. Accessible only to Controller nodes in the federation.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303e8",
+    "port": "9098",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Zookeeper peering port. Accessible only to Controller nodes in the federation.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303e7",
+    "port": "9097",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Controller Node) ",
+    "serviceDescription": "Zookeeper leader elections port. Accessible only to Controller nodes in the federation.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303e6",
+    "port": "8093",
+    "protocol": "TCP",
+    "source": "SDDC Manager (Federation Controller Node) ",
+    "destination": "SDDC Manager (Federation Member Node)",
+    "serviceDescription": "Schema Registry port. All Kafka clients register their schemas with th Schema Registry. Accessible only to Member nodes authorized to join the federation.",
+    "purpose": "Multi-Instance Management",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303e5",
+    "port": "902",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "ESXi Hosts for the Management Domain",
+    "serviceDescription": "OVF Deployment for Bring-Up",
+    "purpose": "Bring-Up",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303e4",
+    "port": "902",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "vCenter Server for the Management Domain",
+    "serviceDescription": "OVF Deployment for Bring-Up",
+    "purpose": "Bring-Up",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303e3",
+    "port": "-",
+    "protocol": "ICMP",
+    "source": "VCF Installer",
+    "destination": "Upstream L3 Gateway(s) for North/South ECMP NSX-T Edge Node Peering for the Management Domain",
+    "serviceDescription": "Bring-Up Application Virtual Network (AVN) L3 Gateway Reachability Check",
+    "purpose": "IP Reachability Checks",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303e2",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "NSX Edges Nodes for the Management Domain",
+    "serviceDescription": "NSX-T APIs for Bring-Up",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303e1",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "NSX Managers for the Management Domain",
+    "serviceDescription": "NSX-T APIs for Bring-Up",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303e0",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "NSX Managers for the Management Domain",
+    "serviceDescription": "SSH Access for Bring-Up",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303df",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "NSX Edges Nodes for the Management Domain",
+    "serviceDescription": "SSH Access for Bring-Up",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303de",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "SDDC Manager",
+    "serviceDescription": "SSH access for Bring-Up operations.",
+    "purpose": "SSH",
+    "classification": "Outgong",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303dd",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "SDDC Manager",
+    "serviceDescription": "APIs for Bring-Up",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgong",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303dc",
+    "port": "5480",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "vCenter Server for the Management Domain",
+    "serviceDescription": "Appliance Management Interface access for Bring-Up",
+    "purpose": "Bring-Up",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303db",
+    "port": "2014",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "vCenter Server for the Management Domain",
+    "serviceDescription": "VMware Certificate Authority (VMCA) APIs for Bring-Up",
+    "purpose": "RPC to VMware Certificate Authority (VMCA) APIs",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303da",
+    "port": "8085",
+    "protocol": "TCP",
+    "source": "ESXi Hosts",
+    "destination": "VCF Installer",
+    "serviceDescription": "Kickstart Delivery of ESXI Image for VIA-based ESXi Host Imaging",
+    "purpose": "VIA-based ESXi Host Imaging",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303d9",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "ESXi Hosts",
+    "destination": "VCF Installer",
+    "serviceDescription": "Kickstart Delivery of ESXI Image for VIA-based ESXi Host Imaging",
+    "purpose": "VIA-based ESXi Host Imaging",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303d8",
+    "port": "N/A",
+    "protocol": "ICMP",
+    "source": "SDDC Manager",
+    "destination": "Cloud Foundation Components",
+    "serviceDescription": "1) All FQDNs/IP addresses for new entities to be created in a workflow are tested to ensure no response on those IP addresses before these entities are deployed. (e.g. vCenter Server, NSX Managers, NSX Edge Nodes, VCF Operations Fleet Manager, etc.) 2) All FQDNs/IP addresses for new entities to be created in a workflow are tested to ensure they are responsive and can be connected to after these entities are deployed. (e.g. vCenter Server, NSX Managers, NSX Edge Nodes, VCF Operations Fleet Manager, etc.) 3) All FQDNs/IP addresses for existing entities provided to SDDC Manager to consume or use are tested to ensure they are reachable. (e.g. ESXi Hosts, DNS / NTP, BGP Neighbors, etc.) 4) All gateways provided for networks assigned to entities are tested to ensure they respond to their assigned VLANs/networks. 5) Inter-gateway routing is tested to ensure the ability to route traffic.  6) Entities are tested to ensure inter-product connectivity. (e.g. ESXi Hosts to vSAN Witness, VCF Operations Fleet Manager to vCenter Server, etc.)",
+    "purpose": "IP Reachability Checks",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303d7",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "vCenter Server for the Management Domain",
+    "serviceDescription": "vSphere APIs for Bring-Up",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303d6",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "ESXi Hosts for the Management Domain",
+    "serviceDescription": "vSphere APIs for Bring-Up",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303d5",
+    "port": "8445",
+    "protocol": "TCP",
+    "source": "Administrative / Management Network(s)",
+    "destination": "VCF Installer",
+    "serviceDescription": "VCF Installer VIA UI",
+    "purpose": "VCF Installer VIA UI",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303d4",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Administrative / Management Network(s)",
+    "destination": "VCF Installer",
+    "serviceDescription": "VCF Installer Bring-Up UI",
+    "purpose": "VCF Installer Bring-Up UI",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303d3",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "Administrative / Management Network(s)",
+    "destination": "VCF Installer",
+    "serviceDescription": "SSH Server on VCF Installer.",
+    "purpose": "SSH Daemon (sshd)",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303d2",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "Administrative / Management Network(s)",
+    "destination": "SDDC Manager",
+    "serviceDescription": "SSH Server on SDDC Manager",
+    "purpose": "SSH Daemon (sshd). SSH Server on SDDC Manager.",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828620253433919303d1",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "SFTP-based Backup Destination",
+    "serviceDescription": "SFTP-based backups.",
+    "purpose": "Backup",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303d0",
+    "port": "69",
+    "protocol": "UDP",
+    "source": "ESXi Hosts",
+    "destination": "VCF Installer",
+    "serviceDescription": "TFTP Server on VCF Installer for VIA-based Imaging",
+    "purpose": "TFTP Server",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303cf",
+    "port": "67",
+    "protocol": "TCP, UDP",
+    "source": "ESXi Hosts",
+    "destination": "VCF Installer",
+    "serviceDescription": "DHCP Server on VCF Installer for VIA-based Imaging",
+    "purpose": "DHCP Server",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303ce",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "VCF Installer",
+    "destination": "NTP Server(s)",
+    "serviceDescription": "Time Synchronization over NTP",
+    "purpose": "NTP",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303cd",
+    "port": "68",
+    "protocol": "TCP, UDP",
+    "source": "VCF Installer",
+    "destination": "ESXi Hosts for the Management Domain",
+    "serviceDescription": "DHCP from DHCP Server on VCF Installer for VIA-based Imaging",
+    "purpose": "DHCP",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303cc",
+    "port": "53",
+    "protocol": "TCP, UDP",
+    "source": "VCF Installer",
+    "destination": "DNS Server(s)",
+    "serviceDescription": "Name Resolution over DNS",
+    "purpose": "DNS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303cb",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Administrative / Management Network(s)",
+    "destination": "SDDC Manager",
+    "serviceDescription": "SDDC Manager UI/API",
+    "purpose": "SDDC Manager UI/API",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303ca",
+    "port": "123",
+    "protocol": "TCP, UDP",
+    "source": "SDDC Manager",
+    "destination": "NTP Server(s)",
+    "serviceDescription": "Time Synchronization over NTP",
+    "purpose": "NTP",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303c9",
+    "port": "53",
+    "protocol": "TCP, UDP",
+    "source": "SDDC Manager",
+    "destination": "DNS Server(s)",
+    "serviceDescription": "Name Resolution over DNS",
+    "purpose": "DNS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303c8",
+    "port": "514",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "VCF Operations for Logs Cluster",
+    "serviceDescription": "Syslog based logging to VCF Operations for Logs",
+    "purpose": "Syslog",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303c7",
+    "port": "9000",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "VCF Operations for Logs Cluster",
+    "serviceDescription": "VCF Operations for Logs Ingestion API (CFAPI) - Unencrypted",
+    "purpose": "VCF Operations for Logs Ingestion API (CFAPI) - Unencrypted",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303c6",
+    "port": "5480",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "vCenter Server for the Management Domain",
+    "serviceDescription": "Appliance Management Interface Open endpoint serving all HTTPS, XML-RPC and JSON-RPC requests over HTTPS.",
+    "purpose": "Management Domain vCenter Server Management",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303c5",
+    "port": "5480",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "vCenter Servers for Workload Domains",
+    "serviceDescription": "Appliance Management Interface Open endpoint serving all HTTPS, XML-RPC and JSON-RPC requests over HTTPS.",
+    "purpose": "Workload Domain Deployment and Workload Domain vCenter Server Management",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303c4",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "Microsoft Certificate Authority Web Enrollment Endpoint",
+    "serviceDescription": "Integration with a Microsoft Certificate Authority endpoint for certificate management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303c3",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "VMware Depot (Akamai CDN for depot.vmware.com)",
+    "serviceDescription": "The download of VMware Cloud Foundation upgrade and patch binaries.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303c2",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "vCenter Server for the Management Domain",
+    "serviceDescription": "SSH access for Bring-Up operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303c1",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "VCF Installer",
+    "destination": "ESXi Hosts for the Management Domain",
+    "serviceDescription": "SSH access for Bring-Up operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303c0",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "VCF Operations Fleet Manager",
+    "serviceDescription": "SSH access required for management operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303bf",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "EXSi Hosts for Management/Workload Domains",
+    "serviceDescription": "SSH access required for management operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303be",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "vCenter Servers for Management/Workload Domains",
+    "serviceDescription": "SSH access required for management operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303bd",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "VCF Operations Fleet Manager",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303bc",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "ESXi Hosts for Management/Workload Domains",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303bb",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "vCenter Servers for Management/Workload Domains",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303ba",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "VCF Operations for Logs (Cluster VIP and Nodes)",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303b9",
+    "port": "9543",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "API access for management operations.",
+    "purpose": "VCF Operations for Logs Ingestion API - Encrypted",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303b8",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "Workspace ONE Access (Cluster and Nodes)",
+    "serviceDescription": "SSH access required for management operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303b7",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "Workspace ONE Access (Cluster and Nodes)",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303b6",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "VCF Operations (Cluster and Nodes)",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303b5",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "NSX Managers for Management Domain/Workload Domains",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303b4",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "NSX Edges Nodes for Management/Workload Domains",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303b3",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "NSX Managers for the Management Domain/Workload Domains",
+    "serviceDescription": "SSH access required for management operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828520253433919303b2",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "NSX Edges Nodes for Management/Workload Domains",
+    "serviceDescription": "SSH access required for management operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828420253433919303b1",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "VCF Automation (Cluster VIP and Nodes)",
+    "serviceDescription": "API access required for management operations.",
+    "purpose": "APIs over HTTPS",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828420253433919303b0",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "VCF Operations for Logs (Cluster Nodes)",
+    "serviceDescription": "SSH access for management operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828420253433919303af",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "VCF Operations (Cluster Nodes and Collector Nodes)",
+    "serviceDescription": "SSH access for management operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685d828420253433919303ae",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "VCF Automation (Cluster Nodes)",
+    "serviceDescription": "SSH access for management operations.",
+    "purpose": "SSH",
+    "classification": "Outgoing",
+    "submissionId": "suhas.jinka-1750958724772",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "68591d4d48aeb10d5142cfc8",
+      "productName": "SDDC Manager",
+      "displayName": "SDDC Manager",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ebf48aeb10d5142cfcf",
+        "releaseName": "SDDC Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d4d48aeb10d5142cfc8",
+          "productName": "SDDC Manager",
+          "displayName": "SDDC Manager",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "686277da3bb25727e71b05d3",
+    "port": "8008",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "VMware Cloud Foundation Operations Fleet Manager",
+    "serviceDescription": "-",
+    "purpose": "VCFA Load balancer Health Check endpoint ",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1751283673381",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-27 00:00",
+    "product": {
+      "id": "685921bb48aeb10d5142cfd1",
+      "productName": "VMware Cloud Foundation Operations Fleet Manager",
+      "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "6859266148aeb10d5142cfd4",
+        "releaseName": "VMware Cloud Foundation Operations Fleet Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "E30D3123-37CD-490B-958B-05DC32BEC0B9",
+        "product": {
+          "id": "685921bb48aeb10d5142cfd1",
+          "productName": "VMware Cloud Foundation Operations Fleet Manager",
+          "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "686277da3bb25727e71b05d2",
+    "port": "30005",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "VMware Cloud Foundation Operations Fleet Manager",
+    "serviceDescription": "-",
+    "purpose": " Control Plane webhook API",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1751283673381",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-27 00:00",
+    "product": {
+      "id": "685921bb48aeb10d5142cfd1",
+      "productName": "VMware Cloud Foundation Operations Fleet Manager",
+      "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "6859266148aeb10d5142cfd4",
+        "releaseName": "VMware Cloud Foundation Operations Fleet Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "E30D3123-37CD-490B-958B-05DC32BEC0B9",
+        "product": {
+          "id": "685921bb48aeb10d5142cfd1",
+          "productName": "VMware Cloud Foundation Operations Fleet Manager",
+          "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "686277da3bb25727e71b05d1",
+    "port": "30006",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "VMware Cloud Foundation Operations Fleet Manager",
+    "serviceDescription": "-",
+    "purpose": "Control Plane Health Check APIs",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1751283673381",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-27 00:00",
+    "product": {
+      "id": "685921bb48aeb10d5142cfd1",
+      "productName": "VMware Cloud Foundation Operations Fleet Manager",
+      "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "6859266148aeb10d5142cfd4",
+        "releaseName": "VMware Cloud Foundation Operations Fleet Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "E30D3123-37CD-490B-958B-05DC32BEC0B9",
+        "product": {
+          "id": "685921bb48aeb10d5142cfd1",
+          "productName": "VMware Cloud Foundation Operations Fleet Manager",
+          "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "686277da3bb25727e71b05d0",
+    "port": "6443",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "VMware Cloud Foundation Operations Fleet Manager",
+    "serviceDescription": "-",
+    "purpose": " Control Plane API server ",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1751283673381",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-27 00:00",
+    "product": {
+      "id": "685921bb48aeb10d5142cfd1",
+      "productName": "VMware Cloud Foundation Operations Fleet Manager",
+      "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "6859266148aeb10d5142cfd4",
+        "releaseName": "VMware Cloud Foundation Operations Fleet Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "E30D3123-37CD-490B-958B-05DC32BEC0B9",
+        "product": {
+          "id": "685921bb48aeb10d5142cfd1",
+          "productName": "VMware Cloud Foundation Operations Fleet Manager",
+          "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "686277da3bb25727e71b05cf",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "VMware Cloud Foundation Operations Fleet Manager",
+    "serviceDescription": "SSH",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1751283673381",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-27 00:00",
+    "product": {
+      "id": "685921bb48aeb10d5142cfd1",
+      "productName": "VMware Cloud Foundation Operations Fleet Manager",
+      "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "6859266148aeb10d5142cfd4",
+        "releaseName": "VMware Cloud Foundation Operations Fleet Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "E30D3123-37CD-490B-958B-05DC32BEC0B9",
+        "product": {
+          "id": "685921bb48aeb10d5142cfd1",
+          "productName": "VMware Cloud Foundation Operations Fleet Manager",
+          "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "686277da3bb25727e71b05ce",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "VMware Cloud Foundation Operations Fleet Manager",
+    "serviceDescription": "HTTP",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1751283673381",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-27 00:00",
+    "product": {
+      "id": "685921bb48aeb10d5142cfd1",
+      "productName": "VMware Cloud Foundation Operations Fleet Manager",
+      "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "6859266148aeb10d5142cfd4",
+        "releaseName": "VMware Cloud Foundation Operations Fleet Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "E30D3123-37CD-490B-958B-05DC32BEC0B9",
+        "product": {
+          "id": "685921bb48aeb10d5142cfd1",
+          "productName": "VMware Cloud Foundation Operations Fleet Manager",
+          "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "686277d93bb25727e71b05cd",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "External Resources",
+    "destination": "VMware Cloud Foundation Operations Fleet Manager",
+    "serviceDescription": "HTTPs",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1751283673381",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-27 00:00",
+    "product": {
+      "id": "685921bb48aeb10d5142cfd1",
+      "productName": "VMware Cloud Foundation Operations Fleet Manager",
+      "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "6859266148aeb10d5142cfd4",
+        "releaseName": "VMware Cloud Foundation Operations Fleet Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "E30D3123-37CD-490B-958B-05DC32BEC0B9",
+        "product": {
+          "id": "685921bb48aeb10d5142cfd1",
+          "productName": "VMware Cloud Foundation Operations Fleet Manager",
+          "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "686277d93bb25727e71b05cc",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "VMware Cloud Foundation Operations Fleet Manager",
+    "destination": "NTP sync from External Resources",
+    "serviceDescription": "NTP",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1751283673381",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-27 00:00",
+    "product": {
+      "id": "685921bb48aeb10d5142cfd1",
+      "productName": "VMware Cloud Foundation Operations Fleet Manager",
+      "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "6859266148aeb10d5142cfd4",
+        "releaseName": "VMware Cloud Foundation Operations Fleet Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "E30D3123-37CD-490B-958B-05DC32BEC0B9",
+        "product": {
+          "id": "685921bb48aeb10d5142cfd1",
+          "productName": "VMware Cloud Foundation Operations Fleet Manager",
+          "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  },
+  {
+    "id": "686277d93bb25727e71b05cb",
+    "port": "53",
+    "protocol": "TCP, UDP",
+    "source": "VMware Cloud Foundation Operations Fleet Manager",
+    "destination": "External Resources",
+    "serviceDescription": "DNS",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-1751283673381",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-27 00:00",
+    "product": {
+      "id": "685921bb48aeb10d5142cfd1",
+      "productName": "VMware Cloud Foundation Operations Fleet Manager",
+      "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+      "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+    },
+    "releases": [
+      {
+        "id": "6859266148aeb10d5142cfd4",
+        "releaseName": "VMware Cloud Foundation Operations Fleet Manager 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "E30D3123-37CD-490B-958B-05DC32BEC0B9",
+        "product": {
+          "id": "685921bb48aeb10d5142cfd1",
+          "productName": "VMware Cloud Foundation Operations Fleet Manager",
+          "displayName": "VMware Cloud Foundation Operations Fleet Manager",
+          "rmProductId": "55F47C67-3614-4515-B4B4-F7C7937DC0EF"
+        }
+      }
+    ]
+  }
+]

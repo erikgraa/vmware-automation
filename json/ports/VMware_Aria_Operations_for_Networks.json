@@ -1,5 +1,39 @@
 [
   {
+    "id": "685d95825486563997d9876d",
+    "port": "8123 and 8124",
+    "protocol": "tcp",
+    "source": "Localhost",
+    "destination": "Colelctor",
+    "serviceDescription": "Webhook for NSX data source",
+    "purpose": "Webhook for NSX",
+    "classification": "-",
+    "submissionId": "naresh.tallapelli-1750963585808",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-06-23 00:00",
+    "product": {
+      "id": "6405a239c3f9fc6c492d9029",
+      "productName": "VMware Aria Operations for Networks",
+      "displayName": "VMware Aria Operations for Networks",
+      "rmProductId": "914E4A0F-714D-4404-9010-53AE3C325203"
+    },
+    "releases": [
+      {
+        "id": "68510159c3bb1b7008332d74",
+        "releaseName": "VMware Cloud Foundation Operations for networks 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "4524CE1C-4D6A-4F5C-95EB-2908DCB3456D",
+        "product": {
+          "id": "6405a239c3f9fc6c492d9029",
+          "productName": "VMware Aria Operations for Networks",
+          "displayName": "VMware Aria Operations for Networks",
+          "rmProductId": "914E4A0F-714D-4404-9010-53AE3C325203"
+        }
+      }
+    ]
+  },
+  {
     "id": "67fe296aeaa7ed2fece6bf46",
     "port": "443",
     "protocol": "HTTPS",
