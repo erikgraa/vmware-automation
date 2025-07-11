@@ -1,5 +1,107 @@
 [
   {
+    "id": "686fdee0bdec8500e3c3dc2d",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware LIve Site Recovery UI client",
+    "destination": "VMware Live Recovery appliance",
+    "serviceDescription": "vSAN Data Protection replication",
+    "purpose": "vSAN Data Protection replication",
+    "classification": "Inbound",
+    "submissionId": "ivo.ivanov-1752162016693",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-07-07 00:00",
+    "product": {
+      "id": "6849ea9bc2f0be39a773a789",
+      "productName": "VMware Live Site Recovery",
+      "displayName": "VMware Live Site Recovery",
+      "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
+    },
+    "releases": [
+      {
+        "id": "684ffe837d5fd81dcfe14d0c",
+        "releaseName": "VMware Live Site Recovery 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "2E36A4F1-0484-4B7D-A02F-CB29803228F7",
+        "product": {
+          "id": "6849ea9bc2f0be39a773a789",
+          "productName": "VMware Live Site Recovery",
+          "displayName": "VMware Live Site Recovery",
+          "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "686fdee0bdec8500e3c3dc2e",
+    "port": "5480",
+    "protocol": "TCP",
+    "source": "VMware LIve Site Recovery UI client",
+    "destination": "VMware Live Recovery appliance",
+    "serviceDescription": "vSAN Data Protection replication",
+    "purpose": "vSAN Data Protection replication",
+    "classification": "Inbound",
+    "submissionId": "ivo.ivanov-1752162016693",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-07-07 00:00",
+    "product": {
+      "id": "6849ea9bc2f0be39a773a789",
+      "productName": "VMware Live Site Recovery",
+      "displayName": "VMware Live Site Recovery",
+      "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
+    },
+    "releases": [
+      {
+        "id": "684ffe837d5fd81dcfe14d0c",
+        "releaseName": "VMware Live Site Recovery 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "2E36A4F1-0484-4B7D-A02F-CB29803228F7",
+        "product": {
+          "id": "6849ea9bc2f0be39a773a789",
+          "productName": "VMware Live Site Recovery",
+          "displayName": "VMware Live Site Recovery",
+          "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "686fdee1bdec8500e3c3dc2f",
+    "port": "8443",
+    "protocol": "TCP",
+    "source": "VMware LIve Site Recovery UI client",
+    "destination": "vSAN UI",
+    "serviceDescription": "vSAN Data Protection replication",
+    "purpose": "vSAN Data Protection replication",
+    "classification": "Inbound",
+    "submissionId": "ivo.ivanov-1752162016693",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-07-07 00:00",
+    "product": {
+      "id": "6849ea9bc2f0be39a773a789",
+      "productName": "VMware Live Site Recovery",
+      "displayName": "VMware Live Site Recovery",
+      "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
+    },
+    "releases": [
+      {
+        "id": "684ffe837d5fd81dcfe14d0c",
+        "releaseName": "VMware Live Site Recovery 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "2E36A4F1-0484-4B7D-A02F-CB29803228F7",
+        "product": {
+          "id": "6849ea9bc2f0be39a773a789",
+          "productName": "VMware Live Site Recovery",
+          "displayName": "VMware Live Site Recovery",
+          "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
+        }
+      }
+    ]
+  },
+  {
     "id": "685017627d5fd81dcfe14d0f",
     "port": "443",
     "protocol": "HTTPS",
