@@ -11,7 +11,7 @@
     "submissionId": "milieva-1707742419119",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-02-14 07:00",
+    "publishDate": "2024-02-14T15:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -105,7 +105,7 @@
     "submissionId": "milieva-1707743817052",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-02-14 07:00",
+    "publishDate": "2024-02-14T15:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -140,7 +140,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac1fcabc9001038320d",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -259,7 +259,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "649085d5ad8be32e487da27e",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -378,7 +378,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac0fcabc90010383208",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -473,7 +473,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac0fcabc90010383200",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -592,7 +592,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac1fcabc90010383212",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -711,7 +711,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac1fcabc90010383211",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -830,7 +830,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac1fcabc9001038320f",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -949,7 +949,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac2fcabc9001038321e",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -1068,7 +1068,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac2fcabc9001038321d",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -1187,7 +1187,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac2fcabc9001038321b",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -1306,7 +1306,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac3fcabc90010383222",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -1425,7 +1425,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5fbbd3a82e1455000f9ed923",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -1532,7 +1532,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5fbbd3a82e1455000f9ed922",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -1639,7 +1639,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac2fcabc9001038321a",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -1758,7 +1758,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac2fcabc90010383219",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -1877,7 +1877,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac0fcabc90010383203",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -1996,7 +1996,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac0fcabc90010383202",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -2115,7 +2115,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62abffcabc900103831ff",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -2234,7 +2234,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62abffcabc900103831f8",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -2353,7 +2353,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62abffcabc900103831f9",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -2472,7 +2472,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62abffcabc900103831fb",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -2591,7 +2591,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62abffcabc900103831fc",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -2710,7 +2710,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62abffcabc900103831fd",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -2829,7 +2829,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62abffcabc900103831fe",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -2948,7 +2948,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac0fcabc90010383201",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -3067,7 +3067,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac2fcabc90010383220",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -3186,7 +3186,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac2fcabc9001038321f",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -3305,7 +3305,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac2fcabc90010383221",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -3424,7 +3424,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac2fcabc90010383218",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -3543,7 +3543,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac2fcabc9001038321c",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -3662,7 +3662,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac0fcabc9001038320a",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -3781,7 +3781,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac1fcabc90010383213",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -3900,7 +3900,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac1fcabc90010383214",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -4019,7 +4019,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "64908399ad8be32e487da27b",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -4114,7 +4114,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "64908399ad8be32e487da27c",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -4209,7 +4209,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "649084c1ad8be32e487da27d",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -4328,7 +4328,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac0fcabc90010383204",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -4447,7 +4447,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac1fcabc90010383210",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -4566,7 +4566,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac1fcabc90010383215",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -4685,7 +4685,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac1fcabc9001038320c",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -4804,7 +4804,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "649062fb30910021b5f7bd2f",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -4851,7 +4851,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "649062fb30910021b5f7bd2e",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -4898,7 +4898,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "6490647ead8be32e487da273",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -4957,7 +4957,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac0fcabc90010383207",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -5076,7 +5076,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac0fcabc90010383206",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -5195,7 +5195,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac0fcabc90010383205",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -5314,7 +5314,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac2fcabc90010383217",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -5433,7 +5433,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac0fcabc90010383209",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -5552,7 +5552,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac1fcabc9001038320b",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -5671,7 +5671,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5ed62ac1fcabc9001038320e",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -5790,7 +5790,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22f1d97130016208c9f",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -5837,7 +5837,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "64907076ad8be32e487da274",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -5884,7 +5884,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a2301d97130016208ca6",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -5931,7 +5931,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22c1d97130016208c87",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -5978,7 +5978,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22c1d97130016208c88",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6025,7 +6025,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22d1d97130016208c89",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6072,7 +6072,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22d1d97130016208c8b",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6119,7 +6119,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22d1d97130016208c8c",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6166,7 +6166,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22d1d97130016208c8d",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6213,7 +6213,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22d1d97130016208c8e",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6260,7 +6260,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22d1d97130016208c8f",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6307,7 +6307,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22e1d97130016208c90",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6354,7 +6354,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22d1d97130016208c8a",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6401,7 +6401,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22c1d97130016208c86",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6448,7 +6448,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22c1d97130016208c85",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6495,7 +6495,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22c1d97130016208c84",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6542,7 +6542,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "626c01f81e4523793c1c9a3f",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6589,7 +6589,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a2301d97130016208ca5",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6636,7 +6636,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a2301d97130016208ca4",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6683,7 +6683,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a2301d97130016208ca3",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6730,7 +6730,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a2301d97130016208ca2",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6777,7 +6777,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22e1d97130016208c92",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6824,7 +6824,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a2301d97130016208ca1",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6883,7 +6883,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a2301d97130016208ca0",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -6942,7 +6942,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22f1d97130016208c9e",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -7001,7 +7001,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22f1d97130016208c9d",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -7060,7 +7060,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22f1d97130016208c9c",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -7119,7 +7119,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22f1d97130016208c9b",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -7178,7 +7178,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22f1d97130016208c9a",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -7237,7 +7237,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22f1d97130016208c99",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -7296,7 +7296,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22f1d97130016208c98",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -7355,7 +7355,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22e1d97130016208c97",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -7414,7 +7414,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22e1d97130016208c96",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -7473,7 +7473,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22e1d97130016208c95",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -7532,7 +7532,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22e1d97130016208c94",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -7591,7 +7591,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e98a22e1d97130016208c93",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",
@@ -7649,7 +7649,7 @@
     "submissionId": "nagraja-1700668053454",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-11-23 08:00",
+    "publishDate": "2023-11-23T16:00:00Z",
     "product": {
       "id": "5d787428fcc4020015d34971",
       "productName": "VMware Cloud Director Availability",

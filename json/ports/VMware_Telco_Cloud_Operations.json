@@ -12,7 +12,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155384aa0d002cda4906",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -47,7 +47,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155384aa0d002cda4905",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -82,7 +82,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155384aa0d002cda4904",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -117,7 +117,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155384aa0d002cda4903",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -152,7 +152,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155384aa0d002cda4902",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -187,7 +187,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155384aa0d002cda4901",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -222,7 +222,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155384aa0d002cda4900",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -257,7 +257,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155384aa0d002cda48ff",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -292,7 +292,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155284aa0d002cda48fe",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -327,7 +327,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "6150aec2d28a571a731c62fa",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -362,7 +362,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "6150aec2d28a571a731c62f9",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -421,7 +421,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "6150a9e388ac9f182c804b1c",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -480,7 +480,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "6150a9e388ac9f182c804b1b",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -539,7 +539,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "6150a8e7d28a571a731c62f5",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -598,7 +598,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "6150a8e7d28a571a731c62f4",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -657,7 +657,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "60d205e87a524d000d02e39a",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -716,7 +716,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "60d205e87a524d000d02e39b",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -775,7 +775,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "60d205e87a524d000d02e39c",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -834,7 +834,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "60d205e87a524d000d02e39d",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -893,7 +893,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "60d205e87a524d000d02e39e",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -952,7 +952,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155684aa0d002cda4922",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1011,7 +1011,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155484aa0d002cda4911",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1070,7 +1070,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "60d205e77a524d000d02e399",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1117,7 +1117,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "60d205e77a524d000d02e398",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1164,7 +1164,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "60d20500d968be001cb96e56",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1211,7 +1211,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155784aa0d002cda4928",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1246,7 +1246,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155784aa0d002cda4927",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1281,7 +1281,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155784aa0d002cda4926",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1316,7 +1316,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155684aa0d002cda4925",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1351,7 +1351,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155684aa0d002cda4924",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1386,7 +1386,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155684aa0d002cda4923",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1421,7 +1421,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155684aa0d002cda4921",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1456,7 +1456,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155684aa0d002cda4920",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1491,7 +1491,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155684aa0d002cda491f",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1526,7 +1526,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155684aa0d002cda491e",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1561,7 +1561,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155684aa0d002cda491d",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1596,7 +1596,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155684aa0d002cda491c",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1631,7 +1631,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155584aa0d002cda491b",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1666,7 +1666,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155584aa0d002cda491a",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1701,7 +1701,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155584aa0d002cda4919",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1736,7 +1736,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155584aa0d002cda4918",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1771,7 +1771,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155584aa0d002cda4917",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1806,7 +1806,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155584aa0d002cda4916",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1841,7 +1841,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155584aa0d002cda4915",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1876,7 +1876,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155584aa0d002cda4914",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1911,7 +1911,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155584aa0d002cda4913",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1946,7 +1946,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155584aa0d002cda4912",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -1981,7 +1981,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155484aa0d002cda4910",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -2016,7 +2016,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155484aa0d002cda490f",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -2051,7 +2051,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155484aa0d002cda490e",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -2086,7 +2086,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155484aa0d002cda490d",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -2121,7 +2121,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155484aa0d002cda490c",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -2156,7 +2156,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155484aa0d002cda490b",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -2191,7 +2191,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155484aa0d002cda490a",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -2226,7 +2226,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155484aa0d002cda4909",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -2261,7 +2261,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155384aa0d002cda4908",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",
@@ -2296,7 +2296,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "605e155384aa0d002cda4907",
-    "publishDate": "2021-09-30 02:00",
+    "publishDate": "2021-09-30T09:00:00Z",
     "product": {
       "id": "6012a633799c0200152bdb9a",
       "productName": "VMware Telco Cloud Operations",

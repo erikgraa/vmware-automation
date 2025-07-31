@@ -11,7 +11,7 @@
     "submissionId": "frances.wong-1747802203643",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-05-17 00:00",
+    "publishDate": "2025-05-17T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -81,7 +81,7 @@
     "submissionId": "frances.wong-1747801587078",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-05-17 00:00",
+    "publishDate": "2025-05-17T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -151,7 +151,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -221,7 +221,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -291,7 +291,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -361,7 +361,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -431,7 +431,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -501,7 +501,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -571,7 +571,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -641,7 +641,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -711,7 +711,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -781,7 +781,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -851,7 +851,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -921,7 +921,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -991,7 +991,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1061,7 +1061,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1131,7 +1131,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1201,7 +1201,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1271,7 +1271,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1341,7 +1341,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1411,7 +1411,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1481,7 +1481,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1551,7 +1551,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1621,7 +1621,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1691,7 +1691,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1761,7 +1761,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1831,7 +1831,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1901,7 +1901,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -1971,7 +1971,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2041,7 +2041,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2111,7 +2111,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2181,7 +2181,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2251,7 +2251,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2321,7 +2321,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2391,7 +2391,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2461,7 +2461,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2531,7 +2531,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2601,7 +2601,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2671,7 +2671,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2741,7 +2741,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2811,7 +2811,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2881,7 +2881,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -2951,7 +2951,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3021,7 +3021,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3091,7 +3091,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3161,7 +3161,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3231,7 +3231,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3289,7 +3289,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3347,7 +3347,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3417,7 +3417,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3487,7 +3487,7 @@
     "submissionId": "snehansu.chatterjee-1729142736739",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-21 00:00",
+    "publishDate": "2024-12-21T08:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3557,7 +3557,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3603,7 +3603,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3649,7 +3649,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3695,7 +3695,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3741,7 +3741,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3787,7 +3787,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3833,7 +3833,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3879,7 +3879,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3925,7 +3925,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -3971,7 +3971,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4017,7 +4017,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4063,7 +4063,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4109,7 +4109,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4155,7 +4155,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4201,7 +4201,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4247,7 +4247,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4293,7 +4293,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4339,7 +4339,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4385,7 +4385,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4431,7 +4431,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4477,7 +4477,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4523,7 +4523,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4569,7 +4569,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4615,7 +4615,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4661,7 +4661,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4707,7 +4707,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4753,7 +4753,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4799,7 +4799,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4845,7 +4845,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4891,7 +4891,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4937,7 +4937,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -4983,7 +4983,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5029,7 +5029,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5075,7 +5075,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5121,7 +5121,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5167,7 +5167,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5213,7 +5213,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5259,7 +5259,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5305,7 +5305,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5351,7 +5351,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5397,7 +5397,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5443,7 +5443,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5489,7 +5489,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5535,7 +5535,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5581,7 +5581,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5627,7 +5627,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5673,7 +5673,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5719,7 +5719,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5765,7 +5765,7 @@
     "submissionId": "snehansu.chatterjee-1724913087673",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-26 00:00",
+    "publishDate": "2024-08-26T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5811,7 +5811,7 @@
     "submissionId": "grosas-1715313031247",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-05-06 00:00",
+    "publishDate": "2024-05-06T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5869,7 +5869,7 @@
     "submissionId": "grosas-1715313031247",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-05-06 00:00",
+    "publishDate": "2024-05-06T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5915,7 +5915,7 @@
     "submissionId": "grosas-1715313031247",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-05-06 00:00",
+    "publishDate": "2024-05-06T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -5961,7 +5961,7 @@
     "submissionId": "grosas-1715313031247",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-05-06 00:00",
+    "publishDate": "2024-05-06T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",
@@ -6007,7 +6007,7 @@
     "submissionId": "grosas-1715313031247",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-05-06 00:00",
+    "publishDate": "2024-05-06T07:00:00Z",
     "product": {
       "id": "5d82589c8e3b97001626bac8",
       "productName": "VMware HCX",

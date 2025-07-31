@@ -11,7 +11,7 @@
     "submissionId": "bob.plankers-1733425104990",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-12-02 00:00",
+    "publishDate": "2024-12-02T08:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -225,7 +225,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -319,7 +319,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -413,7 +413,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -579,7 +579,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -697,7 +697,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -827,7 +827,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -957,7 +957,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -1087,7 +1087,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -1217,7 +1217,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -1335,7 +1335,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -1453,7 +1453,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -1571,7 +1571,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -1689,7 +1689,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -1855,7 +1855,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -2033,7 +2033,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -2211,7 +2211,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -2389,7 +2389,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -2567,7 +2567,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -2745,7 +2745,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -2923,7 +2923,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -3101,7 +3101,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -3279,7 +3279,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -3457,7 +3457,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -3635,7 +3635,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -3813,7 +3813,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -3991,7 +3991,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -4169,7 +4169,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -4347,7 +4347,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -4525,7 +4525,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -4703,7 +4703,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -4881,7 +4881,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -5059,7 +5059,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -5237,7 +5237,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -5415,7 +5415,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -5593,7 +5593,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -5771,7 +5771,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -5949,7 +5949,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -6127,7 +6127,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -6305,7 +6305,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -6483,7 +6483,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -6661,7 +6661,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -6839,7 +6839,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -7017,7 +7017,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -7195,7 +7195,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -7373,7 +7373,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -7551,7 +7551,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -7729,7 +7729,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -7907,7 +7907,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -8085,7 +8085,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -8263,7 +8263,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -8393,7 +8393,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -8523,7 +8523,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -8653,7 +8653,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -8783,7 +8783,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -8913,7 +8913,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -9091,7 +9091,7 @@
     "submissionId": "rdevdasan-1686672815867",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-09-28 00:00",
+    "publishDate": "2024-09-28T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -9269,7 +9269,7 @@
     "submissionId": "johnsonryan-1686761735917",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -9387,7 +9387,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -9505,7 +9505,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -9623,7 +9623,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -9741,7 +9741,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -9859,7 +9859,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -9977,7 +9977,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -10095,7 +10095,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -10213,7 +10213,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -10331,7 +10331,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -10449,7 +10449,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -10579,7 +10579,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -10697,7 +10697,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -10815,7 +10815,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -10933,7 +10933,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -11051,7 +11051,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -11169,7 +11169,7 @@
     "submissionId": "johnsonryan-1686761656367",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-11 00:00",
+    "publishDate": "2023-06-11T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -11287,7 +11287,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -11321,7 +11321,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -11391,7 +11391,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -11461,7 +11461,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -11531,7 +11531,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -11601,7 +11601,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -11671,7 +11671,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -11741,7 +11741,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -11811,7 +11811,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -11881,7 +11881,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -11951,7 +11951,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12021,7 +12021,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12091,7 +12091,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12161,7 +12161,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12231,7 +12231,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12301,7 +12301,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12371,7 +12371,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12441,7 +12441,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12487,7 +12487,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12557,7 +12557,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12627,7 +12627,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12697,7 +12697,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12791,7 +12791,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12885,7 +12885,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -12979,7 +12979,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -13073,7 +13073,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -13167,7 +13167,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -13309,7 +13309,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -13451,7 +13451,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -13593,7 +13593,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",
@@ -13735,7 +13735,7 @@
     "submissionId": "rdevdasan-1665527875469",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2022-10-08 00:00",
+    "publishDate": "2022-10-08T07:00:00Z",
     "product": {
       "id": "5e42d27b23a0e6000e599ddd",
       "productName": "VMware Cloud Foundation",

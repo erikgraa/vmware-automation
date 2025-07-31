@@ -11,7 +11,7 @@
     "submissionId": "cschaefer-1700603113679",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-11-18 00:00",
+    "publishDate": "2023-11-18T08:00:00Z",
     "product": {
       "id": "6487fc00eaa6a73817d9c950",
       "productName": "Tanzu Mission Control Self-Managed",
@@ -45,7 +45,7 @@
     "submissionId": "cschaefer-1700603113679",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-11-18 00:00",
+    "publishDate": "2023-11-18T08:00:00Z",
     "product": {
       "id": "6487fc00eaa6a73817d9c950",
       "productName": "Tanzu Mission Control Self-Managed",
@@ -79,7 +79,7 @@
     "submissionId": "cschaefer-1687795331058",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-27 00:00",
+    "publishDate": "2023-06-27T07:00:00Z",
     "product": {
       "id": "6487fc00eaa6a73817d9c950",
       "productName": "Tanzu Mission Control Self-Managed",
@@ -113,7 +113,7 @@
     "submissionId": "cschaefer-1687795331058",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2023-06-27 00:00",
+    "publishDate": "2023-06-27T07:00:00Z",
     "product": {
       "id": "6487fc00eaa6a73817d9c950",
       "productName": "Tanzu Mission Control Self-Managed",

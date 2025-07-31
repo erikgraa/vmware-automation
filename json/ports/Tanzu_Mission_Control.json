@@ -11,7 +11,7 @@
     "submissionId": "matt.wilson-1741965072246",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11 00:00",
+    "publishDate": "2025-03-11T07:00:00Z",
     "product": {
       "id": "6188cd523d0c6b407f6b8efa",
       "productName": "Tanzu Mission Control",
@@ -45,7 +45,7 @@
     "submissionId": "matt.wilson-1741965072246",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11 00:00",
+    "publishDate": "2025-03-11T07:00:00Z",
     "product": {
       "id": "6188cd523d0c6b407f6b8efa",
       "productName": "Tanzu Mission Control",

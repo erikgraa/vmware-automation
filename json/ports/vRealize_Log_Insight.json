@@ -12,7 +12,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e846c3460e838000f30b55d",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -107,7 +107,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5e87478d699a5b000ef4f41f",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -214,7 +214,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebc60201200195702ed",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -321,7 +321,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebc60201200195702ec",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -428,7 +428,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebc60201200195702eb",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -535,7 +535,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebc60201200195702ea",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -642,7 +642,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebc60201200195702e9",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -749,7 +749,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebc60201200195702e8",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -856,7 +856,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebb60201200195702e7",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -963,7 +963,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebb60201200195702e6",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -1070,7 +1070,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebb60201200195702e5",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -1177,7 +1177,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebb60201200195702e4",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -1284,7 +1284,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebb60201200195702e3",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -1391,7 +1391,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebb60201200195702e2",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -1498,7 +1498,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebb60201200195702e1",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -1605,7 +1605,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebb60201200195702e0",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -1712,7 +1712,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebb60201200195702df",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -1819,7 +1819,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65ebb60201200195702de",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -1926,7 +1926,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65eba60201200195702dd",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -2033,7 +2033,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65eba60201200195702dc",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -2140,7 +2140,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65eba60201200195702db",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -2247,7 +2247,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65eba60201200195702d9",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -2354,7 +2354,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65eba60201200195702d8",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -2461,7 +2461,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65eba60201200195702d7",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -2568,7 +2568,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "5dd65eba60201200195702d6",
-    "publishDate": "2022-10-20 20:00",
+    "publishDate": "2022-10-21T03:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",
@@ -2674,7 +2674,7 @@
     "submissionId": "mnalbandyan-1634065034583",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2021-10-09 00:00",
+    "publishDate": "2021-10-09T07:00:00Z",
     "product": {
       "id": "5dca751ebba3080013417492",
       "productName": "vRealize Log Insight",

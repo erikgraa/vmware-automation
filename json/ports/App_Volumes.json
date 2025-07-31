@@ -12,7 +12,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "604a246e19c28a0024136cee",
-    "publishDate": "2022-04-05 08:00",
+    "publishDate": "2022-04-05T15:00:00Z",
     "product": {
       "id": "5fce4f1628e293001056ff0c",
       "productName": "App Volumes",
@@ -191,7 +191,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "604a246e19c28a0024136ced",
-    "publishDate": "2022-04-05 08:00",
+    "publishDate": "2022-04-05T15:00:00Z",
     "product": {
       "id": "5fce4f1628e293001056ff0c",
       "productName": "App Volumes",
@@ -370,7 +370,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "604a246d19c28a0024136cec",
-    "publishDate": "2022-04-05 08:00",
+    "publishDate": "2022-04-05T15:00:00Z",
     "product": {
       "id": "5fce4f1628e293001056ff0c",
       "productName": "App Volumes",
@@ -549,7 +549,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "604a246d19c28a0024136ceb",
-    "publishDate": "2022-04-05 08:00",
+    "publishDate": "2022-04-05T15:00:00Z",
     "product": {
       "id": "5fce4f1628e293001056ff0c",
       "productName": "App Volumes",
@@ -728,7 +728,7 @@
     "status": "PUBLISHED",
     "active": "true",
     "parentId": "604a246c19c28a0024136cea",
-    "publishDate": "2022-04-05 08:00",
+    "publishDate": "2022-04-05T15:00:00Z",
     "product": {
       "id": "5fce4f1628e293001056ff0c",
       "productName": "App Volumes",
