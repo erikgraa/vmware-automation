@@ -1,111 +1,17 @@
 [
   {
-    "id": "6461628bad8be32e487da114",
-    "port": "443",
-    "protocol": "TCP",
-    "source": "Site Recovery Manager Appliance",
-    "destination": "https://vcsa.vmware.com",
-    "serviceDescription": "Customer Experience Improvement Program (CEIP) for Site Recovery Manager",
-    "purpose": "Customer Experience Improvement Program (CEIP) for Site Recovery Manager",
-    "classification": "Network ports",
-    "submissionId": "ivo.ivanov-1725347733298",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2024-08-31T07:00:00Z",
-    "product": {
-      "id": "5dbfd68b8e3b97001626bad5",
-      "productName": "Site Recovery Manager",
-      "displayName": "Site Recovery Manager",
-      "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
-    },
-    "releases": [
-      {
-        "id": "643e8c03ad8be32e487da0e4",
-        "releaseName": "VMware Site Recovery Manager 8.7",
-        "displayName": "8.7",
-        "rmReleaseId": "BED55C4C-94EC-4E39-B952-9FB017FA6E4D",
-        "product": {
-          "id": "5dbfd68b8e3b97001626bad5",
-          "productName": "Site Recovery Manager",
-          "displayName": "Site Recovery Manager",
-          "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
-        }
-      },
-      {
-        "id": "63d9a10bad8be32e487d9d45",
-        "releaseName": "VMware Site Recovery Manager 8.6",
-        "displayName": "8.6",
-        "rmReleaseId": "AAFF7098-CA63-4DAB-9EA1-24400B89A253",
-        "product": {
-          "id": "5dbfd68b8e3b97001626bad5",
-          "productName": "Site Recovery Manager",
-          "displayName": "Site Recovery Manager",
-          "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
-        }
-      },
-      {
-        "id": "6176d218d28a571a731c63d4",
-        "releaseName": "Site Recovery Manager 8.5",
-        "displayName": "8.5",
-        "rmReleaseId": "4FCBE583-701D-4063-B370-C7B6F7CD28AD",
-        "product": {
-          "id": "5dbfd68b8e3b97001626bad5",
-          "productName": "Site Recovery Manager",
-          "displayName": "Site Recovery Manager",
-          "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
-        }
-      },
-      {
-        "id": "5e8732ea699a5b000ef4f41e",
-        "releaseName": "Site Recovery Manager 8.1.2",
-        "displayName": "8.3",
-        "rmReleaseId": "728B1AE7-215A-42D4-B726-00FF73FCEAC4",
-        "product": {
-          "id": "5dbfd68b8e3b97001626bad5",
-          "productName": "Site Recovery Manager",
-          "displayName": "Site Recovery Manager",
-          "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
-        }
-      },
-      {
-        "id": "604f48c4d2c18a002e466fc7",
-        "releaseName": "Site Recovery Manager 8.4",
-        "displayName": "8.4",
-        "rmReleaseId": "904A974F-2001-4897-9DFE-36F8EBC0D6E5",
-        "product": {
-          "id": "5dbfd68b8e3b97001626bad5",
-          "productName": "Site Recovery Manager",
-          "displayName": "Site Recovery Manager",
-          "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
-        }
-      },
-      {
-        "id": "650c94ea30910021b5f7be3c",
-        "releaseName": "VMware Site Recovery Manager 8.8",
-        "displayName": "8.8",
-        "rmReleaseId": "377CE599-E6D8-49DA-9D61-689FC728CC30",
-        "product": {
-          "id": "5dbfd68b8e3b97001626bad5",
-          "productName": "Site Recovery Manager",
-          "displayName": "Site Recovery Manager",
-          "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
-        }
-      }
-    ]
-  },
-  {
     "id": "5dc51f00be70060018a16d97",
     "port": "443",
     "protocol": "HTTPS",
     "source": "Site Recovery Manager",
     "destination": "vCenter Server",
     "serviceDescription": "Default SSL Web port.",
-    "purpose": "-",
+    "purpose": "--",
     "classification": "-",
-    "submissionId": "ivo.ivanov-1725347733298",
+    "submissionId": "petar.georgiev-2025-08-21T13:12:26.715732573Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2024-08-31T07:00:00Z",
+    "publishDate": "2025-08-18T00:00:00Z",
     "product": {
       "id": "5dbfd68b8e3b97001626bad5",
       "productName": "Site Recovery Manager",
@@ -214,6 +120,100 @@
         "releaseName": "Site Recovery Manager 8.5",
         "displayName": "8.5",
         "rmReleaseId": "4FCBE583-701D-4063-B370-C7B6F7CD28AD",
+        "product": {
+          "id": "5dbfd68b8e3b97001626bad5",
+          "productName": "Site Recovery Manager",
+          "displayName": "Site Recovery Manager",
+          "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6461628bad8be32e487da114",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "Site Recovery Manager Appliance",
+    "destination": "https://vcsa.vmware.com",
+    "serviceDescription": "Customer Experience Improvement Program (CEIP) for Site Recovery Manager",
+    "purpose": "Customer Experience Improvement Program (CEIP) for Site Recovery Manager",
+    "classification": "Network ports",
+    "submissionId": "ivo.ivanov-1725347733298",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2024-08-31T07:00:00Z",
+    "product": {
+      "id": "5dbfd68b8e3b97001626bad5",
+      "productName": "Site Recovery Manager",
+      "displayName": "Site Recovery Manager",
+      "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
+    },
+    "releases": [
+      {
+        "id": "643e8c03ad8be32e487da0e4",
+        "releaseName": "VMware Site Recovery Manager 8.7",
+        "displayName": "8.7",
+        "rmReleaseId": "BED55C4C-94EC-4E39-B952-9FB017FA6E4D",
+        "product": {
+          "id": "5dbfd68b8e3b97001626bad5",
+          "productName": "Site Recovery Manager",
+          "displayName": "Site Recovery Manager",
+          "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
+        }
+      },
+      {
+        "id": "63d9a10bad8be32e487d9d45",
+        "releaseName": "VMware Site Recovery Manager 8.6",
+        "displayName": "8.6",
+        "rmReleaseId": "AAFF7098-CA63-4DAB-9EA1-24400B89A253",
+        "product": {
+          "id": "5dbfd68b8e3b97001626bad5",
+          "productName": "Site Recovery Manager",
+          "displayName": "Site Recovery Manager",
+          "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
+        }
+      },
+      {
+        "id": "6176d218d28a571a731c63d4",
+        "releaseName": "Site Recovery Manager 8.5",
+        "displayName": "8.5",
+        "rmReleaseId": "4FCBE583-701D-4063-B370-C7B6F7CD28AD",
+        "product": {
+          "id": "5dbfd68b8e3b97001626bad5",
+          "productName": "Site Recovery Manager",
+          "displayName": "Site Recovery Manager",
+          "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
+        }
+      },
+      {
+        "id": "5e8732ea699a5b000ef4f41e",
+        "releaseName": "Site Recovery Manager 8.1.2",
+        "displayName": "8.3",
+        "rmReleaseId": "728B1AE7-215A-42D4-B726-00FF73FCEAC4",
+        "product": {
+          "id": "5dbfd68b8e3b97001626bad5",
+          "productName": "Site Recovery Manager",
+          "displayName": "Site Recovery Manager",
+          "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
+        }
+      },
+      {
+        "id": "604f48c4d2c18a002e466fc7",
+        "releaseName": "Site Recovery Manager 8.4",
+        "displayName": "8.4",
+        "rmReleaseId": "904A974F-2001-4897-9DFE-36F8EBC0D6E5",
+        "product": {
+          "id": "5dbfd68b8e3b97001626bad5",
+          "productName": "Site Recovery Manager",
+          "displayName": "Site Recovery Manager",
+          "rmProductId": "82A0D232-BB4C-4CFC-ABAB-B99A45AF4E15"
+        }
+      },
+      {
+        "id": "650c94ea30910021b5f7be3c",
+        "releaseName": "VMware Site Recovery Manager 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "377CE599-E6D8-49DA-9D61-689FC728CC30",
         "product": {
           "id": "5dbfd68b8e3b97001626bad5",
           "productName": "Site Recovery Manager",
