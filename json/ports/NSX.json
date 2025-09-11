@@ -1,5 +1,379 @@
 [
   {
+    "id": "5e5643dedd3b100015868f53",
+    "port": "514",
+    "protocol": "TCP",
+    "source": "Host Transport Node + NSX Edge nodes + NSX Manager",
+    "destination": "Syslog Servers",
+    "serviceDescription": "Syslog (Refer to the host syslog documenation)",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "emad.younis-2025-09-08T14:37:54.703831351Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-09-05T00:00:00Z",
+    "product": {
+      "id": "5e562058f2e8d500177fc23e",
+      "productName": "NSX",
+      "displayName": "NSX",
+      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+    },
+    "releases": [
+      {
+        "id": "5e5621bbdd3b100015868f2d",
+        "releaseName": "NSX-T 2.5.0",
+        "displayName": "2.5",
+        "rmReleaseId": "70D58050-2CAF-44EF-8D5A-2C86438D2C35",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "5e5de645699a5b000ef4f3e8",
+        "releaseName": "NSX-T 3.0.0",
+        "displayName": "3.0",
+        "rmReleaseId": "FFF23487-444A-45DD-9768-28B51CD43017",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "5fa3a50c620b72000d5b272f",
+        "releaseName": "NSX-T 3.1.0",
+        "displayName": "3.1",
+        "rmReleaseId": "4E64EAC4-948C-4494-A509-80210F50EB64",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "61ae355588ac9f182c804d74",
+        "releaseName": "NSX-T 3.2.0",
+        "displayName": "3.2",
+        "rmReleaseId": "88AFD537-3B5B-4975-B574-890BA72C86E1",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e5643dfdd3b100015868f69",
+    "port": "514",
+    "protocol": "UDP",
+    "source": "Host Transport Node + NSX Edge nodes + NSX Manager",
+    "destination": "Syslog Servers",
+    "serviceDescription": "Syslog (Refer to the host syslog documenation)",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "emad.younis-2025-09-08T14:36:39.143906650Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-09-05T00:00:00Z",
+    "product": {
+      "id": "5e562058f2e8d500177fc23e",
+      "productName": "NSX",
+      "displayName": "NSX",
+      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+    },
+    "releases": [
+      {
+        "id": "5e5621bbdd3b100015868f2d",
+        "releaseName": "NSX-T 2.5.0",
+        "displayName": "2.5",
+        "rmReleaseId": "70D58050-2CAF-44EF-8D5A-2C86438D2C35",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "5e5de645699a5b000ef4f3e8",
+        "releaseName": "NSX-T 3.0.0",
+        "displayName": "3.0",
+        "rmReleaseId": "FFF23487-444A-45DD-9768-28B51CD43017",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "5fa3a50c620b72000d5b272f",
+        "releaseName": "NSX-T 3.1.0",
+        "displayName": "3.1",
+        "rmReleaseId": "4E64EAC4-948C-4494-A509-80210F50EB64",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "61ae355588ac9f182c804d74",
+        "releaseName": "NSX-T 3.2.0",
+        "displayName": "3.2",
+        "rmReleaseId": "88AFD537-3B5B-4975-B574-890BA72C86E1",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e5643dfdd3b100015868f68",
+    "port": "514",
+    "protocol": "TCP",
+    "source": "Host Transport Node + NSX Edge nodes + NSX Manager",
+    "destination": "Syslog Servers",
+    "serviceDescription": "Syslog (Refer to the host syslog documenation)",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "emad.younis-2025-09-08T14:33:21.319225426Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-09-05T00:00:00Z",
+    "product": {
+      "id": "5e562058f2e8d500177fc23e",
+      "productName": "NSX",
+      "displayName": "NSX",
+      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+    },
+    "releases": [
+      {
+        "id": "62e937193d30460c1665ead8",
+        "releaseName": "VMware NSX-T Data Center 4.0.0.1",
+        "displayName": "4.0.0.1",
+        "rmReleaseId": "5B4D7912-DF01-40DC-9A7B-D8FD1A023B7B",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "63fdc6ba30910021b5f7bb6f",
+        "releaseName": "VMware NSX 4.1.0.0",
+        "displayName": "4.1.0.0",
+        "rmReleaseId": "818D6E87-F5AA-4CAF-8052-33826C36EE55",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "6708b3893bf19b0ca0ae69f3",
+        "releaseName": "VMware NSX 4.2.1.0",
+        "displayName": "4.2.x",
+        "rmReleaseId": "6457BFD7-46EF-4DDB-AB27-13511A309541",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "669b07eda43bf87904f2a15f",
+        "releaseName": "VMware NSX 4.2.0.0",
+        "displayName": "4.2",
+        "rmReleaseId": "9FEA63D0-49C4-4AD7-B316-0FE42D08B3F3",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "686454943bb25727e71b05d4",
+        "releaseName": "VMware NSX 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "BF7AC46A-9F9B-4D6F-A4AF-62D771D6BB7A",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      }
+    ]
+  },
+  {
+    "id": "62fa5db93d30460c1665ebcc",
+    "port": "514",
+    "protocol": "UDP",
+    "source": "Host Transport Node + NSX Edge nodes + NSX Manager",
+    "destination": "Syslog Servers",
+    "serviceDescription": "Syslog (Refer to the host syslog documenation)",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "emad.younis-2025-09-08T14:29:50.237737591Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-09-05T00:00:00Z",
+    "product": {
+      "id": "5e562058f2e8d500177fc23e",
+      "productName": "NSX",
+      "displayName": "NSX",
+      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+    },
+    "releases": [
+      {
+        "id": "62e937193d30460c1665ead8",
+        "releaseName": "VMware NSX-T Data Center 4.0.0.1",
+        "displayName": "4.0.0.1",
+        "rmReleaseId": "5B4D7912-DF01-40DC-9A7B-D8FD1A023B7B",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "63fdc6ba30910021b5f7bb6f",
+        "releaseName": "VMware NSX 4.1.0.0",
+        "displayName": "4.1.0.0",
+        "rmReleaseId": "818D6E87-F5AA-4CAF-8052-33826C36EE55",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "669b07eda43bf87904f2a15f",
+        "releaseName": "VMware NSX 4.2.0.0",
+        "displayName": "4.2",
+        "rmReleaseId": "9FEA63D0-49C4-4AD7-B316-0FE42D08B3F3",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "6708b3893bf19b0ca0ae69f3",
+        "releaseName": "VMware NSX 4.2.1.0",
+        "displayName": "4.2.x",
+        "rmReleaseId": "6457BFD7-46EF-4DDB-AB27-13511A309541",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "686454943bb25727e71b05d4",
+        "releaseName": "VMware NSX 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "BF7AC46A-9F9B-4D6F-A4AF-62D771D6BB7A",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5e5643dedd3b100015868f5c",
+    "port": "1235",
+    "protocol": "TCP",
+    "source": "ESXi host",
+    "destination": "NSX Manager",
+    "serviceDescription": "Local Control Plane (LCP) to Central Control Plane (CCP) communication",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "emad.younis-2025-09-08T14:24:01.306927785Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-09-05T00:00:00Z",
+    "product": {
+      "id": "5e562058f2e8d500177fc23e",
+      "productName": "NSX",
+      "displayName": "NSX",
+      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+    },
+    "releases": [
+      {
+        "id": "5e5621bbdd3b100015868f2d",
+        "releaseName": "NSX-T 2.5.0",
+        "displayName": "2.5",
+        "rmReleaseId": "70D58050-2CAF-44EF-8D5A-2C86438D2C35",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "5e5de645699a5b000ef4f3e8",
+        "releaseName": "NSX-T 3.0.0",
+        "displayName": "3.0",
+        "rmReleaseId": "FFF23487-444A-45DD-9768-28B51CD43017",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "5fa3a50c620b72000d5b272f",
+        "releaseName": "NSX-T 3.1.0",
+        "displayName": "3.1",
+        "rmReleaseId": "4E64EAC4-948C-4494-A509-80210F50EB64",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      },
+      {
+        "id": "61ae355588ac9f182c804d74",
+        "releaseName": "NSX-T 3.2.0",
+        "displayName": "3.2",
+        "rmReleaseId": "88AFD537-3B5B-4975-B574-890BA72C86E1",
+        "product": {
+          "id": "5e562058f2e8d500177fc23e",
+          "productName": "NSX",
+          "displayName": "NSX",
+          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
+        }
+      }
+    ]
+  },
+  {
     "id": "62fa5db93d30460c1665ebd0",
     "port": "1234, 1235, 443",
     "protocol": "TCP",
@@ -3326,170 +3700,6 @@
     ]
   },
   {
-    "id": "62fa5db93d30460c1665ebcc",
-    "port": "514",
-    "protocol": "UDP",
-    "source": "Host Transport Node + NSX Manager",
-    "destination": "Syslog Servers",
-    "serviceDescription": "Syslog (Refer to the host syslog documenation)",
-    "purpose": "-",
-    "classification": "-",
-    "submissionId": "suhas.jinka-2025-09-05T10:50:02.181769485Z",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-09-02T00:00:00Z",
-    "product": {
-      "id": "5e562058f2e8d500177fc23e",
-      "productName": "NSX",
-      "displayName": "NSX",
-      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-    },
-    "releases": [
-      {
-        "id": "62e937193d30460c1665ead8",
-        "releaseName": "VMware NSX-T Data Center 4.0.0.1",
-        "displayName": "4.0.0.1",
-        "rmReleaseId": "5B4D7912-DF01-40DC-9A7B-D8FD1A023B7B",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "63fdc6ba30910021b5f7bb6f",
-        "releaseName": "VMware NSX 4.1.0.0",
-        "displayName": "4.1.0.0",
-        "rmReleaseId": "818D6E87-F5AA-4CAF-8052-33826C36EE55",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "669b07eda43bf87904f2a15f",
-        "releaseName": "VMware NSX 4.2.0.0",
-        "displayName": "4.2",
-        "rmReleaseId": "9FEA63D0-49C4-4AD7-B316-0FE42D08B3F3",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "6708b3893bf19b0ca0ae69f3",
-        "releaseName": "VMware NSX 4.2.1.0",
-        "displayName": "4.2.x",
-        "rmReleaseId": "6457BFD7-46EF-4DDB-AB27-13511A309541",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "686454943bb25727e71b05d4",
-        "releaseName": "VMware NSX 9.0.0.0",
-        "displayName": "9.0",
-        "rmReleaseId": "BF7AC46A-9F9B-4D6F-A4AF-62D771D6BB7A",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      }
-    ]
-  },
-  {
-    "id": "62fa5db93d30460c1665ebcb",
-    "port": "514",
-    "protocol": "TCP",
-    "source": "Host Transport Node + NSX Manager",
-    "destination": "Syslog Servers",
-    "serviceDescription": "Syslog (Refer to the host syslog documenation)",
-    "purpose": "-",
-    "classification": "-",
-    "submissionId": "suhas.jinka-2025-09-05T10:50:02.181769485Z",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-09-02T00:00:00Z",
-    "product": {
-      "id": "5e562058f2e8d500177fc23e",
-      "productName": "NSX",
-      "displayName": "NSX",
-      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-    },
-    "releases": [
-      {
-        "id": "62e937193d30460c1665ead8",
-        "releaseName": "VMware NSX-T Data Center 4.0.0.1",
-        "displayName": "4.0.0.1",
-        "rmReleaseId": "5B4D7912-DF01-40DC-9A7B-D8FD1A023B7B",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "63fdc6ba30910021b5f7bb6f",
-        "releaseName": "VMware NSX 4.1.0.0",
-        "displayName": "4.1.0.0",
-        "rmReleaseId": "818D6E87-F5AA-4CAF-8052-33826C36EE55",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "669b07eda43bf87904f2a15f",
-        "releaseName": "VMware NSX 4.2.0.0",
-        "displayName": "4.2",
-        "rmReleaseId": "9FEA63D0-49C4-4AD7-B316-0FE42D08B3F3",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "6708b3893bf19b0ca0ae69f3",
-        "releaseName": "VMware NSX 4.2.1.0",
-        "displayName": "4.2.x",
-        "rmReleaseId": "6457BFD7-46EF-4DDB-AB27-13511A309541",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "686454943bb25727e71b05d4",
-        "releaseName": "VMware NSX 9.0.0.0",
-        "displayName": "9.0",
-        "rmReleaseId": "BF7AC46A-9F9B-4D6F-A4AF-62D771D6BB7A",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      }
-    ]
-  },
-  {
     "id": "62fa5db83d30460c1665ebba",
     "port": "6443",
     "protocol": "TCP",
@@ -5898,146 +6108,6 @@
     ]
   },
   {
-    "id": "5e5643dfdd3b100015868f68",
-    "port": "514",
-    "protocol": "TCP",
-    "source": "Host Transport Node",
-    "destination": "Syslog Servers",
-    "serviceDescription": "Syslog (Refer to the host syslog documenation)",
-    "purpose": "-",
-    "classification": "-",
-    "submissionId": "anhu-1639437569802",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2021-12-10T08:00:00Z",
-    "product": {
-      "id": "5e562058f2e8d500177fc23e",
-      "productName": "NSX",
-      "displayName": "NSX",
-      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-    },
-    "releases": [
-      {
-        "id": "5e5621bbdd3b100015868f2d",
-        "releaseName": "NSX-T 2.5.0",
-        "displayName": "2.5",
-        "rmReleaseId": "70D58050-2CAF-44EF-8D5A-2C86438D2C35",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5e5de645699a5b000ef4f3e8",
-        "releaseName": "NSX-T 3.0.0",
-        "displayName": "3.0",
-        "rmReleaseId": "FFF23487-444A-45DD-9768-28B51CD43017",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5fa3a50c620b72000d5b272f",
-        "releaseName": "NSX-T 3.1.0",
-        "displayName": "3.1",
-        "rmReleaseId": "4E64EAC4-948C-4494-A509-80210F50EB64",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "61ae355588ac9f182c804d74",
-        "releaseName": "NSX-T 3.2.0",
-        "displayName": "3.2",
-        "rmReleaseId": "88AFD537-3B5B-4975-B574-890BA72C86E1",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      }
-    ]
-  },
-  {
-    "id": "5e5643dfdd3b100015868f69",
-    "port": "514",
-    "protocol": "UDP",
-    "source": "Host Transport Node",
-    "destination": "Syslog Servers",
-    "serviceDescription": "Syslog (Refer to the host syslog documenation)",
-    "purpose": "-",
-    "classification": "-",
-    "submissionId": "anhu-1639437569802",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2021-12-10T08:00:00Z",
-    "product": {
-      "id": "5e562058f2e8d500177fc23e",
-      "productName": "NSX",
-      "displayName": "NSX",
-      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-    },
-    "releases": [
-      {
-        "id": "5e5621bbdd3b100015868f2d",
-        "releaseName": "NSX-T 2.5.0",
-        "displayName": "2.5",
-        "rmReleaseId": "70D58050-2CAF-44EF-8D5A-2C86438D2C35",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5e5de645699a5b000ef4f3e8",
-        "releaseName": "NSX-T 3.0.0",
-        "displayName": "3.0",
-        "rmReleaseId": "FFF23487-444A-45DD-9768-28B51CD43017",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5fa3a50c620b72000d5b272f",
-        "releaseName": "NSX-T 3.1.0",
-        "displayName": "3.1",
-        "rmReleaseId": "4E64EAC4-948C-4494-A509-80210F50EB64",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "61ae355588ac9f182c804d74",
-        "releaseName": "NSX-T 3.2.0",
-        "displayName": "3.2",
-        "rmReleaseId": "88AFD537-3B5B-4975-B574-890BA72C86E1",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      }
-    ]
-  },
-  {
     "id": "5e5643dfdd3b100015868f6c",
     "port": "80",
     "protocol": "TCP",
@@ -7332,146 +7402,6 @@
     ]
   },
   {
-    "id": "5e5643dedd3b100015868f53",
-    "port": "514",
-    "protocol": "TCP",
-    "source": "NSX Edge nodes",
-    "destination": "Syslog Servers",
-    "serviceDescription": "Syslog",
-    "purpose": "-",
-    "classification": "-",
-    "submissionId": "anhu-1639437569802",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2021-12-10T08:00:00Z",
-    "product": {
-      "id": "5e562058f2e8d500177fc23e",
-      "productName": "NSX",
-      "displayName": "NSX",
-      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-    },
-    "releases": [
-      {
-        "id": "5e5621bbdd3b100015868f2d",
-        "releaseName": "NSX-T 2.5.0",
-        "displayName": "2.5",
-        "rmReleaseId": "70D58050-2CAF-44EF-8D5A-2C86438D2C35",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5e5de645699a5b000ef4f3e8",
-        "releaseName": "NSX-T 3.0.0",
-        "displayName": "3.0",
-        "rmReleaseId": "FFF23487-444A-45DD-9768-28B51CD43017",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5fa3a50c620b72000d5b272f",
-        "releaseName": "NSX-T 3.1.0",
-        "displayName": "3.1",
-        "rmReleaseId": "4E64EAC4-948C-4494-A509-80210F50EB64",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "61ae355588ac9f182c804d74",
-        "releaseName": "NSX-T 3.2.0",
-        "displayName": "3.2",
-        "rmReleaseId": "88AFD537-3B5B-4975-B574-890BA72C86E1",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      }
-    ]
-  },
-  {
-    "id": "5e5643dedd3b100015868f54",
-    "port": "514",
-    "protocol": "UDP",
-    "source": "NSX Edge nodes",
-    "destination": "Syslog Servers",
-    "serviceDescription": "Syslog",
-    "purpose": "-",
-    "classification": "-",
-    "submissionId": "anhu-1639437569802",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2021-12-10T08:00:00Z",
-    "product": {
-      "id": "5e562058f2e8d500177fc23e",
-      "productName": "NSX",
-      "displayName": "NSX",
-      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-    },
-    "releases": [
-      {
-        "id": "5e5621bbdd3b100015868f2d",
-        "releaseName": "NSX-T 2.5.0",
-        "displayName": "2.5",
-        "rmReleaseId": "70D58050-2CAF-44EF-8D5A-2C86438D2C35",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5e5de645699a5b000ef4f3e8",
-        "releaseName": "NSX-T 3.0.0",
-        "displayName": "3.0",
-        "rmReleaseId": "FFF23487-444A-45DD-9768-28B51CD43017",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5fa3a50c620b72000d5b272f",
-        "releaseName": "NSX-T 3.1.0",
-        "displayName": "3.1",
-        "rmReleaseId": "4E64EAC4-948C-4494-A509-80210F50EB64",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "61ae355588ac9f182c804d74",
-        "releaseName": "NSX-T 3.2.0",
-        "displayName": "3.2",
-        "rmReleaseId": "88AFD537-3B5B-4975-B574-890BA72C86E1",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      }
-    ]
-  },
-  {
     "id": "5e5643dedd3b100015868f58",
     "port": "33434 - 33523",
     "protocol": "UDP",
@@ -8038,146 +7968,6 @@
     "source": "NSX Manager",
     "destination": "SNMP Servers",
     "serviceDescription": "SNMP",
-    "purpose": "-",
-    "classification": "-",
-    "submissionId": "anhu-1639437569802",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2021-12-10T08:00:00Z",
-    "product": {
-      "id": "5e562058f2e8d500177fc23e",
-      "productName": "NSX",
-      "displayName": "NSX",
-      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-    },
-    "releases": [
-      {
-        "id": "5e5621bbdd3b100015868f2d",
-        "releaseName": "NSX-T 2.5.0",
-        "displayName": "2.5",
-        "rmReleaseId": "70D58050-2CAF-44EF-8D5A-2C86438D2C35",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5e5de645699a5b000ef4f3e8",
-        "releaseName": "NSX-T 3.0.0",
-        "displayName": "3.0",
-        "rmReleaseId": "FFF23487-444A-45DD-9768-28B51CD43017",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5fa3a50c620b72000d5b272f",
-        "releaseName": "NSX-T 3.1.0",
-        "displayName": "3.1",
-        "rmReleaseId": "4E64EAC4-948C-4494-A509-80210F50EB64",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "61ae355588ac9f182c804d74",
-        "releaseName": "NSX-T 3.2.0",
-        "displayName": "3.2",
-        "rmReleaseId": "88AFD537-3B5B-4975-B574-890BA72C86E1",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      }
-    ]
-  },
-  {
-    "id": "5e5643dcdd3b100015868f37",
-    "port": "514",
-    "protocol": "TCP",
-    "source": "NSX Manager",
-    "destination": "Syslog Servers",
-    "serviceDescription": "Syslog",
-    "purpose": "-",
-    "classification": "-",
-    "submissionId": "anhu-1639437569802",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2021-12-10T08:00:00Z",
-    "product": {
-      "id": "5e562058f2e8d500177fc23e",
-      "productName": "NSX",
-      "displayName": "NSX",
-      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-    },
-    "releases": [
-      {
-        "id": "5e5621bbdd3b100015868f2d",
-        "releaseName": "NSX-T 2.5.0",
-        "displayName": "2.5",
-        "rmReleaseId": "70D58050-2CAF-44EF-8D5A-2C86438D2C35",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5e5de645699a5b000ef4f3e8",
-        "releaseName": "NSX-T 3.0.0",
-        "displayName": "3.0",
-        "rmReleaseId": "FFF23487-444A-45DD-9768-28B51CD43017",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5fa3a50c620b72000d5b272f",
-        "releaseName": "NSX-T 3.1.0",
-        "displayName": "3.1",
-        "rmReleaseId": "4E64EAC4-948C-4494-A509-80210F50EB64",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "61ae355588ac9f182c804d74",
-        "releaseName": "NSX-T 3.2.0",
-        "displayName": "3.2",
-        "rmReleaseId": "88AFD537-3B5B-4975-B574-890BA72C86E1",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      }
-    ]
-  },
-  {
-    "id": "5e5643dcdd3b100015868f38",
-    "port": "514",
-    "protocol": "UDP",
-    "source": "NSX Manager",
-    "destination": "Syslog Servers",
-    "serviceDescription": "Syslog",
     "purpose": "-",
     "classification": "-",
     "submissionId": "anhu-1639437569802",
@@ -9018,76 +8808,6 @@
     "source": "NSX Edge nodes",
     "destination": "Management SCP or SSH Servers",
     "serviceDescription": "SSH",
-    "purpose": "-",
-    "classification": "-",
-    "submissionId": "anhu-1639437569802",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2021-12-10T08:00:00Z",
-    "product": {
-      "id": "5e562058f2e8d500177fc23e",
-      "productName": "NSX",
-      "displayName": "NSX",
-      "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-    },
-    "releases": [
-      {
-        "id": "5e5621bbdd3b100015868f2d",
-        "releaseName": "NSX-T 2.5.0",
-        "displayName": "2.5",
-        "rmReleaseId": "70D58050-2CAF-44EF-8D5A-2C86438D2C35",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5e5de645699a5b000ef4f3e8",
-        "releaseName": "NSX-T 3.0.0",
-        "displayName": "3.0",
-        "rmReleaseId": "FFF23487-444A-45DD-9768-28B51CD43017",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "5fa3a50c620b72000d5b272f",
-        "releaseName": "NSX-T 3.1.0",
-        "displayName": "3.1",
-        "rmReleaseId": "4E64EAC4-948C-4494-A509-80210F50EB64",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      },
-      {
-        "id": "61ae355588ac9f182c804d74",
-        "releaseName": "NSX-T 3.2.0",
-        "displayName": "3.2",
-        "rmReleaseId": "88AFD537-3B5B-4975-B574-890BA72C86E1",
-        "product": {
-          "id": "5e562058f2e8d500177fc23e",
-          "productName": "NSX",
-          "displayName": "NSX",
-          "rmProductId": "8E422C24-90D5-4545-B131-CAF4009458DE"
-        }
-      }
-    ]
-  },
-  {
-    "id": "5e5643dedd3b100015868f5c",
-    "port": "1235",
-    "protocol": "TCP",
-    "source": "ESXi host",
-    "destination": "NSX Manager",
-    "serviceDescription": "Local Control Plane (LCP) to Central Control Plane (CCP) communication",
     "purpose": "-",
     "classification": "-",
     "submissionId": "anhu-1639437569802",
