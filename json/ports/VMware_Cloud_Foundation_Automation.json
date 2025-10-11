@@ -1,153 +1,17 @@
 [
   {
-    "id": "68d2dff6a202268c618e9489",
-    "port": "8008",
-    "protocol": "TCP",
-    "source": "VCF Automation External Load Balancer and VCF Operations",
-    "destination": "VCF Automation",
-    "serviceDescription": "Health Service",
-    "purpose": "VCF Automation External Load Balancer and VCF Operations Health Check Endpoint",
-    "classification": "-",
-    "submissionId": "emad.younis-2025-09-23T17:59:15.533714160Z",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-09-20T00:00:00Z",
-    "product": {
-      "id": "68591d1548aeb10d5142cfc7",
-      "productName": "VMware Cloud Foundation Automation",
-      "displayName": "VMware Cloud Foundation Automation",
-      "rmProductId": "00000000-0000-0000-0000-000000000000"
-    },
-    "releases": [
-      {
-        "id": "68591ea048aeb10d5142cfce",
-        "releaseName": "VMware Cloud Foundation Automation 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
-        "product": {
-          "id": "68591d1548aeb10d5142cfc7",
-          "productName": "VMware Cloud Foundation Automation",
-          "displayName": "VMware Cloud Foundation Automation",
-          "rmProductId": "00000000-0000-0000-0000-000000000000"
-        }
-      }
-    ]
-  },
-  {
-    "id": "68d2dff6a202268c618e9488",
-    "port": "443",
-    "protocol": "TCP",
-    "source": "VCF Automation External Load Balancer and Users",
-    "destination": "VCF Automation",
-    "serviceDescription": "Istio",
-    "purpose": "User Traffic",
-    "classification": "-",
-    "submissionId": "emad.younis-2025-09-23T17:59:15.533714160Z",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-09-20T00:00:00Z",
-    "product": {
-      "id": "68591d1548aeb10d5142cfc7",
-      "productName": "VMware Cloud Foundation Automation",
-      "displayName": "VMware Cloud Foundation Automation",
-      "rmProductId": "00000000-0000-0000-0000-000000000000"
-    },
-    "releases": [
-      {
-        "id": "68591ea048aeb10d5142cfce",
-        "releaseName": "VMware Cloud Foundation Automation 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
-        "product": {
-          "id": "68591d1548aeb10d5142cfc7",
-          "productName": "VMware Cloud Foundation Automation",
-          "displayName": "VMware Cloud Foundation Automation",
-          "rmProductId": "00000000-0000-0000-0000-000000000000"
-        }
-      }
-    ]
-  },
-  {
-    "id": "68d2dff5a202268c618e9487",
-    "port": "80",
-    "protocol": "TCP",
-    "source": "VCF Automation External Load Balancer and Users",
-    "destination": "VCF Automation",
-    "serviceDescription": "Istio",
-    "purpose": "User Traffic",
-    "classification": "-",
-    "submissionId": "emad.younis-2025-09-23T17:59:15.533714160Z",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-09-20T00:00:00Z",
-    "product": {
-      "id": "68591d1548aeb10d5142cfc7",
-      "productName": "VMware Cloud Foundation Automation",
-      "displayName": "VMware Cloud Foundation Automation",
-      "rmProductId": "00000000-0000-0000-0000-000000000000"
-    },
-    "releases": [
-      {
-        "id": "68591ea048aeb10d5142cfce",
-        "releaseName": "VMware Cloud Foundation Automation 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
-        "product": {
-          "id": "68591d1548aeb10d5142cfc7",
-          "productName": "VMware Cloud Foundation Automation",
-          "displayName": "VMware Cloud Foundation Automation",
-          "rmProductId": "00000000-0000-0000-0000-000000000000"
-        }
-      }
-    ]
-  },
-  {
-    "id": "68d2dff5a202268c618e9486",
-    "port": "22",
+    "id": "68d2dff3a202268c618e9483",
+    "port": "6443",
     "protocol": "TCP",
     "source": "VCF Operations LCM",
     "destination": "VCF Automation",
-    "serviceDescription": "SSH Service",
+    "serviceDescription": "Control Plane API Server",
     "purpose": "Management Traffic",
     "classification": "-",
-    "submissionId": "emad.younis-2025-09-23T17:59:15.533714160Z",
+    "submissionId": "emad.younis-2025-10-06T15:36:05.969798856Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-09-20T00:00:00Z",
-    "product": {
-      "id": "68591d1548aeb10d5142cfc7",
-      "productName": "VMware Cloud Foundation Automation",
-      "displayName": "VMware Cloud Foundation Automation",
-      "rmProductId": "00000000-0000-0000-0000-000000000000"
-    },
-    "releases": [
-      {
-        "id": "68591ea048aeb10d5142cfce",
-        "releaseName": "VMware Cloud Foundation Automation 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
-        "product": {
-          "id": "68591d1548aeb10d5142cfc7",
-          "productName": "VMware Cloud Foundation Automation",
-          "displayName": "VMware Cloud Foundation Automation",
-          "rmProductId": "00000000-0000-0000-0000-000000000000"
-        }
-      }
-    ]
-  },
-  {
-    "id": "68d2dff4a202268c618e9485",
-    "port": "30005",
-    "protocol": "TCP",
-    "source": "VCF Operations LCM",
-    "destination": "VCF Automation",
-    "serviceDescription": "Control Plane Webhook API",
-    "purpose": "Management Traffic",
-    "classification": "-",
-    "submissionId": "emad.younis-2025-09-23T17:59:15.533714160Z",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-09-20T00:00:00Z",
+    "publishDate": "2025-10-03T00:00:00Z",
     "product": {
       "id": "68591d1548aeb10d5142cfc7",
       "productName": "VMware Cloud Foundation Automation",
@@ -178,10 +42,10 @@
     "serviceDescription": "Control Plane Health Check API",
     "purpose": "Management Traffic",
     "classification": "-",
-    "submissionId": "emad.younis-2025-09-23T17:59:15.533714160Z",
+    "submissionId": "emad.younis-2025-10-06T15:36:05.969798856Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-09-20T00:00:00Z",
+    "publishDate": "2025-10-03T00:00:00Z",
     "product": {
       "id": "68591d1548aeb10d5142cfc7",
       "productName": "VMware Cloud Foundation Automation",
@@ -204,18 +68,222 @@
     ]
   },
   {
-    "id": "68d2dff3a202268c618e9483",
-    "port": "6443",
+    "id": "68d2dff4a202268c618e9485",
+    "port": "30005",
     "protocol": "TCP",
     "source": "VCF Operations LCM",
     "destination": "VCF Automation",
-    "serviceDescription": "Control Plane API Server",
+    "serviceDescription": "Control Plane Webhook API",
     "purpose": "Management Traffic",
     "classification": "-",
-    "submissionId": "emad.younis-2025-09-23T17:59:15.533714160Z",
+    "submissionId": "emad.younis-2025-10-06T15:36:05.969798856Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-09-20T00:00:00Z",
+    "publishDate": "2025-10-03T00:00:00Z",
+    "product": {
+      "id": "68591d1548aeb10d5142cfc7",
+      "productName": "VMware Cloud Foundation Automation",
+      "displayName": "VMware Cloud Foundation Automation",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ea048aeb10d5142cfce",
+        "releaseName": "VMware Cloud Foundation Automation 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d1548aeb10d5142cfc7",
+          "productName": "VMware Cloud Foundation Automation",
+          "displayName": "VMware Cloud Foundation Automation",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68d2dff5a202268c618e9486",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "VCF Operations LCM",
+    "destination": "VCF Automation",
+    "serviceDescription": "SSH Service",
+    "purpose": "Management Traffic",
+    "classification": "-",
+    "submissionId": "emad.younis-2025-10-06T15:36:05.969798856Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-03T00:00:00Z",
+    "product": {
+      "id": "68591d1548aeb10d5142cfc7",
+      "productName": "VMware Cloud Foundation Automation",
+      "displayName": "VMware Cloud Foundation Automation",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ea048aeb10d5142cfce",
+        "releaseName": "VMware Cloud Foundation Automation 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d1548aeb10d5142cfc7",
+          "productName": "VMware Cloud Foundation Automation",
+          "displayName": "VMware Cloud Foundation Automation",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68d2dff5a202268c618e9487",
+    "port": "80",
+    "protocol": "TCP",
+    "source": "VCF Automation External Load Balancer and Users",
+    "destination": "VCF Automation",
+    "serviceDescription": "Istio",
+    "purpose": "User Traffic",
+    "classification": "-",
+    "submissionId": "emad.younis-2025-10-06T15:36:05.969798856Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-03T00:00:00Z",
+    "product": {
+      "id": "68591d1548aeb10d5142cfc7",
+      "productName": "VMware Cloud Foundation Automation",
+      "displayName": "VMware Cloud Foundation Automation",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ea048aeb10d5142cfce",
+        "releaseName": "VMware Cloud Foundation Automation 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d1548aeb10d5142cfc7",
+          "productName": "VMware Cloud Foundation Automation",
+          "displayName": "VMware Cloud Foundation Automation",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68d2dff6a202268c618e9488",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VCF Automation External Load Balancer and Users",
+    "destination": "VCF Automation",
+    "serviceDescription": "Istio",
+    "purpose": "User Traffic",
+    "classification": "-",
+    "submissionId": "emad.younis-2025-10-06T15:36:05.969798856Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-03T00:00:00Z",
+    "product": {
+      "id": "68591d1548aeb10d5142cfc7",
+      "productName": "VMware Cloud Foundation Automation",
+      "displayName": "VMware Cloud Foundation Automation",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ea048aeb10d5142cfce",
+        "releaseName": "VMware Cloud Foundation Automation 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d1548aeb10d5142cfc7",
+          "productName": "VMware Cloud Foundation Automation",
+          "displayName": "VMware Cloud Foundation Automation",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68d2dff6a202268c618e9489",
+    "port": "8008",
+    "protocol": "TCP",
+    "source": "VCF Automation External Load Balancer and VCF Operations",
+    "destination": "VCF Automation",
+    "serviceDescription": "Health Service",
+    "purpose": "VCF Automation External Load Balancer and VCF Operations Health Check Endpoint",
+    "classification": "-",
+    "submissionId": "emad.younis-2025-10-06T15:36:05.969798856Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-03T00:00:00Z",
+    "product": {
+      "id": "68591d1548aeb10d5142cfc7",
+      "productName": "VMware Cloud Foundation Automation",
+      "displayName": "VMware Cloud Foundation Automation",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ea048aeb10d5142cfce",
+        "releaseName": "VMware Cloud Foundation Automation 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d1548aeb10d5142cfc7",
+          "productName": "VMware Cloud Foundation Automation",
+          "displayName": "VMware Cloud Foundation Automation",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68e3e09a107e0cb2ab429d6c",
+    "port": "30001",
+    "protocol": "TCP",
+    "source": "VCF Operations LCM",
+    "destination": "VCF Automation",
+    "serviceDescription": "Container images and charts are pushed directly to the OCI registry running on the Control Plane nodes",
+    "purpose": "Control Plane OCI Registry",
+    "classification": "Inbound",
+    "submissionId": "emad.younis-2025-10-06T15:36:05.969798856Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-03T00:00:00Z",
+    "product": {
+      "id": "68591d1548aeb10d5142cfc7",
+      "productName": "VMware Cloud Foundation Automation",
+      "displayName": "VMware Cloud Foundation Automation",
+      "rmProductId": "00000000-0000-0000-0000-000000000000"
+    },
+    "releases": [
+      {
+        "id": "68591ea048aeb10d5142cfce",
+        "releaseName": "VMware Cloud Foundation Automation 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "00000000-0000-0000-0000-000000000000",
+        "product": {
+          "id": "68591d1548aeb10d5142cfc7",
+          "productName": "VMware Cloud Foundation Automation",
+          "displayName": "VMware Cloud Foundation Automation",
+          "rmProductId": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68e3e09a107e0cb2ab429d6b",
+    "port": "30000",
+    "protocol": "TCP",
+    "source": "VCF Operations LCM",
+    "destination": "VCF Automation",
+    "serviceDescription": "Container images and charts are pushed directly to the OCI registry running on the Control Plane nodes",
+    "purpose": "Control Plane OCI Registry",
+    "classification": "Inbound",
+    "submissionId": "emad.younis-2025-10-06T15:36:05.969798856Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-03T00:00:00Z",
     "product": {
       "id": "68591d1548aeb10d5142cfc7",
       "productName": "VMware Cloud Foundation Automation",
