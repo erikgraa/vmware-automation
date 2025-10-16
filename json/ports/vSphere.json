@@ -1,5 +1,143 @@
 [
   {
+    "id": "68ee877ba202268c618e948c",
+    "port": "9087",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "vCenter Server Management IP address",
+    "serviceDescription": "vSphere Lifecycle Manager Communications",
+    "purpose": "vSphere - Base",
+    "classification": "Incoming",
+    "submissionId": "emad.younis-2025-10-14T17:28:41.970985723Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-12T00:00:00Z",
+    "product": {
+      "id": "5ce6ae87c4c4bb0018ec6bf3",
+      "productName": "vSphere",
+      "displayName": "vSphere",
+      "rmProductId": "5BEACA51-326D-4B1B-BCBC-BB51586A110D"
+    },
+    "releases": [
+      {
+        "id": "636bac773d30460c1665ed6c",
+        "releaseName": "VMware vSphere 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "9EDEC477-CE8D-44BD-BABA-4531B7344DCA",
+        "product": {
+          "id": "5ce6ae87c4c4bb0018ec6bf3",
+          "productName": "vSphere",
+          "displayName": "vSphere",
+          "rmProductId": "5BEACA51-326D-4B1B-BCBC-BB51586A110D"
+        }
+      },
+      {
+        "id": "6851898ada4a186cfa29f4d8",
+        "releaseName": "VMware vSphere 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "8B88FF72-499A-44CC-B6D1-5AC90155558C",
+        "product": {
+          "id": "5ce6ae87c4c4bb0018ec6bf3",
+          "productName": "vSphere",
+          "displayName": "vSphere",
+          "rmProductId": "5BEACA51-326D-4B1B-BCBC-BB51586A110D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68ee877ca202268c618e948d",
+    "port": "9084",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "vCenter Server Management IP address",
+    "serviceDescription": "vSphere Lifecycle Manager Communications",
+    "purpose": "vSphere - Base",
+    "classification": "Incoming",
+    "submissionId": "emad.younis-2025-10-14T17:25:15.335370817Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-11T00:00:00Z",
+    "product": {
+      "id": "5ce6ae87c4c4bb0018ec6bf3",
+      "productName": "vSphere",
+      "displayName": "vSphere",
+      "rmProductId": "5BEACA51-326D-4B1B-BCBC-BB51586A110D"
+    },
+    "releases": [
+      {
+        "id": "636bac773d30460c1665ed6c",
+        "releaseName": "VMware vSphere 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "9EDEC477-CE8D-44BD-BABA-4531B7344DCA",
+        "product": {
+          "id": "5ce6ae87c4c4bb0018ec6bf3",
+          "productName": "vSphere",
+          "displayName": "vSphere",
+          "rmProductId": "5BEACA51-326D-4B1B-BCBC-BB51586A110D"
+        }
+      },
+      {
+        "id": "6851898ada4a186cfa29f4d8",
+        "releaseName": "VMware vSphere 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "8B88FF72-499A-44CC-B6D1-5AC90155558C",
+        "product": {
+          "id": "5ce6ae87c4c4bb0018ec6bf3",
+          "productName": "vSphere",
+          "displayName": "vSphere",
+          "rmProductId": "5BEACA51-326D-4B1B-BCBC-BB51586A110D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68ee877ca202268c618e948e",
+    "port": "8084",
+    "protocol": "TCP",
+    "source": "SDDC Manager",
+    "destination": "vCenter Server Management IP address",
+    "serviceDescription": "vSphere Lifecycle Manager Communications",
+    "purpose": "vSphere - Base",
+    "classification": "Incoming",
+    "submissionId": "emad.younis-2025-10-14T17:25:15.335370817Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-11T00:00:00Z",
+    "product": {
+      "id": "5ce6ae87c4c4bb0018ec6bf3",
+      "productName": "vSphere",
+      "displayName": "vSphere",
+      "rmProductId": "5BEACA51-326D-4B1B-BCBC-BB51586A110D"
+    },
+    "releases": [
+      {
+        "id": "636bac773d30460c1665ed6c",
+        "releaseName": "VMware vSphere 8.0",
+        "displayName": "8.0",
+        "rmReleaseId": "9EDEC477-CE8D-44BD-BABA-4531B7344DCA",
+        "product": {
+          "id": "5ce6ae87c4c4bb0018ec6bf3",
+          "productName": "vSphere",
+          "displayName": "vSphere",
+          "rmProductId": "5BEACA51-326D-4B1B-BCBC-BB51586A110D"
+        }
+      },
+      {
+        "id": "6851898ada4a186cfa29f4d8",
+        "releaseName": "VMware vSphere 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "8B88FF72-499A-44CC-B6D1-5AC90155558C",
+        "product": {
+          "id": "5ce6ae87c4c4bb0018ec6bf3",
+          "productName": "vSphere",
+          "displayName": "vSphere",
+          "rmProductId": "5BEACA51-326D-4B1B-BCBC-BB51586A110D"
+        }
+      }
+    ]
+  },
+  {
     "id": "68519b65b0ce0a1c141f99ef",
     "port": "443",
     "protocol": "TCP",
