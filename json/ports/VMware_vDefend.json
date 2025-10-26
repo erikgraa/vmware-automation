@@ -1,5 +1,311 @@
 [
   {
+    "id": "68f941b42121548ef4010978",
+    "port": "1235",
+    "protocol": "TCP",
+    "source": "SSP Service IP Pool",
+    "destination": "NSX Unified Appliance",
+    "serviceDescription": "Communicate with Cluster Control Plane of NSX",
+    "purpose": "Receive latest policy configuration and send policy realization results",
+    "classification": "Management",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:42:28.063489039Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-19T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68f941b42121548ef4010977",
+    "port": "1234",
+    "protocol": "TCP",
+    "source": "SSP Service IP Pool",
+    "destination": "NSX Unified Appliance",
+    "serviceDescription": "Communicate with Management Plane of NSX",
+    "purpose": "Send baremetal server inventory details, monitoring status, and monitor for NSX membership events",
+    "classification": "Management",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:42:28.063489039Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-19T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68f941b42121548ef4010976",
+    "port": "5555",
+    "protocol": "TCP",
+    "source": "Baremetal Servers",
+    "destination": "SSP Service IP Pool",
+    "serviceDescription": "Baremetal servers connect to Baremetal Controller",
+    "purpose": "Fetching DFW policy configuration and sending policy realization results",
+    "classification": "Management",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:42:28.063489039Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-19T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68f941b42121548ef4010975",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "Mgmt clients",
+    "destination": "NDR Sensor Mgmt IP",
+    "serviceDescription": "Mgmt clients SSH access to NDR Sensor",
+    "purpose": "SSH for accessing NDR Sensor CLI",
+    "classification": "-",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:42:28.063489039Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-19T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68f941b42121548ef4010974",
+    "port": "123",
+    "protocol": "UDP",
+    "source": "NDR Sensor",
+    "destination": "NTP Servers",
+    "serviceDescription": "NTP connection",
+    "purpose": "NTP",
+    "classification": "-",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:42:28.063489039Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-19T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68f941b42121548ef4010973",
+    "port": "53",
+    "protocol": "UDP TCP",
+    "source": "NDR Sensor",
+    "destination": "DNS server",
+    "serviceDescription": "DNS connection",
+    "purpose": "DNS",
+    "classification": "-",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:42:28.063489039Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-19T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68f941b42121548ef4010972",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "NDR Sensor",
+    "destination": "SSP Service IP Pool",
+    "serviceDescription": "SSP inbound ingress",
+    "purpose": "Metrics",
+    "classification": "-",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:42:28.063489039Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-19T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68f941b42121548ef4010971",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "NDR Sensor",
+    "destination": "SSP Service IP Pool",
+    "serviceDescription": "SSP inbound ingress",
+    "purpose": "Registration, Configuration, Status updates, Control channel, File submission for MPS",
+    "classification": "-",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:42:28.063489039Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-19T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
+    "id": "68f941b42121548ef4010970",
+    "port": "9092",
+    "protocol": "TCP",
+    "source": "NDR Sensor",
+    "destination": "SSP Service IP Pool",
+    "serviceDescription": "SSP inbound kafka",
+    "purpose": "Kafka for submitting NDR, MPS events, and Flow data",
+    "classification": "-",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:42:28.063489039Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-19T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
     "id": "67d4865923624579cd81c7a5",
     "port": "22",
     "protocol": "TCP",
@@ -8,10 +314,10 @@
     "serviceDescription": "ssh from SSP Installer node",
     "purpose": "SSH",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -24,6 +330,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -42,10 +360,10 @@
     "serviceDescription": "Main entry point for SSP Installer clients (UI etc)",
     "purpose": "HTTPS",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -58,6 +376,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -76,10 +406,10 @@
     "serviceDescription": "Mgmt clients ssh access to SSP Installer (if SSH activated)",
     "purpose": "SSH",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -92,6 +422,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -110,10 +452,10 @@
     "serviceDescription": "DNS connection",
     "purpose": "DNS",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -126,6 +468,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -144,10 +498,10 @@
     "serviceDescription": "NTP connection",
     "purpose": "NTP",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -160,6 +514,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -178,10 +544,10 @@
     "serviceDescription": "Pre-check VM deployment",
     "purpose": "SSH",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -194,6 +560,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -212,10 +590,10 @@
     "serviceDescription": "SSP controller",
     "purpose": "kube-apiserver",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -228,6 +606,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -246,10 +636,10 @@
     "serviceDescription": "SSP controller",
     "purpose": "kube-apiserver",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -262,6 +652,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -280,10 +682,10 @@
     "serviceDescription": "Backup & Restore (if configured) Support Bundle (if configured)",
     "purpose": "SFTP",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -296,6 +698,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -314,10 +728,10 @@
     "serviceDescription": "Mgmt clients ssh access to SSP Nodes (if direct SSH is required)",
     "purpose": "SSH",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -330,6 +744,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -348,10 +774,10 @@
     "serviceDescription": "Download images from SSP Installer registry",
     "purpose": "HTTPS",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -364,6 +790,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -382,10 +820,10 @@
     "serviceDescription": "DNS connection",
     "purpose": "DNS",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -398,6 +836,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -416,10 +866,10 @@
     "serviceDescription": "NTP connection",
     "purpose": "NTP",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -432,6 +882,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -450,10 +912,10 @@
     "serviceDescription": "SSP inbound ingress",
     "purpose": "HTTPS",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -466,6 +928,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -484,10 +958,10 @@
     "serviceDescription": "SSP Installer to VC",
     "purpose": "HTTPS",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -500,6 +974,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -518,10 +1004,10 @@
     "serviceDescription": "CSI controller to vc",
     "purpose": "HTTPS",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -534,6 +1020,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -552,10 +1050,10 @@
     "serviceDescription": "Syslog output (if configured)",
     "purpose": "Syslog",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -568,6 +1066,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -586,10 +1096,10 @@
     "serviceDescription": "SSP outbound vc/nsx mgr",
     "purpose": "HTTPS",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -602,6 +1112,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -620,10 +1142,10 @@
     "serviceDescription": "Backup & Restore (if configured) Support Bundle (if configured)",
     "purpose": "SFTP",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -636,6 +1158,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -654,10 +1188,10 @@
     "serviceDescription": "SSP outbound",
     "purpose": "LDAP / LDAPS",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -670,6 +1204,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -688,10 +1234,10 @@
     "serviceDescription": "SSP controller",
     "purpose": "kube-apiserver -> etcd",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -704,6 +1250,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -722,10 +1280,10 @@
     "serviceDescription": "SSP controller",
     "purpose": "etcd cluster",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -738,6 +1296,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -756,10 +1326,10 @@
     "serviceDescription": "SSP controller",
     "purpose": "API Server -> kubelet",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -772,6 +1342,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -790,10 +1372,10 @@
     "serviceDescription": "SSP controller",
     "purpose": "kube-controller-manager health check",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -806,6 +1388,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -824,10 +1418,10 @@
     "serviceDescription": "SSP controller",
     "purpose": "kube-proxy health check",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -840,6 +1434,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -858,10 +1464,10 @@
     "serviceDescription": "SSP Antrea controller",
     "purpose": "Antrea Health check",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -874,6 +1480,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -892,10 +1510,10 @@
     "serviceDescription": "SSP Antrea controller",
     "purpose": "Antrea API server & metrics",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -908,6 +1526,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -926,10 +1556,10 @@
     "serviceDescription": "Antrea tunnel (geneve)",
     "purpose": "Geneve tunnel",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -942,6 +1572,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -960,10 +1602,10 @@
     "serviceDescription": "SSP controller kube-vip",
     "purpose": "Kube-vip health check",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -976,6 +1618,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -994,10 +1648,10 @@
     "serviceDescription": "SSP metallb",
     "purpose": "Metallb speaker quorum",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1010,6 +1664,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -1028,10 +1694,10 @@
     "serviceDescription": "vmware csi",
     "purpose": "CSI Health",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1044,6 +1710,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -1062,10 +1740,10 @@
     "serviceDescription": "SIEM events (if configured)",
     "purpose": "Required for NDR when configured to send events to SIEM",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1078,6 +1756,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -1096,10 +1786,10 @@
     "serviceDescription": "VTIS",
     "purpose": "Required for NDR if not running in airgap mode",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1112,6 +1802,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -1130,10 +1832,10 @@
     "serviceDescription": "NSX ATP Cloud Services",
     "purpose": "Required for NDR if not running in airgap mode",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1146,6 +1848,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -1164,10 +1878,10 @@
     "serviceDescription": "NSX ATP Cloud Services (regional endpoint as appropriate based on selected region)",
     "purpose": "Required for NDR and MPS if not running in airgap mode",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1180,6 +1894,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -1198,10 +1924,10 @@
     "serviceDescription": "Worker node to vsphere datastore",
     "purpose": "Shared Storage",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1214,6 +1940,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -1232,10 +1970,10 @@
     "serviceDescription": "SSP inbound kafka",
     "purpose": "Flow / IDPS data from TN",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1248,6 +1986,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -1266,10 +2016,10 @@
     "serviceDescription": "SSP inbound Ingress",
     "purpose": "Metrics",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1282,6 +2032,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -1300,10 +2062,10 @@
     "serviceDescription": "SSP inbound kafka",
     "purpose": "config sync",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1316,6 +2078,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -1334,10 +2108,10 @@
     "serviceDescription": "SSP inbound Ingress",
     "purpose": "Metrics",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1350,6 +2124,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -1368,10 +2154,10 @@
     "serviceDescription": "SSP inbound kafka",
     "purpose": "Kafka for MPS events",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1384,6 +2170,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
@@ -1402,10 +2200,10 @@
     "serviceDescription": "SSP inbound ingress",
     "purpose": "Metrics",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1424,6 +2222,18 @@
           "displayName": "VMware vDefend",
           "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
         }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
       }
     ]
   },
@@ -1436,10 +2246,10 @@
     "serviceDescription": "DNS connection",
     "purpose": "DNS",
     "classification": "-",
-    "submissionId": "rajiv.mordani-1741981312136",
+    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-03-11T07:00:00Z",
+    "publishDate": "2025-10-19T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -1452,6 +2262,18 @@
         "releaseName": "vDefend Security Services Platform",
         "displayName": "5.0",
         "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
         "product": {
           "id": "67b54d2350b449472abd88fe",
           "productName": "VMware vDefend",
