@@ -1,5 +1,39 @@
 [
   {
+    "id": "690140c7eef82105bca36fbf",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SSP Node IP Pool",
+    "destination": "registry.k8s.io",
+    "serviceDescription": "Download CoreDNS which is needed for SSP Pod Communication",
+    "purpose": "Fetch coreDNS image",
+    "classification": "Control Plane",
+    "submissionId": "madhukar.krishnarao-2025-10-28T22:16:38.980786416Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-10-25T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
     "id": "68f941b42121548ef4010978",
     "port": "1235",
     "protocol": "TCP",
