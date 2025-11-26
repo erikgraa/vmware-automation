@@ -1,5 +1,51 @@
 [
   {
+    "id": "67d4865b23624579cd81c7b8",
+    "port": "389 / 636 / 3268 / 3269",
+    "protocol": "TCP",
+    "source": "SSP Node IP Pool",
+    "destination": "LDAP (server)",
+    "serviceDescription": "SSP outbound",
+    "purpose": "LDAP / LDAPS",
+    "classification": "-",
+    "submissionId": "madhukar.krishnarao-2025-11-24T22:55:07.248569274Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-11-21T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "67d4797604cac21635566572",
+        "releaseName": "vDefend Security Services Platform",
+        "displayName": "5.0",
+        "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
     "id": "67d4865c23624579cd81c7c7",
     "port": "443",
     "protocol": "TCP",
@@ -1221,52 +1267,6 @@
     "destination": "SFTP backup server",
     "serviceDescription": "Backup & Restore (if configured) Support Bundle (if configured)",
     "purpose": "SFTP",
-    "classification": "-",
-    "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-10-19T00:00:00Z",
-    "product": {
-      "id": "67b54d2350b449472abd88fe",
-      "productName": "VMware vDefend",
-      "displayName": "VMware vDefend",
-      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-    },
-    "releases": [
-      {
-        "id": "67d4797604cac21635566572",
-        "releaseName": "vDefend Security Services Platform",
-        "displayName": "5.0",
-        "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
-        "product": {
-          "id": "67b54d2350b449472abd88fe",
-          "productName": "VMware vDefend",
-          "displayName": "VMware vDefend",
-          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-        }
-      },
-      {
-        "id": "68f93a992121548ef4010944",
-        "releaseName": "vDefend Security Services Platform 5.1",
-        "displayName": "5.1",
-        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
-        "product": {
-          "id": "67b54d2350b449472abd88fe",
-          "productName": "VMware vDefend",
-          "displayName": "VMware vDefend",
-          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-        }
-      }
-    ]
-  },
-  {
-    "id": "67d4865b23624579cd81c7b8",
-    "port": "389 / 636",
-    "protocol": "TCP",
-    "source": "SSP Node IP Pool",
-    "destination": "LDAP (server)",
-    "serviceDescription": "SSP outbound",
-    "purpose": "LDAP / LDAPS",
     "classification": "-",
     "submissionId": "madhukar.krishnarao-2025-10-22T20:33:48.791487682Z",
     "status": "PUBLISHED",
