@@ -1,5 +1,121 @@
 [
   {
+    "id": "694a7e35fdb44a1371c061ef",
+    "port": "111",
+    "protocol": "TCP",
+    "source": "vSAN NFS Clients",
+    "destination": "vSAN File Services IP Addresses",
+    "serviceDescription": "vSAN File Services - NFS",
+    "purpose": "vSAN - File Services",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-2025-12-23T11:34:13.431799112Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-12-21T00:00:00Z",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "6851899cb0ce0a1c141f9624",
+        "releaseName": "VMware vSAN 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "C739BEA0-A67F-4CF9-BEBF-AF4FC7AC5339",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "694a7e35fdb44a1371c061f0",
+    "port": "111",
+    "protocol": "UDP",
+    "source": "vSAN NFS Clients",
+    "destination": "vSAN File Services IP Addresses",
+    "serviceDescription": "vSAN File Services - NFS",
+    "purpose": "vSAN - File Services",
+    "classification": "Incoming",
+    "submissionId": "suhas.jinka-2025-12-23T11:34:13.431799112Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2025-12-21T00:00:00Z",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "622b7dd01c26192bd1f03355",
+        "releaseName": "vSAN 7.0",
+        "displayName": "7.0",
+        "rmReleaseId": "4E622ECC-C075-4BBF-BEC6-1B2EF8823AE0",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "6851899cb0ce0a1c141f9624",
+        "releaseName": "VMware vSAN 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "C739BEA0-A67F-4CF9-BEBF-AF4FC7AC5339",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
     "id": "623025af1e4523793c1c9713",
     "port": "Type 8, Code 0",
     "protocol": "ICMP",
