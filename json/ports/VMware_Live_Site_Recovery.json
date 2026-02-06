@@ -1,119 +1,17 @@
 [
   {
-    "id": "686fdee0bdec8500e3c3dc2d",
-    "port": "443",
-    "protocol": "TCP",
-    "source": "VMware LIve Site Recovery UI client",
-    "destination": "VMware Live Recovery appliance",
-    "serviceDescription": "vSAN Data Protection replication",
-    "purpose": "vSAN Data Protection replication",
-    "classification": "Inbound",
-    "submissionId": "ivo.ivanov-1752162016693",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-07-07T07:00:00Z",
-    "product": {
-      "id": "6849ea9bc2f0be39a773a789",
-      "productName": "VMware Live Site Recovery",
-      "displayName": "VMware Live Site Recovery",
-      "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
-    },
-    "releases": [
-      {
-        "id": "684ffe837d5fd81dcfe14d0c",
-        "releaseName": "VMware Live Site Recovery 9.0.3.0",
-        "displayName": "9.0.3.0",
-        "rmReleaseId": "2E36A4F1-0484-4B7D-A02F-CB29803228F7",
-        "product": {
-          "id": "6849ea9bc2f0be39a773a789",
-          "productName": "VMware Live Site Recovery",
-          "displayName": "VMware Live Site Recovery",
-          "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
-        }
-      }
-    ]
-  },
-  {
-    "id": "686fdee0bdec8500e3c3dc2e",
-    "port": "5480",
-    "protocol": "TCP",
-    "source": "VMware LIve Site Recovery UI client",
-    "destination": "VMware Live Recovery appliance",
-    "serviceDescription": "vSAN Data Protection replication",
-    "purpose": "vSAN Data Protection replication",
-    "classification": "Inbound",
-    "submissionId": "ivo.ivanov-1752162016693",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-07-07T07:00:00Z",
-    "product": {
-      "id": "6849ea9bc2f0be39a773a789",
-      "productName": "VMware Live Site Recovery",
-      "displayName": "VMware Live Site Recovery",
-      "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
-    },
-    "releases": [
-      {
-        "id": "684ffe837d5fd81dcfe14d0c",
-        "releaseName": "VMware Live Site Recovery 9.0.3.0",
-        "displayName": "9.0.3.0",
-        "rmReleaseId": "2E36A4F1-0484-4B7D-A02F-CB29803228F7",
-        "product": {
-          "id": "6849ea9bc2f0be39a773a789",
-          "productName": "VMware Live Site Recovery",
-          "displayName": "VMware Live Site Recovery",
-          "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
-        }
-      }
-    ]
-  },
-  {
-    "id": "686fdee1bdec8500e3c3dc2f",
-    "port": "8443",
-    "protocol": "TCP",
-    "source": "VMware LIve Site Recovery UI client",
-    "destination": "vSAN UI",
-    "serviceDescription": "vSAN Data Protection replication",
-    "purpose": "vSAN Data Protection replication",
-    "classification": "Inbound",
-    "submissionId": "ivo.ivanov-1752162016693",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-07-07T07:00:00Z",
-    "product": {
-      "id": "6849ea9bc2f0be39a773a789",
-      "productName": "VMware Live Site Recovery",
-      "displayName": "VMware Live Site Recovery",
-      "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
-    },
-    "releases": [
-      {
-        "id": "684ffe837d5fd81dcfe14d0c",
-        "releaseName": "VMware Live Site Recovery 9.0.3.0",
-        "displayName": "9.0.3.0",
-        "rmReleaseId": "2E36A4F1-0484-4B7D-A02F-CB29803228F7",
-        "product": {
-          "id": "6849ea9bc2f0be39a773a789",
-          "productName": "VMware Live Site Recovery",
-          "displayName": "VMware Live Site Recovery",
-          "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
-        }
-      }
-    ]
-  },
-  {
-    "id": "685017627d5fd81dcfe14d0f",
+    "id": "685017637d5fd81dcfe14d10",
     "port": "443",
     "protocol": "HTTPS",
-    "source": "vSphere Web Client",
+    "source": "VMware Live Site Recovery UI client",
     "destination": "VMware Live Site Recovery server",
-    "serviceDescription": "All management traffic to Live Site Recovery Server Appliance goes to this port. This includes traffic by external API clients for task automation and HTTPS interface for downloading the UI plug-in and icons. This port must be accessible from the vCenter Server proxy system. Used by vSphere Web Client to download the Live Site Recovery client plug-in. Note:If the Platform Services Controller is installed on the same machine, you must change this port.",
+    "serviceDescription": "Default port for the VMware Live Site Recovery server",
     "purpose": "-",
     "classification": "-",
-    "submissionId": "ivo.ivanov-1750079330792",
+    "submissionId": "ivo.ivanov-2026-02-02T09:53:46.470897535Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2025-06-14T07:00:00Z",
+    "publishDate": "2026-01-30T00:00:00Z",
     "product": {
       "id": "6849ea9bc2f0be39a773a789",
       "productName": "VMware Live Site Recovery",
@@ -148,12 +46,46 @@
     ]
   },
   {
-    "id": "685017637d5fd81dcfe14d10",
+    "id": "686fdee0bdec8500e3c3dc2d",
     "port": "443",
     "protocol": "HTTPS",
     "source": "VMware LIve Site Recovery UI client",
+    "destination": "VMware Live Recovery appliance",
+    "serviceDescription": "vSAN Data Protection replication",
+    "purpose": "vSAN Data Protection replication",
+    "classification": "Inbound",
+    "submissionId": "ivo.ivanov-2026-02-02T09:53:46.470897535Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-01-30T00:00:00Z",
+    "product": {
+      "id": "6849ea9bc2f0be39a773a789",
+      "productName": "VMware Live Site Recovery",
+      "displayName": "VMware Live Site Recovery",
+      "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
+    },
+    "releases": [
+      {
+        "id": "684ffe837d5fd81dcfe14d0c",
+        "releaseName": "VMware Live Site Recovery 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "2E36A4F1-0484-4B7D-A02F-CB29803228F7",
+        "product": {
+          "id": "6849ea9bc2f0be39a773a789",
+          "productName": "VMware Live Site Recovery",
+          "displayName": "VMware Live Site Recovery",
+          "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
+        }
+      }
+    ]
+  },
+  {
+    "id": "685017627d5fd81dcfe14d0f",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "vSphere Web Client",
     "destination": "VMware Live Site Recovery server",
-    "serviceDescription": "DefaDefault port for the VMware Site Recovery client User Interface.Note:If the Platform Services Controller is installed on the same machine, you must change this port.",
+    "serviceDescription": "All management traffic to Live Site Recovery Server Appliance goes to this port. This includes traffic by external API clients for task automation and HTTPS interface for downloading the UI plug-in and icons. This port must be accessible from the vCenter Server proxy system. Used by vSphere Web Client to download the Live Site Recovery client plug-in. Note:If the Platform Services Controller is installed on the same machine, you must change this port.",
     "purpose": "-",
     "classification": "-",
     "submissionId": "ivo.ivanov-1750079330792",
@@ -685,74 +617,6 @@
           "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
         }
       },
-      {
-        "id": "685015c6c3bb1b7008332d73",
-        "releaseName": "VMware Live Site Recovery 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "E0D1D313-C0E8-43B2-A69E-69D193398C12",
-        "product": {
-          "id": "6849ea9bc2f0be39a773a789",
-          "productName": "VMware Live Site Recovery",
-          "displayName": "VMware Live Site Recovery",
-          "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
-        }
-      }
-    ]
-  },
-  {
-    "id": "685017657d5fd81dcfe14d1c",
-    "port": "31031",
-    "protocol": "TCP",
-    "source": "ESXi host",
-    "destination": "vSphere Replication appliance on the recovery site",
-    "serviceDescription": "Initial replication traffic. From the ESXi host at the protected site to the vSphere Replication appliance at the target site.",
-    "purpose": "-",
-    "classification": "-",
-    "submissionId": "ivo.ivanov-1750079330792",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-06-14T07:00:00Z",
-    "product": {
-      "id": "6849ea9bc2f0be39a773a789",
-      "productName": "VMware Live Site Recovery",
-      "displayName": "VMware Live Site Recovery",
-      "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
-    },
-    "releases": [
-      {
-        "id": "685015c6c3bb1b7008332d73",
-        "releaseName": "VMware Live Site Recovery 9.0",
-        "displayName": "9.0",
-        "rmReleaseId": "E0D1D313-C0E8-43B2-A69E-69D193398C12",
-        "product": {
-          "id": "6849ea9bc2f0be39a773a789",
-          "productName": "VMware Live Site Recovery",
-          "displayName": "VMware Live Site Recovery",
-          "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
-        }
-      }
-    ]
-  },
-  {
-    "id": "685017657d5fd81dcfe14d1d",
-    "port": "32032",
-    "protocol": "TCP",
-    "source": "ESXi host on the source site",
-    "destination": "vSphere Replication server at the target site",
-    "serviceDescription": "Initial and outgoing replication traffic from the ESXi host at the source site to the vSphere Replication appliance or vSphere Replication server at the target site for replication traffic with network encryption.",
-    "purpose": "-",
-    "classification": "-",
-    "submissionId": "ivo.ivanov-1750079330792",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-06-14T07:00:00Z",
-    "product": {
-      "id": "6849ea9bc2f0be39a773a789",
-      "productName": "VMware Live Site Recovery",
-      "displayName": "VMware Live Site Recovery",
-      "rmProductId": "A44F8735-F882-4010-9E1E-EB941F4A445D"
-    },
-    "releases": [
       {
         "id": "685015c6c3bb1b7008332d73",
         "releaseName": "VMware Live Site Recovery 9.0",
