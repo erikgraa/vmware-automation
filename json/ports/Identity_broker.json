@@ -1,0 +1,70 @@
+[
+  {
+    "id": "698e552254b4548953e8b16c",
+    "port": "22",
+    "protocol": "TCP",
+    "source": "User / Client",
+    "destination": "VMware Identity Broker",
+    "serviceDescription": "Secure shell connection",
+    "purpose": "SSH access for troubleshooting and support",
+    "classification": "-",
+    "submissionId": "anna.bjornsson-2026-02-12T20:52:50.369042056Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-09T00:00:00Z",
+    "product": {
+      "id": "698e2e44906bdda1d154fa6a",
+      "productName": "Identity broker",
+      "displayName": "Identity broker",
+      "rmProductId": "57638430-983C-44ED-A1DC-A9E8F394A57E"
+    },
+    "releases": [
+      {
+        "id": "698e52573b443aafa3429fa4",
+        "releaseName": "VMware Cloud Foundation Identity Broker 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "80ECAC0D-5B1F-4DD4-999A-BB946242689D",
+        "product": {
+          "id": "698e2e44906bdda1d154fa6a",
+          "productName": "Identity broker",
+          "displayName": "Identity broker",
+          "rmProductId": "57638430-983C-44ED-A1DC-A9E8F394A57E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "698e550954b4548953e8b16b",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "User / Client",
+    "destination": "VMware Identity Broker",
+    "serviceDescription": "Identity broker for authentication to customer Identity Provider",
+    "purpose": "SSO for VCF Management Components access to VMware Identity Broker for authentication",
+    "classification": "-",
+    "submissionId": "anna.bjornsson-2026-02-12T20:52:50.369042056Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-09T00:00:00Z",
+    "product": {
+      "id": "698e2e44906bdda1d154fa6a",
+      "productName": "Identity broker",
+      "displayName": "Identity broker",
+      "rmProductId": "57638430-983C-44ED-A1DC-A9E8F394A57E"
+    },
+    "releases": [
+      {
+        "id": "698e52573b443aafa3429fa4",
+        "releaseName": "VMware Cloud Foundation Identity Broker 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "80ECAC0D-5B1F-4DD4-999A-BB946242689D",
+        "product": {
+          "id": "698e2e44906bdda1d154fa6a",
+          "productName": "Identity broker",
+          "displayName": "Identity broker",
+          "rmProductId": "57638430-983C-44ED-A1DC-A9E8F394A57E"
+        }
+      }
+    ]
+  }
+]
