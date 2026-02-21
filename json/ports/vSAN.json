@@ -1,5 +1,347 @@
 [
   {
+    "id": "6994597f3b443aafa3429fad",
+    "port": "32032",
+    "protocol": "SSL",
+    "source": "Local ESXi host",
+    "destination": "Remote ESXi host",
+    "serviceDescription": "vSAN Data Protection replication",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "ivo.ivanov-2026-02-17T12:05:18.843041094Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-14T00:00:00Z",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "6851899cb0ce0a1c141f9624",
+        "releaseName": "VMware vSAN 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "C739BEA0-A67F-4CF9-BEBF-AF4FC7AC5339",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6994597f3b443aafa3429fac",
+    "port": "32032",
+    "protocol": "SSL",
+    "source": "Local ESXi host",
+    "destination": "Remote vSAN Data Protection Appliance",
+    "serviceDescription": "vSAN Data Protection replication",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "ivo.ivanov-2026-02-17T12:05:18.843041094Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-14T00:00:00Z",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "6851899cb0ce0a1c141f9624",
+        "releaseName": "VMware vSAN 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "C739BEA0-A67F-4CF9-BEBF-AF4FC7AC5339",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6994597f3b443aafa3429fab",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Source vSAN Data Protection Appliance",
+    "destination": "Remote vSAN Data Protection Appliance",
+    "serviceDescription": "Source and remote vSAN Data Protection Appliance communication",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "ivo.ivanov-2026-02-17T12:05:18.843041094Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-14T00:00:00Z",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "6851899cb0ce0a1c141f9624",
+        "releaseName": "VMware vSAN 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "C739BEA0-A67F-4CF9-BEBF-AF4FC7AC5339",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6994597f3b443aafa3429faa",
+    "port": "5480",
+    "protocol": "HTTPS",
+    "source": "Browser",
+    "destination": "vSAN Data Protection Appliance",
+    "serviceDescription": "vSAN Data Protection Appliance Management Interface",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "ivo.ivanov-2026-02-17T12:05:18.843041094Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-14T00:00:00Z",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "6851899cb0ce0a1c141f9624",
+        "releaseName": "VMware vSAN 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "C739BEA0-A67F-4CF9-BEBF-AF4FC7AC5339",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6994597f3b443aafa3429fa9",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "vSphere Web Client",
+    "destination": "vSAN Data Protection Appliance",
+    "serviceDescription": "vSphere Web client and vSAN Data Protection UI service communication",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "ivo.ivanov-2026-02-17T12:05:18.843041094Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-14T00:00:00Z",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "6851899cb0ce0a1c141f9624",
+        "releaseName": "VMware vSAN 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "C739BEA0-A67F-4CF9-BEBF-AF4FC7AC5339",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6994597f3b443aafa3429fa8",
+    "port": "8443",
+    "protocol": "HTTPS",
+    "source": "vSphere Web Client",
+    "destination": "vSAN Data Protection Appliance",
+    "serviceDescription": "vSphere Web client and vSAN Data Protection UI service communication",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "ivo.ivanov-2026-02-17T12:05:18.843041094Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-14T00:00:00Z",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6994597e3b443aafa3429fa7",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "vSAN Data Protection Appliance",
+    "destination": "Remote vCenter server",
+    "serviceDescription": "vSAN Data Protection and remote vCenter communication",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "ivo.ivanov-2026-02-17T12:05:18.843041094Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-14T00:00:00Z",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "6851899cb0ce0a1c141f9624",
+        "releaseName": "VMware vSAN 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "C739BEA0-A67F-4CF9-BEBF-AF4FC7AC5339",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6994597e3b443aafa3429fa6",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "vSAN Data Protection Appliance",
+    "destination": "Local vCenter server",
+    "serviceDescription": "vSAN Data Protection and local vCenter communication",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "ivo.ivanov-2026-02-17T12:05:18.843041094Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-14T00:00:00Z",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "6851899cb0ce0a1c141f9624",
+        "releaseName": "VMware vSAN 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "C739BEA0-A67F-4CF9-BEBF-AF4FC7AC5339",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6994597e3b443aafa3429fa5",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "vSAN Data Protection Appliance",
+    "destination": "Local ESXi host ",
+    "serviceDescription": "vSAN Data Protection and local ESXi host communication",
+    "purpose": "-",
+    "classification": "-",
+    "submissionId": "ivo.ivanov-2026-02-17T12:05:18.843041094Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-14T00:00:00Z",
+    "product": {
+      "id": "5ce6aeadc4c4bb0018ec6bf5",
+      "productName": "vSAN",
+      "displayName": "vSAN",
+      "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+    },
+    "releases": [
+      {
+        "id": "68013ff8fbd4580d566eae56",
+        "releaseName": "VMware vSAN 8.0U3",
+        "displayName": "8.0",
+        "rmReleaseId": "B40D0D0C-BA46-48FA-9A2C-F2244D509549",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      },
+      {
+        "id": "6851899cb0ce0a1c141f9624",
+        "releaseName": "VMware vSAN 9.0.0.0",
+        "displayName": "9.0",
+        "rmReleaseId": "C739BEA0-A67F-4CF9-BEBF-AF4FC7AC5339",
+        "product": {
+          "id": "5ce6aeadc4c4bb0018ec6bf5",
+          "productName": "vSAN",
+          "displayName": "vSAN",
+          "rmProductId": "5F7ECF9C-D30B-47B7-8808-C013FBA9822E"
+        }
+      }
+    ]
+  },
+  {
     "id": "694a7e35fdb44a1371c061ef",
     "port": "111",
     "protocol": "TCP",
