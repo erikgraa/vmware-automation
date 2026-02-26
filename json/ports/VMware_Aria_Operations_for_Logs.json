@@ -1,5 +1,39 @@
 [
   {
+    "id": "699bf4d8cfbab04bd64a250d",
+    "port": "9543",
+    "protocol": "TCP",
+    "source": "Cloud Proxy",
+    "destination": "VMware Aria Operations for Logs",
+    "serviceDescription": "VMware Aria Operations for Logs Ingestion API over SSL",
+    "purpose": "Cloud Proxy forward data",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-2026-02-23T06:33:59.958107534Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-20T00:00:00Z",
+    "product": {
+      "id": "64343853eaa6a73817d9c889",
+      "productName": "VMware Aria Operations for Logs",
+      "displayName": "VMware Aria Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "668cd7546410f814c3e017f8",
+        "releaseName": "VMware Aria Operations for Logs 8.18",
+        "displayName": "8.18",
+        "rmReleaseId": "8868C45A-56E9-4D45-BDF2-02CC82BA68A9",
+        "product": {
+          "id": "64343853eaa6a73817d9c889",
+          "productName": "VMware Aria Operations for Logs",
+          "displayName": "VMware Aria Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
     "id": "6532a088ad8be32e487da3e7",
     "port": "9000",
     "protocol": "TCP",

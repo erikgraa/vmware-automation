@@ -1,5 +1,39 @@
 [
   {
+    "id": "699bf63bcfbab04bd64a250e",
+    "port": "9543",
+    "protocol": "TCP",
+    "source": "Cloud Proxy",
+    "destination": "VCF Operations for Logs",
+    "serviceDescription": "VCF Operations for Logs Ingestion API over SSL",
+    "purpose": "Cloud Proxy forward data",
+    "classification": "-",
+    "submissionId": "boris.grigoryan-2026-02-23T06:39:55.481116387Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-20T00:00:00Z",
+    "product": {
+      "id": "6859219a48aeb10d5142cfd0",
+      "productName": "VMware Cloud Foundation Operations for Logs",
+      "displayName": "VMware Cloud Foundation Operations for Logs",
+      "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+    },
+    "releases": [
+      {
+        "id": "6859263c48aeb10d5142cfd3",
+        "releaseName": "VMware Cloud Foundation Operations for Logs 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "CD2F4A6B-E223-4EEF-922B-8FA7A3D19AB8",
+        "product": {
+          "id": "6859219a48aeb10d5142cfd0",
+          "productName": "VMware Cloud Foundation Operations for Logs",
+          "displayName": "VMware Cloud Foundation Operations for Logs",
+          "rmProductId": "E0539F85-AA8E-4DED-B4B4-8030AB48AACD"
+        }
+      }
+    ]
+  },
+  {
     "id": "6859524c20253433919303ac",
     "port": "9543",
     "protocol": "TCP",
