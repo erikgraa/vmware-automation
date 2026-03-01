@@ -1,5 +1,97 @@
 [
   {
+    "id": "6881f02b2131c070f7556b20",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware Tanzu Kubernetes Grid - Management Cluster",
+    "destination": "packages.broadcom.com, broadcom.jfrog.io",
+    "serviceDescription": "TKG Deployments and Customizations",
+    "purpose": "Downloading operators",
+    "classification": "Outgoing",
+    "submissionId": "umar.shaikh-2026-02-27T09:55:20.443112147Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-24T00:00:00Z",
+    "product": {
+      "id": "60388db5cff394000eedd632",
+      "productName": "VMware Telco Cloud Automation",
+      "displayName": "VMware Telco Cloud Automation",
+      "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
+    },
+    "releases": [
+      {
+        "id": "6881cda00dc09c00cd617fa9",
+        "releaseName": "VMware Telco Cloud Automation 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "13CF5892-1933-4F3D-8302-F388EC1C3B6A",
+        "product": {
+          "id": "60388db5cff394000eedd632",
+          "productName": "VMware Telco Cloud Automation",
+          "displayName": "VMware Telco Cloud Automation",
+          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
+        }
+      },
+      {
+        "id": "67f3973fd32c2e01df0118d7",
+        "releaseName": "VMware Telco Cloud Automation 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "1123D2E9-9B58-482C-A317-0C468E45B7A5",
+        "product": {
+          "id": "60388db5cff394000eedd632",
+          "productName": "VMware Telco Cloud Automation",
+          "displayName": "VMware Telco Cloud Automation",
+          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
+        }
+      }
+    ]
+  },
+  {
+    "id": "6881f02c2131c070f7556b21",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "VMware Tanzu Kubernetes Grid - Workload Cluster",
+    "destination": "packages.broadcom.com, broadcom.jfrog.io",
+    "serviceDescription": "TKG Deployments and Customizations",
+    "purpose": "Kernel Packages from Photon Repo (For environments with Internet Access)",
+    "classification": "Outgoing",
+    "submissionId": "umar.shaikh-2026-02-27T09:55:20.443112147Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-02-24T00:00:00Z",
+    "product": {
+      "id": "60388db5cff394000eedd632",
+      "productName": "VMware Telco Cloud Automation",
+      "displayName": "VMware Telco Cloud Automation",
+      "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
+    },
+    "releases": [
+      {
+        "id": "6881cda00dc09c00cd617fa9",
+        "releaseName": "VMware Telco Cloud Automation 3.4",
+        "displayName": "3.4",
+        "rmReleaseId": "13CF5892-1933-4F3D-8302-F388EC1C3B6A",
+        "product": {
+          "id": "60388db5cff394000eedd632",
+          "productName": "VMware Telco Cloud Automation",
+          "displayName": "VMware Telco Cloud Automation",
+          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
+        }
+      },
+      {
+        "id": "67f3973fd32c2e01df0118d7",
+        "releaseName": "VMware Telco Cloud Automation 3.3",
+        "displayName": "3.3",
+        "rmReleaseId": "1123D2E9-9B58-482C-A317-0C468E45B7A5",
+        "product": {
+          "id": "60388db5cff394000eedd632",
+          "productName": "VMware Telco Cloud Automation",
+          "displayName": "VMware Telco Cloud Automation",
+          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
+        }
+      }
+    ]
+  },
+  {
     "id": "688a4a5657a8e844f09f9177",
     "port": "123",
     "protocol": "TCP",
@@ -15137,74 +15229,6 @@
           "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
         }
       },
-      {
-        "id": "6881cda00dc09c00cd617fa9",
-        "releaseName": "VMware Telco Cloud Automation 3.4",
-        "displayName": "3.4",
-        "rmReleaseId": "13CF5892-1933-4F3D-8302-F388EC1C3B6A",
-        "product": {
-          "id": "60388db5cff394000eedd632",
-          "productName": "VMware Telco Cloud Automation",
-          "displayName": "VMware Telco Cloud Automation",
-          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
-        }
-      }
-    ]
-  },
-  {
-    "id": "6881f02b2131c070f7556b20",
-    "port": "443",
-    "protocol": "TCP",
-    "source": "VMware Tanzu Kubernetes Grid - Management Cluster",
-    "destination": "packages.broadcom.com",
-    "serviceDescription": "TKG Deployments and Customizations",
-    "purpose": "Downloading operators",
-    "classification": "Outgoing",
-    "submissionId": "umar.shaikh-2025-07-30T16:37:14.895661306Z",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-07-27T00:00:00Z",
-    "product": {
-      "id": "60388db5cff394000eedd632",
-      "productName": "VMware Telco Cloud Automation",
-      "displayName": "VMware Telco Cloud Automation",
-      "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
-    },
-    "releases": [
-      {
-        "id": "6881cda00dc09c00cd617fa9",
-        "releaseName": "VMware Telco Cloud Automation 3.4",
-        "displayName": "3.4",
-        "rmReleaseId": "13CF5892-1933-4F3D-8302-F388EC1C3B6A",
-        "product": {
-          "id": "60388db5cff394000eedd632",
-          "productName": "VMware Telco Cloud Automation",
-          "displayName": "VMware Telco Cloud Automation",
-          "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
-        }
-      }
-    ]
-  },
-  {
-    "id": "6881f02c2131c070f7556b21",
-    "port": "443",
-    "protocol": "TCP",
-    "source": "VMware Tanzu Kubernetes Grid - Workload Cluster",
-    "destination": "packages.broadcom.com",
-    "serviceDescription": "TKG Deployments and Customizations",
-    "purpose": "Kernel Packages from Photon Repo (For environments with Internet Access)",
-    "classification": "Outgoing",
-    "submissionId": "umar.shaikh-2025-07-30T16:37:14.895661306Z",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2025-07-27T00:00:00Z",
-    "product": {
-      "id": "60388db5cff394000eedd632",
-      "productName": "VMware Telco Cloud Automation",
-      "displayName": "VMware Telco Cloud Automation",
-      "rmProductId": "66CD7034-552B-42E2-8D4D-A0A2ED2C685F"
-    },
-    "releases": [
       {
         "id": "6881cda00dc09c00cd617fa9",
         "releaseName": "VMware Telco Cloud Automation 3.4",
