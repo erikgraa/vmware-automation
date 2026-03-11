@@ -1,5 +1,39 @@
 [
   {
+    "id": "69ab628ae08fcadebfd1483a",
+    "port": "443",
+    "protocol": "HTTPS",
+    "source": "Primary node",
+    "destination": "eapi.broadcom.com, VCF.broadcom.com",
+    "serviceDescription": "Outbound communication to VCF Business Services console",
+    "purpose": "License usage submission and license downloads (connected only)",
+    "classification": "-",
+    "submissionId": "emad.younis-2026-03-06T23:26:02.875857925Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-03-03T00:00:00Z",
+    "product": {
+      "id": "68591cf948aeb10d5142cfc6",
+      "productName": "VMware Cloud Foundation Operations",
+      "displayName": "VMware Cloud Foundation Operations",
+      "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+    },
+    "releases": [
+      {
+        "id": "68591e8448aeb10d5142cfcd",
+        "releaseName": "VMware Cloud Foundation Operations 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "15726782-2A61-4584-BEA4-E1588C54A188",
+        "product": {
+          "id": "68591cf948aeb10d5142cfc6",
+          "productName": "VMware Cloud Foundation Operations",
+          "displayName": "VMware Cloud Foundation Operations",
+          "rmProductId": "32BD87ED-7CB3-4F6F-A828-E2385C645046"
+        }
+      }
+    ]
+  },
+  {
     "id": "68594e202025343391930390",
     "port": "6443",
     "protocol": "TCP",

@@ -1,17 +1,17 @@
 [
   {
-    "id": "67d4865b23624579cd81c7b8",
-    "port": "389 / 636 / 3268 / 3269",
+    "id": "67d4865c23624579cd81c7c7",
+    "port": "443",
     "protocol": "TCP",
     "source": "SSP Node IP Pool",
-    "destination": "LDAP (server)",
-    "serviceDescription": "SSP outbound",
-    "purpose": "LDAP / LDAPS",
+    "destination": "nsx.west.us.lastline.com nsx.nl.emea.lastline.com",
+    "serviceDescription": "vDefend Advanced Threat Prevention Cloud",
+    "purpose": "Required for NDR and MPS if not running in airgap mode",
     "classification": "-",
-    "submissionId": "madhukar.krishnarao-2026-02-20T18:40:08.271744455Z",
+    "submissionId": "madhukar.krishnarao-2026-03-09T23:20:51.660637280Z",
     "status": "PUBLISHED",
     "active": "true",
-    "publishDate": "2026-02-17T00:00:00Z",
+    "publishDate": "2026-03-06T00:00:00Z",
     "product": {
       "id": "67b54d2350b449472abd88fe",
       "productName": "VMware vDefend",
@@ -58,13 +58,71 @@
     ]
   },
   {
-    "id": "67d4865c23624579cd81c7c7",
+    "id": "67d4865c23624579cd81c7c6",
     "port": "443",
     "protocol": "TCP",
     "source": "SSP Node IP Pool",
-    "destination": "nsx.west.us.lastline.com nsx.nl.emea.lastline.com",
-    "serviceDescription": "NSX ATP Cloud Services (regional endpoint as appropriate based on selected region)",
-    "purpose": "Required for NDR and MPS if not running in airgap mode",
+    "destination": "nsx.lastline.com",
+    "serviceDescription": "vDefend Advanced Threat Prevention Cloud",
+    "purpose": "Required for NDR if not running in airgap mode",
+    "classification": "-",
+    "submissionId": "madhukar.krishnarao-2026-03-09T23:20:51.660637280Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-03-06T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "67d4797604cac21635566572",
+        "releaseName": "vDefend Security Services Platform",
+        "displayName": "5.0",
+        "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "6998aa493b443aafa3429fae",
+        "releaseName": "VMware vDefend 5.1.1",
+        "displayName": "5.1.1",
+        "rmReleaseId": "9B953731-1AB0-4C26-B807-16580E446EC2",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
+    "id": "67d4865b23624579cd81c7b8",
+    "port": "389 / 636 / 3268 / 3269",
+    "protocol": "TCP",
+    "source": "SSP Node IP Pool",
+    "destination": "LDAP (server)",
+    "serviceDescription": "SSP outbound",
+    "purpose": "LDAP / LDAPS",
     "classification": "-",
     "submissionId": "madhukar.krishnarao-2026-02-20T18:40:08.271744455Z",
     "status": "PUBLISHED",
@@ -2380,64 +2438,6 @@
     "source": "SSP Node IP Pool",
     "destination": "*.prod.nsxti.vmware.com",
     "serviceDescription": "VTIS",
-    "purpose": "Required for NDR if not running in airgap mode",
-    "classification": "-",
-    "submissionId": "madhukar.krishnarao-2026-02-20T18:40:08.271744455Z",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2026-02-17T00:00:00Z",
-    "product": {
-      "id": "67b54d2350b449472abd88fe",
-      "productName": "VMware vDefend",
-      "displayName": "VMware vDefend",
-      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-    },
-    "releases": [
-      {
-        "id": "67d4797604cac21635566572",
-        "releaseName": "vDefend Security Services Platform",
-        "displayName": "5.0",
-        "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
-        "product": {
-          "id": "67b54d2350b449472abd88fe",
-          "productName": "VMware vDefend",
-          "displayName": "VMware vDefend",
-          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-        }
-      },
-      {
-        "id": "68f93a992121548ef4010944",
-        "releaseName": "vDefend Security Services Platform 5.1",
-        "displayName": "5.1",
-        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
-        "product": {
-          "id": "67b54d2350b449472abd88fe",
-          "productName": "VMware vDefend",
-          "displayName": "VMware vDefend",
-          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-        }
-      },
-      {
-        "id": "6998aa493b443aafa3429fae",
-        "releaseName": "VMware vDefend 5.1.1",
-        "displayName": "5.1.1",
-        "rmReleaseId": "9B953731-1AB0-4C26-B807-16580E446EC2",
-        "product": {
-          "id": "67b54d2350b449472abd88fe",
-          "productName": "VMware vDefend",
-          "displayName": "VMware vDefend",
-          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-        }
-      }
-    ]
-  },
-  {
-    "id": "67d4865c23624579cd81c7c6",
-    "port": "443",
-    "protocol": "TCP",
-    "source": "SSP Node IP Pool",
-    "destination": "nsx.lastline.com",
-    "serviceDescription": "NSX ATP Cloud Services",
     "purpose": "Required for NDR if not running in airgap mode",
     "classification": "-",
     "submissionId": "madhukar.krishnarao-2026-02-20T18:40:08.271744455Z",
