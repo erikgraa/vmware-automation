@@ -1,5 +1,63 @@
 [
   {
+    "id": "69de21ec44070b3986e9936c",
+    "port": "32032",
+    "protocol": "SSL",
+    "source": "ESXi host on the source site",
+    "destination": "ESXi host on the target site",
+    "serviceDescription": "Initial and outgoing replication traffic from the ESXi host on the source site to the ESXi host on the target site for replication traffic with network encryption.",
+    "purpose": "Initial and outgoing replication traffic",
+    "classification": "Communication",
+    "submissionId": "lyubomir.tsirov-2026-04-14T11:15:56.565796829Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-04-11T00:00:00Z",
+    "product": {
+      "id": "64638d79c3f9fc6c492d90e4",
+      "productName": "VMware vSphere Replication",
+      "displayName": "vSphere Replication",
+      "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+    },
+    "releases": [
+      {
+        "id": "65f03159cc71755dfc6108d9",
+        "releaseName": "VMware vSphere Replication 9.0",
+        "displayName": "9.0",
+        "rmReleaseId": "F56E0DC2-3F64-4531-8D9C-FA61096E3F00",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "650c97afad8be32e487da3ab",
+        "releaseName": "VMware vSphere Replication 8.8",
+        "displayName": "8.8",
+        "rmReleaseId": "C131A340-1C19-4922-BDBC-58C9B8ABD553",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      },
+      {
+        "id": "684ffea87d5fd81dcfe14d0d",
+        "releaseName": "VMware vSphere Replication 9.0.3.0",
+        "displayName": "9.0.3.0",
+        "rmReleaseId": "3EC40841-671C-46BB-B303-BAB8BC760296",
+        "product": {
+          "id": "64638d79c3f9fc6c492d90e4",
+          "productName": "VMware vSphere Replication",
+          "displayName": "vSphere Replication",
+          "rmProductId": "BFE37F2C-6031-4575-8ACA-D49B3E1224D7"
+        }
+      }
+    ]
+  },
+  {
     "id": "64b0186b30910021b5f7bde6",
     "port": "5480",
     "protocol": "HTTPS",
