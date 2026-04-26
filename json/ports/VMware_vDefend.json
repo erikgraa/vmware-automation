@@ -1,5 +1,97 @@
 [
   {
+    "id": "690140c7eef82105bca36fbf",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SSP Node IP Pool",
+    "destination": "registry.k8s.io",
+    "serviceDescription": "Download CoreDNS which is needed for SSP Pod Communication",
+    "purpose": "Fetch coreDNS image",
+    "classification": "Control Plane",
+    "submissionId": "madhukar.krishnarao-2026-04-22T23:55:40.917419158Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-04-19T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
+    "id": "67d4865b23624579cd81c7b6",
+    "port": "443",
+    "protocol": "TCP",
+    "source": "SSP Node IP Pool",
+    "destination": "vCenter Server, NSX Manager",
+    "serviceDescription": "SSP outbound vc/nsx mgr",
+    "purpose": "HTTPS",
+    "classification": "-",
+    "submissionId": "madhukar.krishnarao-2026-04-22T23:55:40.917419158Z",
+    "status": "PUBLISHED",
+    "active": "true",
+    "publishDate": "2026-04-19T00:00:00Z",
+    "product": {
+      "id": "67b54d2350b449472abd88fe",
+      "productName": "VMware vDefend",
+      "displayName": "VMware vDefend",
+      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+    },
+    "releases": [
+      {
+        "id": "67d4797604cac21635566572",
+        "releaseName": "vDefend Security Services Platform",
+        "displayName": "5.0",
+        "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "68f93a992121548ef4010944",
+        "releaseName": "vDefend Security Services Platform 5.1",
+        "displayName": "5.1",
+        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      },
+      {
+        "id": "6998aa493b443aafa3429fae",
+        "releaseName": "VMware vDefend 5.1.1",
+        "displayName": "5.1.1",
+        "rmReleaseId": "9B953731-1AB0-4C26-B807-16580E446EC2",
+        "product": {
+          "id": "67b54d2350b449472abd88fe",
+          "productName": "VMware vDefend",
+          "displayName": "VMware vDefend",
+          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
+        }
+      }
+    ]
+  },
+  {
     "id": "67d4865c23624579cd81c7c7",
     "port": "443",
     "protocol": "TCP",
@@ -147,52 +239,6 @@
           "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
         }
       },
-      {
-        "id": "68f93a992121548ef4010944",
-        "releaseName": "vDefend Security Services Platform 5.1",
-        "displayName": "5.1",
-        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
-        "product": {
-          "id": "67b54d2350b449472abd88fe",
-          "productName": "VMware vDefend",
-          "displayName": "VMware vDefend",
-          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-        }
-      },
-      {
-        "id": "6998aa493b443aafa3429fae",
-        "releaseName": "VMware vDefend 5.1.1",
-        "displayName": "5.1.1",
-        "rmReleaseId": "9B953731-1AB0-4C26-B807-16580E446EC2",
-        "product": {
-          "id": "67b54d2350b449472abd88fe",
-          "productName": "VMware vDefend",
-          "displayName": "VMware vDefend",
-          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-        }
-      }
-    ]
-  },
-  {
-    "id": "690140c7eef82105bca36fbf",
-    "port": "443",
-    "protocol": "TCP",
-    "source": "SSP Node IP Pool",
-    "destination": "registry.k8s.io",
-    "serviceDescription": "Download CoreDNS which is needed for SSP Pod Communication",
-    "purpose": "Fetch coreDNS image",
-    "classification": "Control Plane",
-    "submissionId": "madhukar.krishnarao-2026-02-20T18:40:08.271744455Z",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2026-02-17T00:00:00Z",
-    "product": {
-      "id": "67b54d2350b449472abd88fe",
-      "productName": "VMware vDefend",
-      "displayName": "VMware vDefend",
-      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-    },
-    "releases": [
       {
         "id": "68f93a992121548ef4010944",
         "releaseName": "vDefend Security Services Platform 5.1",
@@ -1569,64 +1615,6 @@
     "destination": "Syslog server",
     "serviceDescription": "Syslog output (if configured)",
     "purpose": "Syslog",
-    "classification": "-",
-    "submissionId": "madhukar.krishnarao-2026-02-20T18:40:08.271744455Z",
-    "status": "PUBLISHED",
-    "active": "true",
-    "publishDate": "2026-02-17T00:00:00Z",
-    "product": {
-      "id": "67b54d2350b449472abd88fe",
-      "productName": "VMware vDefend",
-      "displayName": "VMware vDefend",
-      "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-    },
-    "releases": [
-      {
-        "id": "67d4797604cac21635566572",
-        "releaseName": "vDefend Security Services Platform",
-        "displayName": "5.0",
-        "rmReleaseId": "9AA255DC-DCA2-4813-A265-DDDEFD45366D",
-        "product": {
-          "id": "67b54d2350b449472abd88fe",
-          "productName": "VMware vDefend",
-          "displayName": "VMware vDefend",
-          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-        }
-      },
-      {
-        "id": "68f93a992121548ef4010944",
-        "releaseName": "vDefend Security Services Platform 5.1",
-        "displayName": "5.1",
-        "rmReleaseId": "569DA080-B0B2-489D-949B-3A7428EC9DEA",
-        "product": {
-          "id": "67b54d2350b449472abd88fe",
-          "productName": "VMware vDefend",
-          "displayName": "VMware vDefend",
-          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-        }
-      },
-      {
-        "id": "6998aa493b443aafa3429fae",
-        "releaseName": "VMware vDefend 5.1.1",
-        "displayName": "5.1.1",
-        "rmReleaseId": "9B953731-1AB0-4C26-B807-16580E446EC2",
-        "product": {
-          "id": "67b54d2350b449472abd88fe",
-          "productName": "VMware vDefend",
-          "displayName": "VMware vDefend",
-          "rmProductId": "BF5B8F8A-62F4-4D75-9F85-B09D7792FBF9"
-        }
-      }
-    ]
-  },
-  {
-    "id": "67d4865b23624579cd81c7b6",
-    "port": "443",
-    "protocol": "TCP",
-    "source": "SSP Node IP Pool",
-    "destination": "VC, NSX Mgr",
-    "serviceDescription": "SSP outbound vc/nsx mgr",
-    "purpose": "HTTPS",
     "classification": "-",
     "submissionId": "madhukar.krishnarao-2026-02-20T18:40:08.271744455Z",
     "status": "PUBLISHED",
